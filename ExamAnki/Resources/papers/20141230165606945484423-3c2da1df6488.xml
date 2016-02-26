@@ -1,0 +1,1970 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<service no="51" errno="0" title="2015真题" id="20141230165606945484423-3c2da1df6488" type="真题">
+	<heading>
+		<id>2015012115523001784379d-cacfc0562bef</id>
+		<sort>1</sort>
+		<type>10</type>
+		<abbr>单选题</abbr>
+		<title>一、单选题</title>
+	</heading>
+	<question hasimg="0">
+		<id>2015012115523001882030d-bff093e5b7f8</id>
+		<headingid>2015012115523001784379d-cacfc0562bef</headingid>
+		<sort>1</sort>
+		<type>11</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.砌体的强度</option>
+			<option sort="B">B.局部抗压强度</option>
+			<option sort="C">C.高厚比</option>
+			<option sort="D">D.砖的强度等级</option>
+		</options>
+		<answer>C</answer>
+		<title>保证砖砌体结构房屋的墙和柱稳定性的主要参数是(  )。</title>
+		<parse>P26，墙体作为受压构件的验算分三个方面：&#13;
+			1、稳定新，通过高厚比验算满足稳定性要求；&#13;
+			2、墙体极限状态承载力验算；&#13;
+		3、受压构件在梁、柱等承压部位处的局部受压承载力验算。【感谢考试100用户“阅卷老师”为本题提供解析】</parse>
+	</question>
+	<question hasimg="0">
+		<id>201501211552300188203b7-c805e2510c10</id>
+		<headingid>2015012115523001784379d-cacfc0562bef</headingid>
+		<sort>2</sort>
+		<type>11</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.框架结构体系</option>
+			<option sort="B">B.剪力墙结构体系</option>
+			<option sort="C">C.框架一剪力墙结构体系</option>
+			<option sort="D">D.筒体结构体系</option>
+		</options>
+		<answer>A</answer>
+		<title>常见建筑结构体系中,适用房屋高度最小的是(  )。</title>
+		<parse></parse>
+	</question>
+	<question hasimg="0">
+		<id>20150121155230018820384-fb8bd3df71e7</id>
+		<headingid>2015012115523001784379d-cacfc0562bef</headingid>
+		<sort>3</sort>
+		<type>11</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.抗拉性能</option>
+			<option sort="B">B.抗压性能</option>
+			<option sort="C">C.抗弯性能</option>
+			<option sort="D">D.抗剪性能</option>
+		</options>
+		<answer>B</answer>
+		<title>大跨度拱式结构主要利用混凝土良好的(  )。</title>
+		<parse>P17页“拱式结构的主要内力为压力，可以利用抗压性能良好的混凝土建造大跨度的拱式结构”【感谢考试100用户“mingyi2713”为本题提供解析】</parse>
+	</question>
+	<question hasimg="0">
+		<id>2015012115523001979684b-2465141b1d8e</id>
+		<headingid>2015012115523001784379d-cacfc0562bef</headingid>
+		<sort>4</sort>
+		<type>11</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.h/3</option>
+			<option sort="B">B.2h/3</option>
+			<option sort="C">C.h/2</option>
+			<option sort="D">D.3h/4</option>
+		</options>
+		<answer>B</answer>
+		<title>当钢筋混凝土圈梁的宽度与墙厚相同时,砌体结构墙厚h≥240mm时,圈梁宽度最小值为(  ),高度不应小于120mm。</title>
+		<parse></parse>
+	</question>
+	<question hasimg="0">
+		<id>201501211552300197968c6-4ea111ab681b</id>
+		<headingid>2015012115523001784379d-cacfc0562bef</headingid>
+		<sort>5</sort>
+		<type>11</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.10～20m</option>
+			<option sort="B">B.6～10m</option>
+			<option sort="C">C.20～30m</option>
+			<option sort="D">D.30—50m</option>
+		</options>
+		<answer>C</answer>
+		<title>当散水采用混凝土时,宜按(  )间距设置伸缩缝。</title>
+		<parse>散水的坡度可为3%-5%。当散水采用混凝土时，宜按20-30m间距设置伸缩缝。【感谢考试100用户“15831169890”为本题提供解析】</parse>
+	</question>
+	<question hasimg="0">
+		<id>201501211552300197968b9-46de253db493</id>
+		<headingid>2015012115523001784379d-cacfc0562bef</headingid>
+		<sort>6</sort>
+		<type>11</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.0．8m</option>
+			<option sort="B">B.0．5m</option>
+			<option sort="C">C.1．0m</option>
+			<option sort="D">D.1．2m</option>
+		</options>
+		<answer>A</answer>
+		<title>当设计无要求时,窗台高度低于(  )时必须采取防护措施。</title>
+		<parse></parse>
+	</question>
+	<question hasimg="0">
+		<id>201501211552300197968c0-24efcfa37560</id>
+		<headingid>2015012115523001784379d-cacfc0562bef</headingid>
+		<sort>7</sort>
+		<type>11</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.1．8m</option>
+			<option sort="B">B.2．0m</option>
+			<option sort="C">C.2．2m</option>
+			<option sort="D">D.2．5m</option>
+		</options>
+		<answer>C</answer>
+		<title>当设计无要求时,楼梯梯段净高最小值为(  )。</title>
+		<parse>楼梯段净高不应小于2.2m，平台净高不应小于2.0m，34页【感谢考试100用户“2015必全过”为本题提供解析】</parse>
+	</question>
+	<question hasimg="0">
+		<id>20150121155230019796889-2e3027d2e798</id>
+		<headingid>2015012115523001784379d-cacfc0562bef</headingid>
+		<sort>8</sort>
+		<type>11</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.3</option>
+			<option sort="B">B.2</option>
+			<option sort="C">C.4</option>
+			<option sort="D">D.5</option>
+		</options>
+		<answer>A</answer>
+		<title>当设计无要求时,轻型砌块墙在高度(  )m处应设置钢筋混凝土圈梁。</title>
+		<parse>第四版36页，轻型砌块墙在高度3m处应设置钢筋混凝土圈梁。【感谢考试100用户“-闲庭信步-”为本题提供解析】</parse>
+	</question>
+	<question hasimg="0">
+		<id>20150121155230019796840-738f004caeec</id>
+		<headingid>2015012115523001784379d-cacfc0562bef</headingid>
+		<sort>9</sort>
+		<type>11</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.1．2m</option>
+			<option sort="B">B.1．Om</option>
+			<option sort="C">C.1．4m</option>
+			<option sort="D">D.1．6m</option>
+		</options>
+		<answer>C</answer>
+		<title>当设计无要求时,室外疏散楼梯的疏散出口门内、门外(  )内不应设踏步。</title>
+		<parse>34页第四行，疏散出口的门内，外1.40米范围内不应设踏步【感谢考试100用户“oleolezx”为本题提供解析】</parse>
+	</question>
+	<question hasimg="0">
+		<id>20150121155230019796819-0c49af328513</id>
+		<headingid>2015012115523001784379d-cacfc0562bef</headingid>
+		<sort>10</sort>
+		<type>11</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.200～300</option>
+			<option sort="B">B.100～200</option>
+			<option sort="C">C.300～400</option>
+			<option sort="D">D.400～500</option>
+		</options>
+		<answer>A</answer>
+		<title>当设计无要求时,无组织排水的散水宽度可按檐口线放出(  )mm。</title>
+		<parse>P36.当采用无组织排水时，散水的宽度可按檐口线放出200-300mm。【感谢考试100用户“15831169890”为本题提供解析】</parse>
+	</question>
+	<question hasimg="1">
+		<id>201501211552300197968f0-d5a9be4b8756</id>
+		<headingid>2015012115523001784379d-cacfc0562bef</headingid>
+		<sort>11</sort>
+		<type>11</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.压力和剪力</option>
+			<option sort="B">B.压力和弯矩</option>
+			<option sort="C">C.弯矩和剪力</option>
+			<option sort="D">D.压力、剪力和弯矩</option>
+		</options>
+		<answer>D</answer>
+		<title>独立柱柱顶受集中荷载如图所示,柱底a-a截面的受力状态为(  )。【2015113001.jpg】</title>
+		<parse>图中杆件与地面为固定连接，当施加如图所示方向的力F时，首先判断a-a截面处受到的压力和弯矩，由于是固定连接，那么还应受到剪力。</parse>
+	</question>
+	<question hasimg="0">
+		<id>20150121155230019796894-71b0a4effa72</id>
+		<headingid>2015012115523001784379d-cacfc0562bef</headingid>
+		<sort>12</sort>
+		<type>11</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.补强角焊</option>
+			<option sort="B">B.全焊透</option>
+			<option sort="C">C.十字形焊</option>
+			<option sort="D">D.T形焊</option>
+		</options>
+		<answer>A</answer>
+		<title>对于较厚的钢板,为了防止Z向层状撕裂,必须对焊接接头处焊缝进行(  )。</title>
+		<parse></parse>
+	</question>
+	<question hasimg="0">
+		<id>2015012115523001979683a-be32e2d3a0b5</id>
+		<headingid>2015012115523001784379d-cacfc0562bef</headingid>
+		<sort>13</sort>
+		<type>11</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.剪力</option>
+			<option sort="B">B.轴向力</option>
+			<option sort="C">C.弯矩</option>
+			<option sort="D">D.剪力和弯矩</option>
+		</options>
+		<answer>B</answer>
+		<title>对于屋架结构,当荷载只作用在节点上时,所有杆件均只有(  )。</title>
+		<parse>P15.在进行内力分析时，节点一般假设为铰节点，当荷载作用在节点上，杆件只有轴向力。【感谢考试100用户“15831169890”为本题提供解析】</parse>
+	</question>
+	<question hasimg="0">
+		<id>201501211552300197968a0-16dee076777a</id>
+		<headingid>2015012115523001784379d-cacfc0562bef</headingid>
+		<sort>14</sort>
+		<type>11</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.节点间的水平集中力</option>
+			<option sort="B">B.节点间的水平分布力</option>
+			<option sort="C">C.节点上的水平集中力</option>
+			<option sort="D">D.节点上的水平分布力</option>
+		</options>
+		<answer>C</answer>
+		<title>对于作用于框架结构体系的风荷载和地震力,可简化成(  )进行分析。</title>
+		<parse>风荷载是建筑结构的主要水平力，而地震力是地面上的集中力。【感谢考试100用户“15831169890”为本题提供解析】</parse>
+	</question>
+	<question hasimg="0">
+		<id>201501211552300197968d4-9bad20777f1f</id>
+		<headingid>2015012115523001784379d-cacfc0562bef</headingid>
+		<sort>15</sort>
+		<type>11</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.受压</option>
+			<option sort="B">B.受拉</option>
+			<option sort="C">C.受弯</option>
+			<option sort="D">D.受剪</option>
+		</options>
+		<answer>C</answer>
+		<title>钢结构中,钢梁是最常见的(  )构件。</title>
+		<parse></parse>
+	</question>
+	<question hasimg="0">
+		<id>20150121155230019796819-13a7aabab57d</id>
+		<headingid>2015012115523001784379d-cacfc0562bef</headingid>
+		<sort>16</sort>
+		<type>11</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.混凝土强度</option>
+			<option sort="B">B.钢筋的直径</option>
+			<option sort="C">C.钢筋的材质</option>
+			<option sort="D">D.钢筋表面粗糙度</option>
+		</options>
+		<answer>A</answer>
+		<title>钢筋与混凝土共同作用时,属于粘结强度影响因素的是(  )。</title>
+		<parse>影响黏结强度的因素:1.混凝土强度, 2.保护层厚度,3.钢筋之间的距离【感谢考试100用户“小恐龙”为本题提供解析】</parse>
+	</question>
+	<question hasimg="0">
+		<id>201501211552300207734cf-73bc84dbf74f</id>
+		<headingid>2015012115523001784379d-cacfc0562bef</headingid>
+		<sort>17</sort>
+		<type>11</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.水泥混凝土面层</option>
+			<option sort="B">B.砖面层</option>
+			<option sort="C">C.料石面层</option>
+			<option sort="D">D.实木地板面层</option>
+		</options>
+		<answer>A</answer>
+		<title>关于地面装修构造的说法,属于地面整体面层的是(  )。</title>
+		<parse>P41.整体面层包括：水泥混凝土面层、水泥砂浆面层、水磨石面层、水泥钢（铁）屑面层、防油渗面层、不发火（防爆的）面层。砖面层和料石面层属于板块面层。实木地板面层属于木竹面层。【感谢考试100用户“15831169890”为本题提供解析】</parse>
+	</question>
+	<question hasimg="0">
+		<id>20150121155230020773451-b4d152556128</id>
+		<headingid>2015012115523001784379d-cacfc0562bef</headingid>
+		<sort>18</sort>
+		<type>11</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.防火门为朝疏散方向开启的平开门，并在关闭后能从任何一侧手动开启</option>
+			<option sort="B">B.用于疏散的走道、楼梯间和前室的防火门，具有自动开闭的功能</option>
+			<option sort="C">C.设在变形缝附近的防火门，应在楼层数较少的一侧</option>
+			<option sort="D">D.当采用不包括背面温升作耐火极限判定条件的防火卷帘时，其两侧设独立的闭式自动喷水系统保护</option>
+		</options>
+		<answer>C</answer>
+		<title>关于防火门的做法,不符合《高层民用建筑设计防火规范》GB50045-1995(2005版)要求的是(  )。</title>
+		<parse>C选项正确说法为：设在变形缝处附近的防火门，应设在楼层数较多的一侧，且门开启后不应跨越变形缝。【感谢考试100用户“jankes01”为本题提供解析】</parse>
+	</question>
+	<question hasimg="0">
+		<id>201501211552300207734cc-8ff6106419e4</id>
+		<headingid>2015012115523001784379d-cacfc0562bef</headingid>
+		<sort>19</sort>
+		<type>11</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.梁必须支承在柱顶，并做成铰接</option>
+			<option sort="B">B.梁必须连接于柱两侧，并做成刚接</option>
+			<option sort="C">C.梁支承在柱顶时必须刚接，连接于两侧时必须铰接</option>
+			<option sort="D">D.梁支承在柱顶或连接于柱两侧，可做成铰接或刚接</option>
+		</options>
+		<answer>D</answer>
+		<title>关于钢结构梁柱节点处做法,其中正确的是(  )。</title>
+		<parse>p29。梁和柱连接时，可将梁支撑在柱顶上，或连接于柱的侧面，二者均可做成铰接或刚接【感谢考试100用户“天空123”为本题提供解析】</parse>
+	</question>
+	<question hasimg="0">
+		<id>2015012115523002077342b-ffa67eea7b00</id>
+		<headingid>2015012115523001784379d-cacfc0562bef</headingid>
+		<sort>20</sort>
+		<type>11</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.构造复杂、用钢量大</option>
+			<option sort="B">B.易于采用自动化操作</option>
+			<option sort="C">C.拆装方便、施工简单</option>
+			<option sort="D">D.不宜用于直接承受动荷载的结构</option>
+		</options>
+		<answer>A</answer>
+		<title>关于钢结构铆钉连接的说法中,正确的是(  )。</title>
+		<parse>p27，铆接由于构造复杂，用钢量大，现在已经很少使用，因为铆接塑性和韧性较好，易于检查，在一些重型和直接承受动力荷载的结构中，有时仍然采用！【感谢考试100用户“大头加油”为本题提供解析】</parse>
+	</question>
+	<question hasimg="0">
+		<id>20150121155230020773447-fdbcf00ce067</id>
+		<headingid>2015012115523001784379d-cacfc0562bef</headingid>
+		<sort>21</sort>
+		<type>11</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.构件断面大</option>
+			<option sort="B">B.自重较轻</option>
+			<option sort="C">C.抗拉强度低</option>
+			<option sort="D">D.结构性能差</option>
+		</options>
+		<answer>B</answer>
+		<title>关于钢结构特点的说法,正确的是(  )mm。</title>
+		<parse>p27,钢结构的抗拉抗压强度都很高，构件断面小，自重较轻，结构性能好【感谢考试100用户“porear”为本题提供解析】</parse>
+	</question>
+	<question hasimg="0">
+		<id>2015012115523002077341f-0759636ec643</id>
+		<headingid>2015012115523001784379d-cacfc0562bef</headingid>
+		<sort>22</sort>
+		<type>11</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.拉区只考虑钢筋受压</option>
+			<option sort="B">B.压区只考虑混凝土受拉</option>
+			<option sort="C">C.梁的正截面破坏形态与配筋量有关</option>
+			<option sort="D">D.不允许设计成少筋梁，允许设计成超筋梁</option>
+		</options>
+		<answer>C</answer>
+		<title>关于钢筋混凝土梁受力特征,正确的是(  )。</title>
+		<parse>构件的结构设计中，当设计成超筋梁时，钢筋混凝土梁的破坏是没有预兆的脆性破坏，非常危险。</parse>
+	</question>
+	<question hasimg="0">
+		<id>20150121155230020773488-307761122130</id>
+		<headingid>2015012115523001784379d-cacfc0562bef</headingid>
+		<sort>23</sort>
+		<type>11</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.都是塑性破坏</option>
+			<option sort="B">B.都是脆性破坏</option>
+			<option sort="C">C.只有适筋梁是塑性破坏</option>
+			<option sort="D">D.只有超筋梁是塑性破坏</option>
+		</options>
+		<answer>C</answer>
+		<title>关于钢筋混凝土梁在超筋、适筋、少筋情况下破坏特征的说法中,正确的是(  )。</title>
+		<parse>对梁的配筋量在规范中明确规定，不允许设计成超筋和少筋梁，对最大、最小配筋率均有限值，它们的破坏都是没有预兆的脆性破坏。而适筋梁是塑性破坏。【感谢考试100用户“15831169890”为本题提供解析】</parse>
+	</question>
+	<question hasimg="0">
+		<id>2015012115523002077347c-8d2c5ffd7cfc</id>
+		<headingid>2015012115523001784379d-cacfc0562bef</headingid>
+		<sort>24</sort>
+		<type>11</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.提高正截面承载为</option>
+			<option sort="B">B.提高斜截面承载力</option>
+			<option sort="C">C.提高梁整体刚度</option>
+			<option sort="D">D.抵抗混凝土收缩</option>
+		</options>
+		<answer>B</answer>
+		<title>关于钢筋混凝土梁中配置箍筋主要目的的说法,正确的是(  )。</title>
+		<parse>受弯构件截面上除作用弯矩M外，通常还作用有剪力V。在弯矩M和剪力V的共同作用下，有可能产生斜裂缝，并沿斜裂缝截面发生破坏。
+
+			为了防止斜截面的破坏，通常采用下列措施：
+
+			(1)限制梁的截面最小尺寸，其中包含混凝士强度等级因素；
+
+			(2)适当配置箍筋，并满足规范的构造要求；
+
+		(3)当上述两项措施还不能满足要求时，可适当配置弯起钢筋，并满足规范的构造要求。</parse>
+	</question>
+	<question hasimg="0">
+		<id>20150121155230020773460-5d61393de1f0</id>
+		<headingid>2015012115523001784379d-cacfc0562bef</headingid>
+		<sort>25</sort>
+		<type>11</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.计算疲劳钢梁抗弯强度，应考虑钢梁塑性发展</option>
+			<option sort="B">B.钢梁的抗剪按脆性计算</option>
+			<option sort="C">C.钢梁必须有一定的刚度才能有效地工作</option>
+			<option sort="D">D.钢梁挠度计算应考虑螺栓孔引起的截面削弱</option>
+		</options>
+		<answer>C</answer>
+		<title>关于钢梁稳定性计算的说法,正确的是(  )。</title>
+		<parse>P28 对需要计算疲劳的梁，不考虑塑性发展；梁的抗剪强度按弹性设计；梁必须有一定的强度才能有效的工作；梁的挠度计算时采用荷载标准值，可以不考虑螺栓孔引起的截面削弱。  【感谢考试100用户“赵光虎”为本题提供解析】</parse>
+	</question>
+	<question hasimg="0">
+		<id>201501211552300207734f5-8bdb4db46d85</id>
+		<headingid>2015012115523001784379d-cacfc0562bef</headingid>
+		<sort>26</sort>
+		<type>11</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.自重小</option>
+			<option sort="B">B.抗裂性较好</option>
+			<option sort="C">C.施工复杂</option>
+			<option sort="D">D.施工工期较短</option>
+		</options>
+		<answer>C</answer>
+		<title>关于混凝土结构缺点的说法,正确的是(  )。</title>
+		<parse>混凝土结构的缺点： 自重大，抗裂性能差，施工复杂，工期较长。【感谢考试100用户“15831169890”为本题提供解析】</parse>
+	</question>
+	<question hasimg="0">
+		<id>2015012115523002077345b-1a37afd33c5d</id>
+		<headingid>2015012115523001784379d-cacfc0562bef</headingid>
+		<sort>27</sort>
+		<type>11</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.可模性好</option>
+			<option sort="B">B.耐火性差</option>
+			<option sort="C">C.维护费用高</option>
+			<option sort="D">D.抗裂性较好</option>
+		</options>
+		<answer>A</answer>
+		<title>关于混凝土结构特点的说法,正确的是(  )。</title>
+		<parse>混凝土结构的优点：强度较高，可模性好，耐久和耐火性好，维修费用低，整体性好，延性好，防震性和防辐射性能较好，易就地取材。缺点：自重大、抗裂性能差、施工复杂、工期较长。【感谢考试100用户“15831169890”为本题提供解析】</parse>
+	</question>
+	<question hasimg="0">
+		<id>20150121155230020773466-de06aa623b4a</id>
+		<headingid>2015012115523001784379d-cacfc0562bef</headingid>
+		<sort>28</sort>
+		<type>11</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.钢柱的临界力比木柱大，因为钢柱的弹性模量小</option>
+			<option sort="B">B.截面大不易失稳，因为惯性矩小</option>
+			<option sort="C">C.两端固定的与两端铰接的比，前者临界力小</option>
+			<option sort="D">D.长度大，临界力小，易失稳</option>
+		</options>
+		<answer>D</answer>
+		<title>关于两端铰接受压杆件临界力的说法,正确的是(  )。</title>
+		<parse>A.钢柱的临界力比木柱大，因为钢柱的弹性模量E大。B.截面大不易失稳，因为惯性矩大C.两端固定的与两端铰接的比，前者临界力大，因为6个约束反力&gt;4个约束反力。D.长度大，临界力小，易失稳，Pij=π2EI/L2【感谢考试100用户“lyj快乐生活”为本题提供解析】</parse>
+	</question>
+	<question hasimg="0">
+		<id>201501211552300217500bd-0407ebb1bf04</id>
+		<headingid>2015012115523001784379d-cacfc0562bef</headingid>
+		<sort>29</sort>
+		<type>11</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.隔声窗接缝处做成隔振刚性阻尼构造</option>
+			<option sort="B">B.接缝处应避免柔性接触</option>
+			<option sort="C">C.接缝处应采取刚性封闭材料</option>
+			<option sort="D">D.金属保温窗的主要问题是结露</option>
+		</options>
+		<answer>D</answer>
+		<title>关于门窗与墙体结构连接的说法,正确的是(  )。</title>
+		<parse>门窗应注意门窗框与墙体结构的连接，接缝处应避免刚性接触，应采用弹性密封材料。隔声窗所有接缝处应注意做成隔振的弹性阻尼构造。金属保温窗的主要问题是结露，应将与室外接触的金属框和玻璃结合处作断桥处理，以提高金属框内表面的温度，达到防止结露的目的。【感谢考试100用户“15831169890”为本题提供解析】</parse>
+	</question>
+	<question hasimg="0">
+		<id>20150121155230021750003-e24b07251c02</id>
+		<headingid>2015012115523001784379d-cacfc0562bef</headingid>
+		<sort>30</sort>
+		<type>11</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.抗压强度低</option>
+			<option sort="B">B.适宜于高层建筑</option>
+			<option sort="C">C.墙和柱的抗弯能力强</option>
+			<option sort="D">D.墙的稳定性要求用高厚比控制</option>
+		</options>
+		<answer>D</answer>
+		<title>关于砌体结构房屋受力特点的说法,正确的是(  )。</title>
+		<parse>P26</parse>
+	</question>
+	<question hasimg="0">
+		<id>2015012115523002175008c-e4cd0ae5fd0d</id>
+		<headingid>2015012115523001784379d-cacfc0562bef</headingid>
+		<sort>31</sort>
+		<type>11</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.自重小</option>
+			<option sort="B">B.耐久性能好</option>
+			<option sort="C">C.保温性能差</option>
+			<option sort="D">D.抗压性能差</option>
+		</options>
+		<answer>B</answer>
+		<title>关于砌体结构特点昀说法,正确的是(  )。</title>
+		<parse>P23页，砌体材料抗压性能好，保温，耐火，耐久性能好；材料经济，就地取材，施工简便，管理，维护方便【感谢考试100用户“雁飞”为本题提供解析】</parse>
+	</question>
+	<question hasimg="0">
+		<id>20150121155230021750067-0856e9828902</id>
+		<headingid>2015012115523001784379d-cacfc0562bef</headingid>
+		<sort>32</sort>
+		<type>11</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.与材料的弹性模量成正比</option>
+			<option sort="B">B.与荷载成反比</option>
+			<option sort="C">C.与截面的惯性矩成正比</option>
+			<option sort="D">D.与跨度成正比</option>
+		</options>
+		<answer>D</answer>
+		<title>关于悬臂梁端部最大位移的说法,正确的是(  )。</title>
+		<parse></parse>
+	</question>
+	<question hasimg="0">
+		<id>201501211552300217500d7-11412b36a097</id>
+		<headingid>2015012115523001784379d-cacfc0562bef</headingid>
+		<sort>33</sort>
+		<type>11</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.200</option>
+			<option sort="B">B.300</option>
+			<option sort="C">C.400</option>
+			<option sort="D">D.500</option>
+		</options>
+		<answer>B</answer>
+		<title>剪力墙内分布钢筋的间距最大不超过(  )mm。</title>
+		<parse></parse>
+	</question>
+	<question hasimg="0">
+		<id>2015012115523002175004d-09d13c5f51f7</id>
+		<headingid>2015012115523001784379d-cacfc0562bef</headingid>
+		<sort>34</sort>
+		<type>11</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.正常使用极限状态</option>
+			<option sort="B">B.承载力极限状态</option>
+			<option sort="C">C.两种极限状态</option>
+			<option sort="D">D.结构平衡状态</option>
+		</options>
+		<answer>B</answer>
+		<title>结构安全性要求,对建筑物所有结构和构件都必须按(  )进行设计计算。</title>
+		<parse>所有对所有结构和构件都必须按承载力极限状态进行计算，施工时应严格保证施工质量，以满足结构安全性。（教材P2页）【感谢考试100用户“jzslkd”为本题提供解析】</parse>
+	</question>
+	<question hasimg="0">
+		<id>201501211552300217500b1-4944b5dd09ab</id>
+		<headingid>2015012115523001784379d-cacfc0562bef</headingid>
+		<sort>35</sort>
+		<type>11</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.混凝土收缩</option>
+			<option sort="B">B.严重腐蚀</option>
+			<option sort="C">C.焊接变形</option>
+			<option sort="D">D.安装荷载</option>
+		</options>
+		<answer>B</answer>
+		<title>结构荷载按随时间的变异分类,属于偶然作用的是(  )。</title>
+		<parse>P21</parse>
+	</question>
+	<question hasimg="0">
+		<id>201501211552300217500f0-8d2b9d910d2b</id>
+		<headingid>2015012115523001784379d-cacfc0562bef</headingid>
+		<sort>36</sort>
+		<type>11</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.支座处配负筋（即：梁上边配受拉钢筋）</option>
+			<option sort="B">B.支座处配正筋（即：梁下边配受拉钢筋）</option>
+			<option sort="C">C.支座处配负筋（即：梁下边配受拉钢筋）</option>
+			<option sort="D">D.梁跨中配正筋（即：梁上边配受拉钢筋）</option>
+		</options>
+		<answer>A</answer>
+		<title>均布荷载条件下,多跨连续梁的配筋特点是(  )。</title>
+		<parse>连续梁、板的受力特点是：跨中有正弯矩，支座有负弯矩。所以，跨中按最大正弯矩计算正筋（下面），支座按最大负弯矩计算负筋（上面）.【感谢考试100用户“15831169890”为本题提供解析】</parse>
+	</question>
+	<question hasimg="0">
+		<id>201501211552300217500b6-019124d6efae</id>
+		<headingid>2015012115523001784379d-cacfc0562bef</headingid>
+		<sort>37</sort>
+		<type>11</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.构架梁</option>
+			<option sort="B">B.构架柱</option>
+			<option sort="C">C.楼板中部</option>
+			<option sort="D">D.梁柱节点</option>
+		</options>
+		<answer>D</answer>
+		<title>框架结构震害的严重部位多发生在(  )。</title>
+		<parse>P33.震害调查表明，框架结构震害的严重部位多发生在框架梁柱节点和填充墙处；一般是柱的震害重于梁，柱顶的震害重于柱底，角柱的震害重于内柱，短柱的震害重于一般柱。【感谢考试100用户“15831169890”为本题提供解析】</parse>
+	</question>
+	<question hasimg="0">
+		<id>2015012115523002175007c-ff56a3d10344</id>
+		<headingid>2015012115523001784379d-cacfc0562bef</headingid>
+		<sort>38</sort>
+		<type>11</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.剪力墙</option>
+			<option sort="B">B.框架</option>
+			<option sort="C">C.剪力墙和框架</option>
+			<option sort="D">D.不能确定</option>
+		</options>
+		<answer>B</answer>
+		<title>框架一剪力墙结构中,竖向苻载主要由(  )承担。</title>
+		<parse>P14.框架剪力结构中，剪力墙主要承受水平荷载，竖向荷载主要有框架承受。【感谢考试100用户“15831169890”为本题提供解析】</parse>
+	</question>
+	<question hasimg="0">
+		<id>2015012115523002175002d-7eabf2d39fd0</id>
+		<headingid>2015012115523001784379d-cacfc0562bef</headingid>
+		<sort>39</sort>
+		<type>11</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.跨中有正弯矩，支座有正弯矩</option>
+			<option sort="B">B.跨中有正弯矩，支座有负弯矩</option>
+			<option sort="C">C.跨中有正负矩，支座有正弯矩</option>
+			<option sort="D">D.跨中有负弯矩，支座有负弯矩</option>
+		</options>
+		<answer>B</answer>
+		<title>连续梁、板的受力特点是(  )。</title>
+		<parse></parse>
+	</question>
+	<question hasimg="0">
+		<id>201501211552300217500e4-3b6a04db9ac0</id>
+		<headingid>2015012115523001784379d-cacfc0562bef</headingid>
+		<sort>40</sort>
+		<type>11</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.-股</option>
+			<option sort="B">B.两股</option>
+			<option sort="C">C.三股</option>
+			<option sort="D">D.四股</option>
+		</options>
+		<answer>B</answer>
+		<title>楼梯空间防火设计人流股数最低限值为(  )。</title>
+		<parse></parse>
+	</question>
+	<question hasimg="0">
+		<id>20150121155230022726528-cd5687855c0b</id>
+		<headingid>2015012115523001784379d-cacfc0562bef</headingid>
+		<sort>41</sort>
+		<type>11</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.偏心受压</option>
+			<option sort="B">B.轴心受压</option>
+			<option sort="C">C.偏心受拉</option>
+			<option sort="D">D.轴心受拉</option>
+		</options>
+		<answer>B</answer>
+		<title>某钢结构梁柱节点采用铰接,当两相邻的反力不等时,柱将(  )。</title>
+		<parse>钢结构梁柱节点采用刚接时，当两相邻的反力不等时，柱将偏心受压；钢结构梁柱节点采用铰接时，当两相邻的反力不等时，柱只会是轴心受压。</parse>
+	</question>
+	<question hasimg="0">
+		<id>20150121155230022726588-10baf7e9b4e9</id>
+		<headingid>2015012115523001784379d-cacfc0562bef</headingid>
+		<sort>42</sort>
+		<type>11</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.两侧</option>
+			<option sort="B">B.柱脚内侧</option>
+			<option sort="C">C.中央</option>
+			<option sort="D">D.柱脚外侧</option>
+		</options>
+		<answer>C</answer>
+		<title>某钢结构柱脚节点采用铰接,锚栓应尽量布置在底板(  )部位。</title>
+		<parse>铰接形式的柱脚常用于轴心受压柱，锚栓只起固定位置和安装的作用，可按构造设置。为接近铰接的假设，所以锚栓应尽量布置在底板中央部位。</parse>
+	</question>
+	<question hasimg="0">
+		<id>20150121155230022726598-2129a75df175</id>
+		<headingid>2015012115523001784379d-cacfc0562bef</headingid>
+		<sort>43</sort>
+		<type>11</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.0．6</option>
+			<option sort="B">B.0．9</option>
+			<option sort="C">C.1．2</option>
+			<option sort="D">D.1．5</option>
+		</options>
+		<answer>C</answer>
+		<title>某工程防火门设计为甲级,其耐火极限是(  )h。</title>
+		<parse>防火门、防火窗应划分为甲、乙、丙三级，其耐火极限：甲级应为1.2h;乙级应为0.9h;丙级应为0.6h。（教材P38）【感谢考试100用户“jzslkd”为本题提供解析】</parse>
+	</question>
+	<question hasimg="0">
+		<id>20150121155230022726574-f7dee194bd2d</id>
+		<headingid>2015012115523001784379d-cacfc0562bef</headingid>
+		<sort>44</sort>
+		<type>11</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.1:2</option>
+			<option sort="B">B.1：3</option>
+			<option sort="C">C.1：5</option>
+			<option sort="D">D.1：7</option>
+		</options>
+		<answer>C</answer>
+		<title>某工程屋面做法为压型钢板,当设计无要求时,屋面坡度最小值是(  )。</title>
+		<parse>15版教材p36</parse>
+	</question>
+	<question hasimg="0">
+		<id>20150121155230022726502-af2d5b43e818</id>
+		<headingid>2015012115523001784379d-cacfc0562bef</headingid>
+		<sort>45</sort>
+		<type>11</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.点荷载</option>
+			<option sort="B">B.线荷载</option>
+			<option sort="C">C.集中荷载</option>
+			<option sort="D">D.均布面荷载</option>
+		</options>
+		<answer>B</answer>
+		<title>某框架结构梁上砌筑陶粒砌体隔墙.诙结构所受荷载是(  )。</title>
+		<parse>P12.各种面荷载传到梁上或条形基础上时为线荷载。【感谢考试100用户“大力水牛”为本题提供解析】</parse>
+	</question>
+	<question hasimg="0">
+		<id>20150121155230022726548-e9bfbff6d3fc</id>
+		<headingid>2015012115523001784379d-cacfc0562bef</headingid>
+		<sort>46</sort>
+		<type>11</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.点荷载</option>
+			<option sort="B">B.线荷载</option>
+			<option sort="C">C.集中荷载</option>
+			<option sort="D">D.均布面荷载</option>
+		</options>
+		<answer>D</answer>
+		<title>某框架结构施工至七层.因场地狭小,施工单位在二层均匀堆满水泥,二层楼面所受荷载是(  )。</title>
+		<parse></parse>
+	</question>
+	<question hasimg="0">
+		<id>201501211552300227265ad-5d963cf0f5eb</id>
+		<headingid>2015012115523001784379d-cacfc0562bef</headingid>
+		<sort>47</sort>
+		<type>11</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.50</option>
+			<option sort="B">B.100</option>
+			<option sort="C">C.150</option>
+			<option sort="D">D.200</option>
+		</options>
+		<answer>A</answer>
+		<title>某两端固定的受压构件,其临界力为200kN,若将此构件改为两端铰支,则其临界力为(  )kN。</title>
+		<parse></parse>
+	</question>
+	<question hasimg="0">
+		<id>2015012115523002272653b-643acaea6bf1</id>
+		<headingid>2015012115523001784379d-cacfc0562bef</headingid>
+		<sort>48</sort>
+		<type>11</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.安全性</option>
+			<option sort="B">B.经济性</option>
+			<option sort="C">C.适用性</option>
+			<option sort="D">D.耐久性</option>
+		</options>
+		<answer>A</answer>
+		<title>某沿海建筑遇八级热带风暴,结构局部出现损伤但不发生倒塌,说明该建筑物满足(  )功能要求。</title>
+		<parse></parse>
+	</question>
+	<question hasimg="0">
+		<id>201501211552300227265c6-2e15d92c3aef</id>
+		<headingid>2015012115523001784379d-cacfc0562bef</headingid>
+		<sort>49</sort>
+		<type>11</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.1．Im</option>
+			<option sort="B">B.1．2m</option>
+			<option sort="C">C.1．3m</option>
+			<option sort="D">D.1．5m</option>
+		</options>
+		<answer>C</answer>
+		<title>某医院病房楼,当设计无要求时,疏散楼梯净宽度最小值是(  )。</title>
+		<parse>医院病房楼1.3m，&#13;
+			居住建筑1.1m，&#13;
+			其他建筑1.2m&#13;
+		【感谢考试100用户“梅梅^_^”为本题提供解析】</parse>
+	</question>
+	<question hasimg="0">
+		<id>20150121155230022726547-d70e289097fe</id>
+		<headingid>2015012115523001784379d-cacfc0562bef</headingid>
+		<sort>50</sort>
+		<type>11</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.30</option>
+			<option sort="B">B.50</option>
+			<option sort="C">C.70</option>
+			<option sort="D">D.100</option>
+		</options>
+		<answer>B</answer>
+		<title>普通民用住宅的设计合理使用年限为(  )年。</title>
+		<parse></parse>
+	</question>
+	<question hasimg="0">
+		<id>201501211552300227265c2-0713db8a863c</id>
+		<headingid>2015012115523001784379d-cacfc0562bef</headingid>
+		<sort>51</sort>
+		<type>11</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.抗压强度较高，抗拉强度较高</option>
+			<option sort="B">B.抗压强度较高，抗拉强度较低</option>
+			<option sort="C">C.抗压强度较低，抗拉强度较高</option>
+			<option sort="D">D.抗压强度较低，抗拉强度较低</option>
+		</options>
+		<answer>B</answer>
+		<title>砌体的受力特点是(  )。</title>
+		<parse>P23</parse>
+	</question>
+	<question hasimg="0">
+		<id>2015012115523002272659e-693363750ff3</id>
+		<headingid>2015012115523001784379d-cacfc0562bef</headingid>
+		<sort>52</sort>
+		<type>11</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.解决墙、柱的承载能力</option>
+			<option sort="B">B.加强房屋的整体性</option>
+			<option sort="C">C.高厚比过大</option>
+			<option sort="D">D.防止局部压应力过大</option>
+		</options>
+		<answer>D</answer>
+		<title>砌体结构房屋中,混凝土梁端下设置垫块的目的是(  )。</title>
+		<parse>一般情况下，只有砌体基础有可能承受上部墙体或柱传来的均匀局部压应力。在大多数情况下，搁置于砌体墙或柱上的梁或板，由于其弯曲变形，使得传至砌体的局部压应力均为非均匀分布。当梁端下砌体的局部受压承载力不满足要求时，常采用设置混凝土或钢筋混凝土垫块的方法。</parse>
+	</question>
+	<question hasimg="0">
+		<id>20150121155230023703125-ff12bd0757dd</id>
+		<headingid>2015012115523001784379d-cacfc0562bef</headingid>
+		<sort>53</sort>
+		<type>11</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.100</option>
+			<option sort="B">B.120</option>
+			<option sort="C">C.150</option>
+			<option sort="D">D.200</option>
+		</options>
+		<answer>B</answer>
+		<title>砌体结构中,当设计无要求时,钢筋混凝土圈梁的高度最小值是(  )mm。</title>
+		<parse>P27 钢筋混凝土圈梁的宽度宜于墙厚相同，当墙厚大于等于240mm时，其宽度不宜小于2\3墙厚，圈梁高度不应小于120mm，纵向钢筋不应少于4根10钢筋，绑扎接头的搭接长度按手拉钢筋考虑，箍筋间距不应大于300mm。【感谢考试100用户“15831169890”为本题提供解析】</parse>
+	</question>
+	<question hasimg="0">
+		<id>201501211552300237031d3-58f53b8cde0c</id>
+		<headingid>2015012115523001784379d-cacfc0562bef</headingid>
+		<sort>54</sort>
+		<type>11</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.150</option>
+			<option sort="B">B.200</option>
+			<option sort="C">C.250</option>
+			<option sort="D">D.300</option>
+		</options>
+		<answer>D</answer>
+		<title>砌体结构中,当设计无要求时,钢筋混凝土圈梁的箍筋间距最大值是(  )mm。</title>
+		<parse>记忆：墙内钢筋，箍筋最小间距均为300，即为插入最小振捣器的宽度。【感谢考试100用户“大力水牛”为本题提供解析】</parse>
+	</question>
+	<question hasimg="0">
+		<id>20150121155230023703157-78ba93923f13</id>
+		<headingid>2015012115523001784379d-cacfc0562bef</headingid>
+		<sort>55</sort>
+		<type>11</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.4+10</option>
+			<option sort="B">B.6+10</option>
+			<option sort="C">C.8+10</option>
+			<option sort="D">D.10+10</option>
+		</options>
+		<answer>A</answer>
+		<title>砌体结构中,当设计无要求时,钢筋混凝土圈梁的纵向钢筋最小值是(  )。</title>
+		<parse></parse>
+	</question>
+	<question hasimg="0">
+		<id>20150121155230023703179-2389fee895ef</id>
+		<headingid>2015012115523001784379d-cacfc0562bef</headingid>
+		<sort>56</sort>
+		<type>11</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.50</option>
+			<option sort="B">B.40</option>
+			<option sort="C">C.60</option>
+			<option sort="D">D.70</option>
+		</options>
+		<answer>C</answer>
+		<title>墙体窗梁过梁和外窗台滴水,当设计无要求时,凸出墙体最小值是(  )mm。</title>
+		<parse>P36.窗洞过梁和外窗台要做好滴水，滴水凸出墙身不应小于60mm；在其下端做有效的滴水处理，防止窗下墙的污染。【感谢考试100用户“15831169890”为本题提供解析】</parse>
+	</question>
+	<question hasimg="1">
+		<id>20150121155230023703121-b973735d4201</id>
+		<headingid>2015012115523001784379d-cacfc0562bef</headingid>
+		<sort>57</sort>
+		<type>11</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.qa</option>
+			<option sort="B">B.qa/2</option>
+			<option sort="C">C.3qa/2</option>
+			<option sort="D">D.2qa</option>
+		</options>
+		<answer>D</answer>
+		<title>如图所示,伸臂梁F=qa/2,M=2qa2,已知q、a,则B点的约束反力是(  )。
+
+		【2015011713.jpg】</title>
+		<parse></parse>
+	</question>
+	<question hasimg="1">
+		<id>20150121155230026632850-cd3f62c45d99</id>
+		<headingid>2015012115523001784379d-cacfc0562bef</headingid>
+		<sort>58</sort>
+		<type>11</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.</option>
+			<option sort="B">B.</option>
+			<option sort="C">C.</option>
+			<option sort="D">D.</option>
+		</options>
+		<answer>D</answer>
+		<title>如图所示,与图示的弯矩图一致的简支梁是(  )。
+
+		【2015011714.jpg】</title>
+		<parse></parse>
+	</question>
+	<question hasimg="0">
+		<id>20150121155230026632822-41db6917760d</id>
+		<headingid>2015012115523001784379d-cacfc0562bef</headingid>
+		<sort>59</sort>
+		<type>11</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.0．20</option>
+			<option sort="B">B.0．25</option>
+			<option sort="C">C.0．30</option>
+			<option sort="D">D.0．35</option>
+		</options>
+		<answer>B</answer>
+		<title>室外疏散楼梯梯段,当设计无要求时,耐火极限最小值是(  )h。</title>
+		<parse>耐火极限：休息平台不小于1小时，梯段不小于0.25小时，P34【感谢考试100用户“冰雪来峰”为本题提供解析】</parse>
+	</question>
+	<question hasimg="0">
+		<id>2015012115523002663289f-92107a3311f9</id>
+		<headingid>2015012115523001784379d-cacfc0562bef</headingid>
+		<sort>60</sort>
+		<type>11</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.1．5</option>
+			<option sort="B">B.2．0</option>
+			<option sort="C">C.2．5</option>
+			<option sort="D">D.3．0</option>
+		</options>
+		<answer>B</answer>
+		<title>室外疏散楼梯周围(  )m内的墙面上,除疏散门外,不应设其他门窗洞口。</title>
+		<parse>室外疏散楼梯2米范围之内不能安装【感谢考试100用户“贾海瑞”为本题提供解析】</parse>
+	</question>
+	<question hasimg="0">
+		<id>201501211552300266328b7-56818ca5301d</id>
+		<headingid>2015012115523001784379d-cacfc0562bef</headingid>
+		<sort>61</sort>
+		<type>11</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.60mm</option>
+			<option sort="B">B.30mm</option>
+			<option sort="C">C.120mm</option>
+			<option sort="D">D.10Omm</option>
+		</options>
+		<answer>A</answer>
+		<title>水平防潮层应设置在室内地坪(±0.000)以下(  )处。</title>
+		<parse></parse>
+	</question>
+	<question hasimg="0">
+		<id>20150121155230027609315-1f2fc6eb3892</id>
+		<headingid>2015012115523001784379d-cacfc0562bef</headingid>
+		<sort>62</sort>
+		<type>11</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.25°</option>
+			<option sort="B">B.30°</option>
+			<option sort="C">C.45°</option>
+			<option sort="D">D.60°</option>
+		</options>
+		<answer>C</answer>
+		<title>网架中,腹杆的倾角以(  )为宜。</title>
+		<parse>屋架结构将其节点假定为铰节点，所有杆件只有轴向力时，其材料强度可以得到充分利用。</parse>
+	</question>
+	<question hasimg="0">
+		<id>201501211552300276093ec-0d28bc003c7c</id>
+		<headingid>2015012115523001784379d-cacfc0562bef</headingid>
+		<sort>63</sort>
+		<type>11</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.抗震设防烈度</option>
+			<option sort="B">B.地震烈度</option>
+			<option sort="C">C.地震震级</option>
+			<option sort="D">D.基本烈度</option>
+		</options>
+		<answer>A</answer>
+		<title>我国抗震设防的依据是(  )。</title>
+		<parse>抗震设防是指房屋进行抗震设计和采用抗震措施，来达到抗震效果。抗震设防的依据是抗震设防烈度。
+
+		抗震设防的基本思想：现行抗震设计规范适用于抗震设防烈度为6、7、8、9度地区建筑工程的抗震设计、隔震、消能减震设计。抗震设防是以现有的科技水平和经济条件为前提的。以北京地区为例，抗震设防烈度为8度，超越8度的概率为10%左右。</parse>
+	</question>
+	<question hasimg="0">
+		<id>20150121155230027609369-753a29025127</id>
+		<headingid>2015012115523001784379d-cacfc0562bef</headingid>
+		<sort>64</sort>
+		<type>11</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.安全性、适用性、美观性</option>
+			<option sort="B">B.安全性、美观性、耐久性</option>
+			<option sort="C">C.安全性、适用性、耐久性</option>
+			<option sort="D">D.适用性、耐久性、美观性</option>
+		</options>
+		<answer>C</answer>
+		<title>我国现行规范采用以概率理论为基础的极限状态设计方法,其基本原则是建筑结构工程必须满足(  )等要求。</title>
+		<parse></parse>
+	</question>
+	<question hasimg="0">
+		<id>20150121155230027609314-9b895cd3b023</id>
+		<headingid>2015012115523001784379d-cacfc0562bef</headingid>
+		<sort>65</sort>
+		<type>11</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.固节点</option>
+			<option sort="B">B.刚节点</option>
+			<option sort="C">C.铰节点</option>
+			<option sort="D">D.视荷载情况而定</option>
+		</options>
+		<answer>C</answer>
+		<title>屋架是由杆件组成的构件体系,其节点一般假定为(  )。</title>
+		<parse></parse>
+	</question>
+	<question hasimg="1">
+		<id>2015012115523002760932a-2e53162c5042</id>
+		<headingid>2015012115523001784379d-cacfc0562bef</headingid>
+		<sort>66</sort>
+		<type>11</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.</option>
+			<option sort="B">B.</option>
+			<option sort="C">C.</option>
+			<option sort="D">D.</option>
+		</options>
+		<answer>D</answer>
+		<title>下列各项中,梁所采用材料、截面均相同,在受相同的均布荷载作用下,其中挠度最小的是(  )。
+
+		【2015011716.jpg】</title>
+		<parse></parse>
+	</question>
+	<question hasimg="0">
+		<id>2015012115523002760937a-1d6f3cf15ecb</id>
+		<headingid>2015012115523001784379d-cacfc0562bef</headingid>
+		<sort>67</sort>
+		<type>11</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.有明显流幅的钢筋含碳量少，塑性差，延伸率小</option>
+			<option sort="B">B.有明显流幅的钢筋含碳量少，塑性好，延伸率大</option>
+			<option sort="C">C.无明显流幅的钢筋含碳量少，塑性好，延伸率大</option>
+			<option sort="D">D.无明显流幅的钢筋含碳量多，塑性差，延伸率大</option>
+		</options>
+		<answer>B</answer>
+		<title>下列关于钢筋的力学性能的说法,正确的是(  )。</title>
+		<parse></parse>
+	</question>
+	<question hasimg="0">
+		<id>201501211552300276093a3-53eccf1438ec</id>
+		<headingid>2015012115523001784379d-cacfc0562bef</headingid>
+		<sort>68</sort>
+		<type>11</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.钢筋表面至梁表面的距离</option>
+			<option sort="B">B.钢筋形心至梁表面的距离</option>
+			<option sort="C">C.主筋表面至梁表面的距离</option>
+			<option sort="D">D.主筋形心至梁表面的距离</option>
+		</options>
+		<answer>A</answer>
+		<title>下列关于梁中钢筋的保护层厚度的说法,正确的是(  )。</title>
+		<parse>根据《混凝土结构设计规范》GB50010-2010第2．1．18条规定，结构构件中钢筋外边缘至构件表面范围用于保护钢筋的混凝土，简称保护层（即钢筋表面至梁表面的距离）。</parse>
+	</question>
+	<question hasimg="0">
+		<id>2015012115523002760932d-1cf2e42ee533</id>
+		<headingid>2015012115523001784379d-cacfc0562bef</headingid>
+		<sort>69</sort>
+		<type>11</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.钢索保护套管</option>
+			<option sort="B">B.螺栓</option>
+			<option sort="C">C.铆钉</option>
+			<option sort="D">D.钢索</option>
+		</options>
+		<answer>D</answer>
+		<title>悬索结构的主要承重构件是(  )。</title>
+		<parse>P18.悬索结构的主要承重构件是受拉的钢索，钢索是用高强度钢绞线或钢丝绳制成。【感谢考试100用户“15831169890”为本题提供解析】</parse>
+	</question>
+	<question hasimg="0">
+		<id>2015012115523002760935e-f513d1ee7261</id>
+		<headingid>2015012115523001784379d-cacfc0562bef</headingid>
+		<sort>70</sort>
+		<type>11</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.后浇带</option>
+			<option sort="B">B.地圈梁</option>
+			<option sort="C">C.沉降缝</option>
+			<option sort="D">D.伸缩缝</option>
+		</options>
+		<answer>D</answer>
+		<title>由于温度改变,砌体结构容易在墙体上出现裂缝,可用(  )将房屋分成若干单元,使每单元的长度限制在一定范围内。</title>
+		<parse></parse>
+	</question>
+	<question hasimg="0">
+		<id>2015012115523002760938e-96762188207b</id>
+		<headingid>2015012115523001784379d-cacfc0562bef</headingid>
+		<sort>71</sort>
+		<type>11</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.正方形</option>
+			<option sort="B">B.菱形</option>
+			<option sort="C">C.十字形</option>
+			<option sort="D">D.圆形</option>
+		</options>
+		<answer>D</answer>
+		<title>在非地震区,最有利于抵抗风荷载作用的高层建筑平面形状是(  )。</title>
+		<parse></parse>
+	</question>
+	<question hasimg="0">
+		<id>2015012115523002760932d-3ff0185a6137</id>
+		<headingid>2015012115523001784379d-cacfc0562bef</headingid>
+		<sort>72</sort>
+		<type>11</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.50</option>
+			<option sort="B">B.60</option>
+			<option sort="C">C.70</option>
+			<option sort="D">D.80</option>
+		</options>
+		<answer>C</answer>
+		<title>直接接触土体浇筑的构件,其混凝土最小保护层厚度是(  )。</title>
+		<parse></parse>
+	</question>
+	<question hasimg="0">
+		<id>201501211552300276093b9-c4fa6df6436a</id>
+		<headingid>2015012115523001784379d-cacfc0562bef</headingid>
+		<sort>73</sort>
+		<type>11</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.15</option>
+			<option sort="B">B.20</option>
+			<option sort="C">C.25</option>
+			<option sort="D">D.30</option>
+		</options>
+		<answer>C</answer>
+		<title>纵向受力钢筋常用直径为10~25mm,当设计无要求时,钢筋间距最小值是(  )mm。</title>
+		<parse></parse>
+	</question>
+	<heading>
+		<id>20150121155230027609397-16ca0ddbd614</id>
+		<sort>2</sort>
+		<type>10</type>
+		<abbr>多选题</abbr>
+		<title>二、多选题</title>
+	</heading>
+	<question hasimg="0">
+		<id>20150121155230027609370-b0d32cca9e08</id>
+		<headingid>20150121155230027609397-16ca0ddbd614</headingid>
+		<sort>74</sort>
+		<type>12</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.气密性</option>
+			<option sort="B">B.传热系数</option>
+			<option sort="C">C.蓄热系数</option>
+			<option sort="D">D.中空玻璃露点</option>
+			<option sort="E">E.可见光透射比</option>
+		</options>
+		<answer>ABD</answer>
+		<title>《建筑节能工程施工质量验收规范)GB50411-2007规定,严寒、寒冷地区的建筑外门窗进入施工现场时,应对其(  )性能进行复验。</title>
+		<parse>1.严寒、寒冷地区：气密性、传热系数和中空玻璃露点；&#13;
+			2.夏热冬冷地区：气密性、传热系数玻璃遮阳系数、可见光透射比、中空玻璃露点；&#13;
+		3.夏热冬暖地区：气密性、玻璃遮阳系数、可见光透射比、中空玻璃露点。【感谢考试100用户“理哥”为本题提供解析】</parse>
+	</question>
+	<question hasimg="0">
+		<id>201501211552300276093db-2f62f068075e</id>
+		<headingid>20150121155230027609397-16ca0ddbd614</headingid>
+		<sort>75</sort>
+		<type>12</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.拉伸</option>
+			<option sort="B">B.弯曲</option>
+			<option sort="C">C.拉力</option>
+			<option sort="D">D.剪切</option>
+			<option sort="E">E.压力</option>
+		</options>
+		<answer>ABD</answer>
+		<title>按结构杆件的基本受力形式,属于其变形特点的有(  )。</title>
+		<parse>基本受力形式：拉伸，压缩，弯曲，剪切，扭转。【感谢考试100用户“丁印领”为本题提供解析】</parse>
+	</question>
+	<question hasimg="1">
+		<id>2015012115523002760930d-8b07e66510fb</id>
+		<headingid>20150121155230027609397-16ca0ddbd614</headingid>
+		<sort>76</sort>
+		<type>12</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.弯矩</option>
+			<option sort="B">B.拉力</option>
+			<option sort="C">C.压力</option>
+			<option sort="D">D.剪力</option>
+			<option sort="E">E.扭矩</option>
+		</options>
+		<answer>ACD</answer>
+		<title>单层厂房排架柱受力如下图所示,下列各项内力中,可能产生于柱底a-a截面的有(  )。【2015011717.jpg】</title>
+		<parse></parse>
+	</question>
+	<question hasimg="0">
+		<id>20150121155230028585987-88f2f64ef232</id>
+		<headingid>20150121155230027609397-16ca0ddbd614</headingid>
+		<sort>77</sort>
+		<type>12</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.增加梁的高度</option>
+			<option sort="B">B.采用弹性模量更高的材料</option>
+			<option sort="C">C.增加梁的宽度</option>
+			<option sort="D">D.将支座改为固定支座</option>
+			<option sort="E">E.增加梁的跨度</option>
+		</options>
+		<answer>ABCD</answer>
+		<title>对于一根承受垂直均布荷载的简支钢梁,为提高钢梁的承载力,以下做法中正确的有(  )。</title>
+		<parse></parse>
+	</question>
+	<question hasimg="0">
+		<id>20150121155230028585940-bc74d159bd94</id>
+		<headingid>20150121155230027609397-16ca0ddbd614</headingid>
+		<sort>78</sort>
+		<type>12</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.限制梁的最小截面尺寸</option>
+			<option sort="B">B.配置弯起钢筋，并满足规范要求</option>
+			<option sort="C">C.配置箍筋，并满足规范要求</option>
+			<option sort="D">D.增大主筋截面，并满足规范要求</option>
+			<option sort="E">E.做成双筋梁，并满足规范要求</option>
+		</options>
+		<answer>ABC</answer>
+		<title>防止钢筋混凝土梁斜截面破坏的措施有(  )。</title>
+		<parse>影响斜截面受力性能的主要因素：
+
+			(1)剪跨比和高跨比；
+
+			(2)混凝土的强度等级；
+
+			(3)腹筋的数量，箍筋和弯起钢筋统称为腹筋。
+
+			为了防止斜截面的破坏，通常采用下列措施：
+
+			(1)限制梁的截面最小尺寸，其中包含混凝土强度等级因素；
+
+			(2)适当配置箍筋，并满足规范的构造要求；
+
+		(3)当上述两项措施还不能满足要求时，可适当配置弯起钢筋，并满足规范的构造要求。</parse>
+	</question>
+	<question hasimg="0">
+		<id>201501211552300285859db-2f22f43abf86</id>
+		<headingid>20150121155230027609397-16ca0ddbd614</headingid>
+		<sort>79</sort>
+		<type>12</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.跨中正截面承载力的分析</option>
+			<option sort="B">B.跨中受剪承载力的分析</option>
+			<option sort="C">C.跨中受扭承载力的分析</option>
+			<option sort="D">D.支座处受弯承载力的分析</option>
+			<option sort="E">E.支座处受剪承载力的分析</option>
+		</options>
+		<answer>BCD</answer>
+		<title>一根简支的钢筋混凝土梁承受均布荷载,下列分析内容错误的有(  )。</title>
+		<parse></parse>
+	</question>
+	<question hasimg="0">
+		<id>201501211552300285859f0-af631f9ea33c</id>
+		<headingid>20150121155230027609397-16ca0ddbd614</headingid>
+		<sort>80</sort>
+		<type>12</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.向疏散方向开启的平开门</option>
+			<option sort="B">B.首层靠墙的外侧可设推拉门或卷帘门</option>
+			<option sort="C">C.首层靠墙的外侧可设推拉门，但不可设卷帘门</option>
+			<option sort="D">D.甲、乙类仓库的首层靠墙的外侧可采用推拉门，但不能设卷帘门</option>
+			<option sort="E">E.甲、乙类仓库的首层靠墙的外侧不应采用推拉门或卷帘门</option>
+		</options>
+		<answer>ABE</answer>
+		<title>根据《建筑设计防火规范》GB50016-2006的规定,仓库的疏散门应为(  )。</title>
+		<parse>仓库的疏散用门应为向疏散方向开启的平开门，首层靠墙的外侧可设推拉门或卷帘门（甲、乙类仓库除外）【感谢考试100用户“理哥”为本题提供解析】</parse>
+	</question>
+	<question hasimg="0">
+		<id>201501211552300285859a5-962b479e493c</id>
+		<headingid>20150121155230027609397-16ca0ddbd614</headingid>
+		<sort>81</sort>
+		<type>12</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.材料脆性大</option>
+			<option sort="B">B.抗拉能力低</option>
+			<option sort="C">C.抗剪能力强</option>
+			<option sort="D">D.抵抗地震能力差</option>
+			<option sort="E">E.地震破坏部位主要是楼盖</option>
+		</options>
+		<answer>ABD</answer>
+		<title>关于多层砌体房屋结构特点的说法,正确的有(  )。</title>
+		<parse>P33</parse>
+	</question>
+	<question hasimg="0">
+		<id>20150121155230028585919-be8554cdad47</id>
+		<headingid>20150121155230027609397-16ca0ddbd614</headingid>
+		<sort>82</sort>
+		<type>12</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.钢材强度高</option>
+			<option sort="B">B.钢材塑性、韧性都好</option>
+			<option sort="C">C.钢结构自重较轻</option>
+			<option sort="D">D.钢材耐火</option>
+			<option sort="E">E.钢材耐腐蚀</option>
+		</options>
+		<answer>DE</answer>
+		<title>关于钢结构的特点的描述,下列各项中不正确的是(  )。</title>
+		<parse>P30-31.钢结构的抗拉、抗压强度都很高，构件断面小，自重较轻，结构性能好，用作钢结构的材料必须具有较高的强度、塑性韧性较好、适宜于冷加工和热加工；同时，还必须具有很好的可焊性。&#13;
+			钢结构的防火性能较差，当温度达到550°时，钢材的屈服强度大约降至正常温度时屈服强度的0.7。&#13;
+		外漏的钢结构可能会受到大气，特别是受污染的大气的严重腐蚀，最普通的就是生锈。【感谢考试100用户“15831169890”为本题提供解析】</parse>
+	</question>
+	<question hasimg="0">
+		<id>20150121155230028585932-e402b21daaeb</id>
+		<headingid>20150121155230027609397-16ca0ddbd614</headingid>
+		<sort>83</sort>
+		<type>12</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.两对边支承的板是单向板，双向受弯</option>
+			<option sort="B">B.当长边与短边之比小于或等于2时，应按单向板计算</option>
+			<option sort="C">C.当长边与短边之比大于2但小于3时，宜按双向板计算</option>
+			<option sort="D">D.当按沿短边方向受力的单向板计算时，应沿长边方向布置足够数量的构造筋</option>
+			<option sort="E">E.当长边与短边长度之比大于或等于3时，可按沿短边方向受力的单向板计算</option>
+		</options>
+		<answer>CDE</answer>
+		<title>关于钢筋混凝土单向板与双向板受力特点的说法,正确的有(  )。</title>
+		<parse></parse>
+	</question>
+	<question hasimg="0">
+		<id>20150121155230028585978-71184d496a6c</id>
+		<headingid>20150121155230027609397-16ca0ddbd614</headingid>
+		<sort>84</sort>
+		<type>12</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.柱顶位移</option>
+			<option sort="B">B.温度变化</option>
+			<option sort="C">C.支座沉降</option>
+			<option sort="D">D.地震作用</option>
+			<option sort="E">E.楼板裂缝</option>
+		</options>
+		<answer>BCD</answer>
+		<title>关于荷载作用的说法,正确的有(  )。</title>
+		<parse>p11。荷载间接作用:混凝土收缩、温度变化、焊接变形、地基沉降【感谢考试100用户“yzf888”为本题提供解析】</parse>
+	</question>
+	<question hasimg="0">
+		<id>20150121155230028585947-af5bdf7ae4ed</id>
+		<headingid>20150121155230027609397-16ca0ddbd614</headingid>
+		<sort>85</sort>
+		<type>12</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.强度较高</option>
+			<option sort="B">B.可模性好</option>
+			<option sort="C">C.延性差</option>
+			<option sort="D">D.抗裂性差</option>
+			<option sort="E">E.耐久性差</option>
+		</options>
+		<answer>ABD</answer>
+		<title>关于混凝土结构特点的说法,正确的有(  )。</title>
+		<parse>强度较高，可模性好，耐久性耐火性好，整体性好，延性好，防振性，防辐射性都较好。自重大，抗裂性能较差，施工复杂，工期较长。p19【感谢考试100用户“oleolezx”为本题提供解析】</parse>
+	</question>
+	<question hasimg="0">
+		<id>20150121155230028585908-f0e57d5a6cd3</id>
+		<headingid>20150121155230027609397-16ca0ddbd614</headingid>
+		<sort>86</sort>
+		<type>12</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.侧向刚度大，水平荷载作用下侧移小</option>
+			<option sort="B">B.剪力墙的间距小</option>
+			<option sort="C">C.结构建筑平面布置灵活</option>
+			<option sort="D">D.结构自重较大</option>
+			<option sort="E">E.适用于大空间的建筑</option>
+		</options>
+		<answer>ABD</answer>
+		<title>关于剪力墙结构的特点的说法,正确的有(  )。</title>
+		<parse>侧向刚度大，水平荷载作用下侧移小，缺点是剪力墙的间距小。p14【感谢考试100用户“fanmhd2000”为本题提供解析】</parse>
+	</question>
+	<question hasimg="0">
+		<id>201501211552300285859df-16dac1981e09</id>
+		<headingid>20150121155230027609397-16ca0ddbd614</headingid>
+		<sort>87</sort>
+		<type>12</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.当各种增加的装饰装修荷载不能控制在允许范围内时，应对结构重新进行验算</option>
+			<option sort="B">B.建筑装饰装修工程设计必须保证建筑物的结构安全和主要使用功能</option>
+			<option sort="C">C.建筑装饰装修工程施工中，严禁违反设计文件擅自改动建筑主体、承重结构和主要使用功能</option>
+			<option sort="D">D.建筑装饰装修工程施工中，严禁未经设计确认和有关部门批准擅自拆改水、暖、电、燃气、通讯等配套设施</option>
+			<option sort="E">E.在设计和施工过程中，不必了解结构能承受的荷载值是多少</option>
+		</options>
+		<answer>ABCD</answer>
+		<title>关于建筑装饰装修对建筑结构影响的说法,正确的有(  )。</title>
+		<parse>P218</parse>
+	</question>
+	<question hasimg="0">
+		<id>2015012115523002858598d-7d80fe2ce7ca</id>
+		<headingid>20150121155230027609397-16ca0ddbd614</headingid>
+		<sort>88</sort>
+		<type>12</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.超限使用</option>
+			<option sort="B">B.承载力</option>
+			<option sort="C">C.正常施工</option>
+			<option sort="D">D.正常使用</option>
+			<option sort="E">E.正常维修</option>
+		</options>
+		<answer>BD</answer>
+		<title>关于结构极限状态的说法,属于结构设计计算的有(  )极限状态。</title>
+		<parse>p2，极限状态通常可分：承载力极限状态和正常使用极限状态【感谢考试100用户“selfmeimei”为本题提供解析】</parse>
+	</question>
+	<question hasimg="0">
+		<id>201501211552300285859ba-7dbe448e312f</id>
+		<headingid>20150121155230027609397-16ca0ddbd614</headingid>
+		<sort>89</sort>
+		<type>12</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.安全适用</option>
+			<option sort="B">B.经济合理</option>
+			<option sort="C">C.适用耐久</option>
+			<option sort="D">D.耐久经济</option>
+			<option sort="E">E.安全耐久</option>
+		</options>
+		<answer>AB</answer>
+		<title>关于结构设计主要目的的说法,正确的有(  )。</title>
+		<parse></parse>
+	</question>
+	<question hasimg="0">
+		<id>2015012115523002858596b-467f4babbad3</id>
+		<headingid>20150121155230027609397-16ca0ddbd614</headingid>
+		<sort>90</sort>
+		<type>12</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.柱的震害轻于梁</option>
+			<option sort="B">B.柱顶震害轻于柱底</option>
+			<option sort="C">C.角柱震害重于内柱</option>
+			<option sort="D">D.短柱的震害重于一般柱</option>
+			<option sort="E">E.填充墙处是震害发生的严重部位之一</option>
+		</options>
+		<answer>CDE</answer>
+		<title>关于框架结构不同部位震害程度的说法,正确的有(  )。</title>
+		<parse></parse>
+	</question>
+	<question hasimg="0">
+		<id>201501211552300285859ac-eb1c3514957c</id>
+		<headingid>20150121155230027609397-16ca0ddbd614</headingid>
+		<sort>91</sort>
+		<type>12</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.采用相同等级的混凝土</option>
+			<option sort="B">B.采用不同等级的混凝土且梁混凝土强度比柱高</option>
+			<option sort="C">C.采用不同等级的混凝土且柱混凝土强度比梁高</option>
+			<option sort="D">D.节点部位柱的混凝土强度比梁高</option>
+			<option sort="E">E.节点部位梁的混凝土强度比柱高</option>
+		</options>
+		<answer>CD</answer>
+		<title>关于框架结构梁柱混凝土等级的说法,正确的是(  )。</title>
+		<parse>当发生地震破坏时，一般是柱的震害重于梁，因此柱的混凝土强度比梁高。</parse>
+	</question>
+	<question hasimg="0">
+		<id>201501211552300295625ab-25e726aa7e7d</id>
+		<headingid>20150121155230027609397-16ca0ddbd614</headingid>
+		<sort>92</sort>
+		<type>12</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.建筑平面布置灵活</option>
+			<option sort="B">B.可形成较大的建筑空间</option>
+			<option sort="C">C.横向刚度大，整体性好</option>
+			<option sort="D">D.抗侧刚度小</option>
+			<option sort="E">E.建筑立面处理也比较方便</option>
+		</options>
+		<answer>ABE</answer>
+		<title>关于框架结构体系优点的说法,正确的有(  )。</title>
+		<parse></parse>
+	</question>
+	<question hasimg="0">
+		<id>2015012115523002956254d-19c7f4465e39</id>
+		<headingid>20150121155230027609397-16ca0ddbd614</headingid>
+		<sort>93</sort>
+		<type>12</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.平面布置灵活</option>
+			<option sort="B">B.剪力墙布置位置不受限制</option>
+			<option sort="C">C.自重大</option>
+			<option sort="D">D.抗侧刚度小</option>
+			<option sort="E">E.侧向刚度大</option>
+		</options>
+		<answer>AE</answer>
+		<title>关于框架一剪力墙结构优点的说法,正确的有(  )。</title>
+		<parse>P14.框架剪力墙是在框架结构中适当设置剪力墙的结构。它具有框架结构平面布置灵活，空间较大的优点，又具有侧向刚度较大的特点。&#13;
+		【感谢考试100用户“15831169890”为本题提供解析】</parse>
+	</question>
+	<question hasimg="0">
+		<id>2015012115523002956258d-c61d74832aa1</id>
+		<headingid>20150121155230027609397-16ca0ddbd614</headingid>
+		<sort>94</sort>
+		<type>12</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.在整体类地面的设计时，应做分缝处理</option>
+			<option sort="B">B.内保温的建筑，应先在楼板上下做保温处理</option>
+			<option sort="C">C.在楼面面层与楼板之间和与墙接合处如弹性阻尼材料</option>
+			<option sort="D">D.存放食品、食料或药物等房间，严禁采用塑料、涂料或水玻璃等做面层材料</option>
+			<option sort="E">E.幼儿园建筑中乳儿室、活动室、寝室及音体活动室宜为暖性、弹性地面</option>
+		</options>
+		<answer>ABCE</answer>
+		<title>关于楼地面构造的说法,正确的有(  )。</title>
+		<parse></parse>
+	</question>
+	<question hasimg="0">
+		<id>20150121155230029562554-d9ef420c9870</id>
+		<headingid>20150121155230027609397-16ca0ddbd614</headingid>
+		<sort>95</sort>
+		<type>12</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.杆件主要承受轴向力</option>
+			<option sort="B">B.网格尺寸应与网架高度配合确定</option>
+			<option sort="C">C.腹杆的倾角以45°为宜</option>
+			<option sort="D">D.网架高度与跨度之比一般为1/15左右</option>
+			<option sort="E">E.网架高不宜过高</option>
+		</options>
+		<answer>ABC</answer>
+		<title>关于平板网架结构特点的说法,正确的有(  )。</title>
+		<parse>P16。杆件主要承受轴向力，网架的高度主要取决于跨度，网架尺寸应与网架高度配合确定，腹杆的角度以45°为宜。网架的高度与短跨之比一般为1/15左右。【感谢考试100用户“乔建筑”为本题提供解析】</parse>
+	</question>
+	<question hasimg="0">
+		<id>201501211552300295625ad-5c85573b6871</id>
+		<headingid>20150121155230027609397-16ca0ddbd614</headingid>
+		<sort>96</sort>
+		<type>12</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.增加房屋的整体性</option>
+			<option sort="B">B.防止地基不均匀沉降引起的不利影响</option>
+			<option sort="C">C.提高墙体的垂直承载力</option>
+			<option sort="D">D.圈梁宜设在同一平面内</option>
+			<option sort="E">E.圈梁可不封闭</option>
+		</options>
+		<answer>ABD</answer>
+		<title>关于砌体结构房屋设置圈梁的说法,正确的有(  )。</title>
+		<parse>P27</parse>
+	</question>
+	<question hasimg="0">
+		<id>20150121155230029562523-7a239e133e08</id>
+		<headingid>20150121155230027609397-16ca0ddbd614</headingid>
+		<sort>97</sort>
+		<type>12</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.砌体材料抗压性能好</option>
+			<option sort="B">B.结构保温性能好</option>
+			<option sort="C">C.可用于跨度小于20m的中小型厂房的墙体、柱和基础。</option>
+			<option sort="D">D.结构耐火性能差</option>
+			<option sort="E">E.砌体的受力特点是抗压强度较高而抗拉强度很低</option>
+		</options>
+		<answer>ABE</answer>
+		<title>关于砌体结构特点的说法,正确的有(  )。</title>
+		<parse>p23，抗压性能好，保温耐火耐久，适用跨度小于15m【感谢考试100用户“be here”为本题提供解析】</parse>
+	</question>
+	<question hasimg="0">
+		<id>201501211552300295625b9-b311c0024de3</id>
+		<headingid>20150121155230027609397-16ca0ddbd614</headingid>
+		<sort>98</sort>
+		<type>12</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.梁的破坏始于受拉区钢筋的屈服</option>
+			<option sort="B">B.梁的破坏始于受压区混凝土的压碎</option>
+			<option sort="C">C.梁的最终破坏形式表现为混凝土的受压破坏</option>
+			<option sort="D">D.适筋梁正截面承载力取决于混凝土的抗压强度</option>
+			<option sort="E">E.受拉区钢筋达到屈服强度时，受压区边缘纤维应交小于受弯时混凝土的极限压应变</option>
+		</options>
+		<answer>ACD</answer>
+		<title>关于适筋梁正截面受力直至破坏的说法中,正确的有(  )。</title>
+		<parse>适筋梁正截面受力直至破坏可以主要分为如下三个阶段：
+
+			第1阶段：M很小，混凝土、钢筋都处在弹性工作阶段。第1阶段结束时拉区混凝土到达ft，混凝土开裂。
+
+			第Ⅱ阶段：M增大，拉区泥凝土开裂，逐渐退出工作。中和轴上移。压区混凝土出现塑性变形，压应变呈曲线，第Ⅱ阶段结束时，钢筋应力刚到达屈服。此阶段梁带裂缝工作，这个阶段是计算正常使用极限状态变形和裂缝宽度的依据。
+
+		第Ⅲ阶段：钢筋屈服后，应力不再增加，应变迅速增大，混凝土裂缝向上发展，中和轴迅速上移，混凝土压区高度减小，梁的挠度急剧增大。当混凝土达到极限压应变时，混凝土被压碎，梁即破坏。此阶段是承载能力的极限状态计算的依据。</parse>
+	</question>
+	<question hasimg="0">
+		<id>201501211552300295625d9-ab6652acdffc</id>
+		<headingid>20150121155230027609397-16ca0ddbd614</headingid>
+		<sort>99</sort>
+		<type>12</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.安全性</option>
+			<option sort="B">B.美观性</option>
+			<option sort="C">C.适用性</option>
+			<option sort="D">D.耐久性</option>
+			<option sort="E">E.经济性</option>
+		</options>
+		<answer>ACD</answer>
+		<title>结构的可靠性要求包括(  )等方面。</title>
+		<parse>p1</parse>
+	</question>
+	<question hasimg="0">
+		<id>2015012115523002956250c-51f68c7eb1a8</id>
+		<headingid>20150121155230027609397-16ca0ddbd614</headingid>
+		<sort>100</sort>
+		<type>12</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.超限使用</option>
+			<option sort="B">B.承载力</option>
+			<option sort="C">C.正常施工</option>
+			<option sort="D">D.正常使用</option>
+			<option sort="E">E.正常维修</option>
+		</options>
+		<answer>BD</answer>
+		<title>结构设计的极限状态包括(  )极限状态。</title>
+		<parse>P2</parse>
+	</question>
+	<question hasimg="0">
+		<id>201501211552300295625bd-73caf9d0899a</id>
+		<headingid>20150121155230027609397-16ca0ddbd614</headingid>
+		<sort>101</sort>
+		<type>12</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.结构发生变形</option>
+			<option sort="B">B.面层粘结不好</option>
+			<option sort="C">C.装修材料弹性过大</option>
+			<option sort="D">D.结构材料强度偏高</option>
+			<option sort="E">E.结构材料与装修材料变形不一致</option>
+		</options>
+		<answer>ABE</answer>
+		<title>可能造成外墙装修层脱落、表面开裂的原因有(  )。</title>
+		<parse></parse>
+	</question>
+	<question hasimg="0">
+		<id>201501211552300295625c6-c8570b36ee2c</id>
+		<headingid>20150121155230027609397-16ca0ddbd614</headingid>
+		<sort>102</sort>
+		<type>12</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.∑X=0</option>
+			<option sort="B">B.∑Y=O</option>
+			<option sort="C">C.∑MA=O</option>
+			<option sort="D">D.XMB=O</option>
+			<option sort="E">E.∑M=0</option>
+		</options>
+		<answer>ABE</answer>
+		<title>平面力系的平衡条件是(  )。</title>
+		<parse></parse>
+	</question>
+	<question hasimg="0">
+		<id>2015012115523002956251d-0b07673ae41e</id>
+		<headingid>20150121155230027609397-16ca0ddbd614</headingid>
+		<sort>103</sort>
+		<type>12</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.导热系数</option>
+			<option sort="B">B.蓄热系数</option>
+			<option sort="C">C.密度</option>
+			<option sort="D">D.压缩强度</option>
+			<option sort="E">E.燃烧性能</option>
+		</options>
+		<answer>ACDE</answer>
+		<title>墙体节能工程使用的保温隔热材料,其(  )应符合设计要求。</title>
+		<parse></parse>
+	</question>
+	<question hasimg="1">
+		<id>20150121155230029562552-1065e9f752af</id>
+		<headingid>20150121155230027609397-16ca0ddbd614</headingid>
+		<sort>104</sort>
+		<type>12</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.A点处竖向支座反力Y1逐渐减小至零</option>
+			<option sort="B">B.支座反力Y，保持不变</option>
+			<option sort="C">C.支座反力Y2逐渐减小</option>
+			<option sort="D">D.整个杆件最大弯矩值逐渐减小</option>
+			<option sort="E">E.整个杆件最大剪力值逐渐增大</option>
+		</options>
+		<answer>ACD</answer>
+		<title>如图所示伸臂梁,A点支座固定,B点处支座由B点水平平移至C点,则以下描述中正确的是(  )。
+
+		【2015011715.jpg】</title>
+		<parse>取B点为计算平衡点，计算A点处竖向反力和C点处F的力矩平衡，由此可知Y1逐渐减小，当B移动至C点时，Y1减小至零。
+
+			取A点为计算平衡点，计算B点处竖向反力和C点处F的力矩平衡，由此可知y2也逐渐减小，当B移动至C点时，K减小至与F相等。
+
+			对于这种外伸梁，其弯矩和剪力图如下：
+
+			根据弯矩图，最大弯矩坛Mmax=MA=-Fa，明显随着a的
+
+			变小，整个杆件的最大弯矩值越来越小。
+
+		根据剪力图，杆件剪力值是稳定的，只是随着中间支座位置的变化，相应剪力的作用方向发生变化。</parse>
+	</question>
+	<question hasimg="0">
+		<id>201501211552300295625f2-ae657f41e550</id>
+		<headingid>20150121155230027609397-16ca0ddbd614</headingid>
+		<sort>105</sort>
+		<type>12</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.焊接连接</option>
+			<option sort="B">B.螺栓连接</option>
+			<option sort="C">C.机械连接</option>
+			<option sort="D">D.绑扎连接</option>
+			<option sort="E">E.铆钉连接</option>
+		</options>
+		<answer>ABE</answer>
+		<title>下列各选项中,属钢结构连接方法的有(  )。</title>
+		<parse></parse>
+	</question>
+	<question hasimg="0">
+		<id>20150121155230030539070-8fea19978b2e</id>
+		<headingid>20150121155230027609397-16ca0ddbd614</headingid>
+		<sort>106</sort>
+		<type>12</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.结构自重</option>
+			<option sort="B">B.温度变化</option>
+			<option sort="C">C.地震沉降</option>
+			<option sort="D">D.焊接变化</option>
+			<option sort="E">E.混凝土收缩</option>
+		</options>
+		<answer>BCDE</answer>
+		<title>下列荷载作用中,属于荷载间接作用的有(  )。</title>
+		<parse></parse>
+	</question>
+	<question hasimg="0">
+		<id>201501211552300305390c3-66390c3c7a73</id>
+		<headingid>20150121155230027609397-16ca0ddbd614</headingid>
+		<sort>107</sort>
+		<type>12</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.简体结构</option>
+			<option sort="B">B.网架结构</option>
+			<option sort="C">C.桁架结构</option>
+			<option sort="D">D.拱式结构</option>
+			<option sort="E">E.壳体结构</option>
+		</options>
+		<answer>DE</answer>
+		<title>下列结构体系形式中,内力主要是轴向压力的有(  )。</title>
+		<parse></parse>
+	</question>
+	<question hasimg="0">
+		<id>20150121155230030539023-8183e88fb711</id>
+		<headingid>20150121155230027609397-16ca0ddbd614</headingid>
+		<sort>108</sort>
+		<type>12</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.除应符合防火规范的规定外，供日常主要交通用的楼梯的梯段宽度应根据建筑物使用特征，按每股人流为0．05m+(0～0．15)m的人流股数确定，并不应少于两股人流</option>
+			<option sort="B">B.梯段改变方向时，扶手转向端处的平台最小宽度不应小于梯段宽度。并不得小于1．20m，当有搬运大型物件需要时应适量加宽</option>
+			<option sort="C">C.每个梯段的踏步不应超过18级，亦不应少于3级</option>
+			<option sort="D">D.楼梯平台上部及下部过道处的净高不应小于2m，梯段净高不宜小于2．20m</option>
+			<option sort="E">E.服务楼梯踏步最小宽度0．20m．最大高度0．20m</option>
+		</options>
+		<answer>BCD</answer>
+		<title>下列楼梯的空间尺度符合《民用建筑设计通则》GB50352-2005规范的有(  )。</title>
+		<parse>P34-35:A每股人流为0.55+(0~0.15)m，E服务楼梯最小踏步宽度0.22m,最大高度0.2m。【感谢考试100用户“卿如梦”为本题提供解析】</parse>
+	</question>
+	<question hasimg="0">
+		<id>2015012115523003053909f-bc74f1f978f3</id>
+		<headingid>20150121155230027609397-16ca0ddbd614</headingid>
+		<sort>109</sort>
+		<type>12</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.门的开启不应跨越变形缝</option>
+			<option sort="B">B.手动开启的大门扇应有制动装置，推拉门应有防脱轨的措施</option>
+			<option sort="C">C.双面弹簧门应在可视高度部分装透明玻璃</option>
+			<option sort="D">D.旋转门、电动门和大型门的邻近应另设平开疏散门</option>
+			<option sort="E">E.全玻璃门应选用安全门或采取防护措施，并应设防撞提示标志</option>
+		</options>
+		<answer>ABDE</answer>
+		<title>下列门的设置符合《民用建筑设计通则》GB50352-2005规定的有(  )。</title>
+		<parse>p38。C应该是透明安全玻璃【感谢考试100用户“梅梅^_^”为本题提供解析】</parse>
+	</question>
+	<question hasimg="0">
+		<id>20150121155230030539016-6efa0e21cf78</id>
+		<headingid>20150121155230027609397-16ca0ddbd614</headingid>
+		<sort>110</sort>
+		<type>12</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.某建筑物遇到强烈地震，虽有局部损伤，但结构整体稳定</option>
+			<option sort="B">B.某厂房在正常使用时，吊车梁出现变形，但在规范规定之内，吊车正常运行</option>
+			<option sort="C">C.某游泳馆在正常使用时，水池出现裂缝，但在规范规定之内，水池正常蓄水</option>
+			<option sort="D">D.某水下构筑物在正常维护条件下，钢筋受到严重锈蚀，但满足使用年限</option>
+			<option sort="E">E.某厂房结构在正常施工时，受到八级热带风暴作用，但坚固不坏</option>
+		</options>
+		<answer>BC</answer>
+		<title>下列事件中,满足结构适用性功能要求的有(  )。</title>
+		<parse></parse>
+	</question>
+	<question hasimg="0">
+		<id>201501211552300305390b8-cb73fb6e1fb7</id>
+		<headingid>20150121155230027609397-16ca0ddbd614</headingid>
+		<sort>111</sort>
+		<type>12</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.索网</option>
+			<option sort="B">B.横隔</option>
+			<option sort="C">C.边梁</option>
+			<option sort="D">D.边缘构件</option>
+			<option sort="E">E.下部支撑结构</option>
+		</options>
+		<answer>ADE</answer>
+		<title>悬索结构的组成有(  )。</title>
+		<parse>p18</parse>
+	</question>
+	<question hasimg="0">
+		<id>2015012115523003053902d-602c4ea8efda</id>
+		<headingid>20150121155230027609397-16ca0ddbd614</headingid>
+		<sort>112</sort>
+		<type>12</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.VOC含量</option>
+			<option sort="B">B.游高甲醛含量</option>
+			<option sort="C">C.苯的含量</option>
+			<option sort="D">D.甲苯十二甲苯含量</option>
+			<option sort="E">E.放射性元素</option>
+		</options>
+		<answer>AB</answer>
+		<title>选择使用水性胶粘剂的材料,按《民用建筑室内环境污染控制规范》GB50325-2010(2013版)的规定,应测定(  )。</title>
+		<parse></parse>
+	</question>
+	<question hasimg="0">
+		<id>2015012115523003053903c-73a1fff2d379</id>
+		<headingid>20150121155230027609397-16ca0ddbd614</headingid>
+		<sort>113</sort>
+		<type>12</type>
+		<score>0</score>
+		<options>
+			<option sort="A">A.砖砌体的截面尺寸</option>
+			<option sort="B">B.砖的强度等级</option>
+			<option sort="C">C.砂浆的强度及厚度</option>
+			<option sort="D">D.砖的截面尺寸大小</option>
+			<option sort="E">E.操作人员的技术水平</option>
+		</options>
+		<answer>BCE</answer>
+		<title>影响砖砌体抗压强度的主要因素有(  )。</title>
+		<parse>由于砂浆铺砌不均，砖块不仅受压，而且还受弯、剪、局部压力的联合作用；由于砖和砂浆受压后横向变形不同，还使砖处于受拉状态；此外，由于有竖缝存在，使砖块在该处又有一个较高的应力区。因此，砌体中砖所受的应力十分复杂，特别是拉、弯作用产生的内力使砖较早出现竖向裂缝。这正是砌体抗压强度比砖抗压强度小得多的原因。
+
+		影响砖砌体抗压强度的主要因素包括：砖的强度等级；砂浆的强度等级及其厚度；砌筑质量，包括饱满度、砌筑时砖的含水率、操作人员的技术水平等。</parse>
+	</question>
+	<heading>
+		<id>201501211552300305390d3-e0bb151f08c6</id>
+		<sort>3</sort>
+		<type>30</type>
+		<abbr>问答题</abbr>
+		<title>三、问答题</title>
+	</heading>
+	<question hasimg="0">
+		<id>201501211552300305390ac-55130c530101</id>
+		<headingid>201501211552300305390d3-e0bb151f08c6</headingid>
+		<sort>114</sort>
+		<type>31</type>
+		<score>0</score>
+		<options/>
+		<answer>(1)不符合规范的做法如下：
+			1)模板安装时应起拱．当设计无要求时，跨度9m的现浇混凝土梁板起拱可按跨度的111000～3/1000取值；
+			2)当设计按最小配筋率配筋时，应按照等面积代换的原则进行钢筋代换，即钢筋间距不应增大，同时钢筋代换首先应征得设计单位同意办理变更后方可进行；
+			3)混凝土浇筑完后，在第二天才开始浇水养护是不对的，应在12h似内覆盖并浇水养护，浇水次数应能保持混凝土湿润；
+			4)对于跨度9m的现浇混凝土梁板，按照《混凝土结构工程施工质量验收规范》GB50204-2002第4．3条的要求．其跨度已经超过8m，拆模时的混凝土强度应达到设计强度的100%方可拆除模板。
+			5)拆模后发现混凝土质量有缺陷，显然，在混凝土浇筑过程中存在振捣不密实．没有在初凝前进行二次抹压且养护不及时，拆模过早等不正确的施工方法。
+			(2)规范规定的结构实体检验的内容包括：混凝土强度检验、钢筋保护层厚度检验以及工程合同约定的项目检验。主要检验涉及结构安全的柱、墙、梁等重要部位。
+			(3)混凝土标准养护应在标准养护室或标养箱中进行，标准养护温度为20±2℃，相对湿度为95%以上（GB/T50081-2002第5．2．2条）．放在支架上，彼此间隔10～20mm，标准养护龄期为28d，检测其抗压强度用来评定混凝土的强度。同条件养护试块应放在试块所代表的混凝土结构部位的附近，与结构实体同条件进行养护，其强度作为结构实体的混凝土强度的依据。
+		(4)标准养护试块代表的是混凝土的配合比，是评价工程实体强度的主要依据，同条件养护试块代表的是结构实体的质量。如同条件斌块不合格则必须要回弹检测，《混凝土结构工程施工质量验收规范》GB50204-2002（2010年版）对此做出了明确的规定。</answer>
+		<title>某框架剪力墙结构,框架柱间距9m,普通梁板结构,三层楼板施工当天气温为35℃,没有雨,施工单位制定了完整的施工方案,采用预拌混凝土,钢筋现场加工,采用多层板模板碗扣支撑,架子工搭设完支撑架后由木工制作好后直接拼装梁板模板,其施工过程如下:
+
+			模板安装用具有足够承载力和刚度的碗扣式钢管作支撑,模板拼接整齐、严密。梁板模板安装完毕后,用水准仪抄平,保证整体在同一个平面上,不存在凹凸不平问题。
+
+			钢筋绑扎符合规范要求。但是,当时市场上HRB335级直径12mm(间距200mm)的钢筋紧缺,施工单位征得监理单位和建设单位同意后,按等强度折算后(设计按最小配筋率配筋),用HRB335级直径12mm(间距250mm)的钢筋进行代换,以保证整体受力不变。
+
+			钢筋验收后,将木模板中的垃圾清理干净,就开始浇筑混凝土。混凝土浇筑前根据规范要求取样做试块,分别进行标准养护和同条件养护,之后进行混凝土浇筑并振捣,在浇筑完后第二天开始浇水养护。
+
+			10d后同条件养护试块迭试验室进行试验,混凝土试块抗压强度达到设计强度的80%,超过了75%,施工单位决定拆除模板。拆模后为了保证结构的安全性,在梁板跨中部位分别采用了临时支撑。
+
+			拆模后发现:(1)梁板的挠度过大,超过了规范要求;(2)混凝土局部有蜂窝、麻面现象;(3)露面混凝土局部有开裂现象。问题:
+
+			(1)试分析上述施工过程中有哪些不符合规范要求的事项,并写出正确做法。
+
+			(2)《混凝土结构工程施工质量验收规范&gt;要求结构实体检验的包括哪些内容主要检验哪些部位
+
+			(3)简要说明混凝土试块标准养护与同条件养护的区别。
+
+		(4)若四层梁板结构标准养护混凝土试块符合标准要求,但是同条件养护试块达不到标准要求,问要不要回弹为什么</title>
+		<parse></parse>
+	</question>
+</service>

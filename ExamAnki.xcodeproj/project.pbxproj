@@ -1,0 +1,818 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F6206EA1C7CAA3200809FFD /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F6206E91C7CAA3200809FFD /* libxml2.2.tbd */; };
+		A9DFC00F1C804698000CA605 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9DFBFD31C804698000CA605 /* LaunchScreen.storyboard */; };
+		A9DFC0101C804698000CA605 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9DFBFD51C804698000CA605 /* Main.storyboard */; };
+		A9DFC0111C804698000CA605 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DFBFD81C804698000CA605 /* AppDelegate.swift */; };
+		A9DFC0121C804698000CA605 /* GlbolTableName.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DFBFDA1C804698000CA605 /* GlbolTableName.swift */; };
+		A9DFC0131C804698000CA605 /* BookmarkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DFBFDD1C804698000CA605 /* BookmarkCell.swift */; };
+		A9DFC0141C804698000CA605 /* BookmarkQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DFBFDE1C804698000CA605 /* BookmarkQuestionViewController.swift */; };
+		A9DFC0151C804698000CA605 /* BookmarkRecord+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DFBFE81C804698000CA605 /* BookmarkRecord+CoreDataProperties.swift */; };
+		A9DFC0161C804698000CA605 /* BookmarkRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DFBFE91C804698000CA605 /* BookmarkRecord.swift */; };
+		A9DFC0171C804698000CA605 /* Card+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DFBFEA1C804698000CA605 /* Card+CoreDataProperties.swift */; };
+		A9DFC0181C804698000CA605 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DFBFEB1C804698000CA605 /* Card.swift */; };
+		A9DFC0191C804698000CA605 /* FlashTopic+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DFBFEC1C804698000CA605 /* FlashTopic+CoreDataProperties.swift */; };
+		A9DFC01A1C804698000CA605 /* FlashTopic.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DFBFED1C804698000CA605 /* FlashTopic.swift */; };
+		A9DFC01B1C804698000CA605 /* Heading+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DFBFEE1C804698000CA605 /* Heading+CoreDataProperties.swift */; };
+		A9DFC01C1C804698000CA605 /* Heading.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DFBFEF1C804698000CA605 /* Heading.swift */; };
+		A9DFC01D1C804698000CA605 /* PaperInfo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DFBFF01C804698000CA605 /* PaperInfo+CoreDataProperties.swift */; };
+		A9DFC01E1C804698000CA605 /* PaperInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DFBFF11C804698000CA605 /* PaperInfo.swift */; };
+		A9DFC01F1C804698000CA605 /* Question+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DFBFF21C804698000CA605 /* Question+CoreDataProperties.swift */; };
+		A9DFC0201C804698000CA605 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DFBFF31C804698000CA605 /* Question.swift */; };
+		A9DFC0211C804698000CA605 /* QuestionMaterial+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DFBFF41C804698000CA605 /* QuestionMaterial+CoreDataProperties.swift */; };
+		A9DFC0221C804698000CA605 /* QuestionMaterial.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DFBFF51C804698000CA605 /* QuestionMaterial.swift */; };
+		A9DFC0231C804698000CA605 /* QuestionOption+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DFBFF61C804698000CA605 /* QuestionOption+CoreDataProperties.swift */; };
+		A9DFC0241C804698000CA605 /* QuestionOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DFBFF71C804698000CA605 /* QuestionOption.swift */; };
+		A9DFC0251C804698000CA605 /* UserQuestionRecord+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DFBFF81C804698000CA605 /* UserQuestionRecord+CoreDataProperties.swift */; };
+		A9DFC0261C804698000CA605 /* UserQuestionRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DFBFF91C804698000CA605 /* UserQuestionRecord.swift */; };
+		A9DFC0271C804698000CA605 /* UserWrongQuestionRecord+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DFBFFA1C804698000CA605 /* UserWrongQuestionRecord+CoreDataProperties.swift */; };
+		A9DFC0281C804698000CA605 /* UserWrongQuestionRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DFBFFB1C804698000CA605 /* UserWrongQuestionRecord.swift */; };
+		A9DFC0291C804698000CA605 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9DFBFFD1C804698000CA605 /* Assets.xcassets */; };
+		A9DFC02A1C804698000CA605 /* ExamAnki.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A9DFBFFE1C804698000CA605 /* ExamAnki.xcdatamodeld */; };
+		A9DFC02B1C804698000CA605 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A9DFC0001C804698000CA605 /* Info.plist */; };
+		A9DFC02C1C804698000CA605 /* 20141230165606945484423-3c2da1df6488.xml in Resources */ = {isa = PBXBuildFile; fileRef = A9DFC0021C804698000CA605 /* 20141230165606945484423-3c2da1df6488.xml */; };
+		A9DFC02D1C804698000CA605 /* 2015082816033575811715e-5b538a495fa6.xml in Resources */ = {isa = PBXBuildFile; fileRef = A9DFC0031C804698000CA605 /* 2015082816033575811715e-5b538a495fa6.xml */; };
+		A9DFC02E1C804698000CA605 /* 20151015170129212125061-b2407ba143d3.xml in Resources */ = {isa = PBXBuildFile; fileRef = A9DFC0041C804698000CA605 /* 20151015170129212125061-b2407ba143d3.xml */; };
+		A9DFC02F1C804698000CA605 /* XZModelService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DFC0061C804698000CA605 /* XZModelService.swift */; };
+		A9DFC0301C804698000CA605 /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DFC00A1C804698000CA605 /* GDataXMLNode.m */; };
+		A9DFC0311C804698000CA605 /* AEXML.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DFC00C1C804698000CA605 /* AEXML.swift */; };
+		A9DFC0321C804698000CA605 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DFC00D1C804698000CA605 /* CoreDataStack.swift */; };
+		A9DFC0331C804698000CA605 /* XMLAnalysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DFC00E1C804698000CA605 /* XMLAnalysis.swift */; };
+		D390BF5A1C78D0FD0079FD8F /* ExamAnkiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D390BF591C78D0FD0079FD8F /* ExamAnkiTests.swift */; };
+		D390BF651C78D0FD0079FD8F /* ExamAnkiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D390BF641C78D0FD0079FD8F /* ExamAnkiUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D390BF561C78D0FD0079FD8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D390BF361C78D0FD0079FD8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D390BF3D1C78D0FD0079FD8F;
+			remoteInfo = ExamAnki;
+		};
+		D390BF611C78D0FD0079FD8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D390BF361C78D0FD0079FD8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D390BF3D1C78D0FD0079FD8F;
+			remoteInfo = ExamAnki;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9F6206E91C7CAA3200809FFD /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
+		A9DFBFD41C804698000CA605 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A9DFBFD61C804698000CA605 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9DFBFD81C804698000CA605 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A9DFBFD91C804698000CA605 /* ExamAnki-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ExamAnki-Bridging-Header.h"; sourceTree = "<group>"; };
+		A9DFBFDA1C804698000CA605 /* GlbolTableName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlbolTableName.swift; sourceTree = "<group>"; };
+		A9DFBFDD1C804698000CA605 /* BookmarkCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookmarkCell.swift; sourceTree = "<group>"; };
+		A9DFBFDE1C804698000CA605 /* BookmarkQuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookmarkQuestionViewController.swift; sourceTree = "<group>"; };
+		A9DFBFE81C804698000CA605 /* BookmarkRecord+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BookmarkRecord+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A9DFBFE91C804698000CA605 /* BookmarkRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookmarkRecord.swift; sourceTree = "<group>"; };
+		A9DFBFEA1C804698000CA605 /* Card+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Card+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A9DFBFEB1C804698000CA605 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		A9DFBFEC1C804698000CA605 /* FlashTopic+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FlashTopic+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A9DFBFED1C804698000CA605 /* FlashTopic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlashTopic.swift; sourceTree = "<group>"; };
+		A9DFBFEE1C804698000CA605 /* Heading+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Heading+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A9DFBFEF1C804698000CA605 /* Heading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Heading.swift; sourceTree = "<group>"; };
+		A9DFBFF01C804698000CA605 /* PaperInfo+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PaperInfo+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A9DFBFF11C804698000CA605 /* PaperInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaperInfo.swift; sourceTree = "<group>"; };
+		A9DFBFF21C804698000CA605 /* Question+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Question+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A9DFBFF31C804698000CA605 /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		A9DFBFF41C804698000CA605 /* QuestionMaterial+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "QuestionMaterial+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A9DFBFF51C804698000CA605 /* QuestionMaterial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionMaterial.swift; sourceTree = "<group>"; };
+		A9DFBFF61C804698000CA605 /* QuestionOption+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "QuestionOption+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A9DFBFF71C804698000CA605 /* QuestionOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionOption.swift; sourceTree = "<group>"; };
+		A9DFBFF81C804698000CA605 /* UserQuestionRecord+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserQuestionRecord+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A9DFBFF91C804698000CA605 /* UserQuestionRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserQuestionRecord.swift; sourceTree = "<group>"; };
+		A9DFBFFA1C804698000CA605 /* UserWrongQuestionRecord+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserWrongQuestionRecord+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A9DFBFFB1C804698000CA605 /* UserWrongQuestionRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserWrongQuestionRecord.swift; sourceTree = "<group>"; };
+		A9DFBFFD1C804698000CA605 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9DFBFFF1C804698000CA605 /* ExamAnki.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ExamAnki.xcdatamodel; sourceTree = "<group>"; };
+		A9DFC0001C804698000CA605 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9DFC0021C804698000CA605 /* 20141230165606945484423-3c2da1df6488.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "20141230165606945484423-3c2da1df6488.xml"; sourceTree = "<group>"; };
+		A9DFC0031C804698000CA605 /* 2015082816033575811715e-5b538a495fa6.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "2015082816033575811715e-5b538a495fa6.xml"; sourceTree = "<group>"; };
+		A9DFC0041C804698000CA605 /* 20151015170129212125061-b2407ba143d3.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "20151015170129212125061-b2407ba143d3.xml"; sourceTree = "<group>"; };
+		A9DFC0061C804698000CA605 /* XZModelService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XZModelService.swift; sourceTree = "<group>"; };
+		A9DFC0091C804698000CA605 /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
+		A9DFC00A1C804698000CA605 /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
+		A9DFC00C1C804698000CA605 /* AEXML.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AEXML.swift; sourceTree = "<group>"; };
+		A9DFC00D1C804698000CA605 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		A9DFC00E1C804698000CA605 /* XMLAnalysis.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMLAnalysis.swift; sourceTree = "<group>"; };
+		D390BF3E1C78D0FD0079FD8F /* ExamAnki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExamAnki.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D390BF551C78D0FD0079FD8F /* ExamAnkiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExamAnkiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D390BF591C78D0FD0079FD8F /* ExamAnkiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamAnkiTests.swift; sourceTree = "<group>"; };
+		D390BF5B1C78D0FD0079FD8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D390BF601C78D0FD0079FD8F /* ExamAnkiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExamAnkiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D390BF641C78D0FD0079FD8F /* ExamAnkiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamAnkiUITests.swift; sourceTree = "<group>"; };
+		D390BF661C78D0FD0079FD8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D390BF3B1C78D0FD0079FD8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F6206EA1C7CAA3200809FFD /* libxml2.2.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D390BF521C78D0FD0079FD8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D390BF5D1C78D0FD0079FD8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9DFBFD21C804698000CA605 /* ExamAnki */ = {
+			isa = PBXGroup;
+			children = (
+				A9DFBFD31C804698000CA605 /* LaunchScreen.storyboard */,
+				A9DFBFD51C804698000CA605 /* Main.storyboard */,
+				A9DFBFD71C804698000CA605 /* Common */,
+				A9DFBFDB1C804698000CA605 /* EAAbout */,
+				A9DFBFDC1C804698000CA605 /* EABookmark */,
+				A9DFBFDF1C804698000CA605 /* EAComment */,
+				A9DFBFE01C804698000CA605 /* EAFeedback */,
+				A9DFBFE11C804698000CA605 /* EAFlashCard */,
+				A9DFBFE21C804698000CA605 /* EAFrameWorks */,
+				A9DFBFE31C804698000CA605 /* EAImport */,
+				A9DFBFE41C804698000CA605 /* EAMain */,
+				A9DFBFE51C804698000CA605 /* EAShare */,
+				A9DFBFE61C804698000CA605 /* EAWrong */,
+				A9DFBFE71C804698000CA605 /* ModelClass */,
+				A9DFBFFC1C804698000CA605 /* Resources */,
+				A9DFC0051C804698000CA605 /* Service */,
+				A9DFC0071C804698000CA605 /* ThirdParty */,
+				A9DFC00B1C804698000CA605 /* xmlAnalysis */,
+			);
+			path = ExamAnki;
+			sourceTree = "<group>";
+		};
+		A9DFBFD71C804698000CA605 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				A9DFBFD81C804698000CA605 /* AppDelegate.swift */,
+				A9DFBFD91C804698000CA605 /* ExamAnki-Bridging-Header.h */,
+				A9DFBFDA1C804698000CA605 /* GlbolTableName.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		A9DFBFDB1C804698000CA605 /* EAAbout */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = EAAbout;
+			sourceTree = "<group>";
+		};
+		A9DFBFDC1C804698000CA605 /* EABookmark */ = {
+			isa = PBXGroup;
+			children = (
+				A9DFBFDD1C804698000CA605 /* BookmarkCell.swift */,
+				A9DFBFDE1C804698000CA605 /* BookmarkQuestionViewController.swift */,
+			);
+			path = EABookmark;
+			sourceTree = "<group>";
+		};
+		A9DFBFDF1C804698000CA605 /* EAComment */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = EAComment;
+			sourceTree = "<group>";
+		};
+		A9DFBFE01C804698000CA605 /* EAFeedback */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = EAFeedback;
+			sourceTree = "<group>";
+		};
+		A9DFBFE11C804698000CA605 /* EAFlashCard */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = EAFlashCard;
+			sourceTree = "<group>";
+		};
+		A9DFBFE21C804698000CA605 /* EAFrameWorks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = EAFrameWorks;
+			sourceTree = "<group>";
+		};
+		A9DFBFE31C804698000CA605 /* EAImport */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = EAImport;
+			sourceTree = "<group>";
+		};
+		A9DFBFE41C804698000CA605 /* EAMain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = EAMain;
+			sourceTree = "<group>";
+		};
+		A9DFBFE51C804698000CA605 /* EAShare */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = EAShare;
+			sourceTree = "<group>";
+		};
+		A9DFBFE61C804698000CA605 /* EAWrong */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = EAWrong;
+			sourceTree = "<group>";
+		};
+		A9DFBFE71C804698000CA605 /* ModelClass */ = {
+			isa = PBXGroup;
+			children = (
+				A9DFBFE81C804698000CA605 /* BookmarkRecord+CoreDataProperties.swift */,
+				A9DFBFE91C804698000CA605 /* BookmarkRecord.swift */,
+				A9DFBFEA1C804698000CA605 /* Card+CoreDataProperties.swift */,
+				A9DFBFEB1C804698000CA605 /* Card.swift */,
+				A9DFBFEC1C804698000CA605 /* FlashTopic+CoreDataProperties.swift */,
+				A9DFBFED1C804698000CA605 /* FlashTopic.swift */,
+				A9DFBFEE1C804698000CA605 /* Heading+CoreDataProperties.swift */,
+				A9DFBFEF1C804698000CA605 /* Heading.swift */,
+				A9DFBFF01C804698000CA605 /* PaperInfo+CoreDataProperties.swift */,
+				A9DFBFF11C804698000CA605 /* PaperInfo.swift */,
+				A9DFBFF21C804698000CA605 /* Question+CoreDataProperties.swift */,
+				A9DFBFF31C804698000CA605 /* Question.swift */,
+				A9DFBFF41C804698000CA605 /* QuestionMaterial+CoreDataProperties.swift */,
+				A9DFBFF51C804698000CA605 /* QuestionMaterial.swift */,
+				A9DFBFF61C804698000CA605 /* QuestionOption+CoreDataProperties.swift */,
+				A9DFBFF71C804698000CA605 /* QuestionOption.swift */,
+				A9DFBFF81C804698000CA605 /* UserQuestionRecord+CoreDataProperties.swift */,
+				A9DFBFF91C804698000CA605 /* UserQuestionRecord.swift */,
+				A9DFBFFA1C804698000CA605 /* UserWrongQuestionRecord+CoreDataProperties.swift */,
+				A9DFBFFB1C804698000CA605 /* UserWrongQuestionRecord.swift */,
+			);
+			path = ModelClass;
+			sourceTree = "<group>";
+		};
+		A9DFBFFC1C804698000CA605 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A9DFBFFD1C804698000CA605 /* Assets.xcassets */,
+				A9DFBFFE1C804698000CA605 /* ExamAnki.xcdatamodeld */,
+				A9DFC0001C804698000CA605 /* Info.plist */,
+				A9DFC0011C804698000CA605 /* papers */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A9DFC0011C804698000CA605 /* papers */ = {
+			isa = PBXGroup;
+			children = (
+				A9DFC0021C804698000CA605 /* 20141230165606945484423-3c2da1df6488.xml */,
+				A9DFC0031C804698000CA605 /* 2015082816033575811715e-5b538a495fa6.xml */,
+				A9DFC0041C804698000CA605 /* 20151015170129212125061-b2407ba143d3.xml */,
+			);
+			path = papers;
+			sourceTree = "<group>";
+		};
+		A9DFC0051C804698000CA605 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				A9DFC0061C804698000CA605 /* XZModelService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		A9DFC0071C804698000CA605 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				A9DFC0081C804698000CA605 /* GDataXML */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		A9DFC0081C804698000CA605 /* GDataXML */ = {
+			isa = PBXGroup;
+			children = (
+				A9DFC0091C804698000CA605 /* GDataXMLNode.h */,
+				A9DFC00A1C804698000CA605 /* GDataXMLNode.m */,
+			);
+			path = GDataXML;
+			sourceTree = "<group>";
+		};
+		A9DFC00B1C804698000CA605 /* xmlAnalysis */ = {
+			isa = PBXGroup;
+			children = (
+				A9DFC00C1C804698000CA605 /* AEXML.swift */,
+				A9DFC00D1C804698000CA605 /* CoreDataStack.swift */,
+				A9DFC00E1C804698000CA605 /* XMLAnalysis.swift */,
+			);
+			path = xmlAnalysis;
+			sourceTree = "<group>";
+		};
+		D390BF351C78D0FD0079FD8F = {
+			isa = PBXGroup;
+			children = (
+				A9DFBFD21C804698000CA605 /* ExamAnki */,
+				9F6206E91C7CAA3200809FFD /* libxml2.2.tbd */,
+				D390BF581C78D0FD0079FD8F /* ExamAnkiTests */,
+				D390BF631C78D0FD0079FD8F /* ExamAnkiUITests */,
+				D390BF3F1C78D0FD0079FD8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D390BF3F1C78D0FD0079FD8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D390BF3E1C78D0FD0079FD8F /* ExamAnki.app */,
+				D390BF551C78D0FD0079FD8F /* ExamAnkiTests.xctest */,
+				D390BF601C78D0FD0079FD8F /* ExamAnkiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D390BF581C78D0FD0079FD8F /* ExamAnkiTests */ = {
+			isa = PBXGroup;
+			children = (
+				D390BF591C78D0FD0079FD8F /* ExamAnkiTests.swift */,
+				D390BF5B1C78D0FD0079FD8F /* Info.plist */,
+			);
+			path = ExamAnkiTests;
+			sourceTree = "<group>";
+		};
+		D390BF631C78D0FD0079FD8F /* ExamAnkiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D390BF641C78D0FD0079FD8F /* ExamAnkiUITests.swift */,
+				D390BF661C78D0FD0079FD8F /* Info.plist */,
+			);
+			path = ExamAnkiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D390BF3D1C78D0FD0079FD8F /* ExamAnki */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D390BF691C78D0FD0079FD8F /* Build configuration list for PBXNativeTarget "ExamAnki" */;
+			buildPhases = (
+				D390BF3A1C78D0FD0079FD8F /* Sources */,
+				D390BF3B1C78D0FD0079FD8F /* Frameworks */,
+				D390BF3C1C78D0FD0079FD8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExamAnki;
+			productName = ExamAnki;
+			productReference = D390BF3E1C78D0FD0079FD8F /* ExamAnki.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D390BF541C78D0FD0079FD8F /* ExamAnkiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D390BF6C1C78D0FD0079FD8F /* Build configuration list for PBXNativeTarget "ExamAnkiTests" */;
+			buildPhases = (
+				D390BF511C78D0FD0079FD8F /* Sources */,
+				D390BF521C78D0FD0079FD8F /* Frameworks */,
+				D390BF531C78D0FD0079FD8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D390BF571C78D0FD0079FD8F /* PBXTargetDependency */,
+			);
+			name = ExamAnkiTests;
+			productName = ExamAnkiTests;
+			productReference = D390BF551C78D0FD0079FD8F /* ExamAnkiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D390BF5F1C78D0FD0079FD8F /* ExamAnkiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D390BF6F1C78D0FD0079FD8F /* Build configuration list for PBXNativeTarget "ExamAnkiUITests" */;
+			buildPhases = (
+				D390BF5C1C78D0FD0079FD8F /* Sources */,
+				D390BF5D1C78D0FD0079FD8F /* Frameworks */,
+				D390BF5E1C78D0FD0079FD8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D390BF621C78D0FD0079FD8F /* PBXTargetDependency */,
+			);
+			name = ExamAnkiUITests;
+			productName = ExamAnkiUITests;
+			productReference = D390BF601C78D0FD0079FD8F /* ExamAnkiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D390BF361C78D0FD0079FD8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = kongyunpeng;
+				TargetAttributes = {
+					D390BF3D1C78D0FD0079FD8F = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					D390BF541C78D0FD0079FD8F = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = D390BF3D1C78D0FD0079FD8F;
+					};
+					D390BF5F1C78D0FD0079FD8F = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = D390BF3D1C78D0FD0079FD8F;
+					};
+				};
+			};
+			buildConfigurationList = D390BF391C78D0FD0079FD8F /* Build configuration list for PBXProject "ExamAnki" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D390BF351C78D0FD0079FD8F;
+			productRefGroup = D390BF3F1C78D0FD0079FD8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D390BF3D1C78D0FD0079FD8F /* ExamAnki */,
+				D390BF541C78D0FD0079FD8F /* ExamAnkiTests */,
+				D390BF5F1C78D0FD0079FD8F /* ExamAnkiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D390BF3C1C78D0FD0079FD8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9DFC02E1C804698000CA605 /* 20151015170129212125061-b2407ba143d3.xml in Resources */,
+				A9DFC02B1C804698000CA605 /* Info.plist in Resources */,
+				A9DFC00F1C804698000CA605 /* LaunchScreen.storyboard in Resources */,
+				A9DFC0291C804698000CA605 /* Assets.xcassets in Resources */,
+				A9DFC02D1C804698000CA605 /* 2015082816033575811715e-5b538a495fa6.xml in Resources */,
+				A9DFC02C1C804698000CA605 /* 20141230165606945484423-3c2da1df6488.xml in Resources */,
+				A9DFC0101C804698000CA605 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D390BF531C78D0FD0079FD8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D390BF5E1C78D0FD0079FD8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D390BF3A1C78D0FD0079FD8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9DFC0271C804698000CA605 /* UserWrongQuestionRecord+CoreDataProperties.swift in Sources */,
+				A9DFC01C1C804698000CA605 /* Heading.swift in Sources */,
+				A9DFC0201C804698000CA605 /* Question.swift in Sources */,
+				A9DFC02F1C804698000CA605 /* XZModelService.swift in Sources */,
+				A9DFC0281C804698000CA605 /* UserWrongQuestionRecord.swift in Sources */,
+				A9DFC0301C804698000CA605 /* GDataXMLNode.m in Sources */,
+				A9DFC0141C804698000CA605 /* BookmarkQuestionViewController.swift in Sources */,
+				A9DFC0171C804698000CA605 /* Card+CoreDataProperties.swift in Sources */,
+				A9DFC0251C804698000CA605 /* UserQuestionRecord+CoreDataProperties.swift in Sources */,
+				A9DFC0261C804698000CA605 /* UserQuestionRecord.swift in Sources */,
+				A9DFC0121C804698000CA605 /* GlbolTableName.swift in Sources */,
+				A9DFC0161C804698000CA605 /* BookmarkRecord.swift in Sources */,
+				A9DFC01B1C804698000CA605 /* Heading+CoreDataProperties.swift in Sources */,
+				A9DFC01E1C804698000CA605 /* PaperInfo.swift in Sources */,
+				A9DFC0191C804698000CA605 /* FlashTopic+CoreDataProperties.swift in Sources */,
+				A9DFC01D1C804698000CA605 /* PaperInfo+CoreDataProperties.swift in Sources */,
+				A9DFC0231C804698000CA605 /* QuestionOption+CoreDataProperties.swift in Sources */,
+				A9DFC0111C804698000CA605 /* AppDelegate.swift in Sources */,
+				A9DFC0131C804698000CA605 /* BookmarkCell.swift in Sources */,
+				A9DFC0221C804698000CA605 /* QuestionMaterial.swift in Sources */,
+				A9DFC0151C804698000CA605 /* BookmarkRecord+CoreDataProperties.swift in Sources */,
+				A9DFC0331C804698000CA605 /* XMLAnalysis.swift in Sources */,
+				A9DFC01A1C804698000CA605 /* FlashTopic.swift in Sources */,
+				A9DFC0241C804698000CA605 /* QuestionOption.swift in Sources */,
+				A9DFC0211C804698000CA605 /* QuestionMaterial+CoreDataProperties.swift in Sources */,
+				A9DFC02A1C804698000CA605 /* ExamAnki.xcdatamodeld in Sources */,
+				A9DFC0311C804698000CA605 /* AEXML.swift in Sources */,
+				A9DFC01F1C804698000CA605 /* Question+CoreDataProperties.swift in Sources */,
+				A9DFC0181C804698000CA605 /* Card.swift in Sources */,
+				A9DFC0321C804698000CA605 /* CoreDataStack.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D390BF511C78D0FD0079FD8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D390BF5A1C78D0FD0079FD8F /* ExamAnkiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D390BF5C1C78D0FD0079FD8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D390BF651C78D0FD0079FD8F /* ExamAnkiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D390BF571C78D0FD0079FD8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D390BF3D1C78D0FD0079FD8F /* ExamAnki */;
+			targetProxy = D390BF561C78D0FD0079FD8F /* PBXContainerItemProxy */;
+		};
+		D390BF621C78D0FD0079FD8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D390BF3D1C78D0FD0079FD8F /* ExamAnki */;
+			targetProxy = D390BF611C78D0FD0079FD8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A9DFBFD31C804698000CA605 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9DFBFD41C804698000CA605 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A9DFBFD51C804698000CA605 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9DFBFD61C804698000CA605 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D390BF671C78D0FD0079FD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "${SDK_DIR}/usr/include/libxml2.2";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D390BF681C78D0FD0079FD8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "${SDK_DIR}/usr/include/libxml2.2";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D390BF6A1C78D0FD0079FD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				HEADER_SEARCH_PATHS = "${SDK_DIR}/usr/include/libxml2";
+				INFOPLIST_FILE = ExamAnki/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyp.ExamAnki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ExamAnki/Common/ExamAnki-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D390BF6B1C78D0FD0079FD8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				HEADER_SEARCH_PATHS = "${SDK_DIR}/usr/include/libxml2";
+				INFOPLIST_FILE = ExamAnki/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyp.ExamAnki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ExamAnki/Common/ExamAnki-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		D390BF6D1C78D0FD0079FD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ExamAnkiTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyp.ExamAnkiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExamAnki.app/ExamAnki";
+			};
+			name = Debug;
+		};
+		D390BF6E1C78D0FD0079FD8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ExamAnkiTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyp.ExamAnkiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExamAnki.app/ExamAnki";
+			};
+			name = Release;
+		};
+		D390BF701C78D0FD0079FD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = "${SDK_DIR}/usr/include/libxml2";
+				INFOPLIST_FILE = ExamAnkiUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyp.ExamAnkiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ExamAnki;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D390BF711C78D0FD0079FD8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = "${SDK_DIR}/usr/include/libxml2";
+				INFOPLIST_FILE = ExamAnkiUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyp.ExamAnkiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ExamAnki;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D390BF391C78D0FD0079FD8F /* Build configuration list for PBXProject "ExamAnki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D390BF671C78D0FD0079FD8F /* Debug */,
+				D390BF681C78D0FD0079FD8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D390BF691C78D0FD0079FD8F /* Build configuration list for PBXNativeTarget "ExamAnki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D390BF6A1C78D0FD0079FD8F /* Debug */,
+				D390BF6B1C78D0FD0079FD8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D390BF6C1C78D0FD0079FD8F /* Build configuration list for PBXNativeTarget "ExamAnkiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D390BF6D1C78D0FD0079FD8F /* Debug */,
+				D390BF6E1C78D0FD0079FD8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D390BF6F1C78D0FD0079FD8F /* Build configuration list for PBXNativeTarget "ExamAnkiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D390BF701C78D0FD0079FD8F /* Debug */,
+				D390BF711C78D0FD0079FD8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A9DFBFFE1C804698000CA605 /* ExamAnki.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A9DFBFFF1C804698000CA605 /* ExamAnki.xcdatamodel */,
+			);
+			currentVersion = A9DFBFFF1C804698000CA605 /* ExamAnki.xcdatamodel */;
+			path = ExamAnki.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D390BF361C78D0FD0079FD8F /* Project object */;
+}

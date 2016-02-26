@@ -1,0 +1,870 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<service no="51" errno="0" title="2015模拟题" id="2015082816033575811715e-5b538a495fa6" type="模拟题">
+	<heading>
+		<id>201508281603381223750c8-ca9e9ec09d1b</id>
+		<sort>1</sort>
+		<type>10</type>
+		<abbr>单选题</abbr>
+		<title>一、单项选择题(共20题,每题1分。每题的备选项中,只有1个最符合题意)</title>
+	</heading>
+	<question hasimg="0">
+		<id>201508281603381233515eb-8c536bf73cad</id>
+		<headingid>201508281603381223750c8-ca9e9ec09d1b</headingid>
+		<sort>1</sort>
+		<type>11</type>
+		<score>1</score>
+		<options>
+			<option sort="A">A.设计单位</option>
+			<option sort="B">B.建设单位</option>
+			<option sort="C">C.总监理工程师</option>
+			<option sort="D">D.电气工程技术人员</option>
+		</options>
+		<answer>D</answer>
+		<title>临时用电组织设计及变更必须由(  )编制,相关部门审核,并经具有法人资格企业的技术负责人批准,现场监理签认后实施。</title>
+		<parse>本题涉及的考点是施工现场临时用电管理。临时用电组织设计及变更必须由电气工程技术人员编制，相关部门审核，并经具有法人资格企业的技术负责人批准，现场监理签认后实施。</parse>
+	</question>
+	<question hasimg="0">
+		<id>201508281603381233515fe-2c7ab4104600</id>
+		<headingid>201508281603381223750c8-ca9e9ec09d1b</headingid>
+		<sort>2</sort>
+		<type>11</type>
+		<score>1</score>
+		<options>
+			<option sort="A">A.釉面玻璃</option>
+			<option sort="B">B.彩色平板玻璃</option>
+			<option sort="C">C.压花玻璃</option>
+			<option sort="D">D.喷花玻璃</option>
+		</options>
+		<answer>A</answer>
+		<title>下列装饰玻璃中,(  )的特点是图案精美,不褪色,不掉色,易于清洗,可按用户的要求或艺术设计图案制作。</title>
+		<parse>本题涉及的考点是釉面玻璃的特点。釉面玻璃的特点是：图案精美，不褪色，不掉色，易于清洗，可按用户的要求或艺术设计图案制作。</parse>
+	</question>
+	<question hasimg="0">
+		<id>201508281603381233515e8-4af151801d0c</id>
+		<headingid>201508281603381223750c8-ca9e9ec09d1b</headingid>
+		<sort>3</sort>
+		<type>11</type>
+		<score>1</score>
+		<options>
+			<option sort="A">A.屈服强度</option>
+			<option sort="B">B.冲击性能</option>
+			<option sort="C">C.抗拉强度</option>
+			<option sort="D">D.伸长率</option>
+		</options>
+		<answer>D</answer>
+		<title>在工程应用中,钢材的塑性指标通常用(  )表示。</title>
+		<parse>本题涉及的考点是建筑钢材的力学性能。钢材在受力破坏前可以经受永久变形的性能，称为塑性。在工程应用中，钢材的塑性指标通常用伸长率表示。</parse>
+	</question>
+	<question hasimg="0">
+		<id>20150828160338123351547-75c7aa36a6ed</id>
+		<headingid>201508281603381223750c8-ca9e9ec09d1b</headingid>
+		<sort>4</sort>
+		<type>11</type>
+		<score>1</score>
+		<options>
+			<option sort="A">A.防火玻璃</option>
+			<option sort="B">B.钢化玻璃</option>
+			<option sort="C">C.着色玻璃</option>
+			<option sort="D">D.夹层玻璃</option>
+		</options>
+		<answer>B</answer>
+		<title>下列安全玻璃类型中,(  )不能切割,需要选用定型产品或按尺寸定制。</title>
+		<parse>教材71页第一行：但刚化玻璃使用时不能切割、磨削，边角亦不能碰击挤压，需按现成的尺寸规格选用或提出具体设计图纸进行加工定制。</parse>
+	</question>
+	<question hasimg="0">
+		<id>20150828160338123351592-ff234c29017e</id>
+		<headingid>201508281603381223750c8-ca9e9ec09d1b</headingid>
+		<sort>5</sort>
+		<type>11</type>
+		<score>1</score>
+		<options>
+			<option sort="A">A.氯化聚氯乙烯(PVC-C)管</option>
+			<option sort="B">B.硬聚氯乙烯(PVC-U)管</option>
+			<option sort="C">C.无规共聚聚丙烯(PP-R)管</option>
+			<option sort="D">D.丁烯(PB)管</option>
+		</options>
+		<answer>B</answer>
+		<title>下列塑料管道中,(  )适用于给水管道(非饮用水)、排水管道、雨水管道。</title>
+		<parse>本题涉及的考点是硬聚氯乙烯(PVC-U)管的应用。硬聚氯乙烯(PVC-U)管用于给水管道(非饮用水)、排水管道、雨水管道。</parse>
+	</question>
+	<question hasimg="0">
+		<id>201508281603381233515eb-572392219245</id>
+		<headingid>201508281603381223750c8-ca9e9ec09d1b</headingid>
+		<sort>6</sort>
+		<type>11</type>
+		<score>1</score>
+		<options>
+			<option sort="A">A.粉刷石膏</option>
+			<option sort="B">B.建筑石膏</option>
+			<option sort="C">C.高温煅烧石膏</option>
+			<option sort="D">D.高强石膏</option>
+		</options>
+		<answer>A</answer>
+		<title>下列石膏胶凝材料品种中,(  )可以现拌现用,不仅可以在水泥砂浆或混合砂浆底层上抹灰,也可在各种混凝土墙、板等较为光滑的底层上抹灰。</title>
+		<parse>本题涉及的考点是粉刷石膏的应用。粉刷石膏可以现拌现用，不仅可以在水泥砂浆或混合砂浆底层上抹灰，也可在各种混凝土墙、板等较为光滑的底层上抹灰。石膏粉刷层表面坚硬、光滑细腻、不起灰，便于进行再装饰，如贴壁纸、刷涂料等，还具有调节室内空气湿度，提高舒适度的功能。</parse>
+	</question>
+	<question hasimg="0">
+		<id>201508281603381233515f4-08fbd8016ae7</id>
+		<headingid>201508281603381223750c8-ca9e9ec09d1b</headingid>
+		<sort>7</sort>
+		<type>11</type>
+		<score>1</score>
+		<options>
+			<option sort="A">A.台座在先张法生产中，承受预应力筋的全部张拉力</option>
+			<option sort="B">B.在先张法中，施加预应力宜采用一端张拉工艺，张拉控制应力和程序按图纸设计要求进行</option>
+			<option sort="C">C.预应力筋放张时，混凝土强度应符合设计要求；当设计无要求时，不应低于设计的混凝土立方体抗压强度标准值的85%</option>
+			<option sort="D">D.先张法预应力筋张拉后与设计位置的偏差不得大于5mm，且不得大于构件界面短边边长的4%</option>
+		</options>
+		<answer>C</answer>
+		<title>关于先张法预应力施工的表述,不正确的是(  )。</title>
+		<parse>本题涉及的考点是先张法预应力施工要点。先张法预应力施工要点包括：
+
+		(1)台座在先张法生产中，承受预应力筋的全部张拉力。因此，台座应有足够的强度、刚度和稳定性；(2)长线台座台面(或胎模)要平整，在铺设预应力筋前应涂刷非油质类模板隔离剂，隔离剂的隔离层效果要好，以减少台面的咬合力、黏结力与摩擦力；(3)在先张法中，施加预应力宜采用一端张拉工艺，张拉控制应力和程序按图纸设计要求进行；(4)先张法预应力筋张拉后与设计位置的偏差不得大于5mm，且不得大于构件界面短边边长的4%；(5)预应力筋放张时，混凝土强度应符合设计要求；当设计无要求时，不应低于设计的混凝土立方体抗压强度标准值的75%。放张时宜缓慢放松锚固装置，使各根预应力筋同时缓慢放松。</parse>
+	</question>
+	<question hasimg="0">
+		<id>201508281603381233515f9-89eaaf7fd5dc</id>
+		<headingid>201508281603381223750c8-ca9e9ec09d1b</headingid>
+		<sort>8</sort>
+		<type>11</type>
+		<score>1</score>
+		<options>
+			<option sort="A">A.埋弧焊</option>
+			<option sort="B">B.自保护焊</option>
+			<option sort="C">C.螺柱焊</option>
+			<option sort="D">D.重力焊</option>
+		</options>
+		<answer>A</answer>
+		<title>下列建筑钢结构常用焊接方法中,属于全自动焊接的是(  )。</title>
+		<parse>本题涉及的考点是建筑钢结构常用焊接方法。全自动焊接包括：埋弧焊、气体保护焊、熔化嘴电渣焊、非熔化嘴电渣焊。</parse>
+	</question>
+	<question hasimg="0">
+		<id>20150828160338123351550-e87ecef2a202</id>
+		<headingid>201508281603381223750c8-ca9e9ec09d1b</headingid>
+		<sort>9</sort>
+		<type>11</type>
+		<score>1</score>
+		<options>
+			<option sort="A">A.甲类</option>
+			<option sort="B">B.乙类</option>
+			<option sort="C">C.丙类</option>
+			<option sort="D">D.丁类</option>
+		</options>
+		<answer>C</answer>
+		<title>下列抗震设防类别中,大量的建筑物属于(  ),这类建筑的地震作用和抗震措施均应符合本地区抗震设防烈度的要求。</title>
+		<parse>本题涉及的考点是建筑抗震设防分类。建筑物的抗震设计根据其使用功能的重要性分为甲类、乙类、丙类、丁类4个抗震设防类别。大量的建筑物属于丙类，这类建筑的地震作用和抗震措施均应符合本地区抗震设防烈度的要求。</parse>
+	</question>
+	<question hasimg="0">
+		<id>2015082816033812335158c-b5bbcfee7298</id>
+		<headingid>201508281603381223750c8-ca9e9ec09d1b</headingid>
+		<sort>10</sort>
+		<type>11</type>
+		<score>1</score>
+		<options>
+			<option sort="A">A.7</option>
+			<option sort="B">B.14</option>
+			<option sort="C">C.28</option>
+			<option sort="D">D.56</option>
+		</options>
+		<answer>C</answer>
+		<title>混凝土小型空心砌块的复试中,同一部位工程使用的小砌块应持有同一厂家生产的产品合格证书和进场复试报告,小砌块在厂内的养护龄期及其后停放期总时间必须确保不少于(  )d。</title>
+		<parse>本题涉及的考点是工程主要材料复试内容及要求。混凝土小型空心砌块的复试要求：同一部位工程使用的小砌块应持有同一厂家生产的产品合格证书和进场复试报告，小砌块在厂内的养护龄期及其后停放期总时间必须确保不少于28d。</parse>
+	</question>
+	<question hasimg="0">
+		<id>20150828160338123351548-6ca2cc174ca2</id>
+		<headingid>201508281603381223750c8-ca9e9ec09d1b</headingid>
+		<sort>11</sort>
+		<type>11</type>
+		<score>1</score>
+		<options>
+			<option sort="A">A.住宅共用楼梯</option>
+			<option sort="B">B.医院楼梯</option>
+			<option sort="C">C.专用疏散楼梯</option>
+			<option sort="D">D.服务楼梯</option>
+		</options>
+		<answer>C</answer>
+		<title>下列场所中,楼梯踏步最小宽度为0.25m的是(  )。</title>
+		<parse>本题涉及的考点是楼梯踏步最小宽度和最大高度。楼梯踏步最小宽度和最大高度见下表。
+
+
+
+		注：无中柱螺旋楼梯和弧形楼梯离内侧扶手0．25m处的踏步宽度不应小于0．22m。</parse>
+	</question>
+	<question hasimg="0">
+		<id>201508281603381233515c1-f597b1342d32</id>
+		<headingid>201508281603381223750c8-ca9e9ec09d1b</headingid>
+		<sort>12</sort>
+		<type>11</type>
+		<score>1</score>
+		<options>
+			<option sort="A">A.拉伸性能</option>
+			<option sort="B">B.疲劳性能</option>
+			<option sort="C">C.冲击性能</option>
+			<option sort="D">D.焊接性能</option>
+		</options>
+		<answer>A</answer>
+		<title>反映建筑钢材(  )的指标包括屈服强度、抗拉强度和伸长率。</title>
+		<parse>本题涉及的考点是建筑钢材的力学性能。反映建筑钢材拉伸性能的指标包括屈服强度、抗拉强度和伸长率。</parse>
+	</question>
+	<question hasimg="0">
+		<id>201508281603381233515c5-c65819033e2d</id>
+		<headingid>201508281603381223750c8-ca9e9ec09d1b</headingid>
+		<sort>13</sort>
+		<type>11</type>
+		<score>1</score>
+		<options>
+			<option sort="A">A.65%</option>
+			<option sort="B">B.75%</option>
+			<option sort="C">C.85%</option>
+			<option sort="D">D.95%</option>
+		</options>
+		<answer>D</answer>
+		<title>构造地震破坏性大,影响面广,而且发生频繁,占破坏性地震总量的(  )以上。</title>
+		<parse>本题涉及的考点是构造地震。构造地震是由于地壳运动推挤岩层，造成地下岩层的薄弱部位突然发生错动、断裂而引起的地动。此种地震破坏性大，影响面广，而且发生频繁，占破坏性地震总量的95%以上。</parse>
+	</question>
+	<question hasimg="0">
+		<id>201508281603381243281c7-702cb4c99702</id>
+		<headingid>201508281603381223750c8-ca9e9ec09d1b</headingid>
+		<sort>14</sort>
+		<type>11</type>
+		<score>1</score>
+		<options>
+			<option sort="A">A.氧</option>
+			<option sort="B">B.氮</option>
+			<option sort="C">C.硫</option>
+			<option sort="D">D.磷</option>
+		</options>
+		<answer>D</answer>
+		<title>建筑钢材中,随着(  )含量增加,钢材的强度、硬度提高,塑性和韧性显著下降。</title>
+		<parse>本题涉及的考点是钢材化学成分及其对钢材性能的影响。磷是碳素钢中很有害的元素之一。磷含量增加，钢材的强度、硬度提高，塑性和韧性显著下降。</parse>
+	</question>
+	<question hasimg="0">
+		<id>2015082816033812432811a-2413d63812cb</id>
+		<headingid>201508281603381223750c8-ca9e9ec09d1b</headingid>
+		<sort>15</sort>
+		<type>11</type>
+		<score>1</score>
+		<options>
+			<option sort="A">A.10</option>
+			<option sort="B">B.15</option>
+			<option sort="C">C.20</option>
+			<option sort="D">D.25</option>
+		</options>
+		<answer>B</answer>
+		<title>房屋建筑工程所在地的县级以上地方人民政府建设行政主管部门,发现建设单位在竣工验收过程中有违反国家有关建设工程质量管理规定行为的,应当在收讫竣工验收备案文件(  )d内,责令停止使用,重新组织竣工验收。</title>
+		<parse>本题涉及的考点是房屋建筑工程竣工验收备案的期限。房屋建筑工程所在地的县级以上地方人民政府建设行政主管部门，发现建设单位在竣工验收过程中有违反国家有关建设工程质量管理规定行为的，应当在收讫竣工验收备案文件15d内，责令停止使用，重新组织竣工验收。</parse>
+	</question>
+	<question hasimg="0">
+		<id>201508281603381243281bb-df06ab18c585</id>
+		<headingid>201508281603381223750c8-ca9e9ec09d1b</headingid>
+		<sort>16</sort>
+		<type>11</type>
+		<score>1</score>
+		<options>
+			<option sort="A">A.120</option>
+			<option sort="B">B.150</option>
+			<option sort="C">C.200</option>
+			<option sort="D">D.250</option>
+		</options>
+		<answer>C</answer>
+		<title>在厨房采用轻骨料混凝土小型空心砌块砌筑墙体时,墙底部宜现浇混凝土坎台,其高度宜为(  )mm。</title>
+		<parse>2015年教材已改，由150改为200。P130</parse>
+	</question>
+	<question hasimg="0">
+		<id>2015082816033812432816b-e0aacebd8a77</id>
+		<headingid>201508281603381223750c8-ca9e9ec09d1b</headingid>
+		<sort>17</sort>
+		<type>11</type>
+		<score>1</score>
+		<options>
+			<option sort="A">A.5</option>
+			<option sort="B">B.20</option>
+			<option sort="C">C.25</option>
+			<option sort="D">D.50</option>
+		</options>
+		<answer>C</answer>
+		<title>易于替换的结构构件的设计使用年限是(  )年。</title>
+		<parse>
+			本题涉及的考点是设计使用年限。设计使用年限见下表。
+
+		</parse>
+	</question>
+	<question hasimg="0">
+		<id>20150828160338124328173-3b9b6fa4c266</id>
+		<headingid>201508281603381223750c8-ca9e9ec09d1b</headingid>
+		<sort>18</sort>
+		<type>11</type>
+		<score>1</score>
+		<options>
+			<option sort="A">A.筒体结构</option>
+			<option sort="B">B.拱式结构</option>
+			<option sort="C">C.网架结构</option>
+			<option sort="D">D.薄壁空间结构</option>
+		</options>
+		<answer>C</answer>
+		<title>下列建筑结构体系中,因杆件类型较少,适于工业化生产的是(  )。</title>
+		<parse>
+		本题涉及的考点是网架结构的应用。网架是由许多杆件按照一定规律组成的网状结构。网架结构可分为平板网架和曲面网架。它改变了平面桁架的受力状态，是高次超静定的空间结构。平板网架采用较多，其优点是：空间受力体系，杆件主要承受轴向力，受力合理，节约材料，整体性能好，刚度大，抗震性能好。杆件类型较少，适于工业化生产。</parse>
+	</question>
+	<question hasimg="0">
+		<id>20150828160338124328198-0006b68b4ace</id>
+		<headingid>201508281603381223750c8-ca9e9ec09d1b</headingid>
+		<sort>19</sort>
+		<type>11</type>
+		<score>1</score>
+		<options>
+			<option sort="A">A.防火堵料是专门用于封堵建筑物中各种贯穿物，具有防火隔热功能且便于更换的材料</option>
+			<option sort="B">B.有机防火堵料主要用于封堵后基本不变的场合</option>
+			<option sort="C">C.无机防火堵料具有无毒无味、固化快速的特点</option>
+			<option sort="D">D.防火包使用时通过垒砌、填塞等方法封堵孔洞</option>
+		</options>
+		<answer>B</answer>
+		<title>关于防火堵料的表述,不正确的是(  )。</title>
+		<parse>本题涉及的考点是防火堵料。防火堵料是专门用于封堵建筑物中各种贯穿物，如电缆、风管、油管、气管等穿过墙壁、楼板等形成的各种开孔及电缆桥架等，具有防火隔热功能且便于更换的材料。无机防火堵料无毒无味、固化快速，主要用于封堵后基本不变的场合。有机防火堵料遇火时发泡膨胀，因此，具有优异的防火、水密、气密性能。防火包使用时通过垒砌、填塞等方法封堵孔洞。</parse>
+	</question>
+	<question hasimg="0">
+		<id>20150828160338124328181-31b21899dea4</id>
+		<headingid>201508281603381223750c8-ca9e9ec09d1b</headingid>
+		<sort>20</sort>
+		<type>11</type>
+		<score>1</score>
+		<options>
+			<option sort="A">A.3%</option>
+			<option sort="B">B.4%</option>
+			<option sort="C">C.5%</option>
+			<option sort="D">D.6%</option>
+		</options>
+		<answer>C</answer>
+		<title>根据《钢结构工程施工质量验收规范》(GB50205),扭剪型高强度螺栓连接副终拧后,除因构造原因无法使用专用扳手终拧掉梅花头者外,未在终拧中拧掉梅花头的螺栓数不应大于该节点螺栓数的(  )。</title>
+		<parse>本题涉及的考点是高强度螺栓连接。扭剪型高强度螺栓连接副终拧后，除因构造原因无法使用专用扳手终拧掉梅花头者外，未在终拧中拧掉梅花头的螺栓数不应大于该节点螺栓数的5%。</parse>
+	</question>
+	<heading>
+		<id>201508281603381243281c4-d803f9a454f2</id>
+		<sort>2</sort>
+		<type>10</type>
+		<abbr>多选题</abbr>
+		<title>二、多项选择题(共l0题,每题2分。每题的备选项中,有2个或2个以上符合题意,至少有1个错项。错选,本题不得分;少选,所选的每个选项得0.5分)</title>
+	</heading>
+	<question hasimg="0">
+		<id>2015082816033812432811e-77ad7a8cf81e</id>
+		<headingid>201508281603381243281c4-d803f9a454f2</headingid>
+		<sort>21</sort>
+		<type>12</type>
+		<score>2</score>
+		<options>
+			<option sort="A">A.密度大</option>
+			<option sort="B">B.质地坚硬</option>
+			<option sort="C">C.强度低</option>
+			<option sort="D">D.吸水率极低</option>
+			<option sort="E">E.构造致密</option>
+		</options>
+		<answer>ABDE</answer>
+		<title>花岗石的特性包括(  )。</title>
+		<parse>本题涉及的考点是花岗石的特性。花岗石构造致密、强度高、密度大、吸水率极低、质地坚硬、耐磨，属酸性硬石材。</parse>
+	</question>
+	<question hasimg="0">
+		<id>20150828160338124328122-6320d919c6d8</id>
+		<headingid>201508281603381243281c4-d803f9a454f2</headingid>
+		<sort>22</sort>
+		<type>12</type>
+		<score>2</score>
+		<options>
+			<option sort="A">A.不得擅自在城市道路上建设建筑物、构筑物</option>
+			<option sort="B">B.新建、扩建、改建的城市道路交付使用后6年内、大修的城市道路竣工后2年内不得挖掘</option>
+			<option sort="C">C.因特殊情况需要临时占用城市道路的，不得损坏城市道路</option>
+			<option sort="D">D.需要移动位置、扩大面积、延长时间的，应当提前办理变更审批手续</option>
+			<option sort="E">E.经批准占用或者挖掘城市道路的，应当按照批准的位置、面积、期限占有或者挖掘</option>
+		</options>
+		<answer>ACDE</answer>
+		<title>关于城市道路占用、挖掘的相关规定的表述,正确的是(  )。</title>
+		<parse>本题涉及的考点是城市道路占用、挖掘的相关规定。新建、扩建、改建的城市道路交付使用后5年内、大修的城市道路竣工后3年内不得挖掘；因特殊情况需要挖掘的，须经县级以上城市人民政府批准，因此，B选项错误。</parse>
+	</question>
+	<question hasimg="0">
+		<id>201508281603381243281bd-0e5807f0cc4a</id>
+		<headingid>201508281603381243281c4-d803f9a454f2</headingid>
+		<sort>23</sort>
+		<type>12</type>
+		<score>2</score>
+		<options>
+			<option sort="A">A.机械强度高</option>
+			<option sort="B">B.弹性好</option>
+			<option sort="C">C.热稳定性好</option>
+			<option sort="D">D.碎后不易伤人</option>
+			<option sort="E">E.透明度好</option>
+		</options>
+		<answer>ABCD</answer>
+		<title>关于钢化玻璃特性的表述,正确的是(  )。</title>
+		<parse>本题涉及的考点是钢化玻璃的特性。钢化玻璃的特性：机械强度高；弹性好；热稳定性好；碎后不易伤人；可发生自爆。E选项属于夹丝玻璃的特性。</parse>
+	</question>
+	<question hasimg="0">
+		<id>201508281603381243281b1-ae519ab09264</id>
+		<headingid>201508281603381243281c4-d803f9a454f2</headingid>
+		<sort>24</sort>
+		<type>12</type>
+		<score>2</score>
+		<options>
+			<option sort="A">A.建筑物室内地面标高以下部位</option>
+			<option sort="B">B.长期浸水或经常受干湿交替部位</option>
+			<option sort="C">C.受化学环境侵蚀环境</option>
+			<option sort="D">D.高浓度二氧化碳环境</option>
+			<option sort="E">E.砌块表面经常处于60℃以上的高温环境</option>
+		</options>
+		<answer>ABCD</answer>
+		<title>如无切实有效措施,不得使用加气混凝土砌块墙的部位包括(  )。</title>
+		<parse>本题涉及的考点是加气混凝土砌块工程施工技术。加气混凝土砌块墙如无切实有效措施，不得使用于下列部位：(1)建筑物室内地面标高以下部位；(2)长期浸水或经常受干湿交替部位；(3)受化学环境侵蚀(如强酸、强碱)或高浓度二氧化碳等环境；(4)砌块表面经常处于80℃以上的高温环境。</parse>
+	</question>
+	<question hasimg="0">
+		<id>2015082816033812432816a-1bd71f137350</id>
+		<headingid>201508281603381243281c4-d803f9a454f2</headingid>
+		<sort>25</sort>
+		<type>12</type>
+		<score>2</score>
+		<options>
+			<option sort="A">A.砖的强度等级</option>
+			<option sort="B">B.砂浆强度</option>
+			<option sort="C">C.构件类型</option>
+			<option sort="D">D.砌体种类</option>
+			<option sort="E">E.支承约束条件</option>
+		</options>
+		<answer>BCDE</answer>
+		<title>影响墙、柱的允许高厚比的主要因素有(  )。</title>
+		<parse>本题涉及的考点是影响墙、柱的允许高厚比的主要因素。影响墙、柱允许高厚比的主要因素有：砂浆强度；构件类型；砌体种类；支承约束条件、截面形式；墙体开洞、承重和非承重。</parse>
+	</question>
+	<question hasimg="0">
+		<id>201508281603381243281bf-3a0e64b7065d</id>
+		<headingid>201508281603381243281c4-d803f9a454f2</headingid>
+		<sort>26</sort>
+		<type>12</type>
+		<score>2</score>
+		<options>
+			<option sort="A">A.装饰装修工程的实施期限</option>
+			<option sort="B">B.委托人和被委托人的姓名或者单位名称、住所地址、联系电话</option>
+			<option sort="C">C.装饰装修工程的开工、竣工时间</option>
+			<option sort="D">D.装饰装修工程保修的内容、期限</option>
+			<option sort="E">E.装饰装修工程价格，计价和支付方式、时间</option>
+		</options>
+		<answer>BCDE</answer>
+		<title>住宅室内装饰装修合同应当包括的内容有(  )。</title>
+		<parse>本题涉及的考点是住宅室内装饰装修合同应当包括的内容。住宅室内装饰装修合同应当包括的内容有：(1)委托人和被委托人的姓名或者单位名称、住所地址、联系电话；(2)住宅室内装饰装修的房屋间数、建筑面积，装饰装修的项目、方式、规格、质量要求及质量验收方式；(3)装饰装修工程的开工、竣工时间；(4)装饰装修工程保修的内容、期限；(5)装饰装修工程价格，计价和支付方式、时间；(6)合同变更和解除的条件；(7)违约责任及解决纠纷的途径；(8)合同的生效时间；(9)双方认为需要明确的其他条款。</parse>
+	</question>
+	<question hasimg="0">
+		<id>20150828160338125304624-e7984ca4a527</id>
+		<headingid>201508281603381243281c4-d803f9a454f2</headingid>
+		<sort>27</sort>
+		<type>12</type>
+		<score>2</score>
+		<options>
+			<option sort="A">A.因素分析法</option>
+			<option sort="B">B.竣工成本分析</option>
+			<option sort="C">C.年度成本分析</option>
+			<option sort="D">D.差额分析法</option>
+			<option sort="E">E.比率法</option>
+		</options>
+		<answer>ADE</answer>
+		<title>建筑工程成本分析方法有基本分析方法和综合分析法。下列属于基本分析方法的有(  )。</title>
+		<parse>本题涉及的考点是建筑工程成本分析方法。建筑工程成本分析方法有两类八种：第一类是基本分析方法，有比较法，因素分析法，差额分析法和比率法；第二类是综合分析法，包括分部分项成本分析，月(季)度成本分析，年度成本分析，竣工成本分析。</parse>
+	</question>
+	<question hasimg="0">
+		<id>20150828160338125304631-76f4a75822f4</id>
+		<headingid>201508281603381243281c4-d803f9a454f2</headingid>
+		<sort>28</sort>
+		<type>12</type>
+		<score>2</score>
+		<options>
+			<option sort="A">A.加速混凝土硬化和早期强度发展</option>
+			<option sort="B">B.减少泌水离析</option>
+			<option sort="C">C.缩短养护周期</option>
+			<option sort="D">D.加快施工进度</option>
+			<option sort="E">E.提高模板周转率</option>
+		</options>
+		<answer>ACDE</answer>
+		<title>关于早强剂特性的表述,正确的是(  )。</title>
+		<parse>本题涉及的考点是早强剂的特性。早强剂可加速混凝土硬化和早期强度发展，缩短养护周期，加快施工进度，提高模板周转率。多用于冬期施工或紧急抢修工程。</parse>
+	</question>
+	<question hasimg="0">
+		<id>20150828160338125304625-3206d1946113</id>
+		<headingid>201508281603381243281c4-d803f9a454f2</headingid>
+		<sort>29</sort>
+		<type>12</type>
+		<score>2</score>
+		<options>
+			<option sort="A">A.120mm厚墙、料石清水墙和独立柱</option>
+			<option sort="B">B.过梁上与过梁成60°的三角形范围及过梁净跨度1／2的高度范围内</option>
+			<option sort="C">C.宽度小于1m的窗间墙</option>
+			<option sort="D">D.砌体门窗洞口两侧200mm(石砌体为300mm)和转角处450mm(石砌体为600mm)范围内</option>
+			<option sort="E">E.梁或梁垫下及其左右300mm范围内</option>
+		</options>
+		<answer>ABCDE</answer>
+		<title>不得设置脚手眼的墙体或部位包括(  )。</title>
+		<parse>本题涉及的考点是不得设置脚手眼的墙体或部位。不得在下列墙体或部位设置脚手眼：(1)120mm厚墙、料石清水墙和独立柱；(2)过梁上与过梁成60°的三角形范围及过梁净跨度1／2的高度范围内；(3)宽度小于1m的窗间墙；(4)门窗洞口两侧石砌体300mm，其他砌体200mm范围内；转角处石砌体600mm，其他砌体450mm范围内；(5)梁或梁垫下及其左右500mm范围内；(6)设计不允许设置脚手眼的部位；(7)轻质墙体；(8)夹心复合墙外叶墙。</parse>
+	</question>
+	<question hasimg="0">
+		<id>20150828160338125304659-78b98046068a</id>
+		<headingid>201508281603381243281c4-d803f9a454f2</headingid>
+		<sort>30</sort>
+		<type>12</type>
+		<score>2</score>
+		<options>
+			<option sort="A">A.先挖后撑</option>
+			<option sort="B">B.开槽支撑</option>
+			<option sort="C">C.先撑后挖</option>
+			<option sort="D">D.分层开挖</option>
+			<option sort="E">E.严禁超挖</option>
+		</options>
+		<answer>BCDE</answer>
+		<title>土方开挖的顺序、方法必须与设计要求相一致,并遵循(  )的原则。</title>
+		<parse>本题涉及的考点是土方开挖施工技术。土方开挖的顺序、方法丛须与设计要求相一致，并遵循“开槽支撑，先撑后挖，分层开挖，严禁超挖”的原则。</parse>
+	</question>
+	<heading>
+		<id>201508281603381253046e2-6048f2eee08d</id>
+		<sort>3</sort>
+		<type>30</type>
+		<abbr>问答题</abbr>
+		<title>三、案例分析题(共5题,(一)、(二)、(三)题各20分,(四)、(五)题各30分)</title>
+	</heading>
+	<material hasimg="1">
+		<id>20150828160338125304656-246f4192c628</id>
+		<headingid>201508281603381253046e2-6048f2eee08d</headingid>
+		<sort>1</sort>
+		<type>41</type>
+		<content>2c/URiXehJDKUX5aFRaW9TzKfgYXpJh9G+0oCL5kWL68G+//DG34MF3SnRqI1H/QLYwUHV+Kdeej+naJmKFlI60RzjGq9+W1CrZsD6ZyF9aALvmPce5mb4jJXcwDp/TDDnLhWCUtEvIlrlOJ4kg2LCIRtMwkWlQ80WtESFum+ESIeTIhAuJyHzfNxn/wMMf9y/LmzFI0ipP3zgLV1Yc/AoGEoEdNhxnCXVovZ+A96etjXc08a09/UL2hSSdGZTYk5gn6bPdzxnjlivmZ1pAVH0yMYKj3Zr6dCaYAB70MGkgwXrTNctrTQkljYjos1UDyMhkTVP9tO89YoVTY21RtJ6YirfRb6Xe6xphJPEDG349/D88dStrMALNYZs3Xhf+b5YCmsewb9d0MkJzPucgSJ+WXRpZPbVcxNvDLXhaDGEsVGxfSe4NlMFtXZKaEmSUPXGPoS7q0yWfkgCJUsBMU0zUd1oKL7qYfoM0Pmnw7TdqjMw0eZv/gqJojFOaERuoL2i0YX8qbF9VV3kzvCbNzYhS2yya8G7GmFGPurq0x1V3Ql1AHPwUS6NZQDc8Fl+8ducAXjXXdQ5FPCMwLNXiXByF81HRtFPyYZcYDZekEmfyDjUPOdl9DI8mY2P1nVQugF8krdEOn88qHYYYOfXfG3d7YHFy7uUNhklBthQM9LOKRgqGk3tibOhd9aWu6Jvv5TIPcM4ADYaKJLy1Z4i1tiYM4Ykvnr3c3oiRU2jroE8Iy2WcCvL5by+4OhnZ4qECpvDLVzGMeXrMoDR42xSEQ9hl9kwEYVSRmp6I5bjhs9bl1SRMEMPABCELiaNfCpOwGowD0MYPpQJzZ1I31C+54FbkgwUrX94qu4ha+68+ECPLaYVbzxFPXhWPDqXkt2rrzOH7IYvIQGoLUyaxqY5GOADQe5OpsdvN1mNtB1cBDTMCOiqMSrQngeXkkNTZRfpRA4wPZvl5h4gC5A06X91zWn6i6ei5XDSMLngQzff7QvLYj0wIKWvN2jxE6Raf78Fy8MerjAyP+e5neSvSdoekL5DnefCKBU1unCQ0eBdD6/wQ=</content>
+	</material>
+	<question hasimg="0">
+		<id>201508281603381282343a1-c9a1bd334363</id>
+		<materialid>20150828160338125304656-246f4192c628</materialid>
+		<headingid>201508281603381253046e2-6048f2eee08d</headingid>
+		<sort>31</sort>
+		<type>31</type>
+		<score>5</score>
+		<options/>
+		<answer>本工程预付款=1000万元×10%=100万元。
+			起扣点=1000万元×60%=600万元。
+		由于3、4、5、6月份的累计工程款与预付款之和为：(80+160+170+180)万元=590万元&lt;起扣点600万元，因此，工程预付款从7月份开始起扣。</answer>
+		<title>列式计算本工程预付款及其起扣点分别是多少万元,工程预付款从几月份开始起扣?</title>
+		<parse></parse>
+	</question>
+	<question hasimg="0">
+		<id>201508281603381282343af-db7fce5fb1ac</id>
+		<materialid>20150828160338125304656-246f4192c628</materialid>
+		<headingid>201508281603381253046e2-6048f2eee08d</headingid>
+		<sort>32</sort>
+		<type>31</type>
+		<score>5</score>
+		<options/>
+		<answer>7月份扣回的预付款=100万元×50%=50万元。
+			7月份开发公司应支付工程款=(160-50)万元=110万元。
+			8月份开发公司应支付工程款=(130-50)万元=80万元。
+		截止8月末累计支付工程款=(590+110+80)万元=780万元。</answer>
+		<title>7、8月份开发公司应支付工程款多少万元,截至8月末累计支付工程款多少万元?</title>
+		<parse></parse>
+	</question>
+	<question hasimg="0">
+		<id>2015082816033812823431d-74d269f5d3eb</id>
+		<materialid>20150828160338125304656-246f4192c628</materialid>
+		<headingid>201508281603381253046e2-6048f2eee08d</headingid>
+		<sort>33</sort>
+		<type>31</type>
+		<score>5</score>
+		<options/>
+		<answer>工程竣工结算之前累计支付工程款=1000万元×90%=900万元。
+			本工程竣工结算=(1000+5-1)万元=1004万元。
+		本工程保修金=1004万元×5%=50．20万元。</answer>
+		<title>工程竣工验收合格后双方办理了工程结算。工程竣工结算之前累计支付工程款是多少万元,本工程竣工结算是多少万元,本工程保修金是多少万元?(保留小数点后两位。)</title>
+		<parse></parse>
+	</question>
+	<question hasimg="0">
+		<id>20150828160338128234300-169d22cd321f</id>
+		<materialid>20150828160338125304656-246f4192c628</materialid>
+		<headingid>201508281603381253046e2-6048f2eee08d</headingid>
+		<sort>34</sort>
+		<type>31</type>
+		<score>5</score>
+		<options/>
+		<answer>根据《建设工程价款结算暂行办法》(财建E20043369号)的规定，工程竣工结算方式分别包括单位工程竣工结算、单项工程竣工结算和建设项目竣工总结算。本工程竣工结算属于单位工程竣工结算。</answer>
+		<title>根据《建设工程价款结算暂行办法》(财建[2004]369号)的规定,工程竣工结算方式分别有哪几种类型,本工程竣工结算属于哪种类型?</title>
+		<parse></parse>
+	</question>
+	<material hasimg="0">
+		<id>20150828160338128234376-d0d221d1edaf</id>
+		<headingid>201508281603381253046e2-6048f2eee08d</headingid>
+		<sort>2</sort>
+		<type>41</type>
+		<content>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</content>
+	</material>
+	<question hasimg="0">
+		<id>20150828160338128234310-09b78f5adbab</id>
+		<materialid>20150828160338128234376-d0d221d1edaf</materialid>
+		<headingid>201508281603381253046e2-6048f2eee08d</headingid>
+		<sort>35</sort>
+		<type>31</type>
+		<score>5</score>
+		<options/>
+		<answer>根据《建设工程项目管理规范》(GB／T50326)，事件1中项目经理的权限还应有：(1)参与项目招标、投标和合同签订；(2)参与组建项目经理部；(3)主持项目经理部工作；(4)制定内部计酬办法；(5)参与选择并使用具有相应资质的分包人；(6)参与选择物资供应单位；(7)在授权范围内协调与项目有关的内、外部关系；(8)法定代表人授予的其他权力。</answer>
+		<title>根据《建设工程项目管理规范》(GB/T50326),事件1中项目经理的权限还应有哪些?应有哪些?</title>
+		<parse></parse>
+	</question>
+	<question hasimg="0">
+		<id>201508281603381282343e1-ca4f1d58b84c</id>
+		<materialid>20150828160338128234376-d0d221d1edaf</materialid>
+		<headingid>201508281603381253046e2-6048f2eee08d</headingid>
+		<sort>36</sort>
+		<type>31</type>
+		<score>5</score>
+		<options/>
+		<answer>事件2中，按照“完全成本法”核算，施工总承包单位的成本=(26168．22+4710．28+945．58)万元=31824．08万元。
+		项目经理部的成本管理应包括成本计划、成本控制、成本核算、成本分析和成本考核。</answer>
+		<title>事件2中,按照“完全成本法”核算,施工总承包单位的成本是多少万元,(保留两位小数)项目部的成本管理应包括哪些方面的内容?</title>
+		<parse></parse>
+	</question>
+	<question hasimg="1">
+		<id>201508281603381282343fa-2de3c77f6ee1</id>
+		<materialid>20150828160338128234376-d0d221d1edaf</materialid>
+		<headingid>201508281603381253046e2-6048f2eee08d</headingid>
+		<sort>37</sort>
+		<type>31</type>
+		<score>6</score>
+		<options/>
+		<answer>事件3中，施工总承包单位钢筋工程价款可以调整。
+			理由：(10176．00-9600．00)／10176．00=5．66%&gt;5%，符合合同约定的调价条款。施款。施工总承包单位土方工程价款可以调整。理由：(30240．00-28000．00)／28000．00=8%&gt;5%，符合合同约定的调价条款。列表计算调整后的价款，见下表。
+		【2015082502.jpg】</answer>
+		<title>事件3中,施工总承包单位钢筋和土方工程价款是否可以调整,为什么,列表计算调整后的价款分别是多少万元?(保留两位小数)</title>
+		<parse></parse>
+	</question>
+	<question hasimg="0">
+		<id>201508281603381282343f2-9006c04b1f9a</id>
+		<materialid>20150828160338128234376-d0d221d1edaf</materialid>
+		<headingid>201508281603381253046e2-6048f2eee08d</headingid>
+		<sort>38</sort>
+		<type>31</type>
+		<score>6</score>
+		<options/>
+		<answer>事件4中的不妥之处及正确做法如下。
+			(1)不妥之处：小砌块使用时充分浇水湿润。
+			正确做法：普通混凝土小型空心砌块施工前一般不宜浇水。
+			(2)不妥之处：芯柱砌块砌筑完成后立即进行该芯柱混凝土浇筑工作。
+			正确做法：清除空洞内的砂浆等杂物，并用水清洗；待砌筑砂浆强度大于1MPa时方可浇筑混凝土；在浇筑混凝土前，注入适量水泥砂浆。
+			(3)不妥之处：外墙转角处的临时间断处留直槎，砌成阴阳槎，并设拉结筋。
+		正确做法：小砌块砌体的临时间断处应砌成斜槎，斜槎长度不小于斜槎高度的2／3。</answer>
+		<title>指出事件4中的不妥之处,分别说明正确做法。</title>
+		<parse></parse>
+	</question>
+	<question hasimg="0">
+		<id>20150828160338129210964-331601f197cd</id>
+		<materialid>20150828160338128234376-d0d221d1edaf</materialid>
+		<headingid>201508281603381253046e2-6048f2eee08d</headingid>
+		<sort>39</sort>
+		<type>31</type>
+		<score>6</score>
+		<options/>
+		<answer>事件5中，建设单位还应补充的质量合格文件包括：勘察、设计、施工、工程监理等单位分别签署的质量合格文件；规划、环保等部门出具的认可文件或准许使用文件；公安消防部门出具的验收合格的证明文件；施工单位签署的质量保修书。</answer>
+		<title>事件5中,建设单位还应补充哪些单位签署的质量合格文件?</title>
+		<parse></parse>
+	</question>
+	<material hasimg="0">
+		<id>201508281603381292109d3-4b12824dea86</id>
+		<headingid>201508281603381253046e2-6048f2eee08d</headingid>
+		<sort>3</sort>
+		<type>41</type>
+		<content>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</content>
+	</material>
+	<question hasimg="0">
+		<id>2015082816033812921098d-b3868675c6a5</id>
+		<materialid>201508281603381292109d3-4b12824dea86</materialid>
+		<headingid>201508281603381253046e2-6048f2eee08d</headingid>
+		<sort>40</sort>
+		<type>31</type>
+		<score>6</score>
+		<options/>
+		<answer>《建设工程施工合同(示范文本)》(GF—2013—0201)由《合同协议书》《通用条款》《专用条款》三部分组成。
+		事件1中《关于钢筋价格调整的补充协议》是洽商文件，归属于《合同协议书》部分。</answer>
+		<title>《建设工程施工合同(示范文本)》(GF—2013—0201)由哪些部分组成,说明事件1中《关于钢筋价格调整的补充协议》归属于合同的哪个部分?</title>
+		<parse></parse>
+	</question>
+	<question hasimg="0">
+		<id>201508281603381292109a1-cd43dd5e9318</id>
+		<materialid>201508281603381292109d3-4b12824dea86</materialid>
+		<headingid>201508281603381253046e2-6048f2eee08d</headingid>
+		<sort>41</sort>
+		<type>31</type>
+		<score>6</score>
+		<options/>
+		<answer>事件2中发包行为的错误之处及理由如下。
+			(1)错误之处：建设单位将水电安装及住宅楼塑钢窗指定分包给A专业公司。
+			理由：发包人不得将应当由一个承包人完成的建设工程肢解成若干部分发包给几个承包人。
+			(2)错误之处：建设单位指定采用某品牌塑钢窗。
+			理由：根据《建筑法》规定，按照合同约定，建筑材料、建筑构(配)件和设备由工程承包单位采购的，发包单位不得指定承包单位购入用于工程的建筑材料、建筑构(配)件和设备或者指定生产厂、供应商。
+			(3)错误之处：A专业公司又将塑钢窗分包给B公司施工。
+		理由：根据《建筑法》规定，禁止分包单位将其承包的工程再分包。</answer>
+		<title>指出事件2中发包行为的错误之处,并分别说明理由。</title>
+		<parse></parse>
+	</question>
+	<question hasimg="0">
+		<id>201508281603381292109b6-225f938d4cff</id>
+		<materialid>201508281603381292109d3-4b12824dea86</materialid>
+		<headingid>201508281603381253046e2-6048f2eee08d</headingid>
+		<sort>42</sort>
+		<type>31</type>
+		<score>6</score>
+		<options/>
+		<answer>事件3中，排水费用6万元的索赔，不成立。
+			理由：连续降雨相当于季节性连续下雨，属于一个有经验的承包商可以预见的事情，由此发生排水费用，已经包括在合同价款中的冬雨期施工措施费中。
+			事件3中，检测费用8万元的索赔，成立。
+		理由：《建筑安装工程费用项目组成》(建标[2013]44号)规定，检验试验费是指施工企业按照有关标准规定，对建筑以及材料、构件和建筑安装物进行一般鉴定、检查所发生的费用，包括自设试验室进行试验所耗用的材料等费用。不包括新结构、新材料的试验费，对构件做破坏性试验及其他特殊要求检验试验的费用和建设单位委托检测机构进行检测的费用，对此类检测发生的费用，由建设单位在工程建设其他费用中列支。</answer>
+		<title>分别指出事件3中,施工总承包单位的两项索赔是否成立,并说明理由。</title>
+		<parse></parse>
+	</question>
+	<question hasimg="0">
+		<id>2015082816033812921093e-d36ac548cb40</id>
+		<materialid>201508281603381292109d3-4b12824dea86</materialid>
+		<headingid>201508281603381253046e2-6048f2eee08d</headingid>
+		<sort>43</sort>
+		<type>31</type>
+		<score>6</score>
+		<options/>
+		<answer>本工程的竣工验收日期是2012年12月28日。
+			工程结算总价包括：①合同造价3600万元；②钢筋涨价费60万；③索赔费用8万元；④工期提前3d，奖励3×2万元=6万元。因此，工程结算总价=(3600+60+8+6)万元=3674万元。
+		根据《建设工程价款结算暂行办法》(财建[2004]369号)规定，会所结算属于单项工程竣工结算；住宅小区结算属于建设项目竣工总结算。</answer>
+		<title>指出本工程的竣工验收日期是哪一天,工程结算总价是多少万元,根据《建筑工程价款结算暂行办法》(财建[2004]369号)的规定,分别说明会所结算、住宅小区结算属于哪种结算方式?</title>
+		<parse></parse>
+	</question>
+	<material hasimg="0">
+		<id>20150828160338129210988-c2e2092e9bad</id>
+		<headingid>201508281603381253046e2-6048f2eee08d</headingid>
+		<sort>4</sort>
+		<type>41</type>
+		<content>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</content>
+	</material>
+	<question hasimg="0">
+		<id>20150828160338129210966-e8ddd9b5227e</id>
+		<materialid>20150828160338129210988-c2e2092e9bad</materialid>
+		<headingid>201508281603381253046e2-6048f2eee08d</headingid>
+		<sort>44</sort>
+		<type>31</type>
+		<score>6</score>
+		<options/>
+		<answer>事件1中，总承包单位必须单独编制专项施工方案的工程：塔式起重机的安装、拆卸；采用塔式起重机进行安装的工程；自制卸料平台工程；悬挑脚手架工程；物料提升机的安装、拆卸；落地式钢管脚手架工程。</answer>
+		<title>事件1中,总承包单位必须就哪些工程单独编制专项施工方案?</title>
+		<parse></parse>
+	</question>
+	<question hasimg="0">
+		<id>201508281603381292109cc-fa73525118da</id>
+		<materialid>20150828160338129210988-c2e2092e9bad</materialid>
+		<headingid>201508281603381253046e2-6048f2eee08d</headingid>
+		<sort>45</sort>
+		<type>31</type>
+		<score>6</score>
+		<options/>
+		<answer>事件2中错误之处及正确做法如下。
+			(1)错误之处：物料提升机安装总高度26m，采用一组缆风绳锚固。
+			正确做法：物料提升机采用不少于2组缆风绳锚固。
+			(2)错误之处：仅在通道两侧设置了临时安全防护设施。
+			正确做法：在卸料通道两侧应按临边防护规定设置防护栏杆及挡脚板；各层通道口处都应设置常闭型的防护门。
+			(3)错误之处：地面进料口处仅设置安全防护门。
+		正确做法：地面进料口处设置常闭型安全防护门，搭设双层防护棚，防护棚的尺寸应视架体的宽度和高度而定，防护棚两侧应封挂安全立网。</answer>
+		<title>指出事件2中错误之处,并分别给出正确做法。</title>
+		<parse></parse>
+	</question>
+	<question hasimg="0">
+		<id>201508281603381292109d9-3915469c78f6</id>
+		<materialid>20150828160338129210988-c2e2092e9bad</materialid>
+		<headingid>201508281603381253046e2-6048f2eee08d</headingid>
+		<sort>46</sort>
+		<type>31</type>
+		<score>6</score>
+		<options/>
+		<answer>事件3中错误之处及正确做法如下。
+			(1)错误之处：总承包单位未参加总监理工程师组织电梯安装工程验收。
+			正确做法：电梯安装工程属于分部工程，应由总监理工程师组织，施工单位(包括总承包和电梯安装分包单位)项目负责人和技术、质量负责人等进行验收。
+			(2)错误之处：电梯安装单位将电梯工程有关资料移交给建设单位。
+			正确做法：电梯安装单位应将电梯工程有关资料移交给施工总承包单位，由施工总承包单位统一汇总后移交给建设单位，再由建设单位上交到城建档案馆。
+			(3)错误之处；由建设单位组织，监理、设计、总承包单位参与进行了单位工程质量验收。
+		正确做法：由建设单位(项目)负责人组织施工单位(含电梯安装分包单位)、设计单位、监理单位等项目负责人进行验收。</answer>
+		<title>指出事件3中错误之处,并分别给出正确做法。</title>
+		<parse></parse>
+	</question>
+	<question hasimg="0">
+		<id>201508281603381292109e9-ed0e24ed03b6</id>
+		<materialid>20150828160338129210988-c2e2092e9bad</materialid>
+		<headingid>201508281603381253046e2-6048f2eee08d</headingid>
+		<sort>47</sort>
+		<type>31</type>
+		<score>6</score>
+		<options/>
+		<answer>事件4中总承包单位做法，不合理。
+			理由：合同约定保温工程保修期10年，总承包单位在“工程质量保修书”中承诺保修期5年短于合同约定。
+			事件4中建设单位做法合理。
+		理由：工程质量保修期限需要同时不得低于现行《民用建筑节能条例》规定的最低保修期限和合同约定的期限。工程质量保修书中承诺保修期5年短于合同约定，所以建设单位拒收是合理的。</answer>
+		<title>事件4中,总承包单位、建设单位做法是否合理?</title>
+		<parse></parse>
+	</question>
+	<material hasimg="0">
+		<id>20150828160338129210969-56ec6e97b48a</id>
+		<headingid>201508281603381253046e2-6048f2eee08d</headingid>
+		<sort>5</sort>
+		<type>41</type>
+		<content>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</content>
+	</material>
+	<question hasimg="0">
+		<id>201508281603381292109b0-8207959de38d</id>
+		<materialid>20150828160338129210969-56ec6e97b48a</materialid>
+		<headingid>201508281603381253046e2-6048f2eee08d</headingid>
+		<sort>48</sort>
+		<type>31</type>
+		<score>6</score>
+		<options/>
+		<answer>事件1中，监理工程师同意终止沉桩，不正确。在预应力管桩锤击沉桩施工过程中，某一根管桩在桩端标高接近设计标高时难以下沉；此时，贯入度已达到设计要求，施工单位认为该桩承载力已经能够满足设计要求，提出终止沉桩，不妥。
+			正确做法：当采用锤击沉管法成孔时，桩管入土深度控制应以高程为主，以贯入度控制为辅。
+		预应力管桩的沉桩方法通常有锤击沉桩法、静力压桩法、振动法等。</answer>
+		<title>事件1中,监理工程师同意终止沉桩是否正确?预应力管桩的沉桩方法通常有哪几种?</title>
+		<parse></parse>
+	</question>
+	<question hasimg="0">
+		<id>201508281603381292109b7-863f30905ec0</id>
+		<materialid>20150828160338129210969-56ec6e97b48a</materialid>
+		<headingid>201508281603381253046e2-6048f2eee08d</headingid>
+		<sort>49</sort>
+		<type>31</type>
+		<score>6</score>
+		<options/>
+		<answer>事件2中，施工单位负责人报告事故的做法，不正确
+			施工单位负责人接到报告后，应当于1h内向事故发生地县级以上人民政府建设主管部门和有关部门报告。事故报告后出现新情况，以及事故发生之日起30d内伤亡人数发生变化的，应当及时补报。故应补报1人。
+		“四不放过”原则：事故原因不清楚不放过，事故责任者和相关人员没有受到教育不放过，事故责任者没有处理不放过，没有制定纠正和预防措施不放过。</answer>
+		<title>事件2中,施工单位负责人报告事故的做法是否正确,应该补报死亡人数几人,事故处理的“四不放过”原则是什么?</title>
+		<parse></parse>
+	</question>
+	<question hasimg="0">
+		<id>201508281603381292109f9-8991f66f1485</id>
+		<materialid>20150828160338129210969-56ec6e97b48a</materialid>
+		<headingid>201508281603381253046e2-6048f2eee08d</headingid>
+		<sort>50</sort>
+		<type>31</type>
+		<score>6</score>
+		<options/>
+		<answer>事件3中的错误做法与理由如下。
+			(1)论证会由监理工程师组织，错误。
+			理由：超过一定规模的危险性较大的分部分项工程，施工单位应当组织专家对专项方案进行论证。
+			(2)五名专家之一为该工程设计单位总工程师，错误。
+			理由：本项目参建各方的人员不得以专家身份参加专家论证会。
+			(3)建设单位没有参加论证会，错误。
+			理由：参会人员应有建设单位项目负责人或技术负责人。
+			(4)施工单位编制了模架施工专项方案。
+		理由：支模高度已经超过8m，应该编制模板工程及支撑体系专项施工方案。</answer>
+		<title>分别指出事件3中的错误做法,并说明理由。</title>
+		<parse></parse>
+	</question>
+	<question hasimg="0">
+		<id>201508281603381292109c5-02dd7ef182e2</id>
+		<materialid>20150828160338129210969-56ec6e97b48a</materialid>
+		<headingid>201508281603381253046e2-6048f2eee08d</headingid>
+		<sort>51</sort>
+		<type>31</type>
+		<score>6</score>
+		<options/>
+		<answer>事件4中的错误做法与正确做法。
+			(1)只有公司级、分公司级、项目级安全教育记录，错误。
+			正确做法：施工企业安全生产教育培训一般包括对管理人员、特种作业人员和企业员工的安全教育。新员工上岗前要进行三级安全教育，包括公司级、项目级和班组级安全教育。
+			(2)安全技术交底记录中交底人为专职安全员，错误。
+		正确做法：安全技术交底应由项目经理部的技术负责人交底。安全技术交底应由交底人、被交底人、专职安全员进行签字确认。</answer>
+		<title>分别指出事件4中的错误做法,并指出正确做法。</title>
+		<parse></parse>
+	</question>
+</service>
