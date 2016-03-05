@@ -10,7 +10,7 @@ import UIKit
 import CoreData
 class XMLAnalysis: NSObject {
 
-    let coreDataStack = CoreDataStack(modelName: "ExamAnki")
+    let coreDataStack = CoreDataStack.sharedCoreDataStack
     let fetchRequest = NSFetchRequest()
     
     //MARK:解析XML文件并保存

@@ -10,21 +10,16 @@ import Foundation
 import CoreData
 
 class CoreDataStack {
-    
-    let managedObjectModelName: String
+   static let sharedCoreDataStack = CoreDataStack()
+   private init() {
+        
+    }
     
     //创建NSManagedObjectModel实例
     private lazy var mangedObjectModel: NSManagedObjectModel = {
-        let modelURL = NSBundle.mainBundle().URLForResource(self.managedObjectModelName, withExtension: "momd")!
+        let modelURL = NSBundle.mainBundle().URLForResource("ExamAnki", withExtension: "momd")!
         return NSManagedObjectModel(contentsOfURL: modelURL)!
     }()
-    
-    
-    required init(modelName: String){
-        managedObjectModelName = modelName
-    }
-    
-    
     private var applicationDocumentsDirectory: NSURL = {
         let urls = NSFileManager.defaultManager().URLsForDirectory(.DocumentDirectory, inDomains: .UserDomainMask)
         return urls.first!
@@ -32,10 +27,15 @@ class CoreDataStack {
     
     private lazy var persistentStoreCoordinator: NSPersistentStoreCoordinator = {
         var coordinator = NSPersistentStoreCoordinator(managedObjectModel: self.mangedObjectModel)
-        let pathComponet = "\(self.managedObjectModelName).sqlite"
+        let pathComponet = "ExamAnki.sqlite"
         let url = self.applicationDocumentsDirectory.URLByAppendingPathComponent(pathComponet)
-        
-        let store = try! coordinator.addPersistentStoreWithType(NSSQLiteStoreType, configuration: nil, URL: url, options: nil)
+        do {
+          let store = try coordinator.addPersistentStoreWithType(NSSQLiteStoreType, configuration: nil, URL: url, options: nil)
+        } catch {
+            let manage = NSFileManager.defaultManager()
+            try! manage.removeItemAtURL(url)
+            
+        }
         return coordinator
     }()
     
@@ -57,8 +57,7 @@ class CoreDataStack {
                 // abort() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
                 let nserror = error as NSError
                 NSLog("Unresolved error \(nserror), \(nserror.userInfo)")
-                //let manage = NSFileManager.defaultManager()
-                //manage.removeItemAtURL(url)
+               
                 
                 abort()
             }

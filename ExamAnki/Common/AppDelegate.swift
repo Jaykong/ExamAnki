@@ -14,7 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
     let xmlAnalysis = XMLAnalysis()
-    let coreDataStack = CoreDataStack(modelName: "ExamAnki")
+    let coreDataStack = CoreDataStack.sharedCoreDataStack
     
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
 //        test()
@@ -49,14 +49,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
         
         let fetch = NSFetchRequest(entityName: "Question")
+      let predicate = NSPredicate(format:"typecode=11")
+       fetch.predicate = predicate
         do {
+        
+            
             let arr = try coreDataStack.mainQueueContext.executeFetchRequest(fetch)
             print("-----\(arr.count)-----")
         
             for ques in arr {
                 let temp = ques as! Question
                 print(temp.id,temp.title)
-        
+                print(temp.typecode)
             }
         }catch{
             print(error)

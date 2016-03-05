@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="HH6-5r-nL6">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--我的错题-->
+        <scene sceneID="OEb-TL-xkG">
+            <objects>
+                <viewController id="Axe-R6-xKu" customClass="EAWrongQuestionVC" customModule="ExamAnki" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="iFQ-H1-zYi">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="EAWrongQestionCell" id="fQO-Qg-Fnw" customClass="EAWrongQuestionVCCell" customModule="ExamAnki" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="92" width="600" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="fQO-Qg-Fnw" id="xW6-4I-4r2">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nMj-zQ-Lbw">
+                                            <rect key="frame" x="8" y="8" width="60" height="26"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="60" id="pL2-35-6MZ"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="76v-r2-9ca">
+                                            <rect key="frame" x="522" y="7" width="60" height="30"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="60" id="DzR-24-N5N"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                            <state key="normal" title="浏览"/>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JEv-2O-xUf">
+                                            <rect key="frame" x="452" y="6" width="60" height="30"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="60" id="DPJ-nN-P3v"/>
+                                            </constraints>
+                                            <state key="normal" title="重做"/>
+                                        </button>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="76v-r2-9ca" firstAttribute="top" secondItem="nMj-zQ-Lbw" secondAttribute="top" id="6fb-Yp-vbo"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="76v-r2-9ca" secondAttribute="bottom" id="7Kk-80-JMh"/>
+                                        <constraint firstItem="JEv-2O-xUf" firstAttribute="centerY" secondItem="xW6-4I-4r2" secondAttribute="centerY" id="99s-qR-p3x"/>
+                                        <constraint firstItem="nMj-zQ-Lbw" firstAttribute="top" secondItem="xW6-4I-4r2" secondAttribute="topMargin" id="AM1-PS-DuX"/>
+                                        <constraint firstItem="nMj-zQ-Lbw" firstAttribute="leading" secondItem="xW6-4I-4r2" secondAttribute="leadingMargin" id="JdO-Sq-rxs"/>
+                                        <constraint firstItem="76v-r2-9ca" firstAttribute="leading" secondItem="JEv-2O-xUf" secondAttribute="trailing" constant="10" id="NKt-Mh-rTK"/>
+                                        <constraint firstItem="76v-r2-9ca" firstAttribute="centerY" secondItem="xW6-4I-4r2" secondAttribute="centerY" id="ng8-cV-Shg"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="76v-r2-9ca" secondAttribute="trailing" constant="10" id="p41-Jq-NTK"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="nMj-zQ-Lbw" secondAttribute="bottom" constant="1" id="tcg-kv-pP8"/>
+                                        <constraint firstItem="nMj-zQ-Lbw" firstAttribute="centerY" secondItem="xW6-4I-4r2" secondAttribute="centerY" id="v0G-4t-dcx"/>
+                                    </constraints>
+                                    <variation key="default">
+                                        <mask key="constraints">
+                                            <exclude reference="AM1-PS-DuX"/>
+                                            <exclude reference="6fb-Yp-vbo"/>
+                                            <exclude reference="7Kk-80-JMh"/>
+                                            <exclude reference="ng8-cV-Shg"/>
+                                        </mask>
+                                    </variation>
+                                </tableViewCellContentView>
+                                <constraints>
+                                    <constraint firstItem="76v-r2-9ca" firstAttribute="centerY" secondItem="fQO-Qg-Fnw" secondAttribute="centerY" id="4Aw-Hc-6xx"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="reset" destination="JEv-2O-xUf" id="TNk-Xc-b78"/>
+                                    <outlet property="reviewBtn" destination="76v-r2-9ca" id="pLM-hP-PUo"/>
+                                    <outlet property="titleLabel" destination="nMj-zQ-Lbw" id="VoR-yE-wTf"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="Axe-R6-xKu" id="LYV-vl-thw"/>
+                            <outlet property="delegate" destination="Axe-R6-xKu" id="Ow9-qV-bBx"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="我的错题" id="dGK-SF-Bcl"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="afM-aa-jc6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5193" y="460"/>
+        </scene>
+        <!--错题-->
+        <scene sceneID="XcL-qb-a4P">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="HH6-5r-nL6" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="错题" image="Wrong_Tab" id="4dp-TS-HxR"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="wVn-NG-Tav">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Axe-R6-xKu" kind="relationship" relationship="rootViewController" id="cG0-7i-0hF"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7Ee-js-yaa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4381" y="460"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Wrong_Tab" width="24" height="24"/>
+    </resources>
+</document>
