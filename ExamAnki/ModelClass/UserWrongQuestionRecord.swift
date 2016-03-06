@@ -2,8 +2,8 @@
 //  UserWrongQuestionRecord.swift
 //  ExamAnki
 //
-//  Created by trainer on 2/26/16.
-//  Copyright © 2016 kongyunpeng. All rights reserved.
+//  Created by zxz on 16/3/6.
+//  Copyright © 2016年 kongyunpeng. All rights reserved.
 //
 
 import Foundation

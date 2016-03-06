@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="15D21" minimumToolsVersion="Automatic">
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9057" systemVersion="15C50" minimumToolsVersion="Automatic">
     <entity name="BookmarkRecord" representedClassName=".BookmarkRecord" syncable="YES">
         <attribute name="addTime" optional="YES" attributeType="Date" syncable="YES"/>
         <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
@@ -12,19 +12,66 @@
         <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="qid" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="tag" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
-        <relationship name="topic" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="FlashTopic" inverseName="flashcards" inverseEntity="FlashTopic" syncable="YES"/>
+        <relationship name="topic" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="FlashTopic" inverseName="flashcards" inverseEntity="FlashTopic" syncable="YES"/>
     </entity>
     <entity name="FlashTopic" representedClassName=".FlashTopic" syncable="YES">
         <attribute name="addtime" optional="YES" attributeType="Date" syncable="YES"/>
         <attribute name="topic" optional="YES" attributeType="String" syncable="YES"/>
-        <relationship name="flashcards" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="FlashCard" inverseName="topic" inverseEntity="FlashCard" syncable="YES"/>
+        <relationship name="flashcards" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="FlashCard" inverseName="topic" inverseEntity="FlashCard" syncable="YES"/>
     </entity>
     <entity name="Heading" representedClassName=".Heading" syncable="YES">
         <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="paperid" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="sort" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
         <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="typecode" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="ImportHeading" representedClassName=".ImportHeading" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="paperid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sort" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="typecode" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="ImportPaperInfo" representedClassName=".ImportPaperInfo" syncable="YES">
+        <attribute name="addtime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="answered" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="total" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ImportQuestion" representedClassName=".ImportQuestion" syncable="YES">
+        <attribute name="answer" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hasimg" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="headingid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="materialid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="paperid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="papertype" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="parse" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="questionmate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="score" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="sort" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="typecode" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="options" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="ImportQuestionOption" inverseName="question" inverseEntity="ImportQuestionOption" syncable="YES"/>
+    </entity>
+    <entity name="ImportQuestionMaterial" representedClassName=".ImportQuestionMaterial" syncable="YES">
+        <attribute name="content" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="headingid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="qid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sort" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="typecode" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="ImportQuestionOption" representedClassName=".ImportQuestionOption" syncable="YES">
+        <attribute name="content" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sort" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="question" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ImportQuestion" inverseName="options" inverseEntity="ImportQuestion" syncable="YES"/>
     </entity>
     <entity name="PaperInfo" representedClassName=".PaperInfo" syncable="YES">
         <attribute name="addtime" optional="YES" attributeType="Date" syncable="YES"/>
@@ -56,12 +103,13 @@
         <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="qid" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="sort" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="typecode" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
     </entity>
     <entity name="QuestionOption" representedClassName=".QuestionOption" syncable="YES">
         <attribute name="content" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="sort" optional="YES" attributeType="String" syncable="YES"/>
-        <relationship name="question" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="Question" inverseName="options" inverseEntity="Question" syncable="YES"/>
+        <relationship name="question" optional="YES" maxCount="1" deletionRule="Deny" destinationEntity="Question" inverseName="options" inverseEntity="Question" syncable="YES"/>
     </entity>
     <entity name="UserQuestionRecord" representedClassName=".UserQuestionRecord" syncable="YES">
         <attribute name="addTime" optional="YES" attributeType="Date" syncable="YES"/>
@@ -76,15 +124,20 @@
         <attribute name="userAnswer" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
     <elements>
-        <element name="BookmarkRecord" positionX="0" positionY="45" width="128" height="105"/>
-        <element name="FlashCard" positionX="36" positionY="81" width="128" height="135"/>
-        <element name="FlashTopic" positionX="-36" positionY="9" width="128" height="90"/>
-        <element name="Heading" positionX="-18" positionY="27" width="128" height="120"/>
-        <element name="PaperInfo" positionX="0" positionY="45" width="128" height="135"/>
-        <element name="Question" positionX="-63" positionY="-18" width="128" height="255"/>
-        <element name="QuestionMaterial" positionX="-54" positionY="-9" width="128" height="135"/>
-        <element name="QuestionOption" positionX="18" positionY="63" width="128" height="90"/>
-        <element name="UserQuestionRecord" positionX="9" positionY="54" width="128" height="105"/>
-        <element name="UserWrongQuestionRecord" positionX="-9" positionY="36" width="128" height="105"/>
+        <element name="BookmarkRecord" positionX="-45" positionY="486" width="128" height="105"/>
+        <element name="FlashCard" positionX="135" positionY="333" width="128" height="133"/>
+        <element name="FlashTopic" positionX="-47" positionY="369" width="128" height="88"/>
+        <element name="Heading" positionX="-45" positionY="-315" width="128" height="135"/>
+        <element name="ImportHeading" positionX="268" positionY="-306" width="128" height="133"/>
+        <element name="ImportPaperInfo" positionX="268" positionY="-450" width="128" height="133"/>
+        <element name="ImportQuestion" positionX="279" positionY="-30" width="128" height="253"/>
+        <element name="ImportQuestionMaterial" positionX="277" positionY="-180" width="128" height="150"/>
+        <element name="ImportQuestionOption" positionX="277" positionY="252" width="128" height="88"/>
+        <element name="PaperInfo" positionX="-38" positionY="-459" width="128" height="135"/>
+        <element name="Question" positionX="-47" positionY="-21" width="128" height="253"/>
+        <element name="QuestionMaterial" positionX="-45" positionY="-180" width="128" height="150"/>
+        <element name="QuestionOption" positionX="-45" positionY="252" width="128" height="88"/>
+        <element name="UserQuestionRecord" positionX="277" positionY="489" width="128" height="105"/>
+        <element name="UserWrongQuestionRecord" positionX="117" positionY="489" width="128" height="105"/>
     </elements>
 </model>

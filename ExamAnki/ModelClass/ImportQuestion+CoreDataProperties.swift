@@ -1,5 +1,5 @@
 //
-//  Heading+CoreDataProperties.swift
+//  ImportQuestion+CoreDataProperties.swift
 //  ExamAnki
 //
 //  Created by zxz on 16/3/6.
@@ -12,13 +12,21 @@
 import Foundation
 import CoreData
 
-extension Heading {
+extension ImportQuestion {
 
+    @NSManaged var answer: String?
+    @NSManaged var hasimg: NSNumber?
+    @NSManaged var headingid: String?
     @NSManaged var id: String?
+    @NSManaged var materialid: String?
     @NSManaged var paperid: String?
+    @NSManaged var papertype: String?
+    @NSManaged var parse: String?
+    @NSManaged var questionmate: String?
+    @NSManaged var score: NSNumber?
     @NSManaged var sort: NSNumber?
     @NSManaged var title: String?
-    @NSManaged var type: String?
     @NSManaged var typecode: NSNumber?
+    @NSManaged var options: NSSet?
 
 }

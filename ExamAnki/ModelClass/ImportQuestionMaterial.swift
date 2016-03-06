@@ -1,5 +1,5 @@
 //
-//  Card.swift
+//  ImportQuestionMaterial.swift
 //  ExamAnki
 //
 //  Created by zxz on 16/3/6.
@@ -10,7 +10,7 @@ import Foundation
 import CoreData
 
 
-class Card: NSManagedObject {
+class ImportQuestionMaterial: NSManagedObject {
 
 // Insert code here to add functionality to your managed object subclass
 

@@ -12,7 +12,7 @@ import CoreData
 class XZModelService: NSObject {
     static let sharedModelService = XZModelService()
     lazy var context:NSManagedObjectContext = {
-        return AppDelegate().managedObjectContext
+        return CoreDataStack.sharedCoreDataStack.mainQueueContext
     }()
     private override init() {}
     
@@ -21,7 +21,7 @@ class XZModelService: NSObject {
     }
     func removeManagedObject(obj:NSManagedObject) {
         self.context.deleteObject(obj )
-        AppDelegate().saveContext()
+        CoreDataStack.sharedCoreDataStack.saveContext()
     }
     func getAllManagedObjecsInTable(tableName:String) -> [AnyObject] {
         let fetchRequest = NSFetchRequest(entityName: tableName)

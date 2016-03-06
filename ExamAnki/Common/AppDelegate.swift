@@ -71,28 +71,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return true
     }
 
-//    func test(){
-//        let path = NSBundle.mainBundle().pathForResource("2015082816033575811715e-5b538a495fa6", ofType: "xml")
-//        print(path)
-//        
-//        let data = NSData(contentsOfFile: path!)
-//        let doc = try! GDataXMLDocument(data: data, options: 0)
-//        let nodes = try! doc.nodesForXPath("//question")
-//        for node in nodes {
-//            let tempQuestion:Question = NSEntityDescription.insertNewObjectForEntityForName("Question", inManagedObjectContext: self.managedObjectContext) as! Question
-//            let idEle = node.elementsForName("id")[0]
-//            tempQuestion.id = idEle.stringValue
-//            let titleEle = node.elementsForName("title")[0]
-//            tempQuestion.title = titleEle.stringValue
-//            let answerEle = node.elementsForName("answer")[0]
-//            tempQuestion.answer = answerEle.stringValue
-//            let parseEle = node.elementsForName("parse")[0]
-//            tempQuestion.parse = parseEle.stringValue
-//            print(tempQuestion.title)
-//            self.saveContext()
-//        }
-//        
-//    }
+
 
     func applicationWillResignActive(application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

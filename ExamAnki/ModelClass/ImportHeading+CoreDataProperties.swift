@@ -1,5 +1,5 @@
 //
-//  Heading+CoreDataProperties.swift
+//  ImportHeading+CoreDataProperties.swift
 //  ExamAnki
 //
 //  Created by zxz on 16/3/6.
@@ -12,7 +12,7 @@
 import Foundation
 import CoreData
 
-extension Heading {
+extension ImportHeading {
 
     @NSManaged var id: String?
     @NSManaged var paperid: String?

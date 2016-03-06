@@ -7,13 +7,15 @@
 //
 
 import UIKit
+import CoreData
 
 class EAImportVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        // testImportDB()
+        fetchImportDB()
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,15 +23,33 @@ class EAImportVC: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    func testImportDB(){
+        XZPaperParsingService().parseHTML()
+        CoreDataStack.sharedCoreDataStack.saveContext()
     }
-    */
+    func fetchImportDB(){
+        let fetch = NSFetchRequest(entityName:EAImportQuestion)
+        do {
+            let arr = try CoreDataStack.sharedCoreDataStack.mainQueueContext.executeFetchRequest(fetch)
+            print("-----\(arr.count)-----")
+            
+            for ques in arr {
+                let temp = ques as! ImportQuestion
+                print("id        :\(temp.id)")
+                print("headingid :\(temp.headingid)")
+                print("typecode  :\(temp.typecode)")
+                print("title     :\(temp.title)")
+                print("sort      :\(temp.sort)")
+                print("materialid:\(temp.materialid)")
+                print("answer    :\(temp.answer)")
+                print("score     :\(temp.score)")
+                print("parse     :\(temp.parse)")
+                print("---------------")
+                
+            }
+        }catch{
+            print(error)
+        }
+    }
 
 }
