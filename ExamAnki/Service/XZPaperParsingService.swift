@@ -33,6 +33,7 @@ enum MaterialTypeCode:Int {
 }
 
 class XZPaperParsingService: NSObject {
+    //正则表达式
     enum QuestionTypeRegex:String {
         case choiceQuestion = "^[一,二,三,四,五,六,七,八,九,十].*单项选择题"
         case multipleChoiceQuestion = "^[一,二,三,四,五,六,七,八,九,十].*多项选择题"
@@ -40,14 +41,22 @@ class XZPaperParsingService: NSObject {
         case materialQuestion = "^[一,二,三,四,五,六,七,八,九,十].*分析题"
     }
     
-    func parseHTML(){
-        let path = NSBundle.mainBundle().pathForResource("PaperDemo", ofType: "html")
-        let data = NSData(contentsOfFile: path!)
+    //解析文件的地址
+    var paperURL:NSURL!
+    
+    func parseHTML(url:NSURL,title:String){
+        var tempUrlComp = url.pathComponents
+        tempUrlComp?.removeLast()
+        paperURL = NSURL.fileURLWithPathComponents(tempUrlComp!)
+        let data = NSData(contentsOfURL: url)
+        if data == nil {
+            return
+        }
         let parse = TFHpple(data: data!, encoding: "UTF-8", isXML: false)
         var arr = parse.searchWithXPathQuery("//p") as! [TFHppleElement]
         let paper = XZModelService.sharedModelService.creatManagedObjectInTable(EAImportPaperInfo) as! ImportPaperInfo
         paper.id = creatID(0)
-        paper.name = "PaperDemo"
+        paper.name = title
         while arr.count > 0 {
             let temp = arr.first!
             let ele = temp.content.stringByReplacingOccurrencesOfString(" ", withString: "")
@@ -161,7 +170,7 @@ class XZPaperParsingService: NSObject {
 
                 //有材料开头，开始创建‘ImportQuestionMaterial’
                 if match(ele, regexs: ["^[0-9]"]) {
-                    if aQuestionMaterial != nil { //到下一道分析题时，才保存
+                    if aQuestionMaterial != nil && (aQuestionMaterial?.qid != "")&&(aQuestionMaterial?.title != "" || aQuestionMaterial?.content != "") { //到下一道分析题时，才保存
                         CoreDataStack.sharedCoreDataStack.saveContext()
                         aQuestionMaterial = nil
                         aQuestion = nil
@@ -178,8 +187,10 @@ class XZPaperParsingService: NSObject {
 
                     let imgTF = img[0] as! TFHppleElement
                     let imgSrc = imgTF.objectForKey("src")
-                    print("材料图片\(imgSrc)")
-                    aQuestionMaterial?.content = imageBase64String(imgSrc)
+                    let imgPath = (paperURL.path)!+"/"+"\(imgSrc)"
+                    print("材料图片\(imgPath)")
+                    aQuestionMaterial?.content = imageBase64String(imgPath)
+//                    print("\(aQuestionMaterial?.content)")
                 //创建‘ImportQuestion’
                 }else if match(ele, regexs: ["^([0-9])"]) || match(ele, regexs: ["^（[0-9]）"]) {
                     print("问题文字内容---\(ele)")
@@ -256,10 +267,12 @@ class XZPaperParsingService: NSObject {
 
                     let imgTF = img[0] as! TFHppleElement
                     let imgSrc = imgTF.objectForKey("src")
-                    print("选项图片\(imgSrc)")
+                    let imgPath = (paperURL.path)!+"/"+"\(imgSrc)"
+                    print("材料图片\(imgPath)")
                     aQuestion?.hasimg = true
                     //图片‘content’
-                    aQuestionMaterial?.content = imageBase64String(imgSrc)
+                    
+                    aQuestionMaterial?.content = imageBase64String(imgPath)
                     aQuestionMaterial?.id = creatID(MaterialTypeCode.material.rawValue)
                     aQuestionMaterial?.headingid = withHeading.id
                     aQuestionMaterial?.typecode = MaterialTypeCode.material.rawValue
