@@ -165,7 +165,8 @@ class XZPaperParsingService: NSObject {
         for quesEle in questions {
             
             let img = quesEle.searchWithXPathQuery("//img")
-            let ele = quesEle.content
+            let ele = quesEle.content.stringByReplacingOccurrencesOfString("\r", withString: "").stringByReplacingOccurrencesOfString("\n", withString: "")
+            
             if ele != "" || img.count>0 {
 
                 //有材料开头，开始创建‘ImportQuestionMaterial’
@@ -234,7 +235,7 @@ class XZPaperParsingService: NSObject {
         var aQuestionOptions:Array<ImportQuestionOption>?
         
         for quesEle in questions {
-            let ele = quesEle.content
+            let ele = quesEle.content.stringByReplacingOccurrencesOfString("\r", withString: "").stringByReplacingOccurrencesOfString("\n", withString: "")
             let img = quesEle.searchWithXPathQuery("//img")
             if ele != "" || img.count>0{
                 // 匹配问题，

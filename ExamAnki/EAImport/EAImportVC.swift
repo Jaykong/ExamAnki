@@ -223,6 +223,16 @@ class EAImportVC: UIViewController,UITableViewDataSource,UITableViewDelegate{
                 print("headingid :\(temp.headingid)")
                 print("typecode  :\(temp.typecode)")
                 print("title     :\(temp.title)")
+                
+                let opts = temp.options
+                if opts != nil {
+                    if opts!.count>0 {
+                        for opt in opts! {
+                            let obj = opt as! ImportQuestionOption
+                            print("Option    :\(obj.content)")
+                        }
+                    }
+                }
                 print("hasimg    :\(temp.hasimg)")
                 print("materialid:\(temp.materialid)")
                 print("answer    :\(temp.answer)")
