@@ -48,24 +48,25 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             xmlAnalysis.fetchXMLData(fileName: "20141230165606945484423-3c2da1df6488")
         }
         
-        let fetch = NSFetchRequest(entityName: "Question")
-      let predicate = NSPredicate(format:"typecode=11")
-       fetch.predicate = predicate
-        do {
-        
-            
-            let arr = try coreDataStack.mainQueueContext.executeFetchRequest(fetch)
-            print("-----\(arr.count)-----")
-        
-            for ques in arr {
-                let temp = ques as! Question
-                print(temp.id,temp.title)
-                print(temp.typecode)
-            }
-        }catch{
-            print(error)
-        }
-
+//        let fetch = NSFetchRequest(entityName: "Question")
+//      let predicate = NSPredicate(format:"typecode=11")
+//       fetch.predicate = predicate
+//        do {
+//        
+//            
+//            let arr = try coreDataStack.mainQueueContext.executeFetchRequest(fetch)
+//            print("-----\(arr.count)-----")
+//        
+//            for ques in arr {
+//                let temp = ques as! Question
+//                print(temp.id,temp.title)
+//                print(temp.typecode)
+//            }
+//        }catch{
+//            print(error)
+//        }
+  let questions =  EAQuestionManager.getQuestionsWithTypeCode(QuestionTypeCode.choiceQuestion.rawValue)
+  print(questions?.count)
         
         // Override point for customization after application launch.
         return true
