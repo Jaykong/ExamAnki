@@ -4,3 +4,4 @@
 
 #import "GDataXMLNode.h"
 #import "TFHpple.h"
+#import <CoreData/CoreData.h>

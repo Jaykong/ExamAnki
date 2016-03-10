@@ -86,6 +86,7 @@
 		D316E9931C91E72F00E00B27 /* 20141230165606945484423-3c2da1df6488.xml in Resources */ = {isa = PBXBuildFile; fileRef = D316E9901C91E72F00E00B27 /* 20141230165606945484423-3c2da1df6488.xml */; };
 		D316E9941C91E72F00E00B27 /* 2015082816033575811715e-5b538a495fa6.xml in Resources */ = {isa = PBXBuildFile; fileRef = D316E9911C91E72F00E00B27 /* 2015082816033575811715e-5b538a495fa6.xml */; };
 		D316E9951C91E72F00E00B27 /* 20151015170129212125061-b2407ba143d3.xml in Resources */ = {isa = PBXBuildFile; fileRef = D316E9921C91E72F00E00B27 /* 20151015170129212125061-b2407ba143d3.xml */; };
+		D316E9991C920D3400E00B27 /* EAQuestionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D316E9981C920D3400E00B27 /* EAQuestionManager.swift */; };
 		D390BF5A1C78D0FD0079FD8F /* ExamAnkiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D390BF591C78D0FD0079FD8F /* ExamAnkiTests.swift */; };
 		D390BF651C78D0FD0079FD8F /* ExamAnkiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D390BF641C78D0FD0079FD8F /* ExamAnkiUITests.swift */; };
 /* End PBXBuildFile section */
@@ -193,6 +194,7 @@
 		D316E9901C91E72F00E00B27 /* 20141230165606945484423-3c2da1df6488.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "20141230165606945484423-3c2da1df6488.xml"; sourceTree = "<group>"; };
 		D316E9911C91E72F00E00B27 /* 2015082816033575811715e-5b538a495fa6.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "2015082816033575811715e-5b538a495fa6.xml"; sourceTree = "<group>"; };
 		D316E9921C91E72F00E00B27 /* 20151015170129212125061-b2407ba143d3.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "20151015170129212125061-b2407ba143d3.xml"; sourceTree = "<group>"; };
+		D316E9981C920D3400E00B27 /* EAQuestionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAQuestionManager.swift; sourceTree = "<group>"; };
 		D390BF3E1C78D0FD0079FD8F /* ExamAnki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExamAnki.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D390BF551C78D0FD0079FD8F /* ExamAnkiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExamAnkiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D390BF591C78D0FD0079FD8F /* ExamAnkiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamAnkiTests.swift; sourceTree = "<group>"; };
@@ -354,6 +356,7 @@
 		A9DFBFE41C804698000CA605 /* EAMain */ = {
 			isa = PBXGroup;
 			children = (
+				D316E9981C920D3400E00B27 /* EAQuestionManager.swift */,
 				46E2675F1C868A71006A23F9 /* EAPaperInfoVC.swift */,
 				A9AD77E61C894075005CD5DA /* EAMainTab.storyboard */,
 			);
@@ -709,6 +712,7 @@
 				9F5BBA761C8C2F0500575171 /* BookmarkRecord.swift in Sources */,
 				46E267561C868953006A23F9 /* EAFlashCardVC.swift in Sources */,
 				9F5BBA751C8C2F0500575171 /* BookmarkRecord+CoreDataProperties.swift in Sources */,
+				D316E9991C920D3400E00B27 /* EAQuestionManager.swift in Sources */,
 				9F5BBA731C8C2F0500575171 /* ImportQuestionOption+CoreDataProperties.swift in Sources */,
 				46E267541C868935006A23F9 /* EAFeedbackVC.swift in Sources */,
 				46E267521C868928006A23F9 /* EACommentVC.swift in Sources */,
