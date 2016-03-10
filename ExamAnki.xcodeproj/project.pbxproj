@@ -82,10 +82,10 @@
 		A9DFC0131C804698000CA605 /* BookmarkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DFBFDD1C804698000CA605 /* BookmarkCell.swift */; };
 		A9DFC0141C804698000CA605 /* BookmarkQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DFBFDE1C804698000CA605 /* BookmarkQuestionViewController.swift */; };
 		A9DFC0291C804698000CA605 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9DFBFFD1C804698000CA605 /* Assets.xcassets */; };
-		A9DFC02C1C804698000CA605 /* 20141230165606945484423-3c2da1df6488.xml in Resources */ = {isa = PBXBuildFile; fileRef = A9DFC0021C804698000CA605 /* 20141230165606945484423-3c2da1df6488.xml */; };
-		A9DFC02D1C804698000CA605 /* 2015082816033575811715e-5b538a495fa6.xml in Resources */ = {isa = PBXBuildFile; fileRef = A9DFC0031C804698000CA605 /* 2015082816033575811715e-5b538a495fa6.xml */; };
-		A9DFC02E1C804698000CA605 /* 20151015170129212125061-b2407ba143d3.xml in Resources */ = {isa = PBXBuildFile; fileRef = A9DFC0041C804698000CA605 /* 20151015170129212125061-b2407ba143d3.xml */; };
 		A9DFC0301C804698000CA605 /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DFC00A1C804698000CA605 /* GDataXMLNode.m */; };
+		D316E9931C91E72F00E00B27 /* 20141230165606945484423-3c2da1df6488.xml in Resources */ = {isa = PBXBuildFile; fileRef = D316E9901C91E72F00E00B27 /* 20141230165606945484423-3c2da1df6488.xml */; };
+		D316E9941C91E72F00E00B27 /* 2015082816033575811715e-5b538a495fa6.xml in Resources */ = {isa = PBXBuildFile; fileRef = D316E9911C91E72F00E00B27 /* 2015082816033575811715e-5b538a495fa6.xml */; };
+		D316E9951C91E72F00E00B27 /* 20151015170129212125061-b2407ba143d3.xml in Resources */ = {isa = PBXBuildFile; fileRef = D316E9921C91E72F00E00B27 /* 20151015170129212125061-b2407ba143d3.xml */; };
 		D390BF5A1C78D0FD0079FD8F /* ExamAnkiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D390BF591C78D0FD0079FD8F /* ExamAnkiTests.swift */; };
 		D390BF651C78D0FD0079FD8F /* ExamAnkiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D390BF641C78D0FD0079FD8F /* ExamAnkiUITests.swift */; };
 /* End PBXBuildFile section */
@@ -188,11 +188,11 @@
 		A9DFBFDE1C804698000CA605 /* BookmarkQuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookmarkQuestionViewController.swift; sourceTree = "<group>"; };
 		A9DFBFFD1C804698000CA605 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9DFC0001C804698000CA605 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A9DFC0021C804698000CA605 /* 20141230165606945484423-3c2da1df6488.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "20141230165606945484423-3c2da1df6488.xml"; sourceTree = "<group>"; };
-		A9DFC0031C804698000CA605 /* 2015082816033575811715e-5b538a495fa6.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "2015082816033575811715e-5b538a495fa6.xml"; sourceTree = "<group>"; };
-		A9DFC0041C804698000CA605 /* 20151015170129212125061-b2407ba143d3.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "20151015170129212125061-b2407ba143d3.xml"; sourceTree = "<group>"; };
 		A9DFC0091C804698000CA605 /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
 		A9DFC00A1C804698000CA605 /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
+		D316E9901C91E72F00E00B27 /* 20141230165606945484423-3c2da1df6488.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "20141230165606945484423-3c2da1df6488.xml"; sourceTree = "<group>"; };
+		D316E9911C91E72F00E00B27 /* 2015082816033575811715e-5b538a495fa6.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "2015082816033575811715e-5b538a495fa6.xml"; sourceTree = "<group>"; };
+		D316E9921C91E72F00E00B27 /* 20151015170129212125061-b2407ba143d3.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "20151015170129212125061-b2407ba143d3.xml"; sourceTree = "<group>"; };
 		D390BF3E1C78D0FD0079FD8F /* ExamAnki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExamAnki.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D390BF551C78D0FD0079FD8F /* ExamAnkiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExamAnkiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D390BF591C78D0FD0079FD8F /* ExamAnkiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamAnkiTests.swift; sourceTree = "<group>"; };
@@ -431,9 +431,9 @@
 		A9DFC0011C804698000CA605 /* papers */ = {
 			isa = PBXGroup;
 			children = (
-				A9DFC0021C804698000CA605 /* 20141230165606945484423-3c2da1df6488.xml */,
-				A9DFC0031C804698000CA605 /* 2015082816033575811715e-5b538a495fa6.xml */,
-				A9DFC0041C804698000CA605 /* 20151015170129212125061-b2407ba143d3.xml */,
+				D316E9901C91E72F00E00B27 /* 20141230165606945484423-3c2da1df6488.xml */,
+				D316E9911C91E72F00E00B27 /* 2015082816033575811715e-5b538a495fa6.xml */,
+				D316E9921C91E72F00E00B27 /* 20151015170129212125061-b2407ba143d3.xml */,
 			);
 			path = papers;
 			sourceTree = "<group>";
@@ -615,10 +615,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D316E9931C91E72F00E00B27 /* 20141230165606945484423-3c2da1df6488.xml in Resources */,
 				46E267791C869672006A23F9 /* EACommentTab.storyboard in Resources */,
 				46E267771C86964A006A23F9 /* EAShare.storyboard in Resources */,
 				A9AD77E51C894057005CD5DA /* EABookmarkTab.storyboard in Resources */,
-				A9DFC02E1C804698000CA605 /* 20151015170129212125061-b2407ba143d3.xml in Resources */,
 				46E267711C869588006A23F9 /* EAFlashTab.storyboard in Resources */,
 				46E2677B1C869689006A23F9 /* EAAboutTab.storyboard in Resources */,
 				46E2677D1C8696BA006A23F9 /* EAFeedbackTab.storyboard in Resources */,
@@ -628,13 +628,13 @@
 				A9DFC00F1C804698000CA605 /* LaunchScreen.storyboard in Resources */,
 				9F5BBAA71C8C304300575171 /* themedata.thmx in Resources */,
 				A9DFC0291C804698000CA605 /* Assets.xcassets in Resources */,
+				D316E9951C91E72F00E00B27 /* 20151015170129212125061-b2407ba143d3.xml in Resources */,
 				9F5BBAA01C8C304300575171 /* filelist.xml in Resources */,
 				9F5BBAA21C8C304300575171 /* image002.png in Resources */,
+				D316E9941C91E72F00E00B27 /* 2015082816033575811715e-5b538a495fa6.xml in Resources */,
 				46E267641C868B5A006A23F9 /* EAWrongTab.storyboard in Resources */,
-				A9DFC02D1C804698000CA605 /* 2015082816033575811715e-5b538a495fa6.xml in Resources */,
 				9F5BBAA41C8C304300575171 /* image004.png in Resources */,
 				A9AD77E71C894075005CD5DA /* EAMainTab.storyboard in Resources */,
-				A9DFC02C1C804698000CA605 /* 20141230165606945484423-3c2da1df6488.xml in Resources */,
 				9F5BBAA31C8C304300575171 /* image003.png in Resources */,
 				9F5BBAA61C8C304300575171 /* image006.png in Resources */,
 				A9DFC0101C804698000CA605 /* Main.storyboard in Resources */,
