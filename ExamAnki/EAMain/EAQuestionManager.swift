@@ -18,20 +18,19 @@ class EAQuestionManager: NSObject {
             if !questions.isEmpty {
                 return questions[0] as? Question
             }
-            
         } catch {
             print(error)
         }
         return nil
     }
-    class  func getQuestionsWithTypeCode(typeCode:Int) -> [Question]? {
+    
+    class  func getQuestionsWithTypeCode(typeCode:QuestionTypeCode) -> [Question]? {
         let request = NSFetchRequest(entityName: EAQuestion)
-        let predicate = NSPredicate(format: "typecode==%i", typeCode)
+        let predicate = NSPredicate(format: "typecode==%i", typeCode.rawValue)
         request.predicate = predicate
         do {
             let questions = try CoreDataStack.sharedCoreDataStack.mainQueueContext.executeFetchRequest(request)
             return questions as? [Question]
-            
         } catch {
             print(error)
         }

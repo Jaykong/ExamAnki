@@ -9,7 +9,6 @@
 import UIKit
 
 class EAPaperInfoVC: UIViewController {
-
     override func viewDidLoad() {
         super.viewDidLoad()
 

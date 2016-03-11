@@ -21,13 +21,11 @@ enum QuestionTypeCode:Int {
     case trueOrFalseQuestion = 21
     case materialQuestion = 31
 }
-
 enum HeadingTypeCode:Int {
     case choiceOrMultipleQuestion = 10
     case trueOrFalseQuestion = 20
     case materialQuestion = 30
 }
-
 enum MaterialTypeCode:Int {
     case material = 41
 }
