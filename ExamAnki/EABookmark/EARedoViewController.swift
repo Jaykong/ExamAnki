@@ -11,7 +11,7 @@ import CoreData
 
 class EARedoViewController: UIViewController,UITableViewDataSource,UITableViewDelegate,UIScrollViewDelegate {
     
-    let coreDataStack = CoreDataStack(modelName: "ExamAnki")
+    let coreDataStack = CoreDataStack.sharedCoreDataStack
     
     var single = [Question]()
     var answer :QuestionOption!
@@ -58,6 +58,9 @@ class EARedoViewController: UIViewController,UITableViewDataSource,UITableViewDe
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+
+
         
 //        let fetchRequest = NSFetchRequest(entityName:EAUserQuestionRecord)
 //        do {
@@ -123,6 +126,10 @@ class EARedoViewController: UIViewController,UITableViewDataSource,UITableViewDe
         currentPage = 0
         prePage = -1
         nextPage = 1
+        
+        _tableView1.estimatedRowHeight = 100
+        _tableView2.estimatedRowHeight = 100
+        _tableView3.estimatedRowHeight = 100
     
     }
     
@@ -224,9 +231,9 @@ class EARedoViewController: UIViewController,UITableViewDataSource,UITableViewDe
         
     }
     
-//    func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
-//        return uid
-//    }
+    func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+        return UITableViewAutomaticDimension
+    }
     
     func tableView(tableView: UITableView, estimatedHeightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
         switch indexPath.section{

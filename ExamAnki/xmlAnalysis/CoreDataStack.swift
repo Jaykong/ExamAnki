@@ -11,9 +11,7 @@ import CoreData
 
 class CoreDataStack {
    static let sharedCoreDataStack = CoreDataStack()
-   private init() {
-        
-    }
+   private init() {}
     
     //创建NSManagedObjectModel实例
     private lazy var mangedObjectModel: NSManagedObjectModel = {
