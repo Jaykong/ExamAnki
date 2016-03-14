@@ -7,31 +7,76 @@
 //
 
 import UIKit
+import CoreData
 
 class BookmarkQuestionViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
     
+    let coreDataStack = CoreDataStack(modelName: "ExamAnki")
+    var questions: Question!
+    
+    var single = [Question]()
+    var multiple:Question!
+    var alternative:Question!
+    var general:Question!
+    
     let bookType = ["单选题","多选题","判断题","综合题"]
-    var single = 0,multiple = 0,alternative = 0,general = 0
-    
-    
+    var sin = 0,mul = 0,alt = 0,gen = 0
+
     @IBOutlet weak var bookTableView: UITableView!
-    
-//    required init?(coder aDecoder: NSCoder) {
-//        if(!self){
-//            [self .superclass]
-//        }
-//    }
-//    init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: NSBundle?) {
-//        
-//    }
     
     override func viewDidLoad() {
         
         super.viewDidLoad()
-//        self.view.addSubview(bookTableView)
         
         bookTableView.delegate = self
         bookTableView.dataSource = self
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        
+        super.viewWillAppear(animated)
+        
+        let fetch = NSFetchRequest(entityName: "Question")
+        let predSingle1 = NSPredicate(format:"typecode == %@", "11")
+        
+        fetch.predicate = predSingle1
+        do {
+            let singleArr = try coreDataStack.mainQueueContext.executeFetchRequest(fetch)
+            print("single-----\(singleArr.count)-----")
+            
+            for singleQuestion in singleArr {
+                var singleAnswers = Set<QuestionOption>()
+                let tempQuestion = singleQuestion as! Question
+        
+                let fetch = NSFetchRequest(entityName: "QuestionOption")
+                fetch.predicate =
+                    NSPredicate(format:"question == %@", tempQuestion)
+                do {
+                    let answers = try coreDataStack.mainQueueContext.executeFetchRequest(fetch)
+                    print("answers-----\(answers.count)-----")
+                    
+                    for ans in answers {
+                        let tempAnswer = ans as! QuestionOption
+                        singleAnswers.insert(tempAnswer)
+                    }
+                }catch{
+                    print(error)
+                }
+                
+                tempQuestion.options = singleAnswers
+                
+                let count = single.count
+                single.insert(tempQuestion, atIndex: count)
+                
+                for option in tempQuestion.options!{
+                    let op = option as! QuestionOption
+                    print(tempQuestion.sort!,tempQuestion.title!,"answer:\(tempQuestion.answer!)",op.sort!,op.content!)
+                }
+            }
+        }catch{
+            print(error)
+        }
+        print(single.count)
     }
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
@@ -43,16 +88,65 @@ class BookmarkQuestionViewController: UIViewController,UITableViewDelegate,UITab
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        
         let cell = tableView.dequeueReusableCellWithIdentifier("BookmarkCell", forIndexPath: indexPath) as! BookmarkCell
-        cell.bookStyleLabel.text = bookType[indexPath.row]
+        
+        // 1
+        let text = "\(bookType[indexPath.row])(\(single.count))" as NSString
+        let attributedString = NSMutableAttributedString(string: text as String)
+        
+        // 2
+        let firstAttributes = [NSForegroundColorAttributeName: UIColor.redColor(), NSBackgroundColorAttributeName: UIColor.clearColor(), NSUnderlineStyleAttributeName: 1]
+        
+        // 3
+        attributedString.addAttributes(firstAttributes, range: text.rangeOfString("\(single.count)"))
+        
+        // 4
+        cell.bookStyleLabel.attributedText = attributedString
+        
         cell.selectionStyle = UITableViewCellSelectionStyle.None
         return cell
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+
     }
+    
+    func setScoreLblValue(value:Int) {
+
+
+    }
+    
+    
+    @IBAction func doAgain(sender: AnyObject) {
+        
+//        let controller = EARedoViewController()
+//        
+//        controller.hidesBottomBarWhenPushed = true
+//        controller.title = "单选题"
+//        controller.single = self.single
+//        controller.setScoreLblValue = setScoreLblValue
+
+        
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        let controller = segue.destinationViewController as! EARedoViewController
+        
+        controller.hidesBottomBarWhenPushed = true
+        controller.title = "单选题"
+        controller.single = self.single
+        controller.setScoreLblValue = setScoreLblValue
+    }
+
+    
+    @IBAction func lookThrough(segue: UIStoryboardSegue,sender: AnyObject) {
+        
+    }
+    
+    
+    
     
     
 }

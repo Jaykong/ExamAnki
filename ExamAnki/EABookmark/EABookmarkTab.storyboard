@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="mjW-LP-jDV">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="8h7-iI-gNJ">
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--Bookmark Question View Controller-->
+        <!--我的收藏-->
         <scene sceneID="Cm4-tZ-5Fv">
             <objects>
                 <viewController id="uh1-zE-3tx" customClass="BookmarkQuestionViewController" customModule="ExamAnki" customModuleProvider="target" sceneMemberID="viewController">
@@ -17,41 +17,62 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Zgm-5t-0kh">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Zgm-5t-0kh">
                                 <rect key="frame" x="0.0" y="44" width="600" height="507"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="BookmarkCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="BookmarkCell" id="Wvm-WO-JfX" customClass="BookmarkCell" customModule="ExamAnki" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" verticalHuggingPriority="200" restorationIdentifier="BookmarkCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="BookmarkCell" id="Wvm-WO-JfX" customClass="BookmarkCell" customModule="ExamAnki" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="92" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Wvm-WO-JfX" id="VpO-6H-DkW">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NaT-eD-8P3">
-                                                    <rect key="frame" x="460" y="7" width="30" height="30"/>
+                                                    <rect key="frame" x="430" y="7" width="60" height="30"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="30" id="L7L-sW-njv"/>
+                                                        <constraint firstAttribute="width" constant="60" id="qGH-R0-gOD"/>
+                                                    </constraints>
                                                     <size key="titleShadowOffset" width="2.2250738585072014e-308" height="2.2250738585072014e-308"/>
                                                     <state key="normal" title="重做"/>
+                                                    <connections>
+                                                        <action selector="doAgain:" destination="uh1-zE-3tx" eventType="touchUpInside" id="uOi-Lx-pvW"/>
+                                                        <segue destination="WfZ-zp-6DB" kind="push" id="iPe-Ka-VyO"/>
+                                                    </connections>
                                                 </button>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l1p-s8-yyp">
-                                                    <rect key="frame" x="520" y="7" width="30" height="30"/>
+                                                    <rect key="frame" x="510" y="7" width="60" height="30"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="60" id="BX3-lS-vip"/>
+                                                        <constraint firstAttribute="height" constant="30" id="PHg-Ke-6tI"/>
+                                                    </constraints>
                                                     <state key="normal" title="浏览"/>
+                                                    <connections>
+                                                        <action selector="lookThrough:" destination="uh1-zE-3tx" eventType="touchUpInside" id="5qB-w1-xWo"/>
+                                                    </connections>
                                                 </button>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QQ1-AZ-Bk6">
-                                                    <rect key="frame" x="50" y="11" width="42" height="21"/>
+                                                    <rect key="frame" x="30" y="11" width="42" height="20.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="l1p-s8-yyp" firstAttribute="centerY" secondItem="VpO-6H-DkW" secondAttribute="centerY" id="8YA-UC-fdB"/>
-                                                <constraint firstItem="l1p-s8-yyp" firstAttribute="leading" secondItem="NaT-eD-8P3" secondAttribute="trailing" constant="30" id="J37-4n-PSZ"/>
+                                                <constraint firstItem="QQ1-AZ-Bk6" firstAttribute="leading" secondItem="VpO-6H-DkW" secondAttribute="leading" constant="30" id="Jg2-39-Iwh"/>
+                                                <constraint firstItem="NaT-eD-8P3" firstAttribute="centerY" secondItem="VpO-6H-DkW" secondAttribute="centerY" id="OS3-sw-caa"/>
                                                 <constraint firstItem="QQ1-AZ-Bk6" firstAttribute="leading" secondItem="VpO-6H-DkW" secondAttribute="leading" constant="50" id="PRf-Ys-zVO"/>
-                                                <constraint firstAttribute="trailing" secondItem="l1p-s8-yyp" secondAttribute="trailing" constant="50" id="VVo-F3-jr8"/>
-                                                <constraint firstItem="NaT-eD-8P3" firstAttribute="centerY" secondItem="VpO-6H-DkW" secondAttribute="centerY" id="br8-l5-SEd"/>
+                                                <constraint firstItem="l1p-s8-yyp" firstAttribute="leading" secondItem="NaT-eD-8P3" secondAttribute="trailing" constant="20" id="cu2-kt-de5"/>
+                                                <constraint firstItem="l1p-s8-yyp" firstAttribute="centerY" secondItem="VpO-6H-DkW" secondAttribute="centerY" id="dM6-yC-Ihh"/>
+                                                <constraint firstAttribute="trailing" secondItem="l1p-s8-yyp" secondAttribute="trailing" constant="30" id="hA8-HH-mIN"/>
                                                 <constraint firstItem="QQ1-AZ-Bk6" firstAttribute="centerY" secondItem="VpO-6H-DkW" secondAttribute="centerY" id="iCZ-Ri-IPy"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="PRf-Ys-zVO"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="bookStyleLabel" destination="QQ1-AZ-Bk6" id="lMH-s9-DWF"/>
@@ -68,40 +89,59 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Zgm-5t-0kh" firstAttribute="top" secondItem="nHX-Wy-EKS" secondAttribute="bottom" constant="24" id="T0M-Fd-IBJ"/>
+                            <constraint firstItem="Zgm-5t-0kh" firstAttribute="top" secondItem="2Ae-Ui-bWz" secondAttribute="topMargin" constant="44" id="ByR-zE-akR"/>
                             <constraint firstAttribute="trailing" secondItem="Zgm-5t-0kh" secondAttribute="trailing" id="TuG-2E-CIg"/>
                             <constraint firstItem="Zgm-5t-0kh" firstAttribute="leading" secondItem="2Ae-Ui-bWz" secondAttribute="leading" id="fe8-bm-T0K"/>
                             <constraint firstItem="7yr-53-7Z0" firstAttribute="top" secondItem="Zgm-5t-0kh" secondAttribute="bottom" id="ylh-tt-wG3"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="RoC-hx-ImX"/>
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationItem key="navigationItem" title="我的收藏" id="JDj-ZO-Yy8"/>
                     <connections>
                         <outlet property="bookTableView" destination="Zgm-5t-0kh" id="Gwc-9I-2M8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LOx-Xt-nmt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3383" y="209"/>
+            <point key="canvasLocation" x="3329" y="130"/>
+        </scene>
+        <!--Redo View Controller-->
+        <scene sceneID="Qnc-ul-zYe">
+            <objects>
+                <viewController id="WfZ-zp-6DB" customClass="EARedoViewController" customModule="ExamAnki" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xTD-p5-VHP"/>
+                        <viewControllerLayoutGuide type="bottom" id="Cgd-Z4-AZM"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="EJp-Oy-fgL">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="eBc-Jy-ePO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="goc-sc-mry" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3702" y="830"/>
         </scene>
         <!--收藏-->
-        <scene sceneID="eUv-ml-fQc">
+        <scene sceneID="8Dy-Xh-LZc">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="mjW-LP-jDV" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="8h7-iI-gNJ" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="收藏" image="Bookmark_Tab" id="LPx-34-uma"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="cjB-5f-s1Z">
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="AYg-ig-eSn">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="uh1-zE-3tx" kind="relationship" relationship="rootViewController" id="iaT-gP-Meo"/>
+                        <segue destination="uh1-zE-3tx" kind="relationship" relationship="rootViewController" id="c98-QT-pZ6"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="xl1-I3-QZU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hiy-RF-QgW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2571" y="209"/>
+            <point key="canvasLocation" x="2625" y="122"/>
         </scene>
     </scenes>
     <resources>

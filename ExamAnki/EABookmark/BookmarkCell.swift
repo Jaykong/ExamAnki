@@ -15,8 +15,13 @@ class BookmarkCell: UITableViewCell {
     @IBOutlet weak var haveALook: UIButton!
     
     override func awakeFromNib() {
+        
         doAgain.layer.borderColor = UIColor.blueColor().CGColor
         doAgain.layer.borderWidth = 2
         doAgain.layer.cornerRadius = 5
+        
+        haveALook.layer.borderColor = UIColor.blueColor().CGColor
+        haveALook.layer.borderWidth = 2
+        haveALook.layer.cornerRadius = 5
     }
 }
