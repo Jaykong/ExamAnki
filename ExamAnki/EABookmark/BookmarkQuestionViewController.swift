@@ -11,7 +11,7 @@ import CoreData
 
 class BookmarkQuestionViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
     
-    let coreDataStack = CoreDataStack(modelName: "ExamAnki")
+    let coreDataStack = CoreDataStack.sharedCoreDataStack
     var questions: Question!
     
     var single = [Question]()
@@ -45,8 +45,12 @@ class BookmarkQuestionViewController: UIViewController,UITableViewDelegate,UITab
             print("single-----\(singleArr.count)-----")
             
             for singleQuestion in singleArr {
+
                 var singleAnswers = Set<QuestionOption>()
+                
                 let tempQuestion = singleQuestion as! Question
+                print("singleOptions-----\(tempQuestion.options?.count)-----")
+
         
                 let fetch = NSFetchRequest(entityName: "QuestionOption")
                 fetch.predicate =

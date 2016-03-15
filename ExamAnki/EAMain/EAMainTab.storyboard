@@ -8,7 +8,7 @@
         <!--首页-->
         <scene sceneID="K0G-IJ-8pH">
             <objects>
-                <viewController id="V5i-pd-Qan" sceneMemberID="viewController">
+                <viewController id="V5i-pd-Qan" customClass="EAPracticeViewController" customModule="ExamAnki" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="4Vr-Iv-fL3"/>
                         <viewControllerLayoutGuide type="bottom" id="Dpb-Lf-XBz"/>

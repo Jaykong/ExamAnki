@@ -75,6 +75,9 @@
 		A9AD78AB1C8B3B00005CD5DA /* AEXML.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AD78A81C8B3B00005CD5DA /* AEXML.swift */; };
 		A9AD78AC1C8B3B00005CD5DA /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AD78A91C8B3B00005CD5DA /* CoreDataStack.swift */; };
 		A9AD78AD1C8B3B00005CD5DA /* XMLAnalysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AD78AA1C8B3B00005CD5DA /* XMLAnalysis.swift */; };
+		A9D176121C9657BB00861C37 /* EAQuestionTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D176111C9657BB00861C37 /* EAQuestionTVC.swift */; };
+		A9D176141C965B3400861C37 /* EAPracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D176131C965B3400861C37 /* EAPracticeViewController.swift */; };
+		A9D176161C96611800861C37 /* EARedoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D176151C96611800861C37 /* EARedoViewController.swift */; };
 		A9DFC00F1C804698000CA605 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9DFBFD31C804698000CA605 /* LaunchScreen.storyboard */; };
 		A9DFC0101C804698000CA605 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9DFBFD51C804698000CA605 /* Main.storyboard */; };
 		A9DFC0111C804698000CA605 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DFBFD81C804698000CA605 /* AppDelegate.swift */; };
@@ -180,6 +183,9 @@
 		A9AD78A81C8B3B00005CD5DA /* AEXML.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AEXML.swift; sourceTree = "<group>"; };
 		A9AD78A91C8B3B00005CD5DA /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		A9AD78AA1C8B3B00005CD5DA /* XMLAnalysis.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMLAnalysis.swift; sourceTree = "<group>"; };
+		A9D176111C9657BB00861C37 /* EAQuestionTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAQuestionTVC.swift; sourceTree = "<group>"; };
+		A9D176131C965B3400861C37 /* EAPracticeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAPracticeViewController.swift; sourceTree = "<group>"; };
+		A9D176151C96611800861C37 /* EARedoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EARedoViewController.swift; sourceTree = "<group>"; };
 		A9DFBFD41C804698000CA605 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9DFBFD61C804698000CA605 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A9DFBFD81C804698000CA605 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -302,6 +308,7 @@
 			isa = PBXGroup;
 			children = (
 				A9DFBFDD1C804698000CA605 /* BookmarkCell.swift */,
+				A9D176151C96611800861C37 /* EARedoViewController.swift */,
 				A9AD77E41C894057005CD5DA /* EABookmarkTab.storyboard */,
 				A9DFBFDE1C804698000CA605 /* BookmarkQuestionViewController.swift */,
 			);
@@ -358,7 +365,9 @@
 			children = (
 				D316E9981C920D3400E00B27 /* EAQuestionManager.swift */,
 				46E2675F1C868A71006A23F9 /* EAPaperInfoVC.swift */,
+				A9D176131C965B3400861C37 /* EAPracticeViewController.swift */,
 				A9AD77E61C894075005CD5DA /* EAMainTab.storyboard */,
+				A9D176111C9657BB00861C37 /* EAQuestionTVC.swift */,
 			);
 			path = EAMain;
 			sourceTree = "<group>";
@@ -693,12 +702,14 @@
 				46E267601C868A71006A23F9 /* EAPaperInfoVC.swift in Sources */,
 				A9DFC0111C804698000CA605 /* AppDelegate.swift in Sources */,
 				9F5BBA781C8C2F0500575171 /* ImportPaperInfo.swift in Sources */,
+				A9D176121C9657BB00861C37 /* EAQuestionTVC.swift in Sources */,
 				9F5BBA901C8C303200575171 /* TFHppleElement.m in Sources */,
 				9F5BBA8F1C8C303200575171 /* TFHpple.m in Sources */,
 				A9DFC0131C804698000CA605 /* BookmarkCell.swift in Sources */,
 				9F5BBA851C8C2F0500575171 /* FlashTopic+CoreDataProperties.swift in Sources */,
 				9F5BBA6E1C8C2F0500575171 /* PaperInfo.swift in Sources */,
 				A9AD78AD1C8B3B00005CD5DA /* XMLAnalysis.swift in Sources */,
+				A9D176141C965B3400861C37 /* EAPracticeViewController.swift in Sources */,
 				9F5BBA701C8C2F0500575171 /* ImportHeading.swift in Sources */,
 				A9AD78AC1C8B3B00005CD5DA /* CoreDataStack.swift in Sources */,
 				9F5BBA7A1C8C2F0500575171 /* UserQuestionRecord.swift in Sources */,
@@ -712,6 +723,7 @@
 				9F5BBA761C8C2F0500575171 /* BookmarkRecord.swift in Sources */,
 				46E267561C868953006A23F9 /* EAFlashCardVC.swift in Sources */,
 				9F5BBA751C8C2F0500575171 /* BookmarkRecord+CoreDataProperties.swift in Sources */,
+				A9D176161C96611800861C37 /* EARedoViewController.swift in Sources */,
 				D316E9991C920D3400E00B27 /* EAQuestionManager.swift in Sources */,
 				9F5BBA731C8C2F0500575171 /* ImportQuestionOption+CoreDataProperties.swift in Sources */,
 				46E267541C868935006A23F9 /* EAFeedbackVC.swift in Sources */,
