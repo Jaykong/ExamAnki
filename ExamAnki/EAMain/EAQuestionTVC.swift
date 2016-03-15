@@ -8,12 +8,19 @@
 
 import UIKit
 
-class EAQuestionTVC: UITableViewController {
-    var question = EAQuestionManager.getOneQuestion("2015012115523001882030d-bff093e5b7f8")
+class EAQuestionTVC: UITableViewController{
+    
+    var question:Question!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+//        self.tableView.style
         tableView.registerClass(UITableViewCell.self, forCellReuseIdentifier: "Cell")
-
+        tableView.estimatedRowHeight = 100
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
     }
 
     override func didReceiveMemoryWarning() {
@@ -41,17 +48,21 @@ class EAQuestionTVC: UITableViewController {
         let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath)
         switch indexPath.section {
         case 0:
-            cell.textLabel?.text = question?.title
+            cell.textLabel?.text = "\(question.sort!)、\(question.title!)"
+            cell.textLabel?.numberOfLines = 0
             
         case 1:
             let sets = question?.options!
             let options = Array (sets!)
             question?.options
+            print("question.options:\(question.options)")
             cell.textLabel?.text = options[indexPath.row] as? String
         case 2:
             cell.textLabel?.text = question?.answer
         case 3:
             cell.textLabel?.text = question?.parse
+            cell.textLabel?.numberOfLines = 0
+
         default:
             break
         }
@@ -59,6 +70,10 @@ class EAQuestionTVC: UITableViewController {
         // Configure the cell...
 
         return cell
+    }
+    
+    override func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+        return UITableViewAutomaticDimension
     }
     
 
