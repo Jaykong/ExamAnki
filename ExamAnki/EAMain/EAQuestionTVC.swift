@@ -13,6 +13,7 @@ class EAQuestionTVC: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.registerClass(UITableViewCell.self, forCellReuseIdentifier: "Cell")
+        NSLog("%@", (question?.options)!)
 
     }
 
@@ -40,6 +41,7 @@ class EAQuestionTVC: UITableViewController {
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath)
         switch indexPath.section {
+            
         case 0:
             cell.textLabel?.text = question?.title
             
@@ -47,7 +49,9 @@ class EAQuestionTVC: UITableViewController {
             let sets = question?.options!
             let options = Array (sets!)
             question?.options
-            cell.textLabel?.text = options[indexPath.row] as? String
+            let option = options[indexPath.row] as! QuestionOption
+            let title = option.content
+            cell.textLabel?.text = title
         case 2:
             cell.textLabel?.text = question?.answer
         case 3:

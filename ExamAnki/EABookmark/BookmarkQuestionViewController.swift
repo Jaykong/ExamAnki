@@ -131,7 +131,6 @@ class BookmarkQuestionViewController: UIViewController,UITableViewDelegate,UITab
 //        controller.title = "单选题"
 //        controller.single = self.single
 //        controller.setScoreLblValue = setScoreLblValue
-
         
     }
     
