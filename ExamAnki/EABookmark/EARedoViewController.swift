@@ -21,9 +21,11 @@ class EARedoViewController: UIViewController,UITableViewDataSource,UITableViewDe
     var _tableView1:UITableView!
     var _tableView2:UITableView!
     var _tableView3:UITableView!
+    
     var currentPage = 0
     var prePage = 0
     var nextPage = 0
+    
     var reusedPage = 0
     var setScoreLblValue:((Int) -> Void)!
     
@@ -201,7 +203,7 @@ class EARedoViewController: UIViewController,UITableViewDataSource,UITableViewDe
         cell?.textLabel?.text = "\(reusedPage + 1)、\(question.title!)"
         cell?.textLabel?.numberOfLines = 0
 //        cell?.setNeedsUpdateConstraints()
-//        cell?.updateConstraintsIfNeeded()
+        cell?.updateConstraintsIfNeeded()
         
         return cell!
     }

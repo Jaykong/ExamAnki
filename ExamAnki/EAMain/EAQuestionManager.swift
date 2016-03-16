@@ -9,6 +9,7 @@
 import UIKit
 
 class EAQuestionManager: NSObject {
+    
     class func getOneQuestion(qid:String) -> Question? {
         let request = NSFetchRequest(entityName: EAQuestion)
         let predicate = NSPredicate(format: "id like %@", qid)

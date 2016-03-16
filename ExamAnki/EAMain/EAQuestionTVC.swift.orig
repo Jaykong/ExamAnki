@@ -16,11 +16,16 @@ class EAQuestionTVC: UITableViewController{
         super.viewDidLoad()
 //        self.tableView.style
         tableView.registerClass(UITableViewCell.self, forCellReuseIdentifier: "Cell")
+<<<<<<< HEAD
+        NSLog("%@", (question?.options)!)
+
+=======
         tableView.estimatedRowHeight = 100
     }
     
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
+>>>>>>> 5a4d1fbd964b21fddd979934808c5eea5bedc98c
     }
 
     override func didReceiveMemoryWarning() {
@@ -56,9 +61,14 @@ class EAQuestionTVC: UITableViewController{
             let sets = question?.options!
             let options = Array (sets!)
             question?.options
+<<<<<<< HEAD
             let option = options[indexPath.row] as! QuestionOption
             let title = option.content
             cell.textLabel?.text = title
+=======
+            print("question.options:\(question.options)")
+            cell.textLabel?.text = options[indexPath.row] as? String
+>>>>>>> 5a4d1fbd964b21fddd979934808c5eea5bedc98c
         case 2:
             cell.textLabel?.text = question?.answer
         case 3:
