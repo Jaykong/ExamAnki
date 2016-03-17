@@ -26,7 +26,7 @@
                                         <rect key="frame" x="0.0" y="92" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Wvm-WO-JfX" id="VpO-6H-DkW">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NaT-eD-8P3">
@@ -39,7 +39,7 @@
                                                     <state key="normal" title="重做"/>
                                                     <connections>
                                                         <action selector="doAgain:" destination="uh1-zE-3tx" eventType="touchUpInside" id="uOi-Lx-pvW"/>
-                                                        <segue destination="WfZ-zp-6DB" kind="push" id="iPe-Ka-VyO"/>
+                                                        <segue destination="WfZ-zp-6DB" kind="show" id="iPe-Ka-VyO"/>
                                                     </connections>
                                                 </button>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l1p-s8-yyp">
