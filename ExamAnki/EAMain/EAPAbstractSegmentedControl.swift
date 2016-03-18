@@ -9,8 +9,8 @@
 import UIKit
 
 class EAPAbstractSegmentedControl: UISegmentedControl {
-    class func createSegmentedControl(paperCategories: [String]) -> EAPAbstractSegmentedControl {
-      let seg = EAPSegmentedControl(items: paperCategories)
+    class func createSegmentedControl() -> EAPAbstractSegmentedControl {
+      let seg = EAPSegmentedControl()
         
       return seg
     }

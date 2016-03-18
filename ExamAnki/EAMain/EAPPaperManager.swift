@@ -9,6 +9,15 @@
 import UIKit
 
 class EAPPaperManager: NSObject {
+    class func getPaperNamesFromPapers() -> [String] {
+        let papers = EAPPaperManager.getPaperCategories()
+        var titles:[String] = []
+        for paper in papers {
+            titles.append(paper.name!)
+        }
+        return titles
+    }
+    
     
     class func getPaperCategories() -> [PaperInfo] {
         let fetchrequest = NSFetchRequest(entityName: EAPaperInfo)
@@ -20,4 +29,32 @@ class EAPPaperManager: NSObject {
         }
         return papers
     }
+    static func returnPaperTypeFromArray(arr:[PaperInfo]) -> [String] {
+        var titles:[String] = []
+        for paper in arr {
+            if !(titles.contains(paper.type!)) {
+                titles.append(paper.type!)
+            }
+        }
+        return titles
+    }
+
+    class func getTitlesFromPapers() -> [String] {
+        
+      let papers =  EAPPaperManager.getPaperCategories()
+       let titles = EAPPaperManager.returnPaperTypeFromArray(papers)
+      return titles
+    }
+    
 }
+//extension Array {
+//  static func returnPaperTypeFromArray(arr:[PaperInfo]) -> [String] {
+//    var titles:[String] = []
+//    for paper in arr {
+//        if !(titles.contains(paper.type!)) {
+//       titles.append(paper.type!)
+//        }
+//    }
+//    return titles
+// }
+//}

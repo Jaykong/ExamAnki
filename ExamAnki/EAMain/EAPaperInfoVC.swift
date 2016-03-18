@@ -7,13 +7,13 @@
 //
 
 import UIKit
-
+// MARK: - Protocol: Add SegmentedControl Constraints
 protocol EAPaperConstrainDelegate {
     func addSegConstraints(controller:UIViewController)
  
 }
 
-class EAPaperInfoVC: UIViewController {
+class EAPaperInfoVC: UIViewController,EASegmentedControlDegate {
     
     var delegate:EAPaperConstrainDelegate!
     override func viewDidLoad() {
@@ -28,7 +28,9 @@ class EAPaperInfoVC: UIViewController {
         
         
     }
-    
+    func segmentValueDidChange(seg: EAPSegmentedControl) {
+        
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

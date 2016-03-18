@@ -7,14 +7,22 @@
 //
 
 import UIKit
-
+// MARK: - Protocol:
+protocol EASegmentedControlDegate {
+    func segmentValueDidChange(seg:EAPSegmentedControl)
+}
 class EAPSegmentedControl: EAPAbstractSegmentedControl {
-   
+    var delegate:EASegmentedControlDegate!
    convenience init() {
-    
-        EAPPaperManager.getPaperCategories()
+      let titles = EAPPaperManager.getTitlesFromPapers()
         
-        self.init(items: nil)
+        self.init(items: titles)
+        self.addTarget(self, action: "segmentedControlValueChanged:", forControlEvents: .ValueChanged)
+    
+    }
+    
+    func segmentedControlValueChanged (seg:EAPSegmentedControl) {
+        
         
     }
     

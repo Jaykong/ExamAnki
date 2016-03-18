@@ -70,6 +70,12 @@
 		9F5BBAA91C8C304300575171 /* XZModelService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5BBA9D1C8C304300575171 /* XZModelService.swift */; };
 		9F5BBAAA1C8C304300575171 /* XZPaperParsingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5BBA9E1C8C304300575171 /* XZPaperParsingService.swift */; };
 		9F6206EA1C7CAA3200809FFD /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F6206E91C7CAA3200809FFD /* libxml2.2.tbd */; };
+		A92047D11C9BACFA001D803E /* EAPAbstractScrollview.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92047D01C9BACFA001D803E /* EAPAbstractScrollview.swift */; };
+		A92047D41C9BAD2D001D803E /* EAPScrollview.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92047D31C9BAD2D001D803E /* EAPScrollview.swift */; };
+		A92047D71C9BAE0B001D803E /* EAPAstractMainTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92047D61C9BAE0B001D803E /* EAPAstractMainTableView.swift */; };
+		A92047D91C9BAE1B001D803E /* EAPMainTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92047D81C9BAE1B001D803E /* EAPMainTableView.swift */; };
+		A92047DB1C9BAF13001D803E /* EAPAbstractTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92047DA1C9BAF13001D803E /* EAPAbstractTableViewController.swift */; };
+		A92047DD1C9BAF21001D803E /* EAPMainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92047DC1C9BAF21001D803E /* EAPMainTableViewController.swift */; };
 		A9AD77E51C894057005CD5DA /* EABookmarkTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9AD77E41C894057005CD5DA /* EABookmarkTab.storyboard */; };
 		A9AD77E71C894075005CD5DA /* EAMainTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9AD77E61C894075005CD5DA /* EAMainTab.storyboard */; };
 		A9AD78AB1C8B3B00005CD5DA /* AEXML.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AD78A81C8B3B00005CD5DA /* AEXML.swift */; };
@@ -175,6 +181,12 @@
 		9F5BBA9D1C8C304300575171 /* XZModelService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XZModelService.swift; sourceTree = "<group>"; };
 		9F5BBA9E1C8C304300575171 /* XZPaperParsingService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XZPaperParsingService.swift; sourceTree = "<group>"; };
 		9F6206E91C7CAA3200809FFD /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
+		A92047D01C9BACFA001D803E /* EAPAbstractScrollview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAPAbstractScrollview.swift; sourceTree = "<group>"; };
+		A92047D31C9BAD2D001D803E /* EAPScrollview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAPScrollview.swift; sourceTree = "<group>"; };
+		A92047D61C9BAE0B001D803E /* EAPAstractMainTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAPAstractMainTableView.swift; sourceTree = "<group>"; };
+		A92047D81C9BAE1B001D803E /* EAPMainTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAPMainTableView.swift; sourceTree = "<group>"; };
+		A92047DA1C9BAF13001D803E /* EAPAbstractTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAPAbstractTableViewController.swift; sourceTree = "<group>"; };
+		A92047DC1C9BAF21001D803E /* EAPMainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAPMainTableViewController.swift; sourceTree = "<group>"; };
 		A9AD77E41C894057005CD5DA /* EABookmarkTab.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = EABookmarkTab.storyboard; sourceTree = "<group>"; };
 		A9AD77E61C894075005CD5DA /* EAMainTab.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = EAMainTab.storyboard; sourceTree = "<group>"; };
 		A9AD78A81C8B3B00005CD5DA /* AEXML.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AEXML.swift; sourceTree = "<group>"; };
@@ -241,6 +253,27 @@
 				9F5BBA9B1C8C304300575171 /* themedata.thmx */,
 			);
 			path = PaperDemo.fld;
+			sourceTree = "<group>";
+		};
+		A92047D21C9BACFF001D803E /* ScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				A92047D51C9BADC2001D803E /* TableView */,
+				A92047D01C9BACFA001D803E /* EAPAbstractScrollview.swift */,
+				A92047D31C9BAD2D001D803E /* EAPScrollview.swift */,
+			);
+			name = ScrollView;
+			sourceTree = "<group>";
+		};
+		A92047D51C9BADC2001D803E /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				A92047D61C9BAE0B001D803E /* EAPAstractMainTableView.swift */,
+				A92047DA1C9BAF13001D803E /* EAPAbstractTableViewController.swift */,
+				A92047D81C9BAE1B001D803E /* EAPMainTableView.swift */,
+				A92047DC1C9BAF21001D803E /* EAPMainTableViewController.swift */,
+			);
+			name = TableView;
 			sourceTree = "<group>";
 		};
 		A9AD78A71C8B3B00005CD5DA /* XMLAnalysis */ = {
@@ -355,7 +388,7 @@
 		A9DFBFE41C804698000CA605 /* EAMain */ = {
 			isa = PBXGroup;
 			children = (
-				D39059471C9AE98A0028241D /* Main */,
+				D39059471C9AE98A0028241D /* MainSegmentedControl */,
 				D316E9981C920D3400E00B27 /* EAQuestionManager.swift */,
 				46E2675F1C868A71006A23F9 /* EAPaperInfoVC.swift */,
 				A9D176131C965B3400861C37 /* EAPracticeViewController.swift */,
@@ -478,15 +511,16 @@
 			path = GDataXML;
 			sourceTree = "<group>";
 		};
-		D39059471C9AE98A0028241D /* Main */ = {
+		D39059471C9AE98A0028241D /* MainSegmentedControl */ = {
 			isa = PBXGroup;
 			children = (
 				D39059481C9AE9B30028241D /* EAPAbstractSegmentedControl.swift */,
 				D390594A1C9AEFFA0028241D /* EAPSegmentedControl.swift */,
 				D3D294B91C9B52C00037BB40 /* EAPPaperManager.swift */,
 				D3D294B51C9B4E100037BB40 /* EAPMainConstrainCreator.swift */,
+				A92047D21C9BACFF001D803E /* ScrollView */,
 			);
-			name = Main;
+			name = MainSegmentedControl;
 			sourceTree = "<group>";
 		};
 		D39059BB1C9B39EB0028241D /* ExamAnkiTests */ = {
@@ -647,12 +681,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A92047D91C9BAE1B001D803E /* EAPMainTableView.swift in Sources */,
 				9F5BBA741C8C2F0500575171 /* ImportQuestionOption.swift in Sources */,
 				46E2675E1C8689EA006A23F9 /* EAShareVC.swift in Sources */,
 				A9DFC0301C804698000CA605 /* GDataXMLNode.m in Sources */,
 				9F5BBAA91C8C304300575171 /* XZModelService.swift in Sources */,
 				9F5BBA801C8C2F0500575171 /* Heading.swift in Sources */,
 				9F5BBA6C1C8C2F0500575171 /* QuestionMaterial.swift in Sources */,
+				A92047D11C9BACFA001D803E /* EAPAbstractScrollview.swift in Sources */,
 				9F5BBA7E1C8C2F0500575171 /* QuestionOption.swift in Sources */,
 				A9DFC0141C804698000CA605 /* BookmarkQuestionViewController.swift in Sources */,
 				9F5BBA7C1C8C2F0500575171 /* ImportQuestionMaterial.swift in Sources */,
@@ -661,6 +697,7 @@
 				9F5BBA721C8C2F0500575171 /* ImportQuestion.swift in Sources */,
 				9F5BBA7D1C8C2F0500575171 /* QuestionOption+CoreDataProperties.swift in Sources */,
 				9F5BBA871C8C2F0500575171 /* Question+CoreDataProperties.swift in Sources */,
+				A92047DB1C9BAF13001D803E /* EAPAbstractTableViewController.swift in Sources */,
 				A9DFC0121C804698000CA605 /* GlbolTableName.swift in Sources */,
 				9F5BBA4C1C8C2EA900575171 /* ExamAnki.xcdatamodeld in Sources */,
 				9F5BBA811C8C2F0500575171 /* Card+CoreDataProperties.swift in Sources */,
@@ -674,6 +711,7 @@
 				46E267601C868A71006A23F9 /* EAPaperInfoVC.swift in Sources */,
 				A9DFC0111C804698000CA605 /* AppDelegate.swift in Sources */,
 				9F5BBA781C8C2F0500575171 /* ImportPaperInfo.swift in Sources */,
+				A92047D41C9BAD2D001D803E /* EAPScrollview.swift in Sources */,
 				A9D176121C9657BB00861C37 /* EAQuestionTVC.swift in Sources */,
 				9F5BBA901C8C303200575171 /* TFHppleElement.m in Sources */,
 				9F5BBA8F1C8C303200575171 /* TFHpple.m in Sources */,
@@ -685,6 +723,7 @@
 				9F5BBA701C8C2F0500575171 /* ImportHeading.swift in Sources */,
 				A9AD78AC1C8B3B00005CD5DA /* CoreDataStack.swift in Sources */,
 				9F5BBA7A1C8C2F0500575171 /* UserQuestionRecord.swift in Sources */,
+				A92047D71C9BAE0B001D803E /* EAPAstractMainTableView.swift in Sources */,
 				9F5BBA831C8C2F0500575171 /* UserWrongQuestionRecord+CoreDataProperties.swift in Sources */,
 				9F5BBA841C8C2F0500575171 /* UserWrongQuestionRecord.swift in Sources */,
 				9F5BBA821C8C2F0500575171 /* Card.swift in Sources */,
@@ -702,6 +741,7 @@
 				9F5BBA731C8C2F0500575171 /* ImportQuestionOption+CoreDataProperties.swift in Sources */,
 				46E267541C868935006A23F9 /* EAFeedbackVC.swift in Sources */,
 				D390594B1C9AEFFA0028241D /* EAPSegmentedControl.swift in Sources */,
+				A92047DD1C9BAF21001D803E /* EAPMainTableViewController.swift in Sources */,
 				46E267521C868928006A23F9 /* EACommentVC.swift in Sources */,
 				9F5BBA7F1C8C2F0500575171 /* Heading+CoreDataProperties.swift in Sources */,
 				9F5BBA771C8C2F0500575171 /* ImportPaperInfo+CoreDataProperties.swift in Sources */,

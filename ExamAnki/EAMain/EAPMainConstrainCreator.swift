@@ -10,7 +10,8 @@ import UIKit
 
 class EAPMainConstrainCreator: EAPaperConstrainDelegate {
     func addSegConstraints(controller: UIViewController) {
-        let seg = EAPAbstractSegmentedControl.createSegmentedControl(["a","b","c"])
+         
+        let seg = EAPAbstractSegmentedControl.createSegmentedControl()
         controller.view.addSubview(seg)
         let mapping = ["seg":seg]
         seg.translatesAutoresizingMaskIntoConstraints = false
