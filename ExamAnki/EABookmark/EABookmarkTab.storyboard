@@ -39,7 +39,7 @@
                                                     <state key="normal" title="重做"/>
                                                     <connections>
                                                         <action selector="doAgain:" destination="uh1-zE-3tx" eventType="touchUpInside" id="uOi-Lx-pvW"/>
-                                                        <segue destination="WfZ-zp-6DB" kind="push" id="iPe-Ka-VyO"/>
+                                                        <segue destination="WfZ-zp-6DB" kind="show" id="iPe-Ka-VyO"/>
                                                     </connections>
                                                 </button>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l1p-s8-yyp">

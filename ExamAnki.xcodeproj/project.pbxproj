@@ -90,19 +90,16 @@
 		D316E9941C91E72F00E00B27 /* 2015082816033575811715e-5b538a495fa6.xml in Resources */ = {isa = PBXBuildFile; fileRef = D316E9911C91E72F00E00B27 /* 2015082816033575811715e-5b538a495fa6.xml */; };
 		D316E9951C91E72F00E00B27 /* 20151015170129212125061-b2407ba143d3.xml in Resources */ = {isa = PBXBuildFile; fileRef = D316E9921C91E72F00E00B27 /* 20151015170129212125061-b2407ba143d3.xml */; };
 		D316E9991C920D3400E00B27 /* EAQuestionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D316E9981C920D3400E00B27 /* EAQuestionManager.swift */; };
-		D390BF5A1C78D0FD0079FD8F /* ExamAnkiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D390BF591C78D0FD0079FD8F /* ExamAnkiTests.swift */; };
-		D390BF651C78D0FD0079FD8F /* ExamAnkiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D390BF641C78D0FD0079FD8F /* ExamAnkiUITests.swift */; };
+		D39059491C9AE9B30028241D /* EAPAbstractSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39059481C9AE9B30028241D /* EAPAbstractSegmentedControl.swift */; };
+		D390594B1C9AEFFA0028241D /* EAPSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D390594A1C9AEFFA0028241D /* EAPSegmentedControl.swift */; };
+		D39059BD1C9B39EB0028241D /* ExamAnkiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39059BC1C9B39EB0028241D /* ExamAnkiTests.swift */; };
+		D39059C41C9B3BCD0028241D /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F6206E91C7CAA3200809FFD /* libxml2.2.tbd */; };
+		D3D294B61C9B4E100037BB40 /* EAPMainConstrainCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D294B51C9B4E100037BB40 /* EAPMainConstrainCreator.swift */; };
+		D3D294BA1C9B52C00037BB40 /* EAPPaperManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D294B91C9B52C00037BB40 /* EAPPaperManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D390BF561C78D0FD0079FD8F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D390BF361C78D0FD0079FD8F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D390BF3D1C78D0FD0079FD8F;
-			remoteInfo = ExamAnki;
-		};
-		D390BF611C78D0FD0079FD8F /* PBXContainerItemProxy */ = {
+		D39059BF1C9B39EB0028241D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D390BF361C78D0FD0079FD8F /* Project object */;
 			proxyType = 1;
@@ -201,35 +198,30 @@
 		D316E9911C91E72F00E00B27 /* 2015082816033575811715e-5b538a495fa6.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "2015082816033575811715e-5b538a495fa6.xml"; sourceTree = "<group>"; };
 		D316E9921C91E72F00E00B27 /* 20151015170129212125061-b2407ba143d3.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "20151015170129212125061-b2407ba143d3.xml"; sourceTree = "<group>"; };
 		D316E9981C920D3400E00B27 /* EAQuestionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAQuestionManager.swift; sourceTree = "<group>"; };
+		D39059481C9AE9B30028241D /* EAPAbstractSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAPAbstractSegmentedControl.swift; sourceTree = "<group>"; };
+		D390594A1C9AEFFA0028241D /* EAPSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAPSegmentedControl.swift; sourceTree = "<group>"; };
+		D39059BA1C9B39EB0028241D /* ExamAnkiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExamAnkiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D39059BC1C9B39EB0028241D /* ExamAnkiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamAnkiTests.swift; sourceTree = "<group>"; };
+		D39059BE1C9B39EB0028241D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D390BF3E1C78D0FD0079FD8F /* ExamAnki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExamAnki.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D390BF551C78D0FD0079FD8F /* ExamAnkiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExamAnkiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D390BF591C78D0FD0079FD8F /* ExamAnkiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamAnkiTests.swift; sourceTree = "<group>"; };
-		D390BF5B1C78D0FD0079FD8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D390BF601C78D0FD0079FD8F /* ExamAnkiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExamAnkiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D390BF641C78D0FD0079FD8F /* ExamAnkiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamAnkiUITests.swift; sourceTree = "<group>"; };
-		D390BF661C78D0FD0079FD8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3D294B51C9B4E100037BB40 /* EAPMainConstrainCreator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAPMainConstrainCreator.swift; sourceTree = "<group>"; };
+		D3D294B91C9B52C00037BB40 /* EAPPaperManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAPPaperManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D39059B71C9B39EB0028241D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D39059C41C9B3BCD0028241D /* libxml2.2.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D390BF3B1C78D0FD0079FD8F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9F6206EA1C7CAA3200809FFD /* libxml2.2.tbd in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D390BF521C78D0FD0079FD8F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D390BF5D1C78D0FD0079FD8F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +355,7 @@
 		A9DFBFE41C804698000CA605 /* EAMain */ = {
 			isa = PBXGroup;
 			children = (
+				D39059471C9AE98A0028241D /* Main */,
 				D316E9981C920D3400E00B27 /* EAQuestionManager.swift */,
 				46E2675F1C868A71006A23F9 /* EAPaperInfoVC.swift */,
 				A9D176131C965B3400861C37 /* EAPracticeViewController.swift */,
@@ -485,12 +478,31 @@
 			path = GDataXML;
 			sourceTree = "<group>";
 		};
+		D39059471C9AE98A0028241D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D39059481C9AE9B30028241D /* EAPAbstractSegmentedControl.swift */,
+				D390594A1C9AEFFA0028241D /* EAPSegmentedControl.swift */,
+				D3D294B91C9B52C00037BB40 /* EAPPaperManager.swift */,
+				D3D294B51C9B4E100037BB40 /* EAPMainConstrainCreator.swift */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		D39059BB1C9B39EB0028241D /* ExamAnkiTests */ = {
+			isa = PBXGroup;
+			children = (
+				D39059BC1C9B39EB0028241D /* ExamAnkiTests.swift */,
+				D39059BE1C9B39EB0028241D /* Info.plist */,
+			);
+			path = ExamAnkiTests;
+			sourceTree = "<group>";
+		};
 		D390BF351C78D0FD0079FD8F = {
 			isa = PBXGroup;
 			children = (
 				A9DFBFD21C804698000CA605 /* ExamAnki */,
-				D390BF581C78D0FD0079FD8F /* ExamAnkiTests */,
-				D390BF631C78D0FD0079FD8F /* ExamAnkiUITests */,
+				D39059BB1C9B39EB0028241D /* ExamAnkiTests */,
 				D390BF3F1C78D0FD0079FD8F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -499,33 +511,32 @@
 			isa = PBXGroup;
 			children = (
 				D390BF3E1C78D0FD0079FD8F /* ExamAnki.app */,
-				D390BF551C78D0FD0079FD8F /* ExamAnkiTests.xctest */,
-				D390BF601C78D0FD0079FD8F /* ExamAnkiUITests.xctest */,
+				D39059BA1C9B39EB0028241D /* ExamAnkiTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		D390BF581C78D0FD0079FD8F /* ExamAnkiTests */ = {
-			isa = PBXGroup;
-			children = (
-				D390BF591C78D0FD0079FD8F /* ExamAnkiTests.swift */,
-				D390BF5B1C78D0FD0079FD8F /* Info.plist */,
-			);
-			path = ExamAnkiTests;
-			sourceTree = "<group>";
-		};
-		D390BF631C78D0FD0079FD8F /* ExamAnkiUITests */ = {
-			isa = PBXGroup;
-			children = (
-				D390BF641C78D0FD0079FD8F /* ExamAnkiUITests.swift */,
-				D390BF661C78D0FD0079FD8F /* Info.plist */,
-			);
-			path = ExamAnkiUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		D39059B91C9B39EB0028241D /* ExamAnkiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D39059C11C9B39EB0028241D /* Build configuration list for PBXNativeTarget "ExamAnkiTests" */;
+			buildPhases = (
+				D39059B61C9B39EB0028241D /* Sources */,
+				D39059B71C9B39EB0028241D /* Frameworks */,
+				D39059B81C9B39EB0028241D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D39059C01C9B39EB0028241D /* PBXTargetDependency */,
+			);
+			name = ExamAnkiTests;
+			productName = ExamAnkiTests;
+			productReference = D39059BA1C9B39EB0028241D /* ExamAnkiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		D390BF3D1C78D0FD0079FD8F /* ExamAnki */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D390BF691C78D0FD0079FD8F /* Build configuration list for PBXNativeTarget "ExamAnki" */;
@@ -543,42 +554,6 @@
 			productReference = D390BF3E1C78D0FD0079FD8F /* ExamAnki.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D390BF541C78D0FD0079FD8F /* ExamAnkiTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D390BF6C1C78D0FD0079FD8F /* Build configuration list for PBXNativeTarget "ExamAnkiTests" */;
-			buildPhases = (
-				D390BF511C78D0FD0079FD8F /* Sources */,
-				D390BF521C78D0FD0079FD8F /* Frameworks */,
-				D390BF531C78D0FD0079FD8F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D390BF571C78D0FD0079FD8F /* PBXTargetDependency */,
-			);
-			name = ExamAnkiTests;
-			productName = ExamAnkiTests;
-			productReference = D390BF551C78D0FD0079FD8F /* ExamAnkiTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		D390BF5F1C78D0FD0079FD8F /* ExamAnkiUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D390BF6F1C78D0FD0079FD8F /* Build configuration list for PBXNativeTarget "ExamAnkiUITests" */;
-			buildPhases = (
-				D390BF5C1C78D0FD0079FD8F /* Sources */,
-				D390BF5D1C78D0FD0079FD8F /* Frameworks */,
-				D390BF5E1C78D0FD0079FD8F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D390BF621C78D0FD0079FD8F /* PBXTargetDependency */,
-			);
-			name = ExamAnkiUITests;
-			productName = ExamAnkiUITests;
-			productReference = D390BF601C78D0FD0079FD8F /* ExamAnkiUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -589,16 +564,12 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = kongyunpeng;
 				TargetAttributes = {
+					D39059B91C9B39EB0028241D = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = D390BF3D1C78D0FD0079FD8F;
+					};
 					D390BF3D1C78D0FD0079FD8F = {
 						CreatedOnToolsVersion = 7.2.1;
-					};
-					D390BF541C78D0FD0079FD8F = {
-						CreatedOnToolsVersion = 7.2.1;
-						TestTargetID = D390BF3D1C78D0FD0079FD8F;
-					};
-					D390BF5F1C78D0FD0079FD8F = {
-						CreatedOnToolsVersion = 7.2.1;
-						TestTargetID = D390BF3D1C78D0FD0079FD8F;
 					};
 				};
 			};
@@ -616,13 +587,19 @@
 			projectRoot = "";
 			targets = (
 				D390BF3D1C78D0FD0079FD8F /* ExamAnki */,
-				D390BF541C78D0FD0079FD8F /* ExamAnkiTests */,
-				D390BF5F1C78D0FD0079FD8F /* ExamAnkiUITests */,
+				D39059B91C9B39EB0028241D /* ExamAnkiTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D39059B81C9B39EB0028241D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D390BF3C1C78D0FD0079FD8F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -655,23 +632,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D390BF531C78D0FD0079FD8F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D390BF5E1C78D0FD0079FD8F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D39059B61C9B39EB0028241D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D39059BD1C9B39EB0028241D /* ExamAnkiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D390BF3A1C78D0FD0079FD8F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -698,6 +669,7 @@
 				9F5BBA791C8C2F0500575171 /* UserQuestionRecord+CoreDataProperties.swift in Sources */,
 				46E267501C8688B0006A23F9 /* EAAboutVC.swift in Sources */,
 				9F5BBA861C8C2F0500575171 /* FlashTopic.swift in Sources */,
+				D3D294BA1C9B52C00037BB40 /* EAPPaperManager.swift in Sources */,
 				9F5BBA6D1C8C2F0500575171 /* PaperInfo+CoreDataProperties.swift in Sources */,
 				46E267601C868A71006A23F9 /* EAPaperInfoVC.swift in Sources */,
 				A9DFC0111C804698000CA605 /* AppDelegate.swift in Sources */,
@@ -716,17 +688,20 @@
 				9F5BBA831C8C2F0500575171 /* UserWrongQuestionRecord+CoreDataProperties.swift in Sources */,
 				9F5BBA841C8C2F0500575171 /* UserWrongQuestionRecord.swift in Sources */,
 				9F5BBA821C8C2F0500575171 /* Card.swift in Sources */,
+				D3D294B61C9B4E100037BB40 /* EAPMainConstrainCreator.swift in Sources */,
 				9F5BBA6B1C8C2F0500575171 /* QuestionMaterial+CoreDataProperties.swift in Sources */,
 				46E267621C868A8F006A23F9 /* EAWrongQuestionVC.swift in Sources */,
 				46E267681C868CAD006A23F9 /* EAWrongQuestionVCCell.swift in Sources */,
 				9F5BBAAA1C8C304300575171 /* XZPaperParsingService.swift in Sources */,
 				9F5BBA761C8C2F0500575171 /* BookmarkRecord.swift in Sources */,
+				D39059491C9AE9B30028241D /* EAPAbstractSegmentedControl.swift in Sources */,
 				46E267561C868953006A23F9 /* EAFlashCardVC.swift in Sources */,
 				9F5BBA751C8C2F0500575171 /* BookmarkRecord+CoreDataProperties.swift in Sources */,
 				A9D176161C96611800861C37 /* EARedoViewController.swift in Sources */,
 				D316E9991C920D3400E00B27 /* EAQuestionManager.swift in Sources */,
 				9F5BBA731C8C2F0500575171 /* ImportQuestionOption+CoreDataProperties.swift in Sources */,
 				46E267541C868935006A23F9 /* EAFeedbackVC.swift in Sources */,
+				D390594B1C9AEFFA0028241D /* EAPSegmentedControl.swift in Sources */,
 				46E267521C868928006A23F9 /* EACommentVC.swift in Sources */,
 				9F5BBA7F1C8C2F0500575171 /* Heading+CoreDataProperties.swift in Sources */,
 				9F5BBA771C8C2F0500575171 /* ImportPaperInfo+CoreDataProperties.swift in Sources */,
@@ -736,34 +711,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D390BF511C78D0FD0079FD8F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D390BF5A1C78D0FD0079FD8F /* ExamAnkiTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D390BF5C1C78D0FD0079FD8F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D390BF651C78D0FD0079FD8F /* ExamAnkiUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D390BF571C78D0FD0079FD8F /* PBXTargetDependency */ = {
+		D39059C01C9B39EB0028241D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D390BF3D1C78D0FD0079FD8F /* ExamAnki */;
-			targetProxy = D390BF561C78D0FD0079FD8F /* PBXContainerItemProxy */;
-		};
-		D390BF621C78D0FD0079FD8F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D390BF3D1C78D0FD0079FD8F /* ExamAnki */;
-			targetProxy = D390BF611C78D0FD0079FD8F /* PBXContainerItemProxy */;
+			targetProxy = D39059BF1C9B39EB0028241D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -787,6 +741,32 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		D39059C21C9B39EB0028241D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ExamAnkiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.universal.kyp.ExamAnkiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ExamAnki/Common/ExamAnki-Bridging-Header.h";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExamAnki.app/ExamAnki";
+			};
+			name = Debug;
+		};
+		D39059C31C9B39EB0028241D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ExamAnkiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.universal.kyp.ExamAnkiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ExamAnki/Common/ExamAnki-Bridging-Header.h";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExamAnki.app/ExamAnki";
+			};
+			name = Release;
+		};
 		D390BF671C78D0FD0079FD8F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -824,10 +804,12 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "${SDK_DIR}/usr/include/libxml2.2";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-lxml2";
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "ExamAnki/Common/ExamAnki-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -864,9 +846,11 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "${SDK_DIR}/usr/include/libxml2.2";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-lxml2";
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "ExamAnki/Common/ExamAnki-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -879,12 +863,14 @@
 				CLANG_ENABLE_MODULES = YES;
 				HEADER_SEARCH_PATHS = "${SDK_DIR}/usr/include/libxml2";
 				INFOPLIST_FILE = ExamAnki/Resources/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-lxml2";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kyp.ExamAnki;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "ExamAnki/Common/ExamAnki-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -895,71 +881,28 @@
 				CLANG_ENABLE_MODULES = YES;
 				HEADER_SEARCH_PATHS = "${SDK_DIR}/usr/include/libxml2";
 				INFOPLIST_FILE = ExamAnki/Resources/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-lxml2";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kyp.ExamAnki;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "ExamAnki/Common/ExamAnki-Bridging-Header.h";
-			};
-			name = Release;
-		};
-		D390BF6D1C78D0FD0079FD8F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = ExamAnkiTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kyp.ExamAnkiTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExamAnki.app/ExamAnki";
-			};
-			name = Debug;
-		};
-		D390BF6E1C78D0FD0079FD8F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = ExamAnkiTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kyp.ExamAnkiTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExamAnki.app/ExamAnki";
-			};
-			name = Release;
-		};
-		D390BF701C78D0FD0079FD8F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				HEADER_SEARCH_PATHS = "${SDK_DIR}/usr/include/libxml2";
-				INFOPLIST_FILE = ExamAnkiUITests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kyp.ExamAnkiUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = ExamAnki;
-				USES_XCTRUNNER = YES;
-			};
-			name = Debug;
-		};
-		D390BF711C78D0FD0079FD8F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				HEADER_SEARCH_PATHS = "${SDK_DIR}/usr/include/libxml2";
-				INFOPLIST_FILE = ExamAnkiUITests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kyp.ExamAnkiUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = ExamAnki;
-				USES_XCTRUNNER = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D39059C11C9B39EB0028241D /* Build configuration list for PBXNativeTarget "ExamAnkiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D39059C21C9B39EB0028241D /* Debug */,
+				D39059C31C9B39EB0028241D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D390BF391C78D0FD0079FD8F /* Build configuration list for PBXProject "ExamAnki" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -974,24 +917,6 @@
 			buildConfigurations = (
 				D390BF6A1C78D0FD0079FD8F /* Debug */,
 				D390BF6B1C78D0FD0079FD8F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D390BF6C1C78D0FD0079FD8F /* Build configuration list for PBXNativeTarget "ExamAnkiTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D390BF6D1C78D0FD0079FD8F /* Debug */,
-				D390BF6E1C78D0FD0079FD8F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D390BF6F1C78D0FD0079FD8F /* Build configuration list for PBXNativeTarget "ExamAnkiUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D390BF701C78D0FD0079FD8F /* Debug */,
-				D390BF711C78D0FD0079FD8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

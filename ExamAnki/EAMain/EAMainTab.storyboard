@@ -8,12 +8,12 @@
         <!--首页-->
         <scene sceneID="K0G-IJ-8pH">
             <objects>
-                <viewController id="V5i-pd-Qan" customClass="EAPracticeViewController" customModule="ExamAnki" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="V5i-pd-Qan" customClass="EAPaperInfoVC" customModule="ExamAnki" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="4Vr-Iv-fL3"/>
                         <viewControllerLayoutGuide type="bottom" id="Dpb-Lf-XBz"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="anf-rY-YhG">
+                    <view key="view" autoresizesSubviews="NO" contentMode="scaleToFill" id="anf-rY-YhG">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -23,7 +23,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ldQ-80-8m4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3329" y="925"/>
+            <point key="canvasLocation" x="2906" y="421"/>
         </scene>
         <!--首页-->
         <scene sceneID="gcl-hC-1sl">

@@ -2,13 +2,12 @@
 //  ExamAnkiTests.swift
 //  ExamAnkiTests
 //
-//  Created by kongyunpeng on 2/21/16.
+//  Created by kongyunpeng on 3/18/16.
 //  Copyright © 2016 kongyunpeng. All rights reserved.
 //
 
 import XCTest
 @testable import ExamAnki
-
 class ExamAnkiTests: XCTestCase {
     
     override func setUp() {
@@ -22,8 +21,9 @@ class ExamAnkiTests: XCTestCase {
     }
     
     func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+          let seg = EAPAbstractSegmentedControl.createSegmentedControl(["a","b","c"])
+        XCTAssertEqual(seg, nil, "passed")
+        
     }
     
     func testPerformanceExample() {
