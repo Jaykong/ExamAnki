@@ -10,7 +10,7 @@ import UIKit
 // MARK: - Protocol: Add SegmentedControl Constraints
 protocol EAPaperConstrainDelegate {
     func addSegConstraints(controller:UIViewController)
- 
+  
 }
 
 class EAPaperInfoVC: UIViewController,EASegmentedControlDegate {
@@ -23,7 +23,7 @@ class EAPaperInfoVC: UIViewController,EASegmentedControlDegate {
         
         self.delegate =  EAPMainConstrainCreator()
         delegate.addSegConstraints(self)
-        
+      
         
         
         

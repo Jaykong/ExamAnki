@@ -8,6 +8,13 @@
 
 import UIKit
 
-class EAPAbstractScrollview: NSObject {
-
+class EAPAbstractScrollview: UIScrollView {
+    var contentView = UIView()
+    class func createMainScrollView() -> EAPAbstractScrollview{
+        return EAPScrollview()
+    }
+    
+    func addTableViews() {
+        fatalError()
+    }
 }

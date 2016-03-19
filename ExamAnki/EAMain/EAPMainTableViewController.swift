@@ -8,16 +8,16 @@
 
 import UIKit
 
-class EAPMainTableViewController: EAPAbstractTableViewController,UITableViewDelegate,UITableViewDataSource {
+class EAPMainTableViewController: EAPAbstractTableViewController {
     var paperNames = EAPPaperManager.getPaperNamesFromPapers()
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         return 1
     }
-    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
       return  paperNames.count
     }
-    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
        let cell = tableView.dequeueReusableCellWithIdentifier("Cell")
         cell?.textLabel?.text = paperNames[indexPath.row]
         return cell!

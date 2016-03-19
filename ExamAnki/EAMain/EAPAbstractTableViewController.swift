@@ -8,6 +8,17 @@
 
 import UIKit
 
-class EAPAbstractTableViewController: NSObject {
+class EAPAbstractTableViewController: NSObject,UITableViewDelegate,UITableViewDataSource {
 
+    class func createTableViewController() -> EAPAbstractTableViewController {
+        
+        return EAPMainTableViewController()
+    }
+    
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        fatalError()
+    }
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        fatalError()
+    }
 }

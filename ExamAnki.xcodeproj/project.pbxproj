@@ -269,8 +269,8 @@
 			isa = PBXGroup;
 			children = (
 				A92047D61C9BAE0B001D803E /* EAPAstractMainTableView.swift */,
-				A92047DA1C9BAF13001D803E /* EAPAbstractTableViewController.swift */,
 				A92047D81C9BAE1B001D803E /* EAPMainTableView.swift */,
+				A92047DA1C9BAF13001D803E /* EAPAbstractTableViewController.swift */,
 				A92047DC1C9BAF21001D803E /* EAPMainTableViewController.swift */,
 			);
 			name = TableView;
