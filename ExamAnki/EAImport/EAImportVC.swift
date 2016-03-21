@@ -111,8 +111,8 @@ class EAImportVC: UIViewController,UITableViewDataSource,UITableViewDelegate{
         
         let iconCount = docInteractionController.icons.count
         if iconCount>0 {
-            cell?.imageView?.image = docInteractionController.icons.last
-            cell?.imageView?.highlighted = true
+            cell?.imageView?.image = UIImage(named: "file.png")
+            cell?.imageView?.contentMode = .ScaleAspectFit
         }
         let rect = tableView.rectForRowAtIndexPath(indexPath)
         let frame = CGRect(x: 0, y: rect.size.height-1, width: rect.size.width, height: 1)

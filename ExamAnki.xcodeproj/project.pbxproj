@@ -70,6 +70,7 @@
 		9F5BBAA91C8C304300575171 /* XZModelService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5BBA9D1C8C304300575171 /* XZModelService.swift */; };
 		9F5BBAAA1C8C304300575171 /* XZPaperParsingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5BBA9E1C8C304300575171 /* XZPaperParsingService.swift */; };
 		9F6206EA1C7CAA3200809FFD /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F6206E91C7CAA3200809FFD /* libxml2.2.tbd */; };
+		9F7DDCB91C9EF44A00FA5493 /* XZHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7DDCB81C9EF44A00FA5493 /* XZHeaderView.swift */; };
 		A92047D11C9BACFA001D803E /* EAPAbstractScrollview.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92047D01C9BACFA001D803E /* EAPAbstractScrollview.swift */; };
 		A92047D41C9BAD2D001D803E /* EAPScrollview.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92047D31C9BAD2D001D803E /* EAPScrollview.swift */; };
 		A92047D71C9BAE0B001D803E /* EAPAstractMainTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92047D61C9BAE0B001D803E /* EAPAstractMainTableView.swift */; };
@@ -181,6 +182,7 @@
 		9F5BBA9D1C8C304300575171 /* XZModelService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XZModelService.swift; sourceTree = "<group>"; };
 		9F5BBA9E1C8C304300575171 /* XZPaperParsingService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XZPaperParsingService.swift; sourceTree = "<group>"; };
 		9F6206E91C7CAA3200809FFD /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
+		9F7DDCB81C9EF44A00FA5493 /* XZHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XZHeaderView.swift; sourceTree = "<group>"; };
 		A92047D01C9BACFA001D803E /* EAPAbstractScrollview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAPAbstractScrollview.swift; sourceTree = "<group>"; };
 		A92047D31C9BAD2D001D803E /* EAPScrollview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAPScrollview.swift; sourceTree = "<group>"; };
 		A92047D61C9BAE0B001D803E /* EAPAstractMainTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAPAstractMainTableView.swift; sourceTree = "<group>"; };
@@ -363,6 +365,7 @@
 			children = (
 				46E267701C869588006A23F9 /* EAFlashTab.storyboard */,
 				46E267551C868953006A23F9 /* EAFlashCardVC.swift */,
+				9F7DDCB81C9EF44A00FA5493 /* XZHeaderView.swift */,
 			);
 			path = EAFlashCard;
 			sourceTree = "<group>";
@@ -748,6 +751,7 @@
 				9F5BBA711C8C2F0500575171 /* ImportQuestion+CoreDataProperties.swift in Sources */,
 				9F5BBA881C8C2F0500575171 /* Question.swift in Sources */,
 				9F5BBA6F1C8C2F0500575171 /* ImportHeading+CoreDataProperties.swift in Sources */,
+				9F7DDCB91C9EF44A00FA5493 /* XZHeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
