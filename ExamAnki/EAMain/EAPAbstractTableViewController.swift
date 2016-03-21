@@ -10,9 +10,9 @@ import UIKit
 
 class EAPAbstractTableViewController: NSObject,UITableViewDelegate,UITableViewDataSource {
 
-    class func createTableViewController() -> EAPAbstractTableViewController {
+    class func createTableViewController(paperType: String) -> EAPAbstractTableViewController {
         
-        return EAPMainTableViewController()
+        return EAPMainTableViewController(paperType: paperType)
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

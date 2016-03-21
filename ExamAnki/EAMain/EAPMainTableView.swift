@@ -9,16 +9,17 @@
 import UIKit
 
 class EAPMainTableView: EAPAstractMainTableView
-
+    
 {
-    let tableViewController:EAPAbstractTableViewController = EAPAbstractTableViewController.createTableViewController()
-    override init(frame: CGRect, style: UITableViewStyle) {
-     
+    
+    //let tableViewController:EAPAbstractTableViewController = EAPAbstractTableViewController.createTableViewController()
+    init(frame: CGRect, style: UITableViewStyle,tableViewController:EAPAbstractTableViewController) {
         super.init(frame: frame, style: style)
         self.registerClass(UITableViewCell.self, forCellReuseIdentifier: "Cell")
         self.delegate = tableViewController
         self.dataSource = tableViewController
     }
+    
     
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")

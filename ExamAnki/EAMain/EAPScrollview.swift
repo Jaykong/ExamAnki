@@ -16,21 +16,24 @@ class EAPScrollview: EAPAbstractScrollview {
         super.init(frame: frame)
         self.addSubview(self.contentView)
         for var i = 0;i < 3; ++i {
-            let tableview = EAPAstractMainTableView.createMainTableView()
+            let paperTypes = EAPPaperManager.getTitlesFromPapers()
+            let paperType = paperTypes[i]
+            let controller = EAPAbstractTableViewController.createTableViewController(paperType)
+            let tableview = EAPAstractMainTableView.createMainTableView(controller)
             self.contentView.addSubview(tableview)
         }
         
     }
     
-    override func addTableViews() {
-        for var i = 0;i < 3; ++i {
-            let tableview = EAPAstractMainTableView.createMainTableView()
-            //tableview.frame = CGRect(x: i * EAScreenWidth, y: 0, width:EAScreenWidth , height:Int(self.frame.size.height))
-            self.addSubview(tableview)
-            
-        }
-        
-    }
+    //    override func addTableViews() {
+    //        for var i = 0;i < 3; ++i {
+    //            let tableview = EAPAstractMainTableView.createMainTableView()
+    //            //tableview.frame = CGRect(x: i * EAScreenWidth, y: 0, width:EAScreenWidth , height:Int(self.frame.size.height))
+    //            self.addSubview(tableview)
+    //            
+    //        }
+    //        
+    //    }
     convenience init() {
         self.init(frame:CGRectZero)
         self.directionalLockEnabled = true
