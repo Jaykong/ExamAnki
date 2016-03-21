@@ -10,17 +10,30 @@ import UIKit
 
 class EAPMainTableViewController: EAPAbstractTableViewController {
     let paperType:String
+    var papers:[PaperInfo] {
+        get {
+            return EAPPaperManager.getOnePaperCategory(paperType)
+        }
+    }
     var paperNames:[String] {
         get {
-          let papers = EAPPaperManager.getOnePaperCategory(paperType)
+        //  let papers = EAPPaperManager.getOnePaperCategory(paperType)
           return EAPPaperManager.getPaperNamesFromPapers(papers)
         }
+    }
+   override func getPapers() -> [PaperInfo] {
+     return papers
     }
    // let papers = EAPPaperManager.getOnePaperCategory()
     //var paperNames = EAPPaperManager.getPaperNamesFromPapers(papers)
     init(paperType:String) {
       self.paperType = paperType
       super.init()
+        
+    }
+
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
     }
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
@@ -38,5 +51,6 @@ class EAPMainTableViewController: EAPAbstractTableViewController {
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         print("seleted")
+        
     }
 }

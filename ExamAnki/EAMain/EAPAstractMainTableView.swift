@@ -9,6 +9,7 @@
 import UIKit
 
 class EAPAstractMainTableView: UITableView {
+    
     class func createMainTableView(controller:EAPAbstractTableViewController) -> EAPAstractMainTableView {
     let tableview =  EAPMainTableView.init(frame: CGRectZero, style: .Plain,tableViewController:controller)
        //let controller =  EAPMainTableViewController()
@@ -16,5 +17,9 @@ class EAPAstractMainTableView: UITableView {
        // tableview.dataSource = controller
        
      return tableview
+    }
+    
+    func getTableViewController() -> EAPAbstractTableViewController {
+        fatalError()
     }
 }

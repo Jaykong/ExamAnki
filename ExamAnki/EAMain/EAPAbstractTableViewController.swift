@@ -8,11 +8,18 @@
 
 import UIKit
 
-class EAPAbstractTableViewController: NSObject,UITableViewDelegate,UITableViewDataSource {
+class EAPAbstractTableViewController:NSObject, UITableViewDelegate,UITableViewDataSource {
 
+    
+//    let paperType = ""
+//    var papers = [PaperInfo]()
+//    var paperNames = [String]()
     class func createTableViewController(paperType: String) -> EAPAbstractTableViewController {
         
         return EAPMainTableViewController(paperType: paperType)
+    }
+    func getPapers() -> [PaperInfo] {
+        fatalError()
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

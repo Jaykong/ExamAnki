@@ -45,9 +45,14 @@ class EAPMainConstrainCreator: EAPaperConstrainDelegate {
         constraints.append(NSLayoutConstraint(item: scrollView.contentView, attribute: .Width, relatedBy: .Equal, toItem: scrollView, attribute: .Width, multiplier: 3, constant: 0))
         // constraints.append(NSLayoutConstraint(item: scrollView.contentView, attribute: .Height, relatedBy: .Equal, toItem: scrollView, attribute: .Height, multiplier:1, constant: 0))
         let tableviews = scrollView.contentView.subviews
-        let tableview1 = tableviews[0]
-        let tableview2 = tableviews[1]
-        let tableview3 = tableviews[2]
+        let tableview1 = tableviews[0] as! UITableView
+        let tableview2 = tableviews[1] as! UITableView
+        let tableview3 = tableviews[2] as! UITableView
+        
+        tableview1.delegate = controller
+        tableview2.delegate = controller
+        tableview3.delegate = controller
+        
         tableview1.translatesAutoresizingMaskIntoConstraints = false
         tableview2.translatesAutoresizingMaskIntoConstraints = false
         tableview3.translatesAutoresizingMaskIntoConstraints = false

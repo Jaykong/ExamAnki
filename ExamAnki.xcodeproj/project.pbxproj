@@ -81,6 +81,8 @@
 		A9AD78AB1C8B3B00005CD5DA /* AEXML.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AD78A81C8B3B00005CD5DA /* AEXML.swift */; };
 		A9AD78AC1C8B3B00005CD5DA /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AD78A91C8B3B00005CD5DA /* CoreDataStack.swift */; };
 		A9AD78AD1C8B3B00005CD5DA /* XMLAnalysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AD78AA1C8B3B00005CD5DA /* XMLAnalysis.swift */; };
+		A9B44FF51C9F980E0079CAF3 /* EAQuestionTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B44FF41C9F980E0079CAF3 /* EAQuestionTypeViewController.swift */; };
+		A9B44FF71C9F988F0079CAF3 /* EANotificationName.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B44FF61C9F988F0079CAF3 /* EANotificationName.swift */; };
 		A9D176121C9657BB00861C37 /* EAQuestionTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D176111C9657BB00861C37 /* EAQuestionTVC.swift */; };
 		A9D176141C965B3400861C37 /* EAPracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D176131C965B3400861C37 /* EAPracticeViewController.swift */; };
 		A9D176161C96611800861C37 /* EARedoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D176151C96611800861C37 /* EARedoViewController.swift */; };
@@ -192,6 +194,8 @@
 		A9AD78A81C8B3B00005CD5DA /* AEXML.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AEXML.swift; sourceTree = "<group>"; };
 		A9AD78A91C8B3B00005CD5DA /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		A9AD78AA1C8B3B00005CD5DA /* XMLAnalysis.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMLAnalysis.swift; sourceTree = "<group>"; };
+		A9B44FF41C9F980E0079CAF3 /* EAQuestionTypeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAQuestionTypeViewController.swift; sourceTree = "<group>"; };
+		A9B44FF61C9F988F0079CAF3 /* EANotificationName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EANotificationName.swift; sourceTree = "<group>"; };
 		A9D176111C9657BB00861C37 /* EAQuestionTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAQuestionTVC.swift; sourceTree = "<group>"; };
 		A9D176131C965B3400861C37 /* EAPracticeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAPracticeViewController.swift; sourceTree = "<group>"; };
 		A9D176151C96611800861C37 /* EARedoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EARedoViewController.swift; sourceTree = "<group>"; };
@@ -316,6 +320,7 @@
 				A9DFBFD81C804698000CA605 /* AppDelegate.swift */,
 				A9DFBFD91C804698000CA605 /* ExamAnki-Bridging-Header.h */,
 				A9DFBFDA1C804698000CA605 /* GlbolTableName.swift */,
+				A9B44FF61C9F988F0079CAF3 /* EANotificationName.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -391,6 +396,7 @@
 				D39059471C9AE98A0028241D /* MainSegmentedControl */,
 				D316E9981C920D3400E00B27 /* EAQuestionManager.swift */,
 				46E2675F1C868A71006A23F9 /* EAPaperInfoVC.swift */,
+				A9B44FF41C9F980E0079CAF3 /* EAQuestionTypeViewController.swift */,
 				A9D176131C965B3400861C37 /* EAPracticeViewController.swift */,
 				A9AD77E61C894075005CD5DA /* EAMainTab.storyboard */,
 				A9D176111C9657BB00861C37 /* EAQuestionTVC.swift */,
@@ -707,6 +713,7 @@
 				46E267501C8688B0006A23F9 /* EAAboutVC.swift in Sources */,
 				9F5BBA861C8C2F0500575171 /* FlashTopic.swift in Sources */,
 				D3D294BA1C9B52C00037BB40 /* EAPPaperManager.swift in Sources */,
+				A9B44FF71C9F988F0079CAF3 /* EANotificationName.swift in Sources */,
 				9F5BBA6D1C8C2F0500575171 /* PaperInfo+CoreDataProperties.swift in Sources */,
 				46E267601C868A71006A23F9 /* EAPaperInfoVC.swift in Sources */,
 				A9DFC0111C804698000CA605 /* AppDelegate.swift in Sources */,
@@ -721,6 +728,7 @@
 				A9AD78AD1C8B3B00005CD5DA /* XMLAnalysis.swift in Sources */,
 				A9D176141C965B3400861C37 /* EAPracticeViewController.swift in Sources */,
 				9F5BBA701C8C2F0500575171 /* ImportHeading.swift in Sources */,
+				A9B44FF51C9F980E0079CAF3 /* EAQuestionTypeViewController.swift in Sources */,
 				A9AD78AC1C8B3B00005CD5DA /* CoreDataStack.swift in Sources */,
 				9F5BBA7A1C8C2F0500575171 /* UserQuestionRecord.swift in Sources */,
 				A92047D71C9BAE0B001D803E /* EAPAstractMainTableView.swift in Sources */,
