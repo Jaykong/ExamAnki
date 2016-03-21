@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		055398DF1CA006E9006FC30B /* BookmarkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055398D91CA006E9006FC30B /* BookmarkCell.swift */; };
+		055398E01CA006E9006FC30B /* EABookmarkQuestionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055398DA1CA006E9006FC30B /* EABookmarkQuestionVC.swift */; };
+		055398E11CA006E9006FC30B /* EABookmarkTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 055398DB1CA006E9006FC30B /* EABookmarkTab.storyboard */; };
+		055398E21CA006E9006FC30B /* EALookThroughController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055398DC1CA006E9006FC30B /* EALookThroughController.swift */; };
+		055398E31CA006E9006FC30B /* EALookThroughVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055398DD1CA006E9006FC30B /* EALookThroughVC.swift */; };
+		055398E41CA006E9006FC30B /* EARedoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055398DE1CA006E9006FC30B /* EARedoVC.swift */; };
 		460C933A1CA000A000FE16B1 /* EAAnalysisTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460C932E1CA000A000FE16B1 /* EAAnalysisTVCell.swift */; };
 		460C933B1CA000A000FE16B1 /* EAAnalysisTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 460C932F1CA000A000FE16B1 /* EAAnalysisTVCell.xib */; };
 		460C933C1CA000A000FE16B1 /* EAAnswerTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460C93301CA000A000FE16B1 /* EAAnswerTVCell.swift */; };
@@ -89,20 +95,16 @@
 		A92047D91C9BAE1B001D803E /* EAPMainTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92047D81C9BAE1B001D803E /* EAPMainTableView.swift */; };
 		A92047DB1C9BAF13001D803E /* EAPAbstractTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92047DA1C9BAF13001D803E /* EAPAbstractTableViewController.swift */; };
 		A92047DD1C9BAF21001D803E /* EAPMainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92047DC1C9BAF21001D803E /* EAPMainTableViewController.swift */; };
-		A9AD77E51C894057005CD5DA /* EABookmarkTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9AD77E41C894057005CD5DA /* EABookmarkTab.storyboard */; };
 		A9AD77E71C894075005CD5DA /* EAMainTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9AD77E61C894075005CD5DA /* EAMainTab.storyboard */; };
 		A9AD78AB1C8B3B00005CD5DA /* AEXML.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AD78A81C8B3B00005CD5DA /* AEXML.swift */; };
 		A9AD78AC1C8B3B00005CD5DA /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AD78A91C8B3B00005CD5DA /* CoreDataStack.swift */; };
 		A9AD78AD1C8B3B00005CD5DA /* XMLAnalysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AD78AA1C8B3B00005CD5DA /* XMLAnalysis.swift */; };
 		A9D176121C9657BB00861C37 /* EAQuestionTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D176111C9657BB00861C37 /* EAQuestionTVC.swift */; };
 		A9D176141C965B3400861C37 /* EAPracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D176131C965B3400861C37 /* EAPracticeViewController.swift */; };
-		A9D176161C96611800861C37 /* EARedoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D176151C96611800861C37 /* EARedoViewController.swift */; };
 		A9DFC00F1C804698000CA605 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9DFBFD31C804698000CA605 /* LaunchScreen.storyboard */; };
 		A9DFC0101C804698000CA605 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9DFBFD51C804698000CA605 /* Main.storyboard */; };
 		A9DFC0111C804698000CA605 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DFBFD81C804698000CA605 /* AppDelegate.swift */; };
 		A9DFC0121C804698000CA605 /* GlbolTableName.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DFBFDA1C804698000CA605 /* GlbolTableName.swift */; };
-		A9DFC0131C804698000CA605 /* BookmarkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DFBFDD1C804698000CA605 /* BookmarkCell.swift */; };
-		A9DFC0141C804698000CA605 /* BookmarkQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DFBFDE1C804698000CA605 /* BookmarkQuestionViewController.swift */; };
 		A9DFC0291C804698000CA605 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9DFBFFD1C804698000CA605 /* Assets.xcassets */; };
 		A9DFC0301C804698000CA605 /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DFC00A1C804698000CA605 /* GDataXMLNode.m */; };
 		D316E9931C91E72F00E00B27 /* 20141230165606945484423-3c2da1df6488.xml in Resources */ = {isa = PBXBuildFile; fileRef = D316E9901C91E72F00E00B27 /* 20141230165606945484423-3c2da1df6488.xml */; };
@@ -128,6 +130,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		055398D91CA006E9006FC30B /* BookmarkCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookmarkCell.swift; sourceTree = "<group>"; };
+		055398DA1CA006E9006FC30B /* EABookmarkQuestionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EABookmarkQuestionVC.swift; sourceTree = "<group>"; };
+		055398DB1CA006E9006FC30B /* EABookmarkTab.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = EABookmarkTab.storyboard; sourceTree = "<group>"; };
+		055398DC1CA006E9006FC30B /* EALookThroughController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EALookThroughController.swift; sourceTree = "<group>"; };
+		055398DD1CA006E9006FC30B /* EALookThroughVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EALookThroughVC.swift; sourceTree = "<group>"; };
+		055398DE1CA006E9006FC30B /* EARedoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EARedoVC.swift; sourceTree = "<group>"; };
 		460C932E1CA000A000FE16B1 /* EAAnalysisTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EAAnalysisTVCell.swift; path = ExamAnki/EAMain/EAAnalysisTVCell.swift; sourceTree = SOURCE_ROOT; };
 		460C932F1CA000A000FE16B1 /* EAAnalysisTVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EAAnalysisTVCell.xib; path = ExamAnki/EAMain/EAAnalysisTVCell.xib; sourceTree = SOURCE_ROOT; };
 		460C93301CA000A000FE16B1 /* EAAnswerTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EAAnswerTVCell.swift; path = ExamAnki/EAMain/EAAnswerTVCell.swift; sourceTree = SOURCE_ROOT; };
@@ -213,21 +221,17 @@
 		A92047D81C9BAE1B001D803E /* EAPMainTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAPMainTableView.swift; sourceTree = "<group>"; };
 		A92047DA1C9BAF13001D803E /* EAPAbstractTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAPAbstractTableViewController.swift; sourceTree = "<group>"; };
 		A92047DC1C9BAF21001D803E /* EAPMainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAPMainTableViewController.swift; sourceTree = "<group>"; };
-		A9AD77E41C894057005CD5DA /* EABookmarkTab.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = EABookmarkTab.storyboard; sourceTree = "<group>"; };
 		A9AD77E61C894075005CD5DA /* EAMainTab.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = EAMainTab.storyboard; sourceTree = "<group>"; };
 		A9AD78A81C8B3B00005CD5DA /* AEXML.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AEXML.swift; sourceTree = "<group>"; };
 		A9AD78A91C8B3B00005CD5DA /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		A9AD78AA1C8B3B00005CD5DA /* XMLAnalysis.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMLAnalysis.swift; sourceTree = "<group>"; };
 		A9D176111C9657BB00861C37 /* EAQuestionTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAQuestionTVC.swift; sourceTree = "<group>"; };
 		A9D176131C965B3400861C37 /* EAPracticeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAPracticeViewController.swift; sourceTree = "<group>"; };
-		A9D176151C96611800861C37 /* EARedoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EARedoViewController.swift; sourceTree = "<group>"; };
 		A9DFBFD41C804698000CA605 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9DFBFD61C804698000CA605 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A9DFBFD81C804698000CA605 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9DFBFD91C804698000CA605 /* ExamAnki-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ExamAnki-Bridging-Header.h"; sourceTree = "<group>"; };
 		A9DFBFDA1C804698000CA605 /* GlbolTableName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlbolTableName.swift; sourceTree = "<group>"; };
-		A9DFBFDD1C804698000CA605 /* BookmarkCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookmarkCell.swift; sourceTree = "<group>"; };
-		A9DFBFDE1C804698000CA605 /* BookmarkQuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookmarkQuestionViewController.swift; sourceTree = "<group>"; };
 		A9DFBFFD1C804698000CA605 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9DFC0001C804698000CA605 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9DFC0091C804698000CA605 /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
@@ -378,10 +382,12 @@
 		A9DFBFDC1C804698000CA605 /* EABookmark */ = {
 			isa = PBXGroup;
 			children = (
-				A9DFBFDD1C804698000CA605 /* BookmarkCell.swift */,
-				A9D176151C96611800861C37 /* EARedoViewController.swift */,
-				A9AD77E41C894057005CD5DA /* EABookmarkTab.storyboard */,
-				A9DFBFDE1C804698000CA605 /* BookmarkQuestionViewController.swift */,
+				055398D91CA006E9006FC30B /* BookmarkCell.swift */,
+				055398DA1CA006E9006FC30B /* EABookmarkQuestionVC.swift */,
+				055398DB1CA006E9006FC30B /* EABookmarkTab.storyboard */,
+				055398DC1CA006E9006FC30B /* EALookThroughController.swift */,
+				055398DD1CA006E9006FC30B /* EALookThroughVC.swift */,
+				055398DE1CA006E9006FC30B /* EARedoVC.swift */,
 			);
 			path = EABookmark;
 			sourceTree = "<group>";
@@ -691,7 +697,6 @@
 				460C933B1CA000A000FE16B1 /* EAAnalysisTVCell.xib in Resources */,
 				46E267791C869672006A23F9 /* EACommentTab.storyboard in Resources */,
 				46E267771C86964A006A23F9 /* EAShare.storyboard in Resources */,
-				A9AD77E51C894057005CD5DA /* EABookmarkTab.storyboard in Resources */,
 				460C93411CA000A000FE16B1 /* EAQuestionTVCell.xib in Resources */,
 				46E267711C869588006A23F9 /* EAFlashTab.storyboard in Resources */,
 				46E2677B1C869689006A23F9 /* EAAboutTab.storyboard in Resources */,
@@ -710,6 +715,7 @@
 				46E267641C868B5A006A23F9 /* EAWrongTab.storyboard in Resources */,
 				9F5BBAA41C8C304300575171 /* image004.png in Resources */,
 				A9AD77E71C894075005CD5DA /* EAMainTab.storyboard in Resources */,
+				055398E11CA006E9006FC30B /* EABookmarkTab.storyboard in Resources */,
 				9F5BBAA31C8C304300575171 /* image003.png in Resources */,
 				460C93431CA000A000FE16B1 /* EAReaultTVCell.xib in Resources */,
 				9F5BBAA61C8C304300575171 /* image006.png in Resources */,
@@ -737,6 +743,7 @@
 			files = (
 				A92047D91C9BAE1B001D803E /* EAPMainTableView.swift in Sources */,
 				9F5BBA741C8C2F0500575171 /* ImportQuestionOption.swift in Sources */,
+				055398E31CA006E9006FC30B /* EALookThroughVC.swift in Sources */,
 				46E2675E1C8689EA006A23F9 /* EAShareVC.swift in Sources */,
 				A9DFC0301C804698000CA605 /* GDataXMLNode.m in Sources */,
 				9F5BBAA91C8C304300575171 /* XZModelService.swift in Sources */,
@@ -744,11 +751,11 @@
 				9F5BBA6C1C8C2F0500575171 /* QuestionMaterial.swift in Sources */,
 				A92047D11C9BACFA001D803E /* EAPAbstractScrollview.swift in Sources */,
 				9F5BBA7E1C8C2F0500575171 /* QuestionOption.swift in Sources */,
-				A9DFC0141C804698000CA605 /* BookmarkQuestionViewController.swift in Sources */,
 				9F5BBA7C1C8C2F0500575171 /* ImportQuestionMaterial.swift in Sources */,
 				46E2675A1C8689BD006A23F9 /* EAImportVC.swift in Sources */,
 				9F5BBA7B1C8C2F0500575171 /* ImportQuestionMaterial+CoreDataProperties.swift in Sources */,
 				9F5BBA721C8C2F0500575171 /* ImportQuestion.swift in Sources */,
+				055398E41CA006E9006FC30B /* EARedoVC.swift in Sources */,
 				9F5BBA7D1C8C2F0500575171 /* QuestionOption+CoreDataProperties.swift in Sources */,
 				460C93421CA000A000FE16B1 /* EAReaultTVCell.swift in Sources */,
 				9F5BBA871C8C2F0500575171 /* Question+CoreDataProperties.swift in Sources */,
@@ -771,11 +778,12 @@
 				A9D176121C9657BB00861C37 /* EAQuestionTVC.swift in Sources */,
 				9F5BBA901C8C303200575171 /* TFHppleElement.m in Sources */,
 				460C933A1CA000A000FE16B1 /* EAAnalysisTVCell.swift in Sources */,
+				055398DF1CA006E9006FC30B /* BookmarkCell.swift in Sources */,
 				9F5BBA8F1C8C303200575171 /* TFHpple.m in Sources */,
-				A9DFC0131C804698000CA605 /* BookmarkCell.swift in Sources */,
 				9F5BBA851C8C2F0500575171 /* FlashTopic+CoreDataProperties.swift in Sources */,
 				9F5BBA6E1C8C2F0500575171 /* PaperInfo.swift in Sources */,
 				A9AD78AD1C8B3B00005CD5DA /* XMLAnalysis.swift in Sources */,
+				055398E21CA006E9006FC30B /* EALookThroughController.swift in Sources */,
 				A9D176141C965B3400861C37 /* EAPracticeViewController.swift in Sources */,
 				9F5BBA701C8C2F0500575171 /* ImportHeading.swift in Sources */,
 				A9AD78AC1C8B3B00005CD5DA /* CoreDataStack.swift in Sources */,
@@ -789,13 +797,13 @@
 				460C93441CA000A000FE16B1 /* EAReferenceTVCell.swift in Sources */,
 				9F5BBA6B1C8C2F0500575171 /* QuestionMaterial+CoreDataProperties.swift in Sources */,
 				46E267621C868A8F006A23F9 /* EAWrongQuestionVC.swift in Sources */,
+				055398E01CA006E9006FC30B /* EABookmarkQuestionVC.swift in Sources */,
 				46E267681C868CAD006A23F9 /* EAWrongQuestionVCCell.swift in Sources */,
 				9F5BBAAA1C8C304300575171 /* XZPaperParsingService.swift in Sources */,
 				9F5BBA761C8C2F0500575171 /* BookmarkRecord.swift in Sources */,
 				D39059491C9AE9B30028241D /* EAPAbstractSegmentedControl.swift in Sources */,
 				46E267561C868953006A23F9 /* EAFlashCardVC.swift in Sources */,
 				9F5BBA751C8C2F0500575171 /* BookmarkRecord+CoreDataProperties.swift in Sources */,
-				A9D176161C96611800861C37 /* EARedoViewController.swift in Sources */,
 				D316E9991C920D3400E00B27 /* EAQuestionManager.swift in Sources */,
 				9F5BBA731C8C2F0500575171 /* ImportQuestionOption+CoreDataProperties.swift in Sources */,
 				46E267541C868935006A23F9 /* EAFeedbackVC.swift in Sources */,

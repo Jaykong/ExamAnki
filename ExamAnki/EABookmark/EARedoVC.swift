@@ -9,7 +9,7 @@
 import UIKit
 import CoreData
 
-class EARedoViewController: UIViewController,UITableViewDataSource,UITableViewDelegate,UIScrollViewDelegate {
+class EARedoVC: UIViewController,UITableViewDataSource,UITableViewDelegate,UIScrollViewDelegate {
     
     let coreDataStack = CoreDataStack.sharedCoreDataStack
     
