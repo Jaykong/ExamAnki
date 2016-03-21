@@ -9,11 +9,12 @@
 import UIKit
 
 class EAPAstractMainTableView: UITableView {
-  class func createMainTableView() -> EAPAstractMainTableView {
-      let tableview =  EAPMainTableView.init(frame: CGRectZero, style: .Plain)
+    class func createMainTableView(controller:EAPAbstractTableViewController) -> EAPAstractMainTableView {
+    let tableview =  EAPMainTableView.init(frame: CGRectZero, style: .Plain,tableViewController:controller)
        //let controller =  EAPMainTableViewController()
        // tableview.delegate = controller
        // tableview.dataSource = controller
+       
      return tableview
     }
 }

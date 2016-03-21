@@ -8,16 +8,14 @@
 
 import UIKit
 
+
+
 class EAPMainConstrainCreator: EAPaperConstrainDelegate {
-    func addSegConstraints(controller: UIViewController) {
-        
-        let seg = EAPAbstractSegmentedControl.createSegmentedControl()
-        let scrollView = EAPAbstractScrollview.createMainScrollView()
-        controller.view.addSubview(scrollView)
-        controller.view.addSubview(seg)
-        
-        scrollView.backgroundColor = UIColor.redColor()
-        scrollView.contentView.backgroundColor = UIColor ( red: 0.0, green: 0.5226, blue: 0.0, alpha: 1.0 )
+    func addSegConstraints(controller: EAPaperInfoVC,scrollView:EAPAbstractScrollview,seg:EAPAbstractSegmentedControl) {
+       
+
+       // scrollView.backgroundColor = UIColor.redColor()
+      //  scrollView.contentView.backgroundColor = UIColor ( red: 0.0, green: 0.5226, blue: 0.0, alpha: 1.0 )
         
         seg.translatesAutoresizingMaskIntoConstraints = false
         scrollView.translatesAutoresizingMaskIntoConstraints = false
@@ -45,7 +43,7 @@ class EAPMainConstrainCreator: EAPaperConstrainDelegate {
         constraints.append(NSLayoutConstraint(item: scrollView.contentView, attribute: .Trailing, relatedBy: .Equal, toItem: scrollView, attribute: .Trailing, multiplier: 1, constant: 0))
         
         constraints.append(NSLayoutConstraint(item: scrollView.contentView, attribute: .Width, relatedBy: .Equal, toItem: scrollView, attribute: .Width, multiplier: 3, constant: 0))
-       // constraints.append(NSLayoutConstraint(item: scrollView.contentView, attribute: .Height, relatedBy: .Equal, toItem: scrollView, attribute: .Height, multiplier:1, constant: 0))
+        // constraints.append(NSLayoutConstraint(item: scrollView.contentView, attribute: .Height, relatedBy: .Equal, toItem: scrollView, attribute: .Height, multiplier:1, constant: 0))
         let tableviews = scrollView.contentView.subviews
         let tableview1 = tableviews[0]
         let tableview2 = tableviews[1]
@@ -78,52 +76,11 @@ class EAPMainConstrainCreator: EAPaperConstrainDelegate {
         
         constraints.append(NSLayoutConstraint(item: tableview2, attribute: .Trailing, relatedBy: .Equal, toItem: tableview3, attribute: .Leading, multiplier:1, constant: 0))
         constraints.append(NSLayoutConstraint(item: tableview3, attribute: .Trailing, relatedBy: .Equal, toItem: scrollView.contentView, attribute: .Trailing, multiplier:1, constant: 0))
-        
-        //        controller.view.setNeedsLayout()
-        //        controller.view.setNeedsDisplay()
-        //        print("scrollView.frame:\(scrollView.frame)")
-        //        print("scrollView.contentView.frame:\(scrollView.contentView.frame)")
-        //        print("tableview1.frame:\(tableview1.frame)")
-        //        
-        // MARK:
-        //        let mapping = ["seg":seg,"scroll":scrollView]
-        //        
-        //        var constraints =  NSLayoutConstraint.constraintsWithVisualFormat("H:|-0-[seg]-0-|", options: [], metrics: nil, views: mapping)
-        //        print("--------------------------\n\(seg.frame.height)")
-        //        constraints += NSLayoutConstraint.constraintsWithVisualFormat("V:|-0-[seg]-[scroll]-0-|", options: [], metrics: nil, views: mapping)
-        //        constraints +=  NSLayoutConstraint.constraintsWithVisualFormat("H:|-0-[scroll]-0-|", options: [], metrics: nil, views: mapping)
-        //        let constraint = seg.topAnchor.constraintEqualToAnchor(controller.topLayoutGuide.bottomAnchor, constant: 0)
-        //        constraints.append(scrollView.leftAnchor.constraintEqualToAnchor(controller.view.leftAnchor))
-        //        constraints.append(scrollView.rightAnchor.constraintEqualToAnchor(controller.view.rightAnchor))
-        //        constraints.append(scrollView.topAnchor.constraintEqualToAnchor(seg.bottomAnchor))
-        //        constraints.append(scrollView.bottomAnchor.constraintEqualToAnchor(controller.bottomLayoutGuide.bottomAnchor))
-        //        constraints.append(constraint)
-        
+       
         
         controller.view.addConstraints(constraints)
         print("--------------------------\n\(scrollView.frame.height)")
         
-        
-        
-        //        scrollView.addTableViews()
-        //        
-        //        for var i = 0 ; i < 3; ++i {
-        //            let tableview = scrollView.subviews[i]
-        //            
-        //            tableview.translatesAutoresizingMaskIntoConstraints = false
-        //            var constraints = [NSLayoutConstraint]()
-        //            constraints.append(tableview.topAnchor.constraintEqualToAnchor(seg.bottomAnchor,constant: 0))
-        //            
-        //            constraints.append(tableview.bottomAnchor.constraintEqualToAnchor(controller.bottomLayoutGuide.bottomAnchor))
-        //            
-        //            constraints.append(tableview.leftAnchor.constraintEqualToAnchor(controller.view.leftAnchor,constant:CGFloat(i * EAScreenWidth)))
-        //            constraints.append(tableview.rightAnchor.constraintEqualToAnchor(controller.view.rightAnchor,constant: CGFloat((i + 1) * EAScreenWidth)))
-        //            
-        //            controller.view.addConstraints(constraints)
-        //            
-        //            print("--------------------------\n\(tableview.constraints)")
-        //            
-        //        }
         
     }
 }

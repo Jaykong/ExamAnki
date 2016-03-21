@@ -9,7 +9,19 @@
 import UIKit
 
 class EAPMainTableViewController: EAPAbstractTableViewController {
-    var paperNames = EAPPaperManager.getPaperNamesFromPapers()
+    let paperType:String
+    var paperNames:[String] {
+        get {
+          let papers = EAPPaperManager.getOnePaperCategory(paperType)
+          return EAPPaperManager.getPaperNamesFromPapers(papers)
+        }
+    }
+   // let papers = EAPPaperManager.getOnePaperCategory()
+    //var paperNames = EAPPaperManager.getPaperNamesFromPapers(papers)
+    init(paperType:String) {
+      self.paperType = paperType
+      super.init()
+    }
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         return 1
@@ -22,5 +34,9 @@ class EAPMainTableViewController: EAPAbstractTableViewController {
         cell?.textLabel?.text = paperNames[indexPath.row]
         return cell!
         
+    }
+    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        print("seleted")
     }
 }
