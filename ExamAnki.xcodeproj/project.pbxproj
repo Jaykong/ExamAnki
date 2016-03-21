@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		46DBC3591C9FDA6700AE03E7 /* EAAnalysisTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DBC3521C9FDA6700AE03E7 /* EAAnalysisTVCell.swift */; };
-		46DBC35A1C9FDA6700AE03E7 /* EAAnalysisTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46DBC3531C9FDA6700AE03E7 /* EAAnalysisTVCell.xib */; };
-		46DBC35B1C9FDA6700AE03E7 /* EAAnswerTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DBC3541C9FDA6700AE03E7 /* EAAnswerTVCell.swift */; };
-		46DBC35C1C9FDA6700AE03E7 /* EADefultTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DBC3551C9FDA6700AE03E7 /* EADefultTVCell.swift */; };
-		46DBC35D1C9FDA6700AE03E7 /* EADefultTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46DBC3561C9FDA6700AE03E7 /* EADefultTVCell.xib */; };
-		46DBC35E1C9FDA6700AE03E7 /* EAReaultTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DBC3571C9FDA6700AE03E7 /* EAReaultTVCell.swift */; };
-		46DBC35F1C9FDA6700AE03E7 /* EAReferenceTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DBC3581C9FDA6700AE03E7 /* EAReferenceTVCell.swift */; };
-		46DBC3641C9FDA7C00AE03E7 /* EAQuestionTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DBC3601C9FDA7C00AE03E7 /* EAQuestionTVCell.swift */; };
-		46DBC3651C9FDA7C00AE03E7 /* EAQuestionTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46DBC3611C9FDA7C00AE03E7 /* EAQuestionTVCell.xib */; };
-		46DBC3661C9FDA7C00AE03E7 /* EAReaultTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46DBC3621C9FDA7C00AE03E7 /* EAReaultTVCell.xib */; };
-		46DBC3671C9FDA7C00AE03E7 /* EAReferenceTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46DBC3631C9FDA7C00AE03E7 /* EAReferenceTVCell.xib */; };
-		46DBC3691C9FDAA200AE03E7 /* EAAnswerTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46DBC3681C9FDAA200AE03E7 /* EAAnswerTVCell.xib */; };
+		460C933A1CA000A000FE16B1 /* EAAnalysisTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460C932E1CA000A000FE16B1 /* EAAnalysisTVCell.swift */; };
+		460C933B1CA000A000FE16B1 /* EAAnalysisTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 460C932F1CA000A000FE16B1 /* EAAnalysisTVCell.xib */; };
+		460C933C1CA000A000FE16B1 /* EAAnswerTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460C93301CA000A000FE16B1 /* EAAnswerTVCell.swift */; };
+		460C933D1CA000A000FE16B1 /* EAAnswerTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 460C93311CA000A000FE16B1 /* EAAnswerTVCell.xib */; };
+		460C933E1CA000A000FE16B1 /* EADefultTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460C93321CA000A000FE16B1 /* EADefultTVCell.swift */; };
+		460C933F1CA000A000FE16B1 /* EADefultTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 460C93331CA000A000FE16B1 /* EADefultTVCell.xib */; };
+		460C93401CA000A000FE16B1 /* EAQuestionTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460C93341CA000A000FE16B1 /* EAQuestionTVCell.swift */; };
+		460C93411CA000A000FE16B1 /* EAQuestionTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 460C93351CA000A000FE16B1 /* EAQuestionTVCell.xib */; };
+		460C93421CA000A000FE16B1 /* EAReaultTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460C93361CA000A000FE16B1 /* EAReaultTVCell.swift */; };
+		460C93431CA000A000FE16B1 /* EAReaultTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 460C93371CA000A000FE16B1 /* EAReaultTVCell.xib */; };
+		460C93441CA000A000FE16B1 /* EAReferenceTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460C93381CA000A000FE16B1 /* EAReferenceTVCell.swift */; };
+		460C93451CA000A000FE16B1 /* EAReferenceTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 460C93391CA000A000FE16B1 /* EAReferenceTVCell.xib */; };
 		46E267501C8688B0006A23F9 /* EAAboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E2674F1C8688B0006A23F9 /* EAAboutVC.swift */; };
 		46E267521C868928006A23F9 /* EACommentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E267511C868928006A23F9 /* EACommentVC.swift */; };
 		46E267541C868935006A23F9 /* EAFeedbackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E267531C868935006A23F9 /* EAFeedbackVC.swift */; };
@@ -128,18 +128,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		46DBC3521C9FDA6700AE03E7 /* EAAnalysisTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAAnalysisTVCell.swift; sourceTree = "<group>"; };
-		46DBC3531C9FDA6700AE03E7 /* EAAnalysisTVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EAAnalysisTVCell.xib; sourceTree = "<group>"; };
-		46DBC3541C9FDA6700AE03E7 /* EAAnswerTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAAnswerTVCell.swift; sourceTree = "<group>"; };
-		46DBC3551C9FDA6700AE03E7 /* EADefultTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EADefultTVCell.swift; sourceTree = "<group>"; };
-		46DBC3561C9FDA6700AE03E7 /* EADefultTVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EADefultTVCell.xib; sourceTree = "<group>"; };
-		46DBC3571C9FDA6700AE03E7 /* EAReaultTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAReaultTVCell.swift; sourceTree = "<group>"; };
-		46DBC3581C9FDA6700AE03E7 /* EAReferenceTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAReferenceTVCell.swift; sourceTree = "<group>"; };
-		46DBC3601C9FDA7C00AE03E7 /* EAQuestionTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAQuestionTVCell.swift; sourceTree = "<group>"; };
-		46DBC3611C9FDA7C00AE03E7 /* EAQuestionTVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EAQuestionTVCell.xib; sourceTree = "<group>"; };
-		46DBC3621C9FDA7C00AE03E7 /* EAReaultTVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EAReaultTVCell.xib; sourceTree = "<group>"; };
-		46DBC3631C9FDA7C00AE03E7 /* EAReferenceTVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EAReferenceTVCell.xib; sourceTree = "<group>"; };
-		46DBC3681C9FDAA200AE03E7 /* EAAnswerTVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EAAnswerTVCell.xib; sourceTree = "<group>"; };
+		460C932E1CA000A000FE16B1 /* EAAnalysisTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EAAnalysisTVCell.swift; path = ExamAnki/EAMain/EAAnalysisTVCell.swift; sourceTree = SOURCE_ROOT; };
+		460C932F1CA000A000FE16B1 /* EAAnalysisTVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EAAnalysisTVCell.xib; path = ExamAnki/EAMain/EAAnalysisTVCell.xib; sourceTree = SOURCE_ROOT; };
+		460C93301CA000A000FE16B1 /* EAAnswerTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EAAnswerTVCell.swift; path = ExamAnki/EAMain/EAAnswerTVCell.swift; sourceTree = SOURCE_ROOT; };
+		460C93311CA000A000FE16B1 /* EAAnswerTVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EAAnswerTVCell.xib; path = ExamAnki/EAMain/EAAnswerTVCell.xib; sourceTree = SOURCE_ROOT; };
+		460C93321CA000A000FE16B1 /* EADefultTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EADefultTVCell.swift; path = ExamAnki/EAMain/EADefultTVCell.swift; sourceTree = SOURCE_ROOT; };
+		460C93331CA000A000FE16B1 /* EADefultTVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EADefultTVCell.xib; path = ExamAnki/EAMain/EADefultTVCell.xib; sourceTree = SOURCE_ROOT; };
+		460C93341CA000A000FE16B1 /* EAQuestionTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EAQuestionTVCell.swift; path = ExamAnki/EAMain/EAQuestionTVCell.swift; sourceTree = SOURCE_ROOT; };
+		460C93351CA000A000FE16B1 /* EAQuestionTVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EAQuestionTVCell.xib; path = ExamAnki/EAMain/EAQuestionTVCell.xib; sourceTree = SOURCE_ROOT; };
+		460C93361CA000A000FE16B1 /* EAReaultTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EAReaultTVCell.swift; path = ExamAnki/EAMain/EAReaultTVCell.swift; sourceTree = SOURCE_ROOT; };
+		460C93371CA000A000FE16B1 /* EAReaultTVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EAReaultTVCell.xib; path = ExamAnki/EAMain/EAReaultTVCell.xib; sourceTree = SOURCE_ROOT; };
+		460C93381CA000A000FE16B1 /* EAReferenceTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EAReferenceTVCell.swift; path = ExamAnki/EAMain/EAReferenceTVCell.swift; sourceTree = SOURCE_ROOT; };
+		460C93391CA000A000FE16B1 /* EAReferenceTVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EAReferenceTVCell.xib; path = ExamAnki/EAMain/EAReferenceTVCell.xib; sourceTree = SOURCE_ROOT; };
 		46E2674F1C8688B0006A23F9 /* EAAboutVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAAboutVC.swift; sourceTree = "<group>"; };
 		46E267511C868928006A23F9 /* EACommentVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EACommentVC.swift; sourceTree = "<group>"; };
 		46E267531C868935006A23F9 /* EAFeedbackVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAFeedbackVC.swift; sourceTree = "<group>"; };
@@ -269,18 +269,18 @@
 		46DBC3201C9FD61400AE03E7 /* EAQuestionCells */ = {
 			isa = PBXGroup;
 			children = (
-				46DBC3601C9FDA7C00AE03E7 /* EAQuestionTVCell.swift */,
-				46DBC3611C9FDA7C00AE03E7 /* EAQuestionTVCell.xib */,
-				46DBC3621C9FDA7C00AE03E7 /* EAReaultTVCell.xib */,
-				46DBC3631C9FDA7C00AE03E7 /* EAReferenceTVCell.xib */,
-				46DBC3521C9FDA6700AE03E7 /* EAAnalysisTVCell.swift */,
-				46DBC3531C9FDA6700AE03E7 /* EAAnalysisTVCell.xib */,
-				46DBC3541C9FDA6700AE03E7 /* EAAnswerTVCell.swift */,
-				46DBC3681C9FDAA200AE03E7 /* EAAnswerTVCell.xib */,
-				46DBC3551C9FDA6700AE03E7 /* EADefultTVCell.swift */,
-				46DBC3561C9FDA6700AE03E7 /* EADefultTVCell.xib */,
-				46DBC3571C9FDA6700AE03E7 /* EAReaultTVCell.swift */,
-				46DBC3581C9FDA6700AE03E7 /* EAReferenceTVCell.swift */,
+				460C932E1CA000A000FE16B1 /* EAAnalysisTVCell.swift */,
+				460C932F1CA000A000FE16B1 /* EAAnalysisTVCell.xib */,
+				460C93301CA000A000FE16B1 /* EAAnswerTVCell.swift */,
+				460C93311CA000A000FE16B1 /* EAAnswerTVCell.xib */,
+				460C93321CA000A000FE16B1 /* EADefultTVCell.swift */,
+				460C93331CA000A000FE16B1 /* EADefultTVCell.xib */,
+				460C93341CA000A000FE16B1 /* EAQuestionTVCell.swift */,
+				460C93351CA000A000FE16B1 /* EAQuestionTVCell.xib */,
+				460C93361CA000A000FE16B1 /* EAReaultTVCell.swift */,
+				460C93371CA000A000FE16B1 /* EAReaultTVCell.xib */,
+				460C93381CA000A000FE16B1 /* EAReferenceTVCell.swift */,
+				460C93391CA000A000FE16B1 /* EAReferenceTVCell.xib */,
 			);
 			name = EAQuestionCells;
 			path = ../../../../Swift/New/ExamAnki/ExamAnki/EAMain;
@@ -687,17 +687,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				D316E9931C91E72F00E00B27 /* 20141230165606945484423-3c2da1df6488.xml in Resources */,
-				46DBC3671C9FDA7C00AE03E7 /* EAReferenceTVCell.xib in Resources */,
-				46DBC35A1C9FDA6700AE03E7 /* EAAnalysisTVCell.xib in Resources */,
+				460C93451CA000A000FE16B1 /* EAReferenceTVCell.xib in Resources */,
+				460C933B1CA000A000FE16B1 /* EAAnalysisTVCell.xib in Resources */,
 				46E267791C869672006A23F9 /* EACommentTab.storyboard in Resources */,
 				46E267771C86964A006A23F9 /* EAShare.storyboard in Resources */,
 				A9AD77E51C894057005CD5DA /* EABookmarkTab.storyboard in Resources */,
+				460C93411CA000A000FE16B1 /* EAQuestionTVCell.xib in Resources */,
 				46E267711C869588006A23F9 /* EAFlashTab.storyboard in Resources */,
 				46E2677B1C869689006A23F9 /* EAAboutTab.storyboard in Resources */,
 				46E2677D1C8696BA006A23F9 /* EAFeedbackTab.storyboard in Resources */,
-				46DBC3691C9FDAA200AE03E7 /* EAAnswerTVCell.xib in Resources */,
+				460C933D1CA000A000FE16B1 /* EAAnswerTVCell.xib in Resources */,
 				46E267731C8695BE006A23F9 /* EAImportTab.storyboard in Resources */,
-				46DBC3661C9FDA7C00AE03E7 /* EAReaultTVCell.xib in Resources */,
 				9F5BBA9F1C8C304300575171 /* PaperDemo.dotx in Resources */,
 				9F5BBAA81C8C304300575171 /* PaperDemo.html in Resources */,
 				A9DFC00F1C804698000CA605 /* LaunchScreen.storyboard in Resources */,
@@ -710,13 +710,13 @@
 				46E267641C868B5A006A23F9 /* EAWrongTab.storyboard in Resources */,
 				9F5BBAA41C8C304300575171 /* image004.png in Resources */,
 				A9AD77E71C894075005CD5DA /* EAMainTab.storyboard in Resources */,
-				46DBC3651C9FDA7C00AE03E7 /* EAQuestionTVCell.xib in Resources */,
 				9F5BBAA31C8C304300575171 /* image003.png in Resources */,
+				460C93431CA000A000FE16B1 /* EAReaultTVCell.xib in Resources */,
 				9F5BBAA61C8C304300575171 /* image006.png in Resources */,
 				A9DFC0101C804698000CA605 /* Main.storyboard in Resources */,
 				9F5BBAA11C8C304300575171 /* image001.jpg in Resources */,
-				46DBC35D1C9FDA6700AE03E7 /* EADefultTVCell.xib in Resources */,
 				9F5BBAA51C8C304300575171 /* image005.png in Resources */,
+				460C933F1CA000A000FE16B1 /* EADefultTVCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -748,9 +748,9 @@
 				9F5BBA7C1C8C2F0500575171 /* ImportQuestionMaterial.swift in Sources */,
 				46E2675A1C8689BD006A23F9 /* EAImportVC.swift in Sources */,
 				9F5BBA7B1C8C2F0500575171 /* ImportQuestionMaterial+CoreDataProperties.swift in Sources */,
-				46DBC3641C9FDA7C00AE03E7 /* EAQuestionTVCell.swift in Sources */,
 				9F5BBA721C8C2F0500575171 /* ImportQuestion.swift in Sources */,
 				9F5BBA7D1C8C2F0500575171 /* QuestionOption+CoreDataProperties.swift in Sources */,
+				460C93421CA000A000FE16B1 /* EAReaultTVCell.swift in Sources */,
 				9F5BBA871C8C2F0500575171 /* Question+CoreDataProperties.swift in Sources */,
 				A92047DB1C9BAF13001D803E /* EAPAbstractTableViewController.swift in Sources */,
 				A9DFC0121C804698000CA605 /* GlbolTableName.swift in Sources */,
@@ -761,16 +761,16 @@
 				9F5BBA791C8C2F0500575171 /* UserQuestionRecord+CoreDataProperties.swift in Sources */,
 				46E267501C8688B0006A23F9 /* EAAboutVC.swift in Sources */,
 				9F5BBA861C8C2F0500575171 /* FlashTopic.swift in Sources */,
+				460C93401CA000A000FE16B1 /* EAQuestionTVCell.swift in Sources */,
 				D3D294BA1C9B52C00037BB40 /* EAPPaperManager.swift in Sources */,
 				9F5BBA6D1C8C2F0500575171 /* PaperInfo+CoreDataProperties.swift in Sources */,
 				46E267601C868A71006A23F9 /* EAPaperInfoVC.swift in Sources */,
-				46DBC35E1C9FDA6700AE03E7 /* EAReaultTVCell.swift in Sources */,
 				A9DFC0111C804698000CA605 /* AppDelegate.swift in Sources */,
 				9F5BBA781C8C2F0500575171 /* ImportPaperInfo.swift in Sources */,
 				A92047D41C9BAD2D001D803E /* EAPScrollview.swift in Sources */,
 				A9D176121C9657BB00861C37 /* EAQuestionTVC.swift in Sources */,
 				9F5BBA901C8C303200575171 /* TFHppleElement.m in Sources */,
-				46DBC3591C9FDA6700AE03E7 /* EAAnalysisTVCell.swift in Sources */,
+				460C933A1CA000A000FE16B1 /* EAAnalysisTVCell.swift in Sources */,
 				9F5BBA8F1C8C303200575171 /* TFHpple.m in Sources */,
 				A9DFC0131C804698000CA605 /* BookmarkCell.swift in Sources */,
 				9F5BBA851C8C2F0500575171 /* FlashTopic+CoreDataProperties.swift in Sources */,
@@ -780,13 +780,13 @@
 				9F5BBA701C8C2F0500575171 /* ImportHeading.swift in Sources */,
 				A9AD78AC1C8B3B00005CD5DA /* CoreDataStack.swift in Sources */,
 				9F5BBA7A1C8C2F0500575171 /* UserQuestionRecord.swift in Sources */,
-				46DBC35B1C9FDA6700AE03E7 /* EAAnswerTVCell.swift in Sources */,
-				46DBC35F1C9FDA6700AE03E7 /* EAReferenceTVCell.swift in Sources */,
+				460C933C1CA000A000FE16B1 /* EAAnswerTVCell.swift in Sources */,
 				A92047D71C9BAE0B001D803E /* EAPAstractMainTableView.swift in Sources */,
 				9F5BBA831C8C2F0500575171 /* UserWrongQuestionRecord+CoreDataProperties.swift in Sources */,
 				9F5BBA841C8C2F0500575171 /* UserWrongQuestionRecord.swift in Sources */,
 				9F5BBA821C8C2F0500575171 /* Card.swift in Sources */,
 				D3D294B61C9B4E100037BB40 /* EAPMainConstrainCreator.swift in Sources */,
+				460C93441CA000A000FE16B1 /* EAReferenceTVCell.swift in Sources */,
 				9F5BBA6B1C8C2F0500575171 /* QuestionMaterial+CoreDataProperties.swift in Sources */,
 				46E267621C868A8F006A23F9 /* EAWrongQuestionVC.swift in Sources */,
 				46E267681C868CAD006A23F9 /* EAWrongQuestionVCCell.swift in Sources */,
@@ -804,7 +804,7 @@
 				46E267521C868928006A23F9 /* EACommentVC.swift in Sources */,
 				9F5BBA7F1C8C2F0500575171 /* Heading+CoreDataProperties.swift in Sources */,
 				9F5BBA771C8C2F0500575171 /* ImportPaperInfo+CoreDataProperties.swift in Sources */,
-				46DBC35C1C9FDA6700AE03E7 /* EADefultTVCell.swift in Sources */,
+				460C933E1CA000A000FE16B1 /* EADefultTVCell.swift in Sources */,
 				9F5BBA711C8C2F0500575171 /* ImportQuestion+CoreDataProperties.swift in Sources */,
 				9F5BBA881C8C2F0500575171 /* Question.swift in Sources */,
 				9F5BBA6F1C8C2F0500575171 /* ImportHeading+CoreDataProperties.swift in Sources */,
