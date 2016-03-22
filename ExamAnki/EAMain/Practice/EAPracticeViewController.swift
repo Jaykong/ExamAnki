@@ -23,8 +23,20 @@ class EAPracticeViewController: UIViewController,UIScrollViewDelegate {
     var eaQuestionTVC2 = EAQuestionTVC()
     var eaQuestionTVC3 = EAQuestionTVC()
     
+//    func addPaperidDidChangedNotification() {
+//        NSNotificationCenter.defaultCenter().addObserverForName(PaperidDidChanged, object: nil
+//            , queue: NSOperationQueue.mainQueue()) { (notfication) -> Void in
+//                
+//                let userInfo = notfication.userInfo as! [String:String]
+//                let paperid = userInfo["paperid"]
+//                print("the paperid is\(paperid)")
+//        }
+//        
+//    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+       NSUserDefaults.standardUserDefaults().stringForKey(EASelectedPaperID)
         
         let width = view.frame.size.width
         let height = view.frame.size.height

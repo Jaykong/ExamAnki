@@ -21,6 +21,7 @@ let bookType = ["单选题","多选题","判断题","综合题"]
         // Dispose of any resources that can be recreated.
     }
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+       
         
     }
     
@@ -29,12 +30,13 @@ let bookType = ["单选题","多选题","判断题","综合题"]
         return bookType.count
     }
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("Cell")
+        let cell = tableView.dequeueReusableCellWithIdentifier("QuestionTypeCell")
         cell?.textLabel?.text = bookType[indexPath.row]
         return cell!
         
     }
-
+    
+    
     
 
 }

@@ -73,7 +73,9 @@ class EAPaperInfoVC: UIViewController,UIScrollViewDelegate,UITableViewDelegate {
         let paper = papers[indexPath.row]
         let paperid = paper.id
 
-        NSNotificationCenter.defaultCenter().postNotificationName(PaperidDidChanged, object: self, userInfo: ["paperid":paperid!])
+//        NSNotificationCenter.defaultCenter().postNotificationName(PaperidDidChanged, object: self, userInfo: ["paperid":paperid!])
+        
+        NSUserDefaults.standardUserDefaults().setObject(paperid, forKey: EASelectedPaperID)
         self.performSegueWithIdentifier("ShowQuestiionType", sender: self)
     }
     

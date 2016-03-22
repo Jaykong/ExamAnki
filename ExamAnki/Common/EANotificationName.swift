@@ -1,1 +1,1 @@
-let PaperidDidChanged = "PaperidDidChanged"
+let EASelectedPaperID = "EASelectedPaperID"

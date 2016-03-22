@@ -13,7 +13,6 @@
 		46E267561C868953006A23F9 /* EAFlashCardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E267551C868953006A23F9 /* EAFlashCardVC.swift */; };
 		46E2675A1C8689BD006A23F9 /* EAImportVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E267591C8689BD006A23F9 /* EAImportVC.swift */; };
 		46E2675E1C8689EA006A23F9 /* EAShareVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E2675D1C8689EA006A23F9 /* EAShareVC.swift */; };
-		46E267601C868A71006A23F9 /* EAPaperInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E2675F1C868A71006A23F9 /* EAPaperInfoVC.swift */; };
 		46E267621C868A8F006A23F9 /* EAWrongQuestionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E267611C868A8F006A23F9 /* EAWrongQuestionVC.swift */; };
 		46E267641C868B5A006A23F9 /* EAWrongTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46E267631C868B5A006A23F9 /* EAWrongTab.storyboard */; };
 		46E267681C868CAD006A23F9 /* EAWrongQuestionVCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E267661C868CAD006A23F9 /* EAWrongQuestionVCCell.swift */; };
@@ -70,40 +69,58 @@
 		9F5BBAA91C8C304300575171 /* XZModelService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5BBA9D1C8C304300575171 /* XZModelService.swift */; };
 		9F5BBAAA1C8C304300575171 /* XZPaperParsingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5BBA9E1C8C304300575171 /* XZPaperParsingService.swift */; };
 		9F6206EA1C7CAA3200809FFD /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F6206E91C7CAA3200809FFD /* libxml2.2.tbd */; };
-		A92047D11C9BACFA001D803E /* EAPAbstractScrollview.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92047D01C9BACFA001D803E /* EAPAbstractScrollview.swift */; };
-		A92047D41C9BAD2D001D803E /* EAPScrollview.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92047D31C9BAD2D001D803E /* EAPScrollview.swift */; };
-		A92047D71C9BAE0B001D803E /* EAPAstractMainTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92047D61C9BAE0B001D803E /* EAPAstractMainTableView.swift */; };
-		A92047D91C9BAE1B001D803E /* EAPMainTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92047D81C9BAE1B001D803E /* EAPMainTableView.swift */; };
-		A92047DB1C9BAF13001D803E /* EAPAbstractTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92047DA1C9BAF13001D803E /* EAPAbstractTableViewController.swift */; };
-		A92047DD1C9BAF21001D803E /* EAPMainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92047DC1C9BAF21001D803E /* EAPMainTableViewController.swift */; };
 		A9AD77E51C894057005CD5DA /* EABookmarkTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9AD77E41C894057005CD5DA /* EABookmarkTab.storyboard */; };
 		A9AD77E71C894075005CD5DA /* EAMainTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9AD77E61C894075005CD5DA /* EAMainTab.storyboard */; };
 		A9AD78AB1C8B3B00005CD5DA /* AEXML.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AD78A81C8B3B00005CD5DA /* AEXML.swift */; };
 		A9AD78AC1C8B3B00005CD5DA /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AD78A91C8B3B00005CD5DA /* CoreDataStack.swift */; };
 		A9AD78AD1C8B3B00005CD5DA /* XMLAnalysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AD78AA1C8B3B00005CD5DA /* XMLAnalysis.swift */; };
-		A9B44FF51C9F980E0079CAF3 /* EAQuestionTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B44FF41C9F980E0079CAF3 /* EAQuestionTypeViewController.swift */; };
 		A9B44FF71C9F988F0079CAF3 /* EANotificationName.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B44FF61C9F988F0079CAF3 /* EANotificationName.swift */; };
-		A9D176121C9657BB00861C37 /* EAQuestionTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D176111C9657BB00861C37 /* EAQuestionTVC.swift */; };
-		A9D176141C965B3400861C37 /* EAPracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D176131C965B3400861C37 /* EAPracticeViewController.swift */; };
-		A9D176161C96611800861C37 /* EARedoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D176151C96611800861C37 /* EARedoViewController.swift */; };
 		A9DFC00F1C804698000CA605 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9DFBFD31C804698000CA605 /* LaunchScreen.storyboard */; };
 		A9DFC0101C804698000CA605 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9DFBFD51C804698000CA605 /* Main.storyboard */; };
 		A9DFC0111C804698000CA605 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DFBFD81C804698000CA605 /* AppDelegate.swift */; };
 		A9DFC0121C804698000CA605 /* GlbolTableName.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DFBFDA1C804698000CA605 /* GlbolTableName.swift */; };
-		A9DFC0131C804698000CA605 /* BookmarkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DFBFDD1C804698000CA605 /* BookmarkCell.swift */; };
-		A9DFC0141C804698000CA605 /* BookmarkQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DFBFDE1C804698000CA605 /* BookmarkQuestionViewController.swift */; };
 		A9DFC0291C804698000CA605 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9DFBFFD1C804698000CA605 /* Assets.xcassets */; };
 		A9DFC0301C804698000CA605 /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DFC00A1C804698000CA605 /* GDataXMLNode.m */; };
 		D316E9931C91E72F00E00B27 /* 20141230165606945484423-3c2da1df6488.xml in Resources */ = {isa = PBXBuildFile; fileRef = D316E9901C91E72F00E00B27 /* 20141230165606945484423-3c2da1df6488.xml */; };
 		D316E9941C91E72F00E00B27 /* 2015082816033575811715e-5b538a495fa6.xml in Resources */ = {isa = PBXBuildFile; fileRef = D316E9911C91E72F00E00B27 /* 2015082816033575811715e-5b538a495fa6.xml */; };
 		D316E9951C91E72F00E00B27 /* 20151015170129212125061-b2407ba143d3.xml in Resources */ = {isa = PBXBuildFile; fileRef = D316E9921C91E72F00E00B27 /* 20151015170129212125061-b2407ba143d3.xml */; };
-		D316E9991C920D3400E00B27 /* EAQuestionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D316E9981C920D3400E00B27 /* EAQuestionManager.swift */; };
-		D39059491C9AE9B30028241D /* EAPAbstractSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39059481C9AE9B30028241D /* EAPAbstractSegmentedControl.swift */; };
-		D390594B1C9AEFFA0028241D /* EAPSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D390594A1C9AEFFA0028241D /* EAPSegmentedControl.swift */; };
+		D32360B61CA1AC7700F80A89 /* EABookmarkQuestionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32360B01CA1AC7700F80A89 /* EABookmarkQuestionVC.swift */; };
+		D32360B71CA1AC7700F80A89 /* EABookmarkTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D32360B11CA1AC7700F80A89 /* EABookmarkTab.storyboard */; };
+		D32360B81CA1AC7700F80A89 /* EALookThroughVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32360B21CA1AC7700F80A89 /* EALookThroughVC.swift */; };
+		D32360B91CA1AC7700F80A89 /* EARedoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32360B31CA1AC7700F80A89 /* EARedoVC.swift */; };
+		D32360BA1CA1AC7700F80A89 /* BookmarkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32360B41CA1AC7700F80A89 /* BookmarkCell.swift */; };
+		D32360BB1CA1AC7700F80A89 /* EALookThroughController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32360B51CA1AC7700F80A89 /* EALookThroughController.swift */; };
+		D32360C91CA1ADBD00F80A89 /* EAAnalysisTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32360BD1CA1ADBD00F80A89 /* EAAnalysisTVCell.swift */; };
+		D32360CA1CA1ADBD00F80A89 /* EAAnalysisTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D32360BE1CA1ADBD00F80A89 /* EAAnalysisTVCell.xib */; };
+		D32360CB1CA1ADBD00F80A89 /* EAAnswerTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32360BF1CA1ADBD00F80A89 /* EAAnswerTVCell.swift */; };
+		D32360CC1CA1ADBD00F80A89 /* EAAnswerTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D32360C01CA1ADBD00F80A89 /* EAAnswerTVCell.xib */; };
+		D32360CD1CA1ADBD00F80A89 /* EADefultTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32360C11CA1ADBD00F80A89 /* EADefultTVCell.swift */; };
+		D32360CE1CA1ADBD00F80A89 /* EADefultTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D32360C21CA1ADBD00F80A89 /* EADefultTVCell.xib */; };
+		D32360CF1CA1ADBD00F80A89 /* EAQuestionTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32360C31CA1ADBD00F80A89 /* EAQuestionTVCell.swift */; };
+		D32360D01CA1ADBD00F80A89 /* EAQuestionTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D32360C41CA1ADBD00F80A89 /* EAQuestionTVCell.xib */; };
+		D32360D11CA1ADBD00F80A89 /* EAReaultTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32360C51CA1ADBD00F80A89 /* EAReaultTVCell.swift */; };
+		D32360D21CA1ADBD00F80A89 /* EAReaultTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D32360C61CA1ADBD00F80A89 /* EAReaultTVCell.xib */; };
+		D32360D31CA1ADBD00F80A89 /* EAReferenceTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32360C71CA1ADBD00F80A89 /* EAReferenceTVCell.swift */; };
+		D32360D41CA1ADBD00F80A89 /* EAReferenceTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D32360C81CA1ADBD00F80A89 /* EAReferenceTVCell.xib */; };
+		D32360D61CA1ADE500F80A89 /* XZHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32360D51CA1ADE500F80A89 /* XZHeaderView.swift */; };
+		D32360DC1CA1C35C00F80A89 /* EAPAbstractSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32360DA1CA1C35C00F80A89 /* EAPAbstractSegmentedControl.swift */; };
+		D32360DD1CA1C35C00F80A89 /* EAPSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32360DB1CA1C35C00F80A89 /* EAPSegmentedControl.swift */; };
+		D32360E31CA1C41200F80A89 /* EAPracticeToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32360DF1CA1C41200F80A89 /* EAPracticeToolbar.swift */; };
+		D32360E41CA1C41200F80A89 /* EAPracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32360E01CA1C41200F80A89 /* EAPracticeViewController.swift */; };
+		D32360E51CA1C41200F80A89 /* EAQuestionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32360E11CA1C41200F80A89 /* EAQuestionManager.swift */; };
+		D32360E61CA1C41200F80A89 /* EAQuestionTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32360E21CA1C41200F80A89 /* EAQuestionTVC.swift */; };
+		D32360EC1CA1C41A00F80A89 /* EAPaperInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32360E81CA1C41A00F80A89 /* EAPaperInfoVC.swift */; };
+		D32360ED1CA1C41A00F80A89 /* EAPMainConstrainCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32360E91CA1C41A00F80A89 /* EAPMainConstrainCreator.swift */; };
+		D32360EE1CA1C41A00F80A89 /* EAPPaperManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32360EA1CA1C41A00F80A89 /* EAPPaperManager.swift */; };
+		D32360EF1CA1C41A00F80A89 /* EAQuestionTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32360EB1CA1C41A00F80A89 /* EAQuestionTypeViewController.swift */; };
+		D32360F71CA1C42700F80A89 /* EAPAbstractScrollview.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32360F11CA1C42700F80A89 /* EAPAbstractScrollview.swift */; };
+		D32360F81CA1C42700F80A89 /* EAPAbstractTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32360F21CA1C42700F80A89 /* EAPAbstractTableViewController.swift */; };
+		D32360F91CA1C42700F80A89 /* EAPAstractMainTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32360F31CA1C42700F80A89 /* EAPAstractMainTableView.swift */; };
+		D32360FA1CA1C42700F80A89 /* EAPMainTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32360F41CA1C42700F80A89 /* EAPMainTableView.swift */; };
+		D32360FB1CA1C42700F80A89 /* EAPMainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32360F51CA1C42700F80A89 /* EAPMainTableViewController.swift */; };
+		D32360FC1CA1C42700F80A89 /* EAPScrollview.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32360F61CA1C42700F80A89 /* EAPScrollview.swift */; };
 		D39059BD1C9B39EB0028241D /* ExamAnkiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39059BC1C9B39EB0028241D /* ExamAnkiTests.swift */; };
 		D39059C41C9B3BCD0028241D /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F6206E91C7CAA3200809FFD /* libxml2.2.tbd */; };
-		D3D294B61C9B4E100037BB40 /* EAPMainConstrainCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D294B51C9B4E100037BB40 /* EAPMainConstrainCreator.swift */; };
-		D3D294BA1C9B52C00037BB40 /* EAPPaperManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D294B91C9B52C00037BB40 /* EAPPaperManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -123,7 +140,6 @@
 		46E267551C868953006A23F9 /* EAFlashCardVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAFlashCardVC.swift; sourceTree = "<group>"; };
 		46E267591C8689BD006A23F9 /* EAImportVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAImportVC.swift; sourceTree = "<group>"; };
 		46E2675D1C8689EA006A23F9 /* EAShareVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAShareVC.swift; sourceTree = "<group>"; };
-		46E2675F1C868A71006A23F9 /* EAPaperInfoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAPaperInfoVC.swift; sourceTree = "<group>"; };
 		46E267611C868A8F006A23F9 /* EAWrongQuestionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAWrongQuestionVC.swift; sourceTree = "<group>"; };
 		46E267631C868B5A006A23F9 /* EAWrongTab.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = EAWrongTab.storyboard; sourceTree = "<group>"; };
 		46E267661C868CAD006A23F9 /* EAWrongQuestionVCCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAWrongQuestionVCCell.swift; sourceTree = "<group>"; };
@@ -183,29 +199,17 @@
 		9F5BBA9D1C8C304300575171 /* XZModelService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XZModelService.swift; sourceTree = "<group>"; };
 		9F5BBA9E1C8C304300575171 /* XZPaperParsingService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XZPaperParsingService.swift; sourceTree = "<group>"; };
 		9F6206E91C7CAA3200809FFD /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
-		A92047D01C9BACFA001D803E /* EAPAbstractScrollview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAPAbstractScrollview.swift; sourceTree = "<group>"; };
-		A92047D31C9BAD2D001D803E /* EAPScrollview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAPScrollview.swift; sourceTree = "<group>"; };
-		A92047D61C9BAE0B001D803E /* EAPAstractMainTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAPAstractMainTableView.swift; sourceTree = "<group>"; };
-		A92047D81C9BAE1B001D803E /* EAPMainTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAPMainTableView.swift; sourceTree = "<group>"; };
-		A92047DA1C9BAF13001D803E /* EAPAbstractTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAPAbstractTableViewController.swift; sourceTree = "<group>"; };
-		A92047DC1C9BAF21001D803E /* EAPMainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAPMainTableViewController.swift; sourceTree = "<group>"; };
 		A9AD77E41C894057005CD5DA /* EABookmarkTab.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = EABookmarkTab.storyboard; sourceTree = "<group>"; };
 		A9AD77E61C894075005CD5DA /* EAMainTab.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = EAMainTab.storyboard; sourceTree = "<group>"; };
 		A9AD78A81C8B3B00005CD5DA /* AEXML.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AEXML.swift; sourceTree = "<group>"; };
 		A9AD78A91C8B3B00005CD5DA /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		A9AD78AA1C8B3B00005CD5DA /* XMLAnalysis.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMLAnalysis.swift; sourceTree = "<group>"; };
-		A9B44FF41C9F980E0079CAF3 /* EAQuestionTypeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAQuestionTypeViewController.swift; sourceTree = "<group>"; };
 		A9B44FF61C9F988F0079CAF3 /* EANotificationName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EANotificationName.swift; sourceTree = "<group>"; };
-		A9D176111C9657BB00861C37 /* EAQuestionTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAQuestionTVC.swift; sourceTree = "<group>"; };
-		A9D176131C965B3400861C37 /* EAPracticeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAPracticeViewController.swift; sourceTree = "<group>"; };
-		A9D176151C96611800861C37 /* EARedoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EARedoViewController.swift; sourceTree = "<group>"; };
 		A9DFBFD41C804698000CA605 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9DFBFD61C804698000CA605 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A9DFBFD81C804698000CA605 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9DFBFD91C804698000CA605 /* ExamAnki-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ExamAnki-Bridging-Header.h"; sourceTree = "<group>"; };
 		A9DFBFDA1C804698000CA605 /* GlbolTableName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlbolTableName.swift; sourceTree = "<group>"; };
-		A9DFBFDD1C804698000CA605 /* BookmarkCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookmarkCell.swift; sourceTree = "<group>"; };
-		A9DFBFDE1C804698000CA605 /* BookmarkQuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookmarkQuestionViewController.swift; sourceTree = "<group>"; };
 		A9DFBFFD1C804698000CA605 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9DFC0001C804698000CA605 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9DFC0091C804698000CA605 /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
@@ -213,15 +217,45 @@
 		D316E9901C91E72F00E00B27 /* 20141230165606945484423-3c2da1df6488.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "20141230165606945484423-3c2da1df6488.xml"; sourceTree = "<group>"; };
 		D316E9911C91E72F00E00B27 /* 2015082816033575811715e-5b538a495fa6.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "2015082816033575811715e-5b538a495fa6.xml"; sourceTree = "<group>"; };
 		D316E9921C91E72F00E00B27 /* 20151015170129212125061-b2407ba143d3.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "20151015170129212125061-b2407ba143d3.xml"; sourceTree = "<group>"; };
-		D316E9981C920D3400E00B27 /* EAQuestionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAQuestionManager.swift; sourceTree = "<group>"; };
-		D39059481C9AE9B30028241D /* EAPAbstractSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAPAbstractSegmentedControl.swift; sourceTree = "<group>"; };
-		D390594A1C9AEFFA0028241D /* EAPSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAPSegmentedControl.swift; sourceTree = "<group>"; };
+		D32360B01CA1AC7700F80A89 /* EABookmarkQuestionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EABookmarkQuestionVC.swift; sourceTree = "<group>"; };
+		D32360B11CA1AC7700F80A89 /* EABookmarkTab.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = EABookmarkTab.storyboard; sourceTree = "<group>"; };
+		D32360B21CA1AC7700F80A89 /* EALookThroughVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EALookThroughVC.swift; sourceTree = "<group>"; };
+		D32360B31CA1AC7700F80A89 /* EARedoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EARedoVC.swift; sourceTree = "<group>"; };
+		D32360B41CA1AC7700F80A89 /* BookmarkCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookmarkCell.swift; sourceTree = "<group>"; };
+		D32360B51CA1AC7700F80A89 /* EALookThroughController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EALookThroughController.swift; sourceTree = "<group>"; };
+		D32360BD1CA1ADBD00F80A89 /* EAAnalysisTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAAnalysisTVCell.swift; sourceTree = "<group>"; };
+		D32360BE1CA1ADBD00F80A89 /* EAAnalysisTVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EAAnalysisTVCell.xib; sourceTree = "<group>"; };
+		D32360BF1CA1ADBD00F80A89 /* EAAnswerTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAAnswerTVCell.swift; sourceTree = "<group>"; };
+		D32360C01CA1ADBD00F80A89 /* EAAnswerTVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EAAnswerTVCell.xib; sourceTree = "<group>"; };
+		D32360C11CA1ADBD00F80A89 /* EADefultTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EADefultTVCell.swift; sourceTree = "<group>"; };
+		D32360C21CA1ADBD00F80A89 /* EADefultTVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EADefultTVCell.xib; sourceTree = "<group>"; };
+		D32360C31CA1ADBD00F80A89 /* EAQuestionTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAQuestionTVCell.swift; sourceTree = "<group>"; };
+		D32360C41CA1ADBD00F80A89 /* EAQuestionTVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EAQuestionTVCell.xib; sourceTree = "<group>"; };
+		D32360C51CA1ADBD00F80A89 /* EAReaultTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAReaultTVCell.swift; sourceTree = "<group>"; };
+		D32360C61CA1ADBD00F80A89 /* EAReaultTVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EAReaultTVCell.xib; sourceTree = "<group>"; };
+		D32360C71CA1ADBD00F80A89 /* EAReferenceTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAReferenceTVCell.swift; sourceTree = "<group>"; };
+		D32360C81CA1ADBD00F80A89 /* EAReferenceTVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EAReferenceTVCell.xib; sourceTree = "<group>"; };
+		D32360D51CA1ADE500F80A89 /* XZHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XZHeaderView.swift; sourceTree = "<group>"; };
+		D32360DA1CA1C35C00F80A89 /* EAPAbstractSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAPAbstractSegmentedControl.swift; sourceTree = "<group>"; };
+		D32360DB1CA1C35C00F80A89 /* EAPSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAPSegmentedControl.swift; sourceTree = "<group>"; };
+		D32360DF1CA1C41200F80A89 /* EAPracticeToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAPracticeToolbar.swift; sourceTree = "<group>"; };
+		D32360E01CA1C41200F80A89 /* EAPracticeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAPracticeViewController.swift; sourceTree = "<group>"; };
+		D32360E11CA1C41200F80A89 /* EAQuestionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAQuestionManager.swift; sourceTree = "<group>"; };
+		D32360E21CA1C41200F80A89 /* EAQuestionTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAQuestionTVC.swift; sourceTree = "<group>"; };
+		D32360E81CA1C41A00F80A89 /* EAPaperInfoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAPaperInfoVC.swift; sourceTree = "<group>"; };
+		D32360E91CA1C41A00F80A89 /* EAPMainConstrainCreator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAPMainConstrainCreator.swift; sourceTree = "<group>"; };
+		D32360EA1CA1C41A00F80A89 /* EAPPaperManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAPPaperManager.swift; sourceTree = "<group>"; };
+		D32360EB1CA1C41A00F80A89 /* EAQuestionTypeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAQuestionTypeViewController.swift; sourceTree = "<group>"; };
+		D32360F11CA1C42700F80A89 /* EAPAbstractScrollview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAPAbstractScrollview.swift; sourceTree = "<group>"; };
+		D32360F21CA1C42700F80A89 /* EAPAbstractTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAPAbstractTableViewController.swift; sourceTree = "<group>"; };
+		D32360F31CA1C42700F80A89 /* EAPAstractMainTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAPAstractMainTableView.swift; sourceTree = "<group>"; };
+		D32360F41CA1C42700F80A89 /* EAPMainTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAPMainTableView.swift; sourceTree = "<group>"; };
+		D32360F51CA1C42700F80A89 /* EAPMainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAPMainTableViewController.swift; sourceTree = "<group>"; };
+		D32360F61CA1C42700F80A89 /* EAPScrollview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAPScrollview.swift; sourceTree = "<group>"; };
 		D39059BA1C9B39EB0028241D /* ExamAnkiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExamAnkiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D39059BC1C9B39EB0028241D /* ExamAnkiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamAnkiTests.swift; sourceTree = "<group>"; };
 		D39059BE1C9B39EB0028241D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D390BF3E1C78D0FD0079FD8F /* ExamAnki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExamAnki.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D3D294B51C9B4E100037BB40 /* EAPMainConstrainCreator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAPMainConstrainCreator.swift; sourceTree = "<group>"; };
-		D3D294B91C9B52C00037BB40 /* EAPPaperManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAPPaperManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -257,27 +291,6 @@
 				9F5BBA9B1C8C304300575171 /* themedata.thmx */,
 			);
 			path = PaperDemo.fld;
-			sourceTree = "<group>";
-		};
-		A92047D21C9BACFF001D803E /* ScrollView */ = {
-			isa = PBXGroup;
-			children = (
-				A92047D51C9BADC2001D803E /* TableView */,
-				A92047D01C9BACFA001D803E /* EAPAbstractScrollview.swift */,
-				A92047D31C9BAD2D001D803E /* EAPScrollview.swift */,
-			);
-			name = ScrollView;
-			sourceTree = "<group>";
-		};
-		A92047D51C9BADC2001D803E /* TableView */ = {
-			isa = PBXGroup;
-			children = (
-				A92047D61C9BAE0B001D803E /* EAPAstractMainTableView.swift */,
-				A92047D81C9BAE1B001D803E /* EAPMainTableView.swift */,
-				A92047DA1C9BAF13001D803E /* EAPAbstractTableViewController.swift */,
-				A92047DC1C9BAF21001D803E /* EAPMainTableViewController.swift */,
-			);
-			name = TableView;
 			sourceTree = "<group>";
 		};
 		A9AD78A71C8B3B00005CD5DA /* XMLAnalysis */ = {
@@ -337,10 +350,13 @@
 		A9DFBFDC1C804698000CA605 /* EABookmark */ = {
 			isa = PBXGroup;
 			children = (
-				A9DFBFDD1C804698000CA605 /* BookmarkCell.swift */,
-				A9D176151C96611800861C37 /* EARedoViewController.swift */,
+				D32360B01CA1AC7700F80A89 /* EABookmarkQuestionVC.swift */,
+				D32360B11CA1AC7700F80A89 /* EABookmarkTab.storyboard */,
+				D32360B21CA1AC7700F80A89 /* EALookThroughVC.swift */,
+				D32360B31CA1AC7700F80A89 /* EARedoVC.swift */,
+				D32360B41CA1AC7700F80A89 /* BookmarkCell.swift */,
+				D32360B51CA1AC7700F80A89 /* EALookThroughController.swift */,
 				A9AD77E41C894057005CD5DA /* EABookmarkTab.storyboard */,
-				A9DFBFDE1C804698000CA605 /* BookmarkQuestionViewController.swift */,
 			);
 			path = EABookmark;
 			sourceTree = "<group>";
@@ -366,6 +382,7 @@
 		A9DFBFE11C804698000CA605 /* EAFlashCard */ = {
 			isa = PBXGroup;
 			children = (
+				D32360D51CA1ADE500F80A89 /* XZHeaderView.swift */,
 				46E267701C869588006A23F9 /* EAFlashTab.storyboard */,
 				46E267551C868953006A23F9 /* EAFlashCardVC.swift */,
 			);
@@ -393,13 +410,12 @@
 		A9DFBFE41C804698000CA605 /* EAMain */ = {
 			isa = PBXGroup;
 			children = (
-				D39059471C9AE98A0028241D /* MainSegmentedControl */,
-				D316E9981C920D3400E00B27 /* EAQuestionManager.swift */,
-				46E2675F1C868A71006A23F9 /* EAPaperInfoVC.swift */,
-				A9B44FF41C9F980E0079CAF3 /* EAQuestionTypeViewController.swift */,
-				A9D176131C965B3400861C37 /* EAPracticeViewController.swift */,
+				D32360F01CA1C42700F80A89 /* ScrollView */,
+				D32360E71CA1C41A00F80A89 /* Main */,
+				D32360DE1CA1C41200F80A89 /* Practice */,
+				D32360D91CA1C35C00F80A89 /* SegmentedControl */,
 				A9AD77E61C894075005CD5DA /* EAMainTab.storyboard */,
-				A9D176111C9657BB00861C37 /* EAQuestionTVC.swift */,
+				D32360BC1CA1AD7700F80A89 /* Cells */,
 			);
 			path = EAMain;
 			sourceTree = "<group>";
@@ -517,16 +533,67 @@
 			path = GDataXML;
 			sourceTree = "<group>";
 		};
-		D39059471C9AE98A0028241D /* MainSegmentedControl */ = {
+		D32360BC1CA1AD7700F80A89 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				D39059481C9AE9B30028241D /* EAPAbstractSegmentedControl.swift */,
-				D390594A1C9AEFFA0028241D /* EAPSegmentedControl.swift */,
-				D3D294B91C9B52C00037BB40 /* EAPPaperManager.swift */,
-				D3D294B51C9B4E100037BB40 /* EAPMainConstrainCreator.swift */,
-				A92047D21C9BACFF001D803E /* ScrollView */,
+				D32360BD1CA1ADBD00F80A89 /* EAAnalysisTVCell.swift */,
+				D32360BE1CA1ADBD00F80A89 /* EAAnalysisTVCell.xib */,
+				D32360BF1CA1ADBD00F80A89 /* EAAnswerTVCell.swift */,
+				D32360C01CA1ADBD00F80A89 /* EAAnswerTVCell.xib */,
+				D32360C11CA1ADBD00F80A89 /* EADefultTVCell.swift */,
+				D32360C21CA1ADBD00F80A89 /* EADefultTVCell.xib */,
+				D32360C31CA1ADBD00F80A89 /* EAQuestionTVCell.swift */,
+				D32360C41CA1ADBD00F80A89 /* EAQuestionTVCell.xib */,
+				D32360C51CA1ADBD00F80A89 /* EAReaultTVCell.swift */,
+				D32360C61CA1ADBD00F80A89 /* EAReaultTVCell.xib */,
+				D32360C71CA1ADBD00F80A89 /* EAReferenceTVCell.swift */,
+				D32360C81CA1ADBD00F80A89 /* EAReferenceTVCell.xib */,
 			);
-			name = MainSegmentedControl;
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		D32360D91CA1C35C00F80A89 /* SegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				D32360DA1CA1C35C00F80A89 /* EAPAbstractSegmentedControl.swift */,
+				D32360DB1CA1C35C00F80A89 /* EAPSegmentedControl.swift */,
+			);
+			path = SegmentedControl;
+			sourceTree = "<group>";
+		};
+		D32360DE1CA1C41200F80A89 /* Practice */ = {
+			isa = PBXGroup;
+			children = (
+				D32360DF1CA1C41200F80A89 /* EAPracticeToolbar.swift */,
+				D32360E01CA1C41200F80A89 /* EAPracticeViewController.swift */,
+				D32360E11CA1C41200F80A89 /* EAQuestionManager.swift */,
+				D32360E21CA1C41200F80A89 /* EAQuestionTVC.swift */,
+			);
+			path = Practice;
+			sourceTree = "<group>";
+		};
+		D32360E71CA1C41A00F80A89 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D32360E81CA1C41A00F80A89 /* EAPaperInfoVC.swift */,
+				D32360E91CA1C41A00F80A89 /* EAPMainConstrainCreator.swift */,
+				D32360EA1CA1C41A00F80A89 /* EAPPaperManager.swift */,
+				D32360EB1CA1C41A00F80A89 /* EAQuestionTypeViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		D32360F01CA1C42700F80A89 /* ScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				D32360F11CA1C42700F80A89 /* EAPAbstractScrollview.swift */,
+				D32360F21CA1C42700F80A89 /* EAPAbstractTableViewController.swift */,
+				D32360F31CA1C42700F80A89 /* EAPAstractMainTableView.swift */,
+				D32360F41CA1C42700F80A89 /* EAPMainTableView.swift */,
+				D32360F51CA1C42700F80A89 /* EAPMainTableViewController.swift */,
+				D32360F61CA1C42700F80A89 /* EAPScrollview.swift */,
+			);
+			path = ScrollView;
 			sourceTree = "<group>";
 		};
 		D39059BB1C9B39EB0028241D /* ExamAnkiTests */ = {
@@ -644,9 +711,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D32360D21CA1ADBD00F80A89 /* EAReaultTVCell.xib in Resources */,
+				D32360B71CA1AC7700F80A89 /* EABookmarkTab.storyboard in Resources */,
 				D316E9931C91E72F00E00B27 /* 20141230165606945484423-3c2da1df6488.xml in Resources */,
 				46E267791C869672006A23F9 /* EACommentTab.storyboard in Resources */,
 				46E267771C86964A006A23F9 /* EAShare.storyboard in Resources */,
+				D32360D41CA1ADBD00F80A89 /* EAReferenceTVCell.xib in Resources */,
+				D32360CA1CA1ADBD00F80A89 /* EAAnalysisTVCell.xib in Resources */,
 				A9AD77E51C894057005CD5DA /* EABookmarkTab.storyboard in Resources */,
 				46E267711C869588006A23F9 /* EAFlashTab.storyboard in Resources */,
 				46E2677B1C869689006A23F9 /* EAAboutTab.storyboard in Resources */,
@@ -657,6 +728,7 @@
 				A9DFC00F1C804698000CA605 /* LaunchScreen.storyboard in Resources */,
 				9F5BBAA71C8C304300575171 /* themedata.thmx in Resources */,
 				A9DFC0291C804698000CA605 /* Assets.xcassets in Resources */,
+				D32360CE1CA1ADBD00F80A89 /* EADefultTVCell.xib in Resources */,
 				D316E9951C91E72F00E00B27 /* 20151015170129212125061-b2407ba143d3.xml in Resources */,
 				9F5BBAA01C8C304300575171 /* filelist.xml in Resources */,
 				9F5BBAA21C8C304300575171 /* image002.png in Resources */,
@@ -664,7 +736,9 @@
 				46E267641C868B5A006A23F9 /* EAWrongTab.storyboard in Resources */,
 				9F5BBAA41C8C304300575171 /* image004.png in Resources */,
 				A9AD77E71C894075005CD5DA /* EAMainTab.storyboard in Resources */,
+				D32360D01CA1ADBD00F80A89 /* EAQuestionTVCell.xib in Resources */,
 				9F5BBAA31C8C304300575171 /* image003.png in Resources */,
+				D32360CC1CA1ADBD00F80A89 /* EAAnswerTVCell.xib in Resources */,
 				9F5BBAA61C8C304300575171 /* image006.png in Resources */,
 				A9DFC0101C804698000CA605 /* Main.storyboard in Resources */,
 				9F5BBAA11C8C304300575171 /* image001.jpg in Resources */,
@@ -687,75 +761,85 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A92047D91C9BAE1B001D803E /* EAPMainTableView.swift in Sources */,
 				9F5BBA741C8C2F0500575171 /* ImportQuestionOption.swift in Sources */,
 				46E2675E1C8689EA006A23F9 /* EAShareVC.swift in Sources */,
 				A9DFC0301C804698000CA605 /* GDataXMLNode.m in Sources */,
 				9F5BBAA91C8C304300575171 /* XZModelService.swift in Sources */,
 				9F5BBA801C8C2F0500575171 /* Heading.swift in Sources */,
 				9F5BBA6C1C8C2F0500575171 /* QuestionMaterial.swift in Sources */,
-				A92047D11C9BACFA001D803E /* EAPAbstractScrollview.swift in Sources */,
+				D32360EF1CA1C41A00F80A89 /* EAQuestionTypeViewController.swift in Sources */,
+				D32360D31CA1ADBD00F80A89 /* EAReferenceTVCell.swift in Sources */,
+				D32360CF1CA1ADBD00F80A89 /* EAQuestionTVCell.swift in Sources */,
 				9F5BBA7E1C8C2F0500575171 /* QuestionOption.swift in Sources */,
-				A9DFC0141C804698000CA605 /* BookmarkQuestionViewController.swift in Sources */,
 				9F5BBA7C1C8C2F0500575171 /* ImportQuestionMaterial.swift in Sources */,
 				46E2675A1C8689BD006A23F9 /* EAImportVC.swift in Sources */,
 				9F5BBA7B1C8C2F0500575171 /* ImportQuestionMaterial+CoreDataProperties.swift in Sources */,
 				9F5BBA721C8C2F0500575171 /* ImportQuestion.swift in Sources */,
 				9F5BBA7D1C8C2F0500575171 /* QuestionOption+CoreDataProperties.swift in Sources */,
+				D32360B61CA1AC7700F80A89 /* EABookmarkQuestionVC.swift in Sources */,
 				9F5BBA871C8C2F0500575171 /* Question+CoreDataProperties.swift in Sources */,
-				A92047DB1C9BAF13001D803E /* EAPAbstractTableViewController.swift in Sources */,
+				D32360BB1CA1AC7700F80A89 /* EALookThroughController.swift in Sources */,
 				A9DFC0121C804698000CA605 /* GlbolTableName.swift in Sources */,
+				D32360D11CA1ADBD00F80A89 /* EAReaultTVCell.swift in Sources */,
 				9F5BBA4C1C8C2EA900575171 /* ExamAnki.xcdatamodeld in Sources */,
+				D32360E31CA1C41200F80A89 /* EAPracticeToolbar.swift in Sources */,
 				9F5BBA811C8C2F0500575171 /* Card+CoreDataProperties.swift in Sources */,
 				9F5BBA911C8C303200575171 /* XPathQuery.m in Sources */,
 				A9AD78AB1C8B3B00005CD5DA /* AEXML.swift in Sources */,
 				9F5BBA791C8C2F0500575171 /* UserQuestionRecord+CoreDataProperties.swift in Sources */,
 				46E267501C8688B0006A23F9 /* EAAboutVC.swift in Sources */,
 				9F5BBA861C8C2F0500575171 /* FlashTopic.swift in Sources */,
-				D3D294BA1C9B52C00037BB40 /* EAPPaperManager.swift in Sources */,
 				A9B44FF71C9F988F0079CAF3 /* EANotificationName.swift in Sources */,
 				9F5BBA6D1C8C2F0500575171 /* PaperInfo+CoreDataProperties.swift in Sources */,
-				46E267601C868A71006A23F9 /* EAPaperInfoVC.swift in Sources */,
 				A9DFC0111C804698000CA605 /* AppDelegate.swift in Sources */,
 				9F5BBA781C8C2F0500575171 /* ImportPaperInfo.swift in Sources */,
-				A92047D41C9BAD2D001D803E /* EAPScrollview.swift in Sources */,
-				A9D176121C9657BB00861C37 /* EAQuestionTVC.swift in Sources */,
 				9F5BBA901C8C303200575171 /* TFHppleElement.m in Sources */,
+				D32360FA1CA1C42700F80A89 /* EAPMainTableView.swift in Sources */,
+				D32360BA1CA1AC7700F80A89 /* BookmarkCell.swift in Sources */,
+				D32360EE1CA1C41A00F80A89 /* EAPPaperManager.swift in Sources */,
 				9F5BBA8F1C8C303200575171 /* TFHpple.m in Sources */,
-				A9DFC0131C804698000CA605 /* BookmarkCell.swift in Sources */,
+				D32360B91CA1AC7700F80A89 /* EARedoVC.swift in Sources */,
 				9F5BBA851C8C2F0500575171 /* FlashTopic+CoreDataProperties.swift in Sources */,
 				9F5BBA6E1C8C2F0500575171 /* PaperInfo.swift in Sources */,
 				A9AD78AD1C8B3B00005CD5DA /* XMLAnalysis.swift in Sources */,
-				A9D176141C965B3400861C37 /* EAPracticeViewController.swift in Sources */,
 				9F5BBA701C8C2F0500575171 /* ImportHeading.swift in Sources */,
-				A9B44FF51C9F980E0079CAF3 /* EAQuestionTypeViewController.swift in Sources */,
+				D32360FC1CA1C42700F80A89 /* EAPScrollview.swift in Sources */,
 				A9AD78AC1C8B3B00005CD5DA /* CoreDataStack.swift in Sources */,
+				D32360C91CA1ADBD00F80A89 /* EAAnalysisTVCell.swift in Sources */,
+				D32360E41CA1C41200F80A89 /* EAPracticeViewController.swift in Sources */,
 				9F5BBA7A1C8C2F0500575171 /* UserQuestionRecord.swift in Sources */,
-				A92047D71C9BAE0B001D803E /* EAPAstractMainTableView.swift in Sources */,
+				D32360B81CA1AC7700F80A89 /* EALookThroughVC.swift in Sources */,
+				D32360CB1CA1ADBD00F80A89 /* EAAnswerTVCell.swift in Sources */,
 				9F5BBA831C8C2F0500575171 /* UserWrongQuestionRecord+CoreDataProperties.swift in Sources */,
+				D32360F91CA1C42700F80A89 /* EAPAstractMainTableView.swift in Sources */,
 				9F5BBA841C8C2F0500575171 /* UserWrongQuestionRecord.swift in Sources */,
+				D32360EC1CA1C41A00F80A89 /* EAPaperInfoVC.swift in Sources */,
+				D32360E61CA1C41200F80A89 /* EAQuestionTVC.swift in Sources */,
 				9F5BBA821C8C2F0500575171 /* Card.swift in Sources */,
-				D3D294B61C9B4E100037BB40 /* EAPMainConstrainCreator.swift in Sources */,
+				D32360D61CA1ADE500F80A89 /* XZHeaderView.swift in Sources */,
 				9F5BBA6B1C8C2F0500575171 /* QuestionMaterial+CoreDataProperties.swift in Sources */,
 				46E267621C868A8F006A23F9 /* EAWrongQuestionVC.swift in Sources */,
 				46E267681C868CAD006A23F9 /* EAWrongQuestionVCCell.swift in Sources */,
 				9F5BBAAA1C8C304300575171 /* XZPaperParsingService.swift in Sources */,
+				D32360DC1CA1C35C00F80A89 /* EAPAbstractSegmentedControl.swift in Sources */,
+				D32360FB1CA1C42700F80A89 /* EAPMainTableViewController.swift in Sources */,
 				9F5BBA761C8C2F0500575171 /* BookmarkRecord.swift in Sources */,
-				D39059491C9AE9B30028241D /* EAPAbstractSegmentedControl.swift in Sources */,
+				D32360ED1CA1C41A00F80A89 /* EAPMainConstrainCreator.swift in Sources */,
 				46E267561C868953006A23F9 /* EAFlashCardVC.swift in Sources */,
+				D32360CD1CA1ADBD00F80A89 /* EADefultTVCell.swift in Sources */,
 				9F5BBA751C8C2F0500575171 /* BookmarkRecord+CoreDataProperties.swift in Sources */,
-				A9D176161C96611800861C37 /* EARedoViewController.swift in Sources */,
-				D316E9991C920D3400E00B27 /* EAQuestionManager.swift in Sources */,
 				9F5BBA731C8C2F0500575171 /* ImportQuestionOption+CoreDataProperties.swift in Sources */,
+				D32360F81CA1C42700F80A89 /* EAPAbstractTableViewController.swift in Sources */,
+				D32360F71CA1C42700F80A89 /* EAPAbstractScrollview.swift in Sources */,
 				46E267541C868935006A23F9 /* EAFeedbackVC.swift in Sources */,
-				D390594B1C9AEFFA0028241D /* EAPSegmentedControl.swift in Sources */,
-				A92047DD1C9BAF21001D803E /* EAPMainTableViewController.swift in Sources */,
 				46E267521C868928006A23F9 /* EACommentVC.swift in Sources */,
 				9F5BBA7F1C8C2F0500575171 /* Heading+CoreDataProperties.swift in Sources */,
 				9F5BBA771C8C2F0500575171 /* ImportPaperInfo+CoreDataProperties.swift in Sources */,
 				9F5BBA711C8C2F0500575171 /* ImportQuestion+CoreDataProperties.swift in Sources */,
 				9F5BBA881C8C2F0500575171 /* Question.swift in Sources */,
 				9F5BBA6F1C8C2F0500575171 /* ImportHeading+CoreDataProperties.swift in Sources */,
+				D32360DD1CA1C35C00F80A89 /* EAPSegmentedControl.swift in Sources */,
+				D32360E51CA1C41200F80A89 /* EAQuestionManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

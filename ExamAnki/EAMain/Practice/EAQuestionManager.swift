@@ -25,6 +25,7 @@ class EAQuestionManager: NSObject {
         return nil
     }
     
+    
     class  func getQuestionsWithTypeCode(typeCode:QuestionTypeCode) -> [Question]? {
         let request = NSFetchRequest(entityName: EAQuestion)
         let predicate = NSPredicate(format: "typecode==%i", typeCode.rawValue)

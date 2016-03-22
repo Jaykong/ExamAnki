@@ -14,6 +14,7 @@ class EAQuestionTVC: UITableViewController{
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        registerForNib()
 //        self.tableView.style
         tableView.registerClass(UITableViewCell.self, forCellReuseIdentifier: "Cell")
         tableView.estimatedRowHeight = 100
