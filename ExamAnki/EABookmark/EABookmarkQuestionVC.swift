@@ -9,7 +9,7 @@
 import UIKit
 import CoreData
 
-class BookmarkQuestionViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
+class EABookmarkQuestionVC: UIViewController,UITableViewDelegate,UITableViewDataSource {
     
     let coreDataStack = CoreDataStack.sharedCoreDataStack
     var questions: Question!
@@ -135,12 +135,21 @@ class BookmarkQuestionViewController: UIViewController,UITableViewDelegate,UITab
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        let controller = segue.destinationViewController as! EARedoViewController
-        
-        controller.hidesBottomBarWhenPushed = true
-        controller.title = "单选题"
-        controller.single = self.single
-        controller.setScoreLblValue = setScoreLblValue
+        if let identifier = segue.identifier{
+            switch identifier{
+            case "Redo":
+                if let controller = segue.destinationViewController as? EARedoVC{
+                    controller.hidesBottomBarWhenPushed = true
+                    controller.title = "单选题"
+                    controller.single = self.single
+                    controller.setScoreLblValue = setScoreLblValue
+                }
+            case "LookThrough":
+                break
+            default:
+                break
+            }
+        }
     }
 
     
