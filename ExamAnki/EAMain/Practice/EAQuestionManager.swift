@@ -8,9 +8,9 @@
 
 import UIKit
 
-class EAQuestionManager: NSObject {
+class EAQuestionManager: EAQuestionManagerInterface {
     
-    class func getOneQuestion(qid:String) -> Question? {
+   private class func getOneQuestion(qid:String) -> Question? {
         let request = NSFetchRequest(entityName: EAQuestion)
         let predicate = NSPredicate(format: "id like %@", qid)
         request.predicate = predicate
@@ -26,7 +26,7 @@ class EAQuestionManager: NSObject {
     }
     
     
-    class  func getQuestionsWithTypeCode(typeCode:QuestionTypeCode) -> [Question]? {
+   private class func getQuestionsWithTypeCode(typeCode:QuestionTypeCode) -> [Question]? {
         let request = NSFetchRequest(entityName: EAQuestion)
         let predicate = NSPredicate(format: "typecode==%i", typeCode.rawValue)
         request.predicate = predicate
@@ -38,4 +38,11 @@ class EAQuestionManager: NSObject {
         }
         return nil
     }
+    
+    override class func getQuestions(paperid:String,typeCode:QuestionTypeCode) -> [Question]? {
+        fatalError()
+       // FIXME: 辛泉 
+       
+    }
+    
 }
