@@ -65,8 +65,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        }catch{
 //            print(error)
 //        }
-  let questions =  EAQuestionManager.getQuestionsWithTypeCode(QuestionTypeCode.choiceQuestion)
-  print(questions?.count)
+//  let questions =  EAQuestionManager.getQuestionsWithTypeCode(QuestionTypeCode.choiceQuestion)
+//  print(questions?.count)
         
         // Override point for customization after application launch.
         return true

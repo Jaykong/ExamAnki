@@ -80,7 +80,7 @@ class EARedoVC: UIViewController,UITableViewDataSource,UITableViewDelegate,UIScr
         
         self.navigationItem.backBarButtonItem?.title = "返回"
         
-        let rightItem = UIBarButtonItem(title: "解析", style: UIBarButtonItemStyle.Done, target: self, action:"parseInPaper")
+        let rightItem = UIBarButtonItem(title: "解析", style: UIBarButtonItemStyle.Done, target: self, action:#selector(EARedoVC.parseInPaper))
         self.navigationItem.rightBarButtonItem = rightItem
         
         
@@ -260,16 +260,16 @@ class EARedoVC: UIViewController,UITableViewDataSource,UITableViewDelegate,UIScr
             switch contentOffsetX {
             case 2 * width:
                 
-                ++currentPage
-                ++prePage
-                ++nextPage
+                currentPage += 1
+                prePage += 1
+                nextPage += 1
                 self.reloadAllTableViews()
                 _scrollView.contentOffset = CGPointMake(width, 0)
                 
             case 0:
-                --currentPage
-                --prePage
-                --nextPage
+                currentPage -= 1
+                prePage -= 1
+                nextPage -= 1
                 self.reloadAllTableViews()
                 _scrollView.contentOffset = CGPointMake(width, 0)
                 

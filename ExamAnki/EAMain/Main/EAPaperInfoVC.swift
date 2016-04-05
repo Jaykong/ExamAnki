@@ -21,7 +21,7 @@ class EAPaperInfoVC: UIViewController,UIScrollViewDelegate,UITableViewDelegate {
         super.viewDidLoad()
         seg = EAPAbstractSegmentedControl.createSegmentedControl()
         scrollView = EAPAbstractScrollview.createMainScrollView()
-        seg.addTarget(self, action: "segmentValueDidChange:", forControlEvents: .ValueChanged)
+        seg.addTarget(self, action: #selector(EAPaperInfoVC.segmentValueDidChange(_:)), forControlEvents: .ValueChanged)
         scrollView.delegate = self
         self.view.addSubview(scrollView)
         self.view.addSubview(seg)

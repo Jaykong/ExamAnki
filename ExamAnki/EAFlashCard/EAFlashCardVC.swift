@@ -86,7 +86,7 @@ class EAFlashCarVC: UIViewController,UITableViewDataSource,UITableViewDelegate {
         view.contentView.backgroundColor = UIColor.greenColor()
         view.textLable.text = self.keys[section] as? String
         view.textLable.textAlignment = .Center
-        let tapGesture = UITapGestureRecognizer(target: self, action: "tapHeaderView:")
+        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(EAFlashCarVC.tapHeaderView(_:)))
         view.addGestureRecognizer(tapGesture)
         return view
     }
@@ -99,7 +99,8 @@ class EAFlashCarVC: UIViewController,UITableViewDataSource,UITableViewDelegate {
         var indexPaths = [NSIndexPath]()
         let key = self.keys[section] as! String
         let count = dataDictionary[key]?.count
-        for var i = 0; i <= count!-1; i++ {
+       
+        for i in 0..<count! {
             let index = NSIndexPath(forRow: i, inSection: section)
             indexPaths.append(index)
         }

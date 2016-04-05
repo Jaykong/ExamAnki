@@ -69,7 +69,6 @@
 		9F5BBAA91C8C304300575171 /* XZModelService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5BBA9D1C8C304300575171 /* XZModelService.swift */; };
 		9F5BBAAA1C8C304300575171 /* XZPaperParsingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5BBA9E1C8C304300575171 /* XZPaperParsingService.swift */; };
 		9F6206EA1C7CAA3200809FFD /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F6206E91C7CAA3200809FFD /* libxml2.2.tbd */; };
-		A9AD77E51C894057005CD5DA /* EABookmarkTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9AD77E41C894057005CD5DA /* EABookmarkTab.storyboard */; };
 		A9AD77E71C894075005CD5DA /* EAMainTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9AD77E61C894075005CD5DA /* EAMainTab.storyboard */; };
 		A9AD78AB1C8B3B00005CD5DA /* AEXML.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AD78A81C8B3B00005CD5DA /* AEXML.swift */; };
 		A9AD78AC1C8B3B00005CD5DA /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AD78A91C8B3B00005CD5DA /* CoreDataStack.swift */; };
@@ -685,7 +684,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = kongyunpeng;
 				TargetAttributes = {
 					D39059B91C9B39EB0028241D = {
@@ -735,7 +734,6 @@
 				46E267771C86964A006A23F9 /* EAShare.storyboard in Resources */,
 				D32360D41CA1ADBD00F80A89 /* EAReferenceTVCell.xib in Resources */,
 				D32360CA1CA1ADBD00F80A89 /* EAAnalysisTVCell.xib in Resources */,
-				A9AD77E51C894057005CD5DA /* EABookmarkTab.storyboard in Resources */,
 				46E267711C869588006A23F9 /* EAFlashTab.storyboard in Resources */,
 				46E2677B1C869689006A23F9 /* EAAboutTab.storyboard in Resources */,
 				46E2677D1C8696BA006A23F9 /* EAFeedbackTab.storyboard in Resources */,

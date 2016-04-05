@@ -15,7 +15,7 @@ class EAPScrollview: EAPAbstractScrollview {
     override init(frame: CGRect) {
         super.init(frame: frame)
         self.addSubview(self.contentView)
-        for var i = 0;i < 3; ++i {
+        for i in 0 ..< 3 {
             let paperTypes = EAPPaperManager.getTitlesFromPapers()
             let paperType = paperTypes[i]
             let controller = EAPAbstractTableViewController.createTableViewController(paperType)

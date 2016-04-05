@@ -14,22 +14,22 @@ class EAPracticeToolbar: UIToolbar {
     
     //上一页
     var preButtonItem:UIBarButtonItem{
-        return UIBarButtonItem(image: UIImage(named: "Comment_Tab"), style: .Plain, target: self,action: "preAction:")
+        return UIBarButtonItem(image: UIImage(named: "Comment_Tab"), style: .Plain, target: self,action: #selector(EAPracticeToolbar.preAction(_:)))
     }
     
     //下一页
     var nextButtonItem:UIBarButtonItem{
-        return UIBarButtonItem(image: UIImage(named: "Comment_Tab"), style: .Plain, target: self,action: "nextAction:")
+        return UIBarButtonItem(image: UIImage(named: "Comment_Tab"), style: .Plain, target: self,action: #selector(EAPracticeToolbar.nextAction(_:)))
     }
     
     //查看答案
     var showAnswerButtonItem:UIBarButtonItem{
-        return UIBarButtonItem(image: UIImage(named: "Comment_Tab"), style: .Plain, target: self,action: "showAnswerAction:")
+        return UIBarButtonItem(image: UIImage(named: "Comment_Tab"), style: .Plain, target: self,action: #selector(EAPracticeToolbar.showAnswerAction(_:)))
     }
     
     //收藏题目
     var bookmarkButtonItem:UIBarButtonItem{
-        return UIBarButtonItem(image: UIImage(named: "Comment_Tab"), style: .Plain, target: self,action: "bookmarkAction:")
+        return UIBarButtonItem(image: UIImage(named: "Comment_Tab"), style: .Plain, target: self,action: #selector(EAPracticeToolbar.bookmarkAction(_:)))
     }
     
     //空白

@@ -20,8 +20,8 @@ class EAWrongQuestionVC: UIViewController, UITableViewDelegate, UITableViewDataS
     
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
-        question = EAQuestionManager.getQuestionsWithTypeCode(.choiceQuestion)!
-        print(question)
+//        question = EAQuestionManager.getQuestionsWithTypeCode(.choiceQuestion)!
+//        print(question)
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
