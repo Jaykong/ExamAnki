@@ -40,8 +40,12 @@ class EAQuestionManager: EAQuestionManagerInterface {
     }
     
     override class func getQuestions(paperid:String,typeCode:QuestionTypeCode) -> [Question]? {
-        fatalError()
-       // FIXME: 辛泉 
+       let questions = EAQuestionManager.getQuestionsWithTypeCode(typeCode)
+      let results =  questions?.filter({ (ques) -> Bool in
+           return ques.paperid == paperid
+        })
+        return results
+        
        
     }
     

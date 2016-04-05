@@ -123,6 +123,11 @@
 		D3A4EC4D1CA1EA3B008BAAC1 /* EAQuestionManagerInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A4EC4C1CA1EA3B008BAAC1 /* EAQuestionManagerInterface.swift */; };
 		D3A4EC4F1CA1EE35008BAAC1 /* EAQuestionsCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A4EC4E1CA1EE35008BAAC1 /* EAQuestionsCreator.swift */; };
 		D3A4EC531CA1EE7C008BAAC1 /* EAPracticeQuestionsCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A4EC521CA1EE7C008BAAC1 /* EAPracticeQuestionsCreator.swift */; };
+		D3C885371CB432F7006051BD /* EAQuestionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C885361CB432F7006051BD /* EAQuestionTableViewController.swift */; };
+		D3C885391CB43336006051BD /* EAQuestionTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C885381CB43336006051BD /* EAQuestionTableView.swift */; };
+		D3C8853B1CB4377B006051BD /* EAPreQuestionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C8853A1CB4377B006051BD /* EAPreQuestionTableViewController.swift */; };
+		D3C8853D1CB437CF006051BD /* EACurrQuestionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C8853C1CB437CF006051BD /* EACurrQuestionTableViewController.swift */; };
+		D3C8853F1CB437E1006051BD /* EANextQuestionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C8853E1CB437E1006051BD /* EANextQuestionTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -261,6 +266,11 @@
 		D3A4EC4C1CA1EA3B008BAAC1 /* EAQuestionManagerInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAQuestionManagerInterface.swift; sourceTree = "<group>"; };
 		D3A4EC4E1CA1EE35008BAAC1 /* EAQuestionsCreator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAQuestionsCreator.swift; sourceTree = "<group>"; };
 		D3A4EC521CA1EE7C008BAAC1 /* EAPracticeQuestionsCreator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAPracticeQuestionsCreator.swift; sourceTree = "<group>"; };
+		D3C885361CB432F7006051BD /* EAQuestionTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAQuestionTableViewController.swift; sourceTree = "<group>"; };
+		D3C885381CB43336006051BD /* EAQuestionTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAQuestionTableView.swift; sourceTree = "<group>"; };
+		D3C8853A1CB4377B006051BD /* EAPreQuestionTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAPreQuestionTableViewController.swift; sourceTree = "<group>"; };
+		D3C8853C1CB437CF006051BD /* EACurrQuestionTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EACurrQuestionTableViewController.swift; sourceTree = "<group>"; };
+		D3C8853E1CB437E1006051BD /* EANextQuestionTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EANextQuestionTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -571,6 +581,11 @@
 			children = (
 				D32360DF1CA1C41200F80A89 /* EAPracticeToolbar.swift */,
 				D3A4EC491CA1E949008BAAC1 /* EAPracticeViewController.swift */,
+				D3C885381CB43336006051BD /* EAQuestionTableView.swift */,
+				D3C885361CB432F7006051BD /* EAQuestionTableViewController.swift */,
+				D3C8853A1CB4377B006051BD /* EAPreQuestionTableViewController.swift */,
+				D3C8853C1CB437CF006051BD /* EACurrQuestionTableViewController.swift */,
+				D3C8853E1CB437E1006051BD /* EANextQuestionTableViewController.swift */,
 				D3A4EC4B1CA1EA0B008BAAC1 /* QuestionMangers */,
 				D32360E21CA1C41200F80A89 /* EAQuestionTVC.swift */,
 			);
@@ -793,6 +808,7 @@
 				9F5BBA7D1C8C2F0500575171 /* QuestionOption+CoreDataProperties.swift in Sources */,
 				D32360B61CA1AC7700F80A89 /* EABookmarkQuestionVC.swift in Sources */,
 				9F5BBA871C8C2F0500575171 /* Question+CoreDataProperties.swift in Sources */,
+				D3C885391CB43336006051BD /* EAQuestionTableView.swift in Sources */,
 				D32360BB1CA1AC7700F80A89 /* EALookThroughController.swift in Sources */,
 				A9DFC0121C804698000CA605 /* GlbolTableName.swift in Sources */,
 				D32360D11CA1ADBD00F80A89 /* EAReaultTVCell.swift in Sources */,
@@ -807,6 +823,7 @@
 				A9B44FF71C9F988F0079CAF3 /* EANotificationName.swift in Sources */,
 				9F5BBA6D1C8C2F0500575171 /* PaperInfo+CoreDataProperties.swift in Sources */,
 				A9DFC0111C804698000CA605 /* AppDelegate.swift in Sources */,
+				D3C885371CB432F7006051BD /* EAQuestionTableViewController.swift in Sources */,
 				9F5BBA781C8C2F0500575171 /* ImportPaperInfo.swift in Sources */,
 				D3A4EC4A1CA1E949008BAAC1 /* EAPracticeViewController.swift in Sources */,
 				9F5BBA901C8C303200575171 /* TFHppleElement.m in Sources */,
@@ -841,12 +858,15 @@
 				D32360DC1CA1C35C00F80A89 /* EAPAbstractSegmentedControl.swift in Sources */,
 				D32360FB1CA1C42700F80A89 /* EAPMainTableViewController.swift in Sources */,
 				9F5BBA761C8C2F0500575171 /* BookmarkRecord.swift in Sources */,
+				D3C8853D1CB437CF006051BD /* EACurrQuestionTableViewController.swift in Sources */,
 				D32360ED1CA1C41A00F80A89 /* EAPMainConstrainCreator.swift in Sources */,
 				46E267561C868953006A23F9 /* EAFlashCardVC.swift in Sources */,
 				D32360CD1CA1ADBD00F80A89 /* EADefultTVCell.swift in Sources */,
 				9F5BBA751C8C2F0500575171 /* BookmarkRecord+CoreDataProperties.swift in Sources */,
+				D3C8853F1CB437E1006051BD /* EANextQuestionTableViewController.swift in Sources */,
 				9F5BBA731C8C2F0500575171 /* ImportQuestionOption+CoreDataProperties.swift in Sources */,
 				D32360F81CA1C42700F80A89 /* EAPAbstractTableViewController.swift in Sources */,
+				D3C8853B1CB4377B006051BD /* EAPreQuestionTableViewController.swift in Sources */,
 				D32360F71CA1C42700F80A89 /* EAPAbstractScrollview.swift in Sources */,
 				46E267541C868935006A23F9 /* EAFeedbackVC.swift in Sources */,
 				46E267521C868928006A23F9 /* EACommentVC.swift in Sources */,

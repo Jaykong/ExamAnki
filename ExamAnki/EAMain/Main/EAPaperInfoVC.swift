@@ -80,7 +80,7 @@ class EAPaperInfoVC: UIViewController,UIScrollViewDelegate,UITableViewDelegate {
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        
+       self.hidesBottomBarWhenPushed = true
     }
     
 }

@@ -35,7 +35,9 @@ let bookType = ["单选题","多选题","判断题","综合题"]
         return cell!
         
     }
-    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        self.hidesBottomBarWhenPushed = true
+    }
     
     
 

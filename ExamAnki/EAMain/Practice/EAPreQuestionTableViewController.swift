@@ -1,67 +1,53 @@
 //
-//  EAQuestionTVC.swift
+//  EAPreQuestionTableViewController.swift
 //  ExamAnki
 //
-//  Created by trainer on 3/14/16.
+//  Created by kongyunpeng on 4/6/16.
 //  Copyright © 2016 kongyunpeng. All rights reserved.
 //
 
 import UIKit
 
-class EAQuestionTVC: UITableView{
-    
-    var question:Question!
-    
-    override init(frame: CGRect, style: UITableViewStyle) {
-        super.init(frame: frame, style: style)
-       registerForNib()
-        self.registerClass(UITableViewCell.self, forCellReuseIdentifier: "Cell")
-        self.estimatedRowHeight = 100
+class EAPreQuestionTableViewController: EAQuestionTableViewController {
 
-    }
-  
-    required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
-    
-  
-    
-
-    // MARK: - register nib
-    func registerForNib() {
+   // var question:Question!
+    override func registerCells(tableView:EAQuestionTableView,question:Question) {
+        self.question = question
+        tableView.registerClass(UITableViewCell.self, forCellReuseIdentifier: "Cell")
+        tableView.estimatedRowHeight = 100
+        
         let nib = UINib(nibName: "EAQuestionTVCell", bundle: NSBundle.mainBundle())
         let nib1 = UINib(nibName: "EAAnswerTVCell", bundle: NSBundle.mainBundle())
         let nib2 = UINib(nibName: "EAReaultTVCell", bundle: NSBundle.mainBundle())
         let nib3 = UINib(nibName: "EAReferenceTVCell", bundle: NSBundle.mainBundle())
         let nib4 = UINib(nibName: "EAAnalysisTVCell", bundle: NSBundle.mainBundle())
         let nib5 = UINib(nibName: "EADefultTVCell", bundle: NSBundle.mainBundle())
-        self.registerNib(nib, forCellReuseIdentifier: "EAQuestionTVCell")
-        self.registerNib(nib1, forCellReuseIdentifier: "EAAnswerTVCell")
-        self.registerNib(nib2, forCellReuseIdentifier: "EAReaultTVCell")
-        self.registerNib(nib3, forCellReuseIdentifier: "EAReferenceTVCell")
-        self.registerNib(nib4, forCellReuseIdentifier: "EAAnalysisTVCell")
-        self.registerNib(nib5, forCellReuseIdentifier: "EADefultTVCell")
-    }
-    // MARK: - Table view data source
+        tableView.registerNib(nib, forCellReuseIdentifier: "EAQuestionTVCell")
+        tableView.registerNib(nib1, forCellReuseIdentifier: "EAAnswerTVCell")
+        tableView.registerNib(nib2, forCellReuseIdentifier: "EAReaultTVCell")
+        tableView.registerNib(nib3, forCellReuseIdentifier: "EAReferenceTVCell")
+        tableView.registerNib(nib4, forCellReuseIdentifier: "EAAnalysisTVCell")
+        tableView.registerNib(nib5, forCellReuseIdentifier: "EADefultTVCell")
 
-     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+    }
+    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
         if question!.parse!.isEmpty {
             return 4
         }
         return 5
     }
-
-     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    
+    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if (section == 1) {
             return (question?.options?.count)!
         }
         
         return 1
     }
-
     
-     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+    
+    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
         switch indexPath.section {
             
@@ -116,7 +102,7 @@ class EAQuestionTVC: UITableView{
         }
     }
     
-     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+    override func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
         if ((question?.parse) == nil) {
             return 44
         } else {
@@ -125,49 +111,6 @@ class EAQuestionTVC: UITableView{
     }
     
 
-    /*
-    // Override to support conditional editing of the table view.
-    override func tableView(tableView: UITableView, canEditRowAtIndexPath indexPath: NSIndexPath) -> Bool {
-        // Return false if you do not want the specified item to be editable.
-        return true
-    }
-    */
-
-    /*
-    // Override to support editing the table view.
-    override func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
-        if editingStyle == .Delete {
-            // Delete the row from the data source
-            tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)
-        } else if editingStyle == .Insert {
-            // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-        }    
-    }
-    */
-
-    /*
-    // Override to support rearranging the table view.
-    override func tableView(tableView: UITableView, moveRowAtIndexPath fromIndexPath: NSIndexPath, toIndexPath: NSIndexPath) {
-
-    }
-    */
-
-    /*
-    // Override to support conditional rearranging of the table view.
-    override func tableView(tableView: UITableView, canMoveRowAtIndexPath indexPath: NSIndexPath) -> Bool {
-        // Return false if you do not want the item to be re-orderable.
-        return true
-    }
-    */
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+    
+    
 }

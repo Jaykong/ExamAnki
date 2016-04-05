@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="OUn-Xv-cAe">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="OUn-Xv-cAe">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--首页-->
@@ -26,7 +27,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ldQ-80-8m4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2941" y="328"/>
+            <point key="canvasLocation" x="2939" y="223"/>
         </scene>
         <!--Question Type View Controller-->
         <scene sceneID="p79-hU-OnD">
@@ -52,7 +53,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="Akq-4J-GyA" kind="showDetail" id="T4B-Bs-L5Y"/>
+                                            <segue destination="Akq-4J-GyA" kind="show" id="T4B-Bs-L5Y"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -73,7 +74,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g5h-cm-8ku" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3656" y="314"/>
+            <point key="canvasLocation" x="3564" y="223"/>
         </scene>
         <!--Practice View Controller-->
         <scene sceneID="WAd-Hs-916">
@@ -86,12 +87,105 @@
                     <view key="view" contentMode="scaleToFill" id="h4r-Hi-Wvq">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" verticalHuggingPriority="248" translatesAutoresizingMaskIntoConstraints="NO" id="vkQ-U2-sQ0">
+                                <rect key="frame" x="0.0" y="507" width="600" height="44"/>
+                                <items>
+                                    <barButtonItem title="Item" id="CWu-bk-E57"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="HEe-G0-0ab"/>
+                                    <barButtonItem title="Item" id="3dt-bN-QfR"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="1oA-2Q-3Ip"/>
+                                    <barButtonItem title="Item" id="uHx-zr-b0l"/>
+                                </items>
+                            </toolbar>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalHuggingPriority="100" placeholderIntrinsicWidth="600" placeholderIntrinsicHeight="200" directionalLockEnabled="YES" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ml4-FO-ig1">
+                                <rect key="frame" x="0.0" y="64" width="600" height="443"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BBr-c8-fSp" userLabel="contentView">
+                                        <rect key="frame" x="0.0" y="0.0" width="1800" height="443"/>
+                                        <subviews>
+                                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="lnc-c4-tUn" customClass="EAQuestionTableView" customModule="ExamAnki" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="600" height="443"/>
+                                                <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="sectionIndexBackgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <connections>
+                                                    <outlet property="dataSource" destination="bbP-gG-W3C" id="8Dd-fy-9aJ"/>
+                                                    <outlet property="delegate" destination="bbP-gG-W3C" id="15a-GD-GMQ"/>
+                                                    <outlet property="questonTableViewController" destination="bbP-gG-W3C" id="ndA-K9-6j8"/>
+                                                </connections>
+                                            </tableView>
+                                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="VOU-S5-3bP" customClass="EAQuestionTableView" customModule="ExamAnki" customModuleProvider="target">
+                                                <rect key="frame" x="600" y="0.0" width="600" height="443"/>
+                                                <color key="backgroundColor" red="1" green="0.3405414041" blue="0.24832887410000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="sectionIndexBackgroundColor" red="1" green="0.3405414041" blue="0.24832887410000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                <connections>
+                                                    <outlet property="dataSource" destination="o0D-Lc-Z4Z" id="a0a-lC-NKa"/>
+                                                    <outlet property="delegate" destination="o0D-Lc-Z4Z" id="jT8-Sw-6J6"/>
+                                                    <outlet property="questonTableViewController" destination="o0D-Lc-Z4Z" id="xPs-Su-6Jy"/>
+                                                </connections>
+                                            </tableView>
+                                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="uin-1u-kEG" customClass="EAQuestionTableView" customModule="ExamAnki" customModuleProvider="target">
+                                                <rect key="frame" x="1200" y="0.0" width="600" height="443"/>
+                                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="sectionIndexBackgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <connections>
+                                                    <outlet property="dataSource" destination="rXl-8y-Rz0" id="MZd-Bv-wKn"/>
+                                                    <outlet property="delegate" destination="rXl-8y-Rz0" id="Prq-7A-LAA"/>
+                                                    <outlet property="questonTableViewController" destination="rXl-8y-Rz0" id="bRN-BU-Ljy"/>
+                                                </connections>
+                                            </tableView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="uin-1u-kEG" firstAttribute="top" secondItem="BBr-c8-fSp" secondAttribute="top" id="0pb-9J-WJk"/>
+                                            <constraint firstItem="uin-1u-kEG" firstAttribute="leading" secondItem="VOU-S5-3bP" secondAttribute="trailing" id="Epy-bB-gTU"/>
+                                            <constraint firstItem="VOU-S5-3bP" firstAttribute="top" secondItem="BBr-c8-fSp" secondAttribute="top" id="MY9-F2-Csi"/>
+                                            <constraint firstItem="uin-1u-kEG" firstAttribute="width" secondItem="lnc-c4-tUn" secondAttribute="width" id="S2t-c8-lVy"/>
+                                            <constraint firstItem="lnc-c4-tUn" firstAttribute="top" secondItem="BBr-c8-fSp" secondAttribute="top" id="VZI-J5-B3m"/>
+                                            <constraint firstItem="VOU-S5-3bP" firstAttribute="width" secondItem="lnc-c4-tUn" secondAttribute="width" id="WHp-MQ-D0S"/>
+                                            <constraint firstAttribute="trailing" secondItem="uin-1u-kEG" secondAttribute="trailing" id="gNw-GX-Gyy"/>
+                                            <constraint firstAttribute="bottom" secondItem="lnc-c4-tUn" secondAttribute="bottom" id="jXA-Cf-Hlb"/>
+                                            <constraint firstAttribute="bottom" secondItem="uin-1u-kEG" secondAttribute="bottom" id="laj-Hh-j8P"/>
+                                            <constraint firstItem="VOU-S5-3bP" firstAttribute="leading" secondItem="lnc-c4-tUn" secondAttribute="trailing" id="mGj-aF-v7C"/>
+                                            <constraint firstItem="lnc-c4-tUn" firstAttribute="leading" secondItem="BBr-c8-fSp" secondAttribute="leading" id="qEC-2d-Otb"/>
+                                            <constraint firstAttribute="bottom" secondItem="VOU-S5-3bP" secondAttribute="bottom" id="v9f-e0-CFs"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="0.069754453179999995" green="0.43426877479999998" blue="0.90922900880000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="BBr-c8-fSp" firstAttribute="top" secondItem="ml4-FO-ig1" secondAttribute="top" id="BZv-MO-jkM"/>
+                                    <constraint firstItem="BBr-c8-fSp" firstAttribute="height" secondItem="ml4-FO-ig1" secondAttribute="height" id="FTm-X3-1Qz"/>
+                                    <constraint firstAttribute="trailing" secondItem="BBr-c8-fSp" secondAttribute="trailing" id="Wco-6q-cT3"/>
+                                    <constraint firstAttribute="bottom" secondItem="BBr-c8-fSp" secondAttribute="bottom" id="YBU-fk-GKf"/>
+                                    <constraint firstItem="BBr-c8-fSp" firstAttribute="width" secondItem="ml4-FO-ig1" secondAttribute="width" multiplier="3" id="abH-Rq-nVz"/>
+                                    <constraint firstItem="BBr-c8-fSp" firstAttribute="leading" secondItem="ml4-FO-ig1" secondAttribute="leading" id="sM0-dJ-lWI"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ml4-FO-ig1" firstAttribute="leading" secondItem="h4r-Hi-Wvq" secondAttribute="leading" id="IhR-1v-Yt8"/>
+                            <constraint firstItem="ua0-Si-0y0" firstAttribute="top" secondItem="vkQ-U2-sQ0" secondAttribute="bottom" id="K65-pT-FLQ"/>
+                            <constraint firstAttribute="trailing" secondItem="ml4-FO-ig1" secondAttribute="trailing" id="ZvD-0I-lLk"/>
+                            <constraint firstAttribute="trailing" secondItem="vkQ-U2-sQ0" secondAttribute="trailing" id="klz-rv-c4f"/>
+                            <constraint firstItem="vkQ-U2-sQ0" firstAttribute="top" secondItem="ml4-FO-ig1" secondAttribute="bottom" id="la3-bN-cfC"/>
+                            <constraint firstItem="vkQ-U2-sQ0" firstAttribute="leading" secondItem="h4r-Hi-Wvq" secondAttribute="leading" id="rYM-5Q-bUF"/>
+                            <constraint firstItem="ml4-FO-ig1" firstAttribute="top" secondItem="ab8-Sc-1Cr" secondAttribute="bottom" id="zX9-8p-RXa"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="currTableView" destination="uin-1u-kEG" id="du6-pQ-e5G"/>
+                        <outlet property="nextTableView" destination="VOU-S5-3bP" id="PKz-ha-5UP"/>
+                        <outlet property="preTableView" destination="lnc-c4-tUn" id="xiB-CZ-MfJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2NV-Mn-1vH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="bbP-gG-W3C" customClass="EAPreQuestionTableViewController" customModule="ExamAnki" customModuleProvider="target"/>
+                <customObject id="rXl-8y-Rz0" customClass="EACurrQuestionTableViewController" customModule="ExamAnki" customModuleProvider="target"/>
+                <customObject id="o0D-Lc-Z4Z" customClass="EANextQuestionTableViewController" customModule="ExamAnki" customModuleProvider="target"/>
             </objects>
-            <point key="canvasLocation" x="3656" y="961"/>
+            <point key="canvasLocation" x="2939" y="876"/>
         </scene>
         <!--首页-->
         <scene sceneID="gcl-hC-1sl">
@@ -111,7 +205,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UrI-8T-G4N" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2182" y="405"/>
+            <point key="canvasLocation" x="2252" y="223"/>
         </scene>
     </scenes>
     <resources>
