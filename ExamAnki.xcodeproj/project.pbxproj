@@ -80,6 +80,8 @@
 		A9DFC0121C804698000CA605 /* GlbolTableName.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DFBFDA1C804698000CA605 /* GlbolTableName.swift */; };
 		A9DFC0291C804698000CA605 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9DFBFFD1C804698000CA605 /* Assets.xcassets */; };
 		A9DFC0301C804698000CA605 /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DFC00A1C804698000CA605 /* GDataXMLNode.m */; };
+		D30C75D11CB6F99A0058039B /* UserQuestionOption+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30C75CF1CB6F99A0058039B /* UserQuestionOption+CoreDataProperties.swift */; };
+		D30C75D21CB6F99A0058039B /* UserQuestionOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30C75D01CB6F99A0058039B /* UserQuestionOption.swift */; };
 		D316E9931C91E72F00E00B27 /* 20141230165606945484423-3c2da1df6488.xml in Resources */ = {isa = PBXBuildFile; fileRef = D316E9901C91E72F00E00B27 /* 20141230165606945484423-3c2da1df6488.xml */; };
 		D316E9941C91E72F00E00B27 /* 2015082816033575811715e-5b538a495fa6.xml in Resources */ = {isa = PBXBuildFile; fileRef = D316E9911C91E72F00E00B27 /* 2015082816033575811715e-5b538a495fa6.xml */; };
 		D316E9951C91E72F00E00B27 /* 20151015170129212125061-b2407ba143d3.xml in Resources */ = {isa = PBXBuildFile; fileRef = D316E9921C91E72F00E00B27 /* 20151015170129212125061-b2407ba143d3.xml */; };
@@ -91,8 +93,8 @@
 		D32360BB1CA1AC7700F80A89 /* EALookThroughController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32360B51CA1AC7700F80A89 /* EALookThroughController.swift */; };
 		D32360C91CA1ADBD00F80A89 /* EAAnalysisTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32360BD1CA1ADBD00F80A89 /* EAAnalysisTVCell.swift */; };
 		D32360CA1CA1ADBD00F80A89 /* EAAnalysisTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D32360BE1CA1ADBD00F80A89 /* EAAnalysisTVCell.xib */; };
-		D32360CB1CA1ADBD00F80A89 /* EAAnswerTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32360BF1CA1ADBD00F80A89 /* EAAnswerTVCell.swift */; };
-		D32360CC1CA1ADBD00F80A89 /* EAAnswerTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D32360C01CA1ADBD00F80A89 /* EAAnswerTVCell.xib */; };
+		D32360CB1CA1ADBD00F80A89 /* EAOptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32360BF1CA1ADBD00F80A89 /* EAOptionCell.swift */; };
+		D32360CC1CA1ADBD00F80A89 /* EAOptionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D32360C01CA1ADBD00F80A89 /* EAOptionCell.xib */; };
 		D32360CD1CA1ADBD00F80A89 /* EADefultTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32360C11CA1ADBD00F80A89 /* EADefultTVCell.swift */; };
 		D32360CE1CA1ADBD00F80A89 /* EADefultTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D32360C21CA1ADBD00F80A89 /* EADefultTVCell.xib */; };
 		D32360CF1CA1ADBD00F80A89 /* EAQuestionTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32360C31CA1ADBD00F80A89 /* EAQuestionTVCell.swift */; };
@@ -106,7 +108,6 @@
 		D32360DD1CA1C35C00F80A89 /* EAPSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32360DB1CA1C35C00F80A89 /* EAPSegmentedControl.swift */; };
 		D32360E31CA1C41200F80A89 /* EAPracticeToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32360DF1CA1C41200F80A89 /* EAPracticeToolbar.swift */; };
 		D32360E51CA1C41200F80A89 /* EAQuestionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32360E11CA1C41200F80A89 /* EAQuestionManager.swift */; };
-		D32360E61CA1C41200F80A89 /* EAQuestionTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32360E21CA1C41200F80A89 /* EAQuestionTVC.swift */; };
 		D32360EC1CA1C41A00F80A89 /* EAPaperInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32360E81CA1C41A00F80A89 /* EAPaperInfoVC.swift */; };
 		D32360ED1CA1C41A00F80A89 /* EAPMainConstrainCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32360E91CA1C41A00F80A89 /* EAPMainConstrainCreator.swift */; };
 		D32360EE1CA1C41A00F80A89 /* EAPPaperManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32360EA1CA1C41A00F80A89 /* EAPPaperManager.swift */; };
@@ -117,6 +118,7 @@
 		D32360FA1CA1C42700F80A89 /* EAPMainTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32360F41CA1C42700F80A89 /* EAPMainTableView.swift */; };
 		D32360FB1CA1C42700F80A89 /* EAPMainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32360F51CA1C42700F80A89 /* EAPMainTableViewController.swift */; };
 		D32360FC1CA1C42700F80A89 /* EAPScrollview.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32360F61CA1C42700F80A89 /* EAPScrollview.swift */; };
+		D32B4D741CB7E9FC00ADAF8F /* EACellNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32B4D731CB7E9FC00ADAF8F /* EACellNames.swift */; };
 		D39059BD1C9B39EB0028241D /* ExamAnkiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39059BC1C9B39EB0028241D /* ExamAnkiTests.swift */; };
 		D39059C41C9B3BCD0028241D /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F6206E91C7CAA3200809FFD /* libxml2.2.tbd */; };
 		D3A4EC4A1CA1E949008BAAC1 /* EAPracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A4EC491CA1E949008BAAC1 /* EAPracticeViewController.swift */; };
@@ -221,6 +223,8 @@
 		A9DFC0001C804698000CA605 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9DFC0091C804698000CA605 /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
 		A9DFC00A1C804698000CA605 /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
+		D30C75CF1CB6F99A0058039B /* UserQuestionOption+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserQuestionOption+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D30C75D01CB6F99A0058039B /* UserQuestionOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserQuestionOption.swift; sourceTree = "<group>"; };
 		D316E9901C91E72F00E00B27 /* 20141230165606945484423-3c2da1df6488.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "20141230165606945484423-3c2da1df6488.xml"; sourceTree = "<group>"; };
 		D316E9911C91E72F00E00B27 /* 2015082816033575811715e-5b538a495fa6.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "2015082816033575811715e-5b538a495fa6.xml"; sourceTree = "<group>"; };
 		D316E9921C91E72F00E00B27 /* 20151015170129212125061-b2407ba143d3.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "20151015170129212125061-b2407ba143d3.xml"; sourceTree = "<group>"; };
@@ -232,8 +236,8 @@
 		D32360B51CA1AC7700F80A89 /* EALookThroughController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EALookThroughController.swift; sourceTree = "<group>"; };
 		D32360BD1CA1ADBD00F80A89 /* EAAnalysisTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAAnalysisTVCell.swift; sourceTree = "<group>"; };
 		D32360BE1CA1ADBD00F80A89 /* EAAnalysisTVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EAAnalysisTVCell.xib; sourceTree = "<group>"; };
-		D32360BF1CA1ADBD00F80A89 /* EAAnswerTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAAnswerTVCell.swift; sourceTree = "<group>"; };
-		D32360C01CA1ADBD00F80A89 /* EAAnswerTVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EAAnswerTVCell.xib; sourceTree = "<group>"; };
+		D32360BF1CA1ADBD00F80A89 /* EAOptionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAOptionCell.swift; sourceTree = "<group>"; };
+		D32360C01CA1ADBD00F80A89 /* EAOptionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EAOptionCell.xib; sourceTree = "<group>"; };
 		D32360C11CA1ADBD00F80A89 /* EADefultTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EADefultTVCell.swift; sourceTree = "<group>"; };
 		D32360C21CA1ADBD00F80A89 /* EADefultTVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EADefultTVCell.xib; sourceTree = "<group>"; };
 		D32360C31CA1ADBD00F80A89 /* EAQuestionTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAQuestionTVCell.swift; sourceTree = "<group>"; };
@@ -247,7 +251,6 @@
 		D32360DB1CA1C35C00F80A89 /* EAPSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAPSegmentedControl.swift; sourceTree = "<group>"; };
 		D32360DF1CA1C41200F80A89 /* EAPracticeToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAPracticeToolbar.swift; sourceTree = "<group>"; };
 		D32360E11CA1C41200F80A89 /* EAQuestionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAQuestionManager.swift; sourceTree = "<group>"; };
-		D32360E21CA1C41200F80A89 /* EAQuestionTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAQuestionTVC.swift; sourceTree = "<group>"; };
 		D32360E81CA1C41A00F80A89 /* EAPaperInfoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAPaperInfoVC.swift; sourceTree = "<group>"; };
 		D32360E91CA1C41A00F80A89 /* EAPMainConstrainCreator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAPMainConstrainCreator.swift; sourceTree = "<group>"; };
 		D32360EA1CA1C41A00F80A89 /* EAPPaperManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAPPaperManager.swift; sourceTree = "<group>"; };
@@ -258,6 +261,7 @@
 		D32360F41CA1C42700F80A89 /* EAPMainTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAPMainTableView.swift; sourceTree = "<group>"; };
 		D32360F51CA1C42700F80A89 /* EAPMainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAPMainTableViewController.swift; sourceTree = "<group>"; };
 		D32360F61CA1C42700F80A89 /* EAPScrollview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EAPScrollview.swift; sourceTree = "<group>"; };
+		D32B4D731CB7E9FC00ADAF8F /* EACellNames.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EACellNames.swift; sourceTree = "<group>"; };
 		D39059BA1C9B39EB0028241D /* ExamAnkiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExamAnkiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D39059BC1C9B39EB0028241D /* ExamAnkiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamAnkiTests.swift; sourceTree = "<group>"; };
 		D39059BE1C9B39EB0028241D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -349,6 +353,7 @@
 				A9DFBFD91C804698000CA605 /* ExamAnki-Bridging-Header.h */,
 				A9DFBFDA1C804698000CA605 /* GlbolTableName.swift */,
 				A9B44FF61C9F988F0079CAF3 /* EANotificationName.swift */,
+				D32B4D731CB7E9FC00ADAF8F /* EACellNames.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -457,6 +462,8 @@
 		A9DFBFE71C804698000CA605 /* ModelClass */ = {
 			isa = PBXGroup;
 			children = (
+				D30C75CF1CB6F99A0058039B /* UserQuestionOption+CoreDataProperties.swift */,
+				D30C75D01CB6F99A0058039B /* UserQuestionOption.swift */,
 				9F5BBA4D1C8C2F0500575171 /* QuestionMaterial+CoreDataProperties.swift */,
 				9F5BBA4E1C8C2F0500575171 /* QuestionMaterial.swift */,
 				9F5BBA4F1C8C2F0500575171 /* PaperInfo+CoreDataProperties.swift */,
@@ -553,8 +560,8 @@
 			children = (
 				D32360BD1CA1ADBD00F80A89 /* EAAnalysisTVCell.swift */,
 				D32360BE1CA1ADBD00F80A89 /* EAAnalysisTVCell.xib */,
-				D32360BF1CA1ADBD00F80A89 /* EAAnswerTVCell.swift */,
-				D32360C01CA1ADBD00F80A89 /* EAAnswerTVCell.xib */,
+				D32360BF1CA1ADBD00F80A89 /* EAOptionCell.swift */,
+				D32360C01CA1ADBD00F80A89 /* EAOptionCell.xib */,
 				D32360C11CA1ADBD00F80A89 /* EADefultTVCell.swift */,
 				D32360C21CA1ADBD00F80A89 /* EADefultTVCell.xib */,
 				D32360C31CA1ADBD00F80A89 /* EAQuestionTVCell.swift */,
@@ -587,7 +594,6 @@
 				D3C8853C1CB437CF006051BD /* EACurrQuestionTableViewController.swift */,
 				D3C8853E1CB437E1006051BD /* EANextQuestionTableViewController.swift */,
 				D3A4EC4B1CA1EA0B008BAAC1 /* QuestionMangers */,
-				D32360E21CA1C41200F80A89 /* EAQuestionTVC.swift */,
 			);
 			path = Practice;
 			sourceTree = "<group>";
@@ -768,7 +774,7 @@
 				A9AD77E71C894075005CD5DA /* EAMainTab.storyboard in Resources */,
 				D32360D01CA1ADBD00F80A89 /* EAQuestionTVCell.xib in Resources */,
 				9F5BBAA31C8C304300575171 /* image003.png in Resources */,
-				D32360CC1CA1ADBD00F80A89 /* EAAnswerTVCell.xib in Resources */,
+				D32360CC1CA1ADBD00F80A89 /* EAOptionCell.xib in Resources */,
 				9F5BBAA61C8C304300575171 /* image006.png in Resources */,
 				A9DFC0101C804698000CA605 /* Main.storyboard in Resources */,
 				9F5BBAA11C8C304300575171 /* image001.jpg in Resources */,
@@ -824,6 +830,7 @@
 				9F5BBA6D1C8C2F0500575171 /* PaperInfo+CoreDataProperties.swift in Sources */,
 				A9DFC0111C804698000CA605 /* AppDelegate.swift in Sources */,
 				D3C885371CB432F7006051BD /* EAQuestionTableViewController.swift in Sources */,
+				D30C75D21CB6F99A0058039B /* UserQuestionOption.swift in Sources */,
 				9F5BBA781C8C2F0500575171 /* ImportPaperInfo.swift in Sources */,
 				D3A4EC4A1CA1E949008BAAC1 /* EAPracticeViewController.swift in Sources */,
 				9F5BBA901C8C303200575171 /* TFHppleElement.m in Sources */,
@@ -842,12 +849,12 @@
 				D32360C91CA1ADBD00F80A89 /* EAAnalysisTVCell.swift in Sources */,
 				9F5BBA7A1C8C2F0500575171 /* UserQuestionRecord.swift in Sources */,
 				D32360B81CA1AC7700F80A89 /* EALookThroughVC.swift in Sources */,
-				D32360CB1CA1ADBD00F80A89 /* EAAnswerTVCell.swift in Sources */,
+				D32360CB1CA1ADBD00F80A89 /* EAOptionCell.swift in Sources */,
+				D32B4D741CB7E9FC00ADAF8F /* EACellNames.swift in Sources */,
 				9F5BBA831C8C2F0500575171 /* UserWrongQuestionRecord+CoreDataProperties.swift in Sources */,
 				D32360F91CA1C42700F80A89 /* EAPAstractMainTableView.swift in Sources */,
 				9F5BBA841C8C2F0500575171 /* UserWrongQuestionRecord.swift in Sources */,
 				D32360EC1CA1C41A00F80A89 /* EAPaperInfoVC.swift in Sources */,
-				D32360E61CA1C41200F80A89 /* EAQuestionTVC.swift in Sources */,
 				9F5BBA821C8C2F0500575171 /* Card.swift in Sources */,
 				D32360D61CA1ADE500F80A89 /* XZHeaderView.swift in Sources */,
 				9F5BBA6B1C8C2F0500575171 /* QuestionMaterial+CoreDataProperties.swift in Sources */,
@@ -876,6 +883,7 @@
 				9F5BBA881C8C2F0500575171 /* Question.swift in Sources */,
 				9F5BBA6F1C8C2F0500575171 /* ImportHeading+CoreDataProperties.swift in Sources */,
 				D32360DD1CA1C35C00F80A89 /* EAPSegmentedControl.swift in Sources */,
+				D30C75D11CB6F99A0058039B /* UserQuestionOption+CoreDataProperties.swift in Sources */,
 				D3A4EC531CA1EE7C008BAAC1 /* EAPracticeQuestionsCreator.swift in Sources */,
 				D32360E51CA1C41200F80A89 /* EAQuestionManager.swift in Sources */,
 			);

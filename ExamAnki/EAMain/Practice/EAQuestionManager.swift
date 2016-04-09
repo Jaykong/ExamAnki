@@ -29,6 +29,8 @@ class EAQuestionManager: EAQuestionManagerInterface {
    private class func getQuestionsWithTypeCode(typeCode:QuestionTypeCode) -> [Question]? {
         let request = NSFetchRequest(entityName: EAQuestion)
         let predicate = NSPredicate(format: "typecode==%i", typeCode.rawValue)
+        let sortDescriptor = NSSortDescriptor(key: "sort", ascending: true)
+        request.sortDescriptors = [sortDescriptor]
         request.predicate = predicate
         do {
             let questions = try CoreDataStack.sharedCoreDataStack.mainQueueContext.executeFetchRequest(request)

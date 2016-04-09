@@ -11,19 +11,25 @@ import UIKit
 class EAQuestionTableViewController: NSObject,UITableViewDelegate,UITableViewDataSource {
     
     var question:Question!
+    func setQuestion(question:Question,tableView:EAQuestionTableView)  {
+        self.question = question
+        tableView.reloadData()
+    }
+    
+    
      func registerCells(tableView:EAQuestionTableView,question:Question) {
         self.question = question
         tableView.registerClass(UITableViewCell.self, forCellReuseIdentifier: "Cell")
         tableView.estimatedRowHeight = 100
         
         let nib = UINib(nibName: "EAQuestionTVCell", bundle: NSBundle.mainBundle())
-        let nib1 = UINib(nibName: "EAAnswerTVCell", bundle: NSBundle.mainBundle())
+        let nib1 = UINib(nibName: "EAOptionCell", bundle: NSBundle.mainBundle())
         let nib2 = UINib(nibName: "EAReaultTVCell", bundle: NSBundle.mainBundle())
         let nib3 = UINib(nibName: "EAReferenceTVCell", bundle: NSBundle.mainBundle())
         let nib4 = UINib(nibName: "EAAnalysisTVCell", bundle: NSBundle.mainBundle())
         let nib5 = UINib(nibName: "EADefultTVCell", bundle: NSBundle.mainBundle())
         tableView.registerNib(nib, forCellReuseIdentifier: "EAQuestionTVCell")
-        tableView.registerNib(nib1, forCellReuseIdentifier: "EAAnswerTVCell")
+        tableView.registerNib(nib1, forCellReuseIdentifier: EAOptionCellIdentifier)
         tableView.registerNib(nib2, forCellReuseIdentifier: "EAReaultTVCell")
         tableView.registerNib(nib3, forCellReuseIdentifier: "EAReferenceTVCell")
         tableView.registerNib(nib4, forCellReuseIdentifier: "EAAnalysisTVCell")
@@ -57,17 +63,14 @@ class EAQuestionTableViewController: NSObject,UITableViewDelegate,UITableViewDat
             cell.questionLbl?.numberOfLines = 0
             return cell
         case 1:
-            let cell = tableView.dequeueReusableCellWithIdentifier("EAAnswerTVCell", forIndexPath: indexPath) as! EAAnswerTVCell
-            let sets = question?.options!
-            let options = Array (sets!) as NSArray
-            //  options.sortedArrayUsingSelector("caseInsensitiveCompare:")
-            let sortDes = NSSortDescriptor(key: "sort", ascending: true)
-            let newOptions = options.sortedArrayUsingDescriptors([sortDes])
+            let cell = tableView.dequeueReusableCellWithIdentifier(EAOptionCellIdentifier, forIndexPath: indexPath) as! EAOptionCell
+         let newOptions = Question.sortedOptions(question)
             
             // question?.options
             let option = newOptions[indexPath.row] as! QuestionOption
             let title = option.content
             cell.answerLbl?.text = title
+            cell.updateCell(option.userQuestionOption!)
             return cell
         case 2:
             let cell = tableView.dequeueReusableCellWithIdentifier("EAAnalysisTVCell", forIndexPath: indexPath) as! EAAnalysisTVCell

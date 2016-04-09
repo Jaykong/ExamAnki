@@ -119,9 +119,9 @@
                                                 <color key="backgroundColor" red="1" green="0.3405414041" blue="0.24832887410000001" alpha="1" colorSpace="calibratedRGB"/>
                                                 <color key="sectionIndexBackgroundColor" red="1" green="0.3405414041" blue="0.24832887410000001" alpha="1" colorSpace="calibratedRGB"/>
                                                 <connections>
-                                                    <outlet property="dataSource" destination="o0D-Lc-Z4Z" id="a0a-lC-NKa"/>
-                                                    <outlet property="delegate" destination="o0D-Lc-Z4Z" id="jT8-Sw-6J6"/>
-                                                    <outlet property="questonTableViewController" destination="o0D-Lc-Z4Z" id="xPs-Su-6Jy"/>
+                                                    <outlet property="dataSource" destination="rXl-8y-Rz0" id="dMQ-PF-gcm"/>
+                                                    <outlet property="delegate" destination="rXl-8y-Rz0" id="zDJ-Ko-ZHV"/>
+                                                    <outlet property="questonTableViewController" destination="rXl-8y-Rz0" id="WEp-ry-oHQ"/>
                                                 </connections>
                                             </tableView>
                                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="uin-1u-kEG" customClass="EAQuestionTableView" customModule="ExamAnki" customModuleProvider="target">
@@ -129,9 +129,9 @@
                                                 <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <color key="sectionIndexBackgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <connections>
-                                                    <outlet property="dataSource" destination="rXl-8y-Rz0" id="MZd-Bv-wKn"/>
-                                                    <outlet property="delegate" destination="rXl-8y-Rz0" id="Prq-7A-LAA"/>
-                                                    <outlet property="questonTableViewController" destination="rXl-8y-Rz0" id="bRN-BU-Ljy"/>
+                                                    <outlet property="dataSource" destination="o0D-Lc-Z4Z" id="YVR-50-e0w"/>
+                                                    <outlet property="delegate" destination="o0D-Lc-Z4Z" id="gvV-Pa-n7j"/>
+                                                    <outlet property="questonTableViewController" destination="o0D-Lc-Z4Z" id="kgr-dk-swd"/>
                                                 </connections>
                                             </tableView>
                                         </subviews>
@@ -175,8 +175,9 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="currTableView" destination="uin-1u-kEG" id="du6-pQ-e5G"/>
-                        <outlet property="nextTableView" destination="VOU-S5-3bP" id="PKz-ha-5UP"/>
+                        <outlet property="currTableView" destination="VOU-S5-3bP" id="ceE-EY-OeU"/>
+                        <outlet property="eascrollView" destination="ml4-FO-ig1" id="bAN-og-w02"/>
+                        <outlet property="nextTableView" destination="uin-1u-kEG" id="649-tm-ey2"/>
                         <outlet property="preTableView" destination="lnc-c4-tUn" id="xiB-CZ-MfJ"/>
                     </connections>
                 </viewController>

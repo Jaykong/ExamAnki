@@ -159,6 +159,9 @@ class XMLAnalysis: NSObject {
             questionOptionNeedToStore.content = content
             questionOptionNeedToStore.question = question
             
+        let userOption = NSEntityDescription.insertNewObjectForEntityForName("UserQuestionOption", inManagedObjectContext: coreDataStack.mainQueueContext) as! UserQuestionOption
+           
+            questionOptionNeedToStore.userQuestionOption = userOption
             coreDataStack.saveContext()
             
             questionOptions.append(questionOptionNeedToStore)

@@ -1,5 +1,5 @@
 //
-//  QuestionOption+CoreDataProperties.swift
+//  UserQuestionOption+CoreDataProperties.swift
 //  ExamAnki
 //
 //  Created by kongyunpeng on 4/8/16.
@@ -12,11 +12,10 @@
 import Foundation
 import CoreData
 
-extension QuestionOption {
+extension UserQuestionOption {
 
-    @NSManaged var content: String?
-    @NSManaged var sort: String?
-    @NSManaged var question: Question?
-    @NSManaged var userQuestionOption: UserQuestionOption?
+    @NSManaged var selected: NSNumber?
+    @NSManaged var correct: NSNumber?
+    @NSManaged var questionOption: QuestionOption?
 
 }

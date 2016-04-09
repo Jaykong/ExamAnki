@@ -13,14 +13,9 @@ class EAQuestionTableView: UITableView {
     
     func registerCells(tableView:EAQuestionTableView,question:Question) {
         questonTableViewController.registerCells(self, question: question)
-        
     }
-    /*
-    // Only override drawRect: if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func drawRect(rect: CGRect) {
-        // Drawing code
+    func setQuestion(tableView:EAQuestionTableView,question:Question) {
+       questonTableViewController.setQuestion(question, tableView: self)
     }
-    */
 
 }
